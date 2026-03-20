@@ -1,11 +1,13 @@
 {
   "name": "Engineersvsenvironmentalist",
-  "version": "0.1.55",
-  "factorio_version": "0.14",
+  "version": "1.0.1",
   "title": "Engineersvsenvironmentalist",
-
   "author": "Alreadyaccounderfor AB, Commander_Swagnington, Murmeldjuret",
   "contact": "Fredrick Fly (facebuuk)",
   "homepage": "-",
-  "description": "Fun is Mandatory"
+  "description": "Fun is Mandatory",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0"
+  ]
 }
