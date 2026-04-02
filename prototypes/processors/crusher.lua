@@ -71,27 +71,31 @@ data:extend({
       },
       apparent_volume = 1.5
     },
-		animation =
-    {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-base.png",
-      priority = "high",
-      width = 129,
-      height = 100,
-      frame_count = 1,
-      shift = {0.421875, 0}
-    },
-		working_visualisations = {
-			animation =
-			{
-				filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-gears.png",
-				priority = "high",
-				width = 25,
-				height = 15,
-				frame_count = 4,
-				animation_speed = 0.2,
-				shift = {0.015625, 0.890625}
-			}
+		graphics_set =
+		{
+  		animation =
+      {
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-base.png",
+        priority = "high",
+        width = 129,
+        height = 100,
+        frame_count = 1,
+        shift = {0.421875, 0}
+      },
+  		working_visualisations = {
+  			animation =
+  			{
+  				filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-gears.png",
+  				priority = "high",
+  				width = 25,
+  				height = 15,
+  				frame_count = 4,
+  				animation_speed = 0.2,
+  				shift = {0.015625, 0.890625}
+  			}
+  		},
 		},
+
     fast_replaceable_group = "crusher",
     allowed_effects = {"consumption", "speed", "productivity"},
 	}
@@ -169,27 +173,31 @@ data:extend({
       },
       apparent_volume = 1.5
     },
-		animation =
-    {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-base.png",
-      priority = "high",
-      width = 129,
-      height = 100,
-      frame_count = 1,
-      shift = {0.421875, 0}
-    },
-		working_visualisations = {
-			animation =
-			{
-				filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-gears.png",
-				priority = "high",
-				width = 25,
-				height = 15,
-				frame_count = 4,
-				animation_speed = 0.2,
-				shift = {0.015625, 0.890625}
-			}
+		graphics_set =
+		{
+  		animation =
+      {
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-base.png",
+        priority = "high",
+        width = 129,
+        height = 100,
+        frame_count = 1,
+        shift = {0.421875, 0}
+      },
+  		working_visualisations = {
+  			animation =
+  			{
+  				filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-gears.png",
+  				priority = "high",
+  				width = 25,
+  				height = 15,
+  				frame_count = 4,
+  				animation_speed = 0.2,
+  				shift = {0.015625, 0.890625}
+  			}
+  		},
 		},
+
     fast_replaceable_group = "crusher",
     allowed_effects = {"consumption", "speed", "productivity"},
 	}
@@ -259,27 +267,31 @@ data:extend({
       },
       apparent_volume = 1.5
     },
-		animation =
-    {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-base.png",
-      priority = "high",
-      width = 129,
-      height = 100,
-      frame_count = 1,
-      shift = {0.421875, 0}
-    },
-		working_visualisations = {
-			animation =
-			{
-				filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-gears.png",
-				priority = "high",
-				width = 25,
-				height = 15,
-				frame_count = 4,
-				animation_speed = 0.2,
-				shift = {0.015625, 0.890625}
-			}
+		graphics_set =
+		{
+  		animation =
+      {
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-base.png",
+        priority = "high",
+        width = 129,
+        height = 100,
+        frame_count = 1,
+        shift = {0.421875, 0}
+      },
+  		working_visualisations = {
+  			animation =
+  			{
+  				filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-gears.png",
+  				priority = "high",
+  				width = 25,
+  				height = 15,
+  				frame_count = 4,
+  				animation_speed = 0.2,
+  				shift = {0.015625, 0.890625}
+  			}
+  		},
 		},
+
     fast_replaceable_group = "crusher",
     allowed_effects = {"consumption", "speed", "productivity"},
 	}
@@ -351,27 +363,31 @@ data:extend({
       },
       apparent_volume = 1.5
     },
-		animation =
-    {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-base.png",
-      priority = "high",
-      width = 129,
-      height = 100,
-      frame_count = 1,
-      shift = {0.421875, 0}
-    },
-		working_visualisations = {
-			animation =
-			{
-				filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-gears.png",
-				priority = "high",
-				width = 25,
-				height = 15,
-				frame_count = 4,
-				animation_speed = 0.2,
-				shift = {0.015625, 0.890625}
-			}
+		graphics_set =
+		{
+  		animation =
+      {
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-base.png",
+        priority = "high",
+        width = 129,
+        height = 100,
+        frame_count = 1,
+        shift = {0.421875, 0}
+      },
+  		working_visualisations = {
+  			animation =
+  			{
+  				filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/crusher-gears.png",
+  				priority = "high",
+  				width = 25,
+  				height = 15,
+  				frame_count = 4,
+  				animation_speed = 0.2,
+  				shift = {0.015625, 0.890625}
+  			}
+  		},
 		},
+
     fast_replaceable_group = "crusher",
     allowed_effects = {"consumption", "speed", "productivity"},
 	}

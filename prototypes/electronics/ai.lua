@@ -39,16 +39,20 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "ai-trainer",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-      priority="high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.25, -0.1}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+        priority="high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.25, -0.1}
+      },
     },
+
     crafting_categories = {"ai-training"},
     crafting_speed = 1,
 	energy_source =
@@ -123,16 +127,20 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "ai-trainer",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-      priority="high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.25, -0.1}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+        priority="high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.25, -0.1}
+      },
     },
+
     crafting_categories = {"ai-training"},
     crafting_speed = 10,
 	energy_source =
@@ -207,16 +215,20 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "ai-trainer",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-      priority="high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.25, -0.1}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+        priority="high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.25, -0.1}
+      },
     },
+
     crafting_categories = {"ai-training"},
     crafting_speed = 100,
 	energy_source =
@@ -292,16 +304,20 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "ai-trainer",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-      priority="high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.25, -0.1}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+        priority="high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.25, -0.1}
+      },
     },
+
     crafting_categories = {"ai-training"},
     crafting_speed = 1000,
 	energy_source =

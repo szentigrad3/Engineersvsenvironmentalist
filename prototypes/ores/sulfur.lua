@@ -1,3 +1,4 @@
+local resource_autoplace = require("resource-autoplace")
 data:extend(
 {
 {
@@ -33,29 +34,13 @@ data:extend(
 		{
 			sheet = 4
 		},
-		autoplace =
-		{
-			control = "sulfur",
-			sharpness = 1,
-			richness_multiplier = 11000,
-			richness_base = 250,
-			size_control_multiplier = 0.1,
-			peaks =
-			{
-				{
-        influence = 0.19,
-      },
-      {
-        influence = 0.28,
-        noise_octaves_difference = -2.4,
-        noise_persistence = 0.3,
-        starting_area_weight_optimal = 1,
-        starting_area_weight_range = 0,
-        starting_area_weight_max_range = 2,
-      },
-       
-			},
-		},
+		autoplace = resource_autoplace.resource_autoplace_settings({
+		  name = "sulfur",
+		  order = "b",
+		  base_density = 4,
+		  has_starting_area_placement = true,
+		  regular_rq_factor_multiplier = 1,
+		}),
 		collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
 		selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
 		stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},

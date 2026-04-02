@@ -1,3 +1,4 @@
+local resource_autoplace = require("resource-autoplace")
 data:extend(
 {
   {
@@ -42,46 +43,13 @@ data:extend(
 		{
 			sheet = 1
 		},
-		autoplace =
-		{
-			control = "tin-ore",
-			sharpness = 1,
-			richness_multiplier = 20000,
-			richness_base = 500,
-			size_control_multiplier = 0.2,
-			peaks =
-			{
-				{
-          influence = 0.15,
-          starting_area_weight_optimal = 0,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.30,
-          noise_octaves_difference = -1.9,
-          noise_persistence = 0.3,
-          starting_area_weight_optimal = 0,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.15,
-          starting_area_weight_optimal = 1,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-        {
-          influence = 0.3,
-          noise_octaves_difference = -1,
-          noise_persistence = 0.4,
-          starting_area_weight_optimal = 1,
-          starting_area_weight_range = 0,
-          starting_area_weight_max_range = 2,
-        },
-      
-			},
-		},
+		autoplace = resource_autoplace.resource_autoplace_settings({
+		  name = "tin-ore",
+		  order = "b",
+		  base_density = 4,
+		  has_starting_area_placement = true,
+		  regular_rq_factor_multiplier = 1,
+		}),
 		collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
 		selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
 		stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},

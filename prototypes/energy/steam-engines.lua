@@ -80,13 +80,6 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-H.png",
-          width = 176,
-          height = 128,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(1, -5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-H.png",
             width = 352,
             height = 257,
@@ -95,16 +88,7 @@ data:extend(
             shift = util.by_pixel(1, -4.75),
             scale = 0.5
           },
-        },
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-H-shadow.png",
-          width = 254,
-          height = 80,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(48, 24),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-H-shadow.png",
             width = 508,
             height = 160,
@@ -114,7 +98,6 @@ data:extend(
             shift = util.by_pixel(48, 24),
             scale = 0.5
           },
-        },
       },
     },
     vertical_animation =
@@ -122,13 +105,6 @@ data:extend(
       layers = 
       {
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-V.png",
-          width = 112,
-          height = 195,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(5, -6.5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-V.png",
             width = 225,
             height = 391,
@@ -137,16 +113,7 @@ data:extend(
             shift = util.by_pixel(4.75, -6.25),        
             scale = 0.5
           },
-        },
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-V-shadow.png",
-          width = 165,
-          height = 153,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(40.5, 9.5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-V-shadow.png",
             width = 330,
             height = 307,
@@ -156,7 +123,6 @@ data:extend(
             shift = util.by_pixel(40.5, 9.25),        
             scale = 0.5
           },
-        },
       },
     },
     smoke =
@@ -269,13 +235,6 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-H.png",
-          width = 176,
-          height = 128,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(1, -5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-H.png",
             width = 352,
             height = 257,
@@ -284,16 +243,7 @@ data:extend(
             shift = util.by_pixel(1, -4.75),
             scale = 0.5
           },
-        },
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-H-shadow.png",
-          width = 254,
-          height = 80,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(48, 24),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-H-shadow.png",
             width = 508,
             height = 160,
@@ -303,7 +253,6 @@ data:extend(
             shift = util.by_pixel(48, 24),
             scale = 0.5
           },
-        },
       },
     },
     vertical_animation =
@@ -311,13 +260,6 @@ data:extend(
       layers = 
       {
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-V.png",
-          width = 112,
-          height = 195,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(5, -6.5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-V.png",
             width = 225,
             height = 391,
@@ -326,16 +268,7 @@ data:extend(
             shift = util.by_pixel(4.75, -6.25),        
             scale = 0.5
           },
-        },
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-V-shadow.png",
-          width = 165,
-          height = 153,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(40.5, 9.5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-V-shadow.png",
             width = 330,
             height = 307,
@@ -345,7 +278,6 @@ data:extend(
             shift = util.by_pixel(40.5, 9.25),        
             scale = 0.5
           },
-        },
       },
     },
     smoke =
@@ -457,13 +389,6 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-H.png",
-          width = 176,
-          height = 128,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(1, -5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-H.png",
             width = 352,
             height = 257,
@@ -472,16 +397,7 @@ data:extend(
             shift = util.by_pixel(1, -4.75),
             scale = 0.5
           },
-        },
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-H-shadow.png",
-          width = 254,
-          height = 80,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(48, 24),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-H-shadow.png",
             width = 508,
             height = 160,
@@ -491,7 +407,6 @@ data:extend(
             shift = util.by_pixel(48, 24),
             scale = 0.5
           },
-        },
       },
     },
     vertical_animation =
@@ -499,13 +414,6 @@ data:extend(
       layers = 
       {
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-V.png",
-          width = 112,
-          height = 195,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(5, -6.5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-V.png",
             width = 225,
             height = 391,
@@ -514,16 +422,7 @@ data:extend(
             shift = util.by_pixel(4.75, -6.25),        
             scale = 0.5
           },
-        },
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-V-shadow.png",
-          width = 165,
-          height = 153,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(40.5, 9.5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-V-shadow.png",
             width = 330,
             height = 307,
@@ -533,7 +432,6 @@ data:extend(
             shift = util.by_pixel(40.5, 9.25),        
             scale = 0.5
           },
-        },
       },
     },
     smoke =
@@ -647,13 +545,6 @@ data:extend(
       layers =
       {
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-H.png",
-          width = 176,
-          height = 128,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(1, -5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-H.png",
             width = 352,
             height = 257,
@@ -662,16 +553,7 @@ data:extend(
             shift = util.by_pixel(1, -4.75),
             scale = 0.5
           },
-        },
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-H-shadow.png",
-          width = 254,
-          height = 80,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(48, 24),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-H-shadow.png",
             width = 508,
             height = 160,
@@ -681,7 +563,6 @@ data:extend(
             shift = util.by_pixel(48, 24),
             scale = 0.5
           },
-        },
       },
     },
     vertical_animation =
@@ -689,13 +570,6 @@ data:extend(
       layers = 
       {
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-V.png",
-          width = 112,
-          height = 195,
-          frame_count = 32,
-          line_length = 8,
-          shift = util.by_pixel(5, -6.5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-V.png",
             width = 225,
             height = 391,
@@ -704,16 +578,7 @@ data:extend(
             shift = util.by_pixel(4.75, -6.25),        
             scale = 0.5
           },
-        },
         {
-          filename = "__base__/graphics/entity/steam-engine/steam-engine-V-shadow.png",
-          width = 165,
-          height = 153,
-          frame_count = 32,
-          line_length = 8,
-          draw_as_shadow = true,
-          shift = util.by_pixel(40.5, 9.5),
-          hr_version = {
             filename = "__base__/graphics/entity/steam-engine/hr-steam-engine-V-shadow.png",
             width = 330,
             height = 307,
@@ -723,7 +588,6 @@ data:extend(
             shift = util.by_pixel(40.5, 9.25),        
             scale = 0.5
           },
-        },
       },
     },
     smoke =

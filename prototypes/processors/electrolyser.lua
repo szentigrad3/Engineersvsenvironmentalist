@@ -169,41 +169,45 @@ data:extend({
         pipe_connections = {{ position = {1, 2} }}
       },
     },
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt1u.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt1u.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t1l.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt1d.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t1r.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        }
       },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t1l.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt1d.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t1r.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      }
     },
+
     working_sound =
     {
       sound =
@@ -272,41 +276,45 @@ data:extend({
         pipe_connections = {{ position = {1, 2} }}
       },
     },
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt2u.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt2u.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t2l.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt2d.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t2r.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        }
       },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t2l.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt2d.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t2r.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      }
     },
+
     working_sound =
     {
       sound = {
@@ -374,41 +382,45 @@ data:extend({
         pipe_connections = {{ position = {1, 2} }}
       },
     },
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt3u.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt3u.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t3l.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt3d.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t3r.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        }
       },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t3l.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt3d.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t3r.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      }
     },
+
     working_sound =
     {
       sound = {
@@ -476,41 +488,45 @@ data:extend({
         pipe_connections = {{ position = {1, 2} }}
       },
     },
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt4u.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt4u.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t4l.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt4d.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t4r.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        }
       },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t4l.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt4d.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t4r.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      }
     },
+
     working_sound =
     {
       sound = {

@@ -98,31 +98,35 @@ data:extend({
       }
     },
 
-    animation =
+    graphics_set =
     {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-mixing-furnace.png",
-      priority = "extra-high",
-      width = 81,
-      height = 64,
-      frame_count = 1,
-      shift = {0.5, 0.05 }
-    },
-    working_visualisations =
-    {
+      animation =
       {
-        north_position = { 0.078125, 0.5234375},
-        west_position = { 0.078125, 0.5234375},
-        south_position = { 0.078125, 0.5234375},
-        east_position = { 0.078125, 0.5234375},
-        animation =
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-mixing-furnace.png",
+        priority = "extra-high",
+        width = 81,
+        height = 64,
+        frame_count = 1,
+        shift = {0.5, 0.05 }
+      },
+      working_visualisations =
+      {
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-mixing-furnace-fire.png",
-          width = 23,
-          height = 27,
-          frame_count = 12,
-        }
+          north_position = { 0.078125, 0.5234375},
+          west_position = { 0.078125, 0.5234375},
+          south_position = { 0.078125, 0.5234375},
+          east_position = { 0.078125, 0.5234375},
+          animation =
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-mixing-furnace-fire.png",
+            width = 23,
+            height = 27,
+            frame_count = 12,
+          }
+        },
       },
     },
+
     fast_replaceable_group = "furnace"
   },
 
@@ -170,32 +174,36 @@ data:extend({
       apparent_volume = 1.5
     },
 
-    animation =
+    graphics_set =
     {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-mixing-furnace.png",
-      priority = "high",
-      width = 131,
-      height = 102,
-      frame_count = 1,
-      shift = {0.5, 0.05 }
-    },
-    working_visualisations =
-    {
+      animation =
       {
-        north_position = { 0.09375, 0.96875 },
-        west_position = { 0.09375, 0.96875 },
-        south_position = { 0.09375, 0.96875 },
-        east_position = { 0.09375, 0.96875 },
-        animation =
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-mixing-furnace.png",
+        priority = "high",
+        width = 131,
+        height = 102,
+        frame_count = 1,
+        shift = {0.5, 0.05 }
+      },
+      working_visualisations =
+      {
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-mixing-furnace-fire.png",
-          width = 29,
-          height = 19,
-          frame_count = 12,
-          animation_speed = 0.5,
-        }
+          north_position = { 0.09375, 0.96875 },
+          west_position = { 0.09375, 0.96875 },
+          south_position = { 0.09375, 0.96875 },
+          east_position = { 0.09375, 0.96875 },
+          animation =
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-mixing-furnace-fire.png",
+            width = 29,
+            height = 19,
+            frame_count = 12,
+            animation_speed = 0.5,
+          }
+        },
       },
     },
+
     fast_replaceable_group = "furnace",
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
   },

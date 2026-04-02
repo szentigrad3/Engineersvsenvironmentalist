@@ -41,16 +41,20 @@ data:extend(
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-      priority="high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.25, -0.1}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+        priority="high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.25, -0.1}
+      },
     },
+
     crafting_categories = {"crafting"},
     crafting_speed = 0.1,
     energy_source =
@@ -149,16 +153,20 @@ data:extend(
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2.png",
-      priority = "high",
-      width = 113,
-      height = 99,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.4, -0.06}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2.png",
+        priority = "high",
+        width = 113,
+        height = 99,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.4, -0.06}
+      },
     },
+
     impact_category = "metal",
     working_sound =
     {
@@ -268,16 +276,20 @@ data:extend(
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
-      priority = "high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.84, -0.09}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
+        priority = "high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.84, -0.09}
+      },
     },
+
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 5,
     energy_source =
@@ -355,16 +367,20 @@ data:extend(
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-4.png",
-      priority = "high",
-      width = 113,
-      height = 99,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.4, -0.06}
+      animation =
+      {
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-4.png",
+        priority = "high",
+        width = 113,
+        height = 99,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.4, -0.06}
+      },
     },
+
     working_sound =
     {
       sound = {
@@ -476,31 +492,35 @@ data:extend(
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.7, g = 0.2, b = 0.1},
-        },
-      }
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.7, g = 0.2, b = 0.1},
+          },
+        }
+      },
     },
+
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 125,
     energy_source =

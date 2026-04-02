@@ -80,78 +80,82 @@ data:extend(
       }
     },
 
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
-        priority = "extra-high",
-        width = 94,
-        height = 80,
-        frame_count = 1,
-        shift = {0.25, 0 }
-      },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
-        x = 94,
-        priority = "extra-high",
-        width = 94,
-        height = 80,
-        frame_count = 1,
-        shift = {0.25, 0 }
-      },
-      south =
-      {
-        x = 188,
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
-        priority = "extra-high",
-        width = 94,
-        height = 80,
-        frame_count = 1,
-        shift = {0.25, 0 }
-      },
-      east =
-      {
-        x = 282,
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
-        priority = "extra-high",
-        width = 94,
-        height = 80,
-        frame_count = 1,
-        shift = {0.25, 0 }
-      }
-    },
-    working_visualisations =
-    {
-      {
-        north_position = { 0.96875, -0.53125},
-        west_position = { 0, 0},
-        south_position = { -0.9375, 0.40625},
-        east_position = { 0.53125, 0.78125},
-        east_animation =
+        north =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-down.png",
-          width = 9,
-          height = 8,
-          frame_count = 14,
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
+          priority = "extra-high",
+          width = 94,
+          height = 80,
+          frame_count = 1,
+          shift = {0.25, 0 }
         },
-        south_animation =
+        west =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-left.png",
-          width = 5,
-          height = 7,
-          frame_count = 14,
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
+          x = 94,
+          priority = "extra-high",
+          width = 94,
+          height = 80,
+          frame_count = 1,
+          shift = {0.25, 0 }
         },
-        north_animation =
+        south =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-right.png",
-          width = 6,
-          height = 9,
-          frame_count = 14,
+          x = 188,
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
+          priority = "extra-high",
+          width = 94,
+          height = 80,
+          frame_count = 1,
+          shift = {0.25, 0 }
+        },
+        east =
+        {
+          x = 282,
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/stone-chemical-furnace.png",
+          priority = "extra-high",
+          width = 94,
+          height = 80,
+          frame_count = 1,
+          shift = {0.25, 0 }
         }
       },
+      working_visualisations =
+      {
+        {
+          north_position = { 0.96875, -0.53125},
+          west_position = { 0, 0},
+          south_position = { -0.9375, 0.40625},
+          east_position = { 0.53125, 0.78125},
+          east_animation =
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-down.png",
+            width = 9,
+            height = 8,
+            frame_count = 14,
+          },
+          south_animation =
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-left.png",
+            width = 5,
+            height = 7,
+            frame_count = 14,
+          },
+          north_animation =
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/stone-chemical-furnace/boiler-fire-right.png",
+            width = 6,
+            height = 9,
+            frame_count = 14,
+          }
+        },
+      },
     },
+
     fast_replaceable_group = "furnace"
   },
   {
@@ -232,32 +236,36 @@ data:extend(
       },
       apparent_volume = 1.5
     },
-    animation =
+    graphics_set =
     {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/chemical-furnace/chemical-furnace.png",
-      priority = "high",
-      width = 131,
-      height = 102,
-      frame_count = 1,
-      shift = {0.5, 0.05 }
-    },
-    working_visualisations =
-    {
+      animation =
       {
-        north_position = { 0.09375, 0.96875 },
-        west_position = { 0.09375, 0.96875 },
-        south_position = { 0.09375, 0.96875 },
-        east_position = { 0.09375, 0.96875 },
-        animation =
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/chemical-furnace/chemical-furnace.png",
+        priority = "high",
+        width = 131,
+        height = 102,
+        frame_count = 1,
+        shift = {0.5, 0.05 }
+      },
+      working_visualisations =
+      {
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/chemical-furnace/chemical-furnace-fire.png",
-          width = 29,
-          height = 19,
-          frame_count = 12,
-          animation_speed = 0.5,
-        }
+          north_position = { 0.09375, 0.96875 },
+          west_position = { 0.09375, 0.96875 },
+          south_position = { 0.09375, 0.96875 },
+          east_position = { 0.09375, 0.96875 },
+          animation =
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/chemical-furnace/chemical-furnace-fire.png",
+            width = 29,
+            height = 19,
+            frame_count = 12,
+            animation_speed = 0.5,
+          }
+        },
       },
     },
+
     fast_replaceable_group = "furnace",
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
   },
