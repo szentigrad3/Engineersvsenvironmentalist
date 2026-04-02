@@ -17,16 +17,16 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"plumbing", 40},
+      {type="item", name="plumbing", amount=40},
     },
-    result= "storage-tank"
+    results = {{type="item", name="storage-tank", amount=1}}
   },
   {
     type = "storage-tank",
     name = "storage-tank",
     icon = "__base__/graphics/icons/storage-tank.png",
     flags = {"placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 3, result = "storage-tank"},
+    minable = {mining_time = 3, result = "storage-tank"},
     max_health = 500,
     corpse = "medium-remnants",
     collision_box = {{-1.3, -1.3}, {1.3, 1.3}},
@@ -168,16 +168,16 @@ circuit_connector_sprites =
     enabled = false,
     ingredients =
     {
-      {"plumbing", 120},
+      {type="item", name="plumbing", amount=120},
     },
-    result= "storage-tank-2"
+    results = {{type="item", name="storage-tank-2", amount=1}}
   },
   {
     type = "storage-tank",
     name = "storage-tank-2",
     icon = "__base__/graphics/icons/storage-tank.png",
     flags = {"placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 3, result = "storage-tank-2"},
+    minable = {mining_time = 3, result = "storage-tank-2"},
     max_health = 600,
     corpse = "medium-remnants",
     collision_box = {{-1.3, -1.3}, {1.3, 1.3}},
@@ -321,16 +321,16 @@ circuit_connector_sprites =
     enabled = false,
     ingredients =
     {
-      {"plumbing", 1200},
+      {type="item", name="plumbing", amount=1200},
     },
-    result= "storage-tank-3"
+    results = {{type="item", name="storage-tank-3", amount=1}}
   },
   {
     type = "storage-tank",
     name = "storage-tank-3",
     icon = "__base__/graphics/icons/storage-tank.png",
     flags = {"placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 3, result = "storage-tank-3"},
+    minable = {mining_time = 3, result = "storage-tank-3"},
     max_health = 700,
     corpse = "medium-remnants",
     collision_box = {{-1.3, -1.3}, {1.3, 1.3}},
@@ -473,16 +473,16 @@ circuit_connector_sprites =
     enabled = false,
     ingredients =
     {
-      {"plumbing", 5000},
+      {type="item", name="plumbing", amount=5000},
     },
-    result= "storage-tank-4"
+    results = {{type="item", name="storage-tank-4", amount=1}}
   },
   {
     type = "storage-tank",
     name = "storage-tank-4",
     icon = "__base__/graphics/icons/storage-tank.png",
     flags = {"placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 3, result = "storage-tank-4"},
+    minable = {mining_time = 3, result = "storage-tank-4"},
     max_health = 800,
     corpse = "medium-remnants",
     collision_box = {{-1.3, -1.3}, {1.3, 1.3}},

@@ -9,11 +9,7 @@ data:extend({
 		order = "g1[other]",
 		stack_size = 200
 	},
-  {
-    type = "noise-layer",
-    name = "iron-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "iron-ore",
     richness = true,
@@ -28,10 +24,9 @@ data:extend({
     order="a-b-b",
     minable =
     {
-      hardness = 0.9,
       mining_particle = "iron-ore-particle",
       mining_time = 2,
-      result = "iron-ore"
+      results = {{type="item", name="iron-ore", amount=1}}
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -48,7 +43,6 @@ data:extend({
       },
       {
         influence = 0.30,
-        noise_layer = "iron-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,
@@ -57,7 +51,6 @@ data:extend({
       },
       {
         influence = 0.30,
-        noise_layer = "iron-ore",
         noise_octaves_difference = -3,
         noise_persistence = 0.4,
         starting_area_weight_optimal = 1,

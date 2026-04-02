@@ -33,11 +33,11 @@ data:extend({
     enabled = false,
     ingredients = 
     {
-      {"wall", 100},
-      {"iron-gear-wheel",500},
-	  {"stupid-ai",1},
+      {type="item", name="wall", amount=100},
+      {type="item", name="iron-gear-wheel", amount=500},
+	  {type="item", name="stupid-ai", amount=1},
     },
-    result = "mixing-furnace"
+    results = {{type="item", name="mixing-furnace", amount=1}}
   },
   {
     type = "recipe",
@@ -46,11 +46,11 @@ data:extend({
     enabled = false,
     ingredients = 
     {
-      {"wall", 5000},
-      {"iron-gear-wheel",20000},
-	  {"small-ai",1},
+      {type="item", name="wall", amount=5000},
+      {type="item", name="iron-gear-wheel", amount=20000},
+	  {type="item", name="small-ai", amount=1},
     },
-    result = "electric-mixing-furnace"
+    results = {{type="item", name="electric-mixing-furnace", amount=1}}
   },
 })
 

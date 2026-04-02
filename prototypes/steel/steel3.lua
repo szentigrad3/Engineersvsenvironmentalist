@@ -28,9 +28,9 @@ data:extend({
     energy_required = 10,
 	enabled= false,
     ingredients = {
-	{"iron-oxide-crushed",100},
-	{"calcium-oxide",10},
-	{"coke",90},
+	{type="item", name="iron-oxide-crushed", amount=100},
+	{type="item", name="calcium-oxide", amount=10},
+	{type="item", name="coke", amount=90},
 	},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/chlorine.png",
         results = {
@@ -49,9 +49,9 @@ data:extend({
     energy_required = 10,
 	enabled= false,
     ingredients = {
-	{"iron-sulfate-crushed",100},
-	{"calcium-oxide",10},
-	{"coke",90},
+	{type="item", name="iron-sulfate-crushed", amount=100},
+	{type="item", name="calcium-oxide", amount=10},
+	{type="item", name="coke", amount=90},
 	},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/chlorine.png",
         results = {
@@ -78,8 +78,8 @@ data:extend({
 	},
 		icon = "__base__/graphics/icons/steel-plate.png",
         results = {
-	{"steel-plate",130},
-	{"iron-slag",20},
+	{type="item", name="steel-plate", amount=130},
+	{type="item", name="iron-slag", amount=20},
 	},
 		order = "a-4"
 	},

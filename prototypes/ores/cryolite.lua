@@ -1,9 +1,5 @@
 data:extend({
-  {
-    type = "noise-layer",
-    name = "cryolite"
-  },
-  {
+{
     type = "autoplace-control",
     name = "cryolite",
     richness = true,
@@ -26,17 +22,15 @@ data:extend({
     order="a-b-e",
     minable =
     {
-      hardness = 0.4,
       mining_particle = "stone-particle",
       mining_time = 1,
-      result = "cryolite"
+      results = {{type="item", name="cryolite", amount=1}}
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
       control = "cryolite",
-	  frequency= none,
       sharpness = 1,
       richness_multiplier = 8000,
       richness_base = 250,
@@ -47,7 +41,6 @@ data:extend({
       },
       {
         influence = 0.28,
-        noise_layer = "cryolite",
         noise_octaves_difference = -1.9,
         noise_persistence = 0.3,
         starting_area_weight_optimal = 0,

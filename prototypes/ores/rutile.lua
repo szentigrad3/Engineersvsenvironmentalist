@@ -9,11 +9,7 @@ data:extend(
     order = "b-d[rutile-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "rutile-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "rutile-ore",
     richness = true,
@@ -24,15 +20,13 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 2.5,
       mining_particle = "stone-particle",
       mining_time = 3,
-      result = "rutile-ore"
+      results = {{type="item", name="rutile-ore", amount=1}}
     },
 		name = "rutile-ore",
 		tint = {r=0.8, g=0.55, b=0.7},
 		map_color = {r = 0.4, g = 0.1, b = 0.3},
-		hardness = 2.6,
 		mining_time = 2,
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/rutile-ore.png",
@@ -60,7 +54,6 @@ data:extend(
       },
       {
         influence = 0.28,
-        noise_layer = "rutile-ore",
         noise_octaves_difference = -1.9,
         noise_persistence = 0.3,
         starting_area_weight_optimal = 0,

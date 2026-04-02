@@ -18,17 +18,17 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"battery", 5}
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="battery", amount=5}
     },
-    result = "accumulator"
+    results = {{type="item", name="accumulator", amount=1}}
   },
   {
     type = "accumulator",
     name = "accumulator",
     icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "accumulator"},
+    minable = {mining_time = 0.5, result = "accumulator"},
     max_health = 150,
     corpse = "medium-remnants",
     collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
@@ -110,17 +110,17 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 3},
-      {"battery", 10},
+      {type="item", name="iron-gear-wheel", amount=3},
+      {type="item", name="battery", amount=10},
     },
-    result = "large-accumulator"
+    results = {{type="item", name="large-accumulator", amount=1}}
   },
   {
     type = "accumulator",
     name = "large-accumulator",
     icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "large-accumulator"},
+    minable = {mining_time = 0.5, result = "large-accumulator"},
     max_health = 150,
     corpse = "medium-remnants",
     collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
@@ -201,18 +201,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"electronic-circuit", 2},
-      {"battery", 4},
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="electronic-circuit", amount=2},
+      {type="item", name="battery", amount=4},
     },
-    result = "fast-accumulator"
+    results = {{type="item", name="fast-accumulator", amount=1}}
   },
   {
     type = "accumulator",
     name = "fast-accumulator",
     icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "fast-accumulator"},
+    minable = {mining_time = 0.5, result = "fast-accumulator"},
     max_health = 150,
     corpse = "medium-remnants",
     collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
@@ -293,18 +293,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"electronic-circuit", 2},
-      {"battery", 4},
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="electronic-circuit", amount=2},
+      {type="item", name="battery", amount=4},
     },
-    result = "slow-accumulator"
+    results = {{type="item", name="slow-accumulator", amount=1}}
   },
   {
     type = "accumulator",
     name = "slow-accumulator",
     icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "slow-accumulator"},
+    minable = {mining_time = 0.5, result = "slow-accumulator"},
     max_health = 150,
     corpse = "medium-remnants",
     collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
@@ -385,18 +385,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 6},
-      {"advanced-circuit", 2},
-      {"battery", 10},
+      {type="item", name="iron-gear-wheel", amount=6},
+      {type="item", name="advanced-circuit", amount=2},
+      {type="item", name="battery", amount=10},
     },
-    result = "large-accumulator-2"
+    results = {{type="item", name="large-accumulator-2", amount=1}}
   },
   {
     type = "accumulator",
     name = "large-accumulator-2",
     icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "large-accumulator-2"},
+    minable = {mining_time = 0.5, result = "large-accumulator-2"},
     max_health = 250,
     corpse = "medium-remnants",
     collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
@@ -477,18 +477,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 4},
-      {"advanced-circuit", 4},
-      {"battery", 4},
+      {type="item", name="iron-gear-wheel", amount=4},
+      {type="item", name="advanced-circuit", amount=4},
+      {type="item", name="battery", amount=4},
     },
-    result = "fast-accumulator-2"
+    results = {{type="item", name="fast-accumulator-2", amount=1}}
   },
   {
     type = "accumulator",
     name = "fast-accumulator-2",
     icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "fast-accumulator-2"},
+    minable = {mining_time = 0.5, result = "fast-accumulator-2"},
     max_health = 250,
     corpse = "medium-remnants",
     collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
@@ -569,18 +569,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"advanced-circuit", 4},
-      {"battery", 4},
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="advanced-circuit", amount=4},
+      {type="item", name="battery", amount=4},
     },
-    result = "slow-accumulator-2"
+    results = {{type="item", name="slow-accumulator-2", amount=1}}
   },
   {
     type = "accumulator",
     name = "slow-accumulator-2",
     icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "slow-accumulator-2"},
+    minable = {mining_time = 0.5, result = "slow-accumulator-2"},
     max_health = 250,
     corpse = "medium-remnants",
     collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
@@ -662,18 +662,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 6},
-      {"processing-unit", 2},
-      {"battery", 10},
+      {type="item", name="iron-gear-wheel", amount=6},
+      {type="item", name="processing-unit", amount=2},
+      {type="item", name="battery", amount=10},
     },
-    result = "large-accumulator-3"
+    results = {{type="item", name="large-accumulator-3", amount=1}}
   },
   {
     type = "accumulator",
     name = "large-accumulator-3",
     icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "large-accumulator-3"},
+    minable = {mining_time = 0.5, result = "large-accumulator-3"},
     max_health = 350,
     corpse = "medium-remnants",
     collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
@@ -755,18 +755,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"processing-unit", 4},
-      {"battery", 4},
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="processing-unit", amount=4},
+      {type="item", name="battery", amount=4},
     },
-    result = "fast-accumulator-3"
+    results = {{type="item", name="fast-accumulator-3", amount=1}}
   },
   {
     type = "accumulator",
     name = "fast-accumulator-3",
     icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "fast-accumulator-3"},
+    minable = {mining_time = 0.5, result = "fast-accumulator-3"},
     max_health = 350,
     corpse = "medium-remnants",
     collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
@@ -848,18 +848,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 4},
-      {"processing-unit", 4},
-      {"battery", 4},
+      {type="item", name="iron-gear-wheel", amount=4},
+      {type="item", name="processing-unit", amount=4},
+      {type="item", name="battery", amount=4},
     },
-    result = "slow-accumulator-3"
+    results = {{type="item", name="slow-accumulator-3", amount=1}}
   },
   {
     type = "accumulator",
     name = "slow-accumulator-3",
     icon = "__base__/graphics/icons/accumulator.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "slow-accumulator-3"},
+    minable = {mining_time = 0.5, result = "slow-accumulator-3"},
     max_health = 350,
     corpse = "medium-remnants",
     collision_box = {{-0.9, -0.9}, {0.9, 0.9}},

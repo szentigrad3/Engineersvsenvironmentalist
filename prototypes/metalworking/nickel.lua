@@ -38,7 +38,7 @@ data:extend(
   order = "a-1",
 	enabled = true,
   energy_required = 250,
-  ingredients = {{"nickel-ore",500}},
+  ingredients = {{type="item", name="nickel-ore", amount=500}},
   results = {
             {type="item",name="nickel-crushed", probability=1, amount_min=199, amount_max=200},
             {type="item",name="iron-oxide-crushed", probability=1, amount_min=199, amount_max=200},

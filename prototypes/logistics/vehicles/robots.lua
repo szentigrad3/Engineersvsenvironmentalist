@@ -32,12 +32,12 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"electric-engine-unit", 1},
-      {"battery", 2},
-      {"advanced-machine-parts", 1},
-      {"electronic-circuit", 3}
+      {type="item", name="electric-engine-unit", amount=1},
+      {type="item", name="battery", amount=2},
+      {type="item", name="advanced-machine-parts", amount=1},
+      {type="item", name="electronic-circuit", amount=3}
     },
-    result = "flying-robot-frame",
+    results = {{type="item", name="flying-robot-frame", amount=1}},
     enabled = false
   },
 {
@@ -56,17 +56,17 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"flying-robot-frame", 1},
-      {"advanced-circuit", 2}
+      {type="item", name="flying-robot-frame", amount=1},
+      {type="item", name="advanced-circuit", amount=2}
     },
-    result = "logistic-robot"
+    results = {{type="item", name="logistic-robot", amount=1}}
   },
   {
     type = "logistic-robot",
     name = "logistic-robot",
     icon = "__base__/graphics/icons/logistic-robot.png",
     flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
-    minable = {hardness = 0.1, mining_time = 0.1, result = "logistic-robot"},
+    minable = {mining_time = 0.1, result = "logistic-robot"},
     max_health = 100,
     collision_box = {{0, 0}, {0, 0}},
     selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
@@ -191,17 +191,17 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"flying-robot-frame", 1},
-      {"electronic-circuit", 2}
+      {type="item", name="flying-robot-frame", amount=1},
+      {type="item", name="electronic-circuit", amount=2}
     },
-    result = "construction-robot"
+    results = {{type="item", name="construction-robot", amount=1}}
   },
   {
     type = "construction-robot",
     name = "construction-robot",
     icon = "__base__/graphics/icons/construction-robot.png",
     flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map"},
-    minable = {hardness = 0.1, mining_time = 0.1, result = "construction-robot"},
+    minable = {mining_time = 0.1, result = "construction-robot"},
     max_health = 100,
     collision_box = {{0, 0}, {0, 0}},
     selection_box = {{-0.5, -1.5}, {0.5, -0.5}},
@@ -383,11 +383,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"advanced-machine-parts", 45},
-      {"iron-gear-wheel", 45},
-      {"advanced-circuit", 45}
+      {type="item", name="advanced-machine-parts", amount=45},
+      {type="item", name="iron-gear-wheel", amount=45},
+      {type="item", name="advanced-circuit", amount=45}
     },
-    result = "roboport",
+    results = {{type="item", name="roboport", amount=1}},
     energy_required = 15
   },
   {
@@ -395,7 +395,7 @@ data:extend(
     name = "roboport",
     icon = "__base__/graphics/icons/roboport.png",
     flags = {"placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "roboport"},
+    minable = {mining_time = 0.5, result = "roboport"},
     max_health = 500,
     corpse = "big-remnants",
     collision_box = {{-1.7, -1.7}, {1.7, 1.7}},

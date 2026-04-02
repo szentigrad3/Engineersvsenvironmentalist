@@ -15,8 +15,8 @@ data:extend(
    {
     type = "recipe",
     name = "stone-furnace",
-    ingredients = {{"stone", 5}},
-    result = "stone-furnace",
+    ingredients = {{type="item", name="stone", amount=5}},
+    results = {{type="item", name="stone-furnace", amount=1}},
     enabled = false,
     hidden=true
   },
@@ -33,8 +33,8 @@ data:extend(
   {
     type = "recipe",
     name = "steel-furnace",
-    ingredients = {{"steel-plate", 8}, {"stone-brick", 10}},
-    result = "steel-furnace",
+    ingredients = {{type="item", name="steel-plate", amount=8}, {type="item", name="stone-brick", amount=10}},
+    results = {{type="item", name="steel-furnace", amount=1}},
     energy_required = 3,
     enabled = false,
     hidden=true
@@ -52,8 +52,8 @@ data:extend(
   {
     type = "recipe",
     name = "electric-furnace",
-    ingredients = {{"steel-plate", 15}, {"advanced-circuit", 5}, {"stone-brick", 10}},
-    result = "electric-furnace",
+    ingredients = {{type="item", name="steel-plate", amount=15}, {type="item", name="advanced-circuit", amount=5}, {type="item", name="stone-brick", amount=10}},
+    results = {{type="item", name="electric-furnace", amount=1}},
     energy_required = 5,
     enabled = false,
     hidden=true

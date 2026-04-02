@@ -14,16 +14,15 @@ data:extend(
     {
     type = "recipe",
     name = "pipe",
-    ingredients = {{"plumbing", 10}},
-	result_count = 5,
-    result = "pipe"
+    ingredients = {{type="item", name="plumbing", amount=10}},
+	results = {{type="item", name="pipe", amount=5}}
   },
   {
     type = "pipe",
     name = "pipe",
     icon = "__base__/graphics/icons/pipe.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "pipe"},
+    minable = {mining_time = 0.5, result = "pipe"},
     max_health = 50,
     corpse = "small-remnants",
     resistances =
@@ -440,18 +439,17 @@ end
     name = "pipe-to-ground",
     ingredients =
     {
-      {"pipe", 125},
-	   {"explosives-analogue", 5},
+      {type="item", name="pipe", amount=125},
+	   {type="item", name="explosives-analogue", amount=5},
     },
-    result_count = 10,
-    result = "pipe-to-ground"
+    results = {{type="item", name="pipe-to-ground", amount=10}}
   },
    {
     type = "pipe-to-ground",
     name = "pipe-to-ground",
     icon = "__base__/graphics/icons/pipe-to-ground.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "pipe-to-ground"},
+    minable = {mining_time = 0.5, result = "pipe-to-ground"},
     max_health = 50,
     corpse = "small-remnants",
     resistances =

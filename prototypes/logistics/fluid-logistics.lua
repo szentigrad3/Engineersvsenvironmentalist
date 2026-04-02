@@ -50,7 +50,7 @@
     ingredients =
     {
       {type="fluid", name="hydrogen", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     results =
     {
@@ -70,12 +70,12 @@
     enabled = false,
     ingredients =
     {
-      {"hydrogen-canister", 1},
+      {type="item", name="hydrogen-canister", amount=1},
     },
     results =
     {
       {type="fluid", name="hydrogen", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     main_product= "hydrogen",
     order = "b-02",
@@ -92,7 +92,7 @@
     ingredients =
     {
       {type="fluid", name="oxygen", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     results =
     {
@@ -112,12 +112,12 @@
     enabled = false,
     ingredients =
     {
-      {"oxygen-canister", 1},
+      {type="item", name="oxygen-canister", amount=1},
     },
     results =
     {
       {type="fluid", name="oxygen", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     main_product= "oxygen",
     order = "b-04",
@@ -134,7 +134,7 @@
     ingredients =
     {
       {type="fluid", name="nitrogen", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     results =
     {
@@ -154,12 +154,12 @@
     enabled = false,
     ingredients =
     {
-      {"nitrogen-canister", 1},
+      {type="item", name="nitrogen-canister", amount=1},
     },
     results =
     {
       {type="fluid", name="nitrogen", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     main_product= "nitrogen",
     order = "b-06",
@@ -176,7 +176,7 @@
     ingredients =
     {
       {type="fluid", name="chlorine", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     results =
     {
@@ -196,12 +196,12 @@
     enabled = false,
     ingredients =
     {
-      {"chlorine-canister", 1},
+      {type="item", name="chlorine-canister", amount=1},
     },
     results =
     {
       {type="fluid", name="chlorine", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     main_product= "chlorine",
     order = "b-08",
@@ -218,7 +218,7 @@
     ingredients =
     {
       {type="fluid", name="hydrogen-chloride", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     results =
     {
@@ -238,12 +238,12 @@
     enabled = false,
     ingredients =
     {
-      {"hydrogen-chloride-canister", 1},
+      {type="item", name="hydrogen-chloride-canister", amount=1},
     },
     results =
     {
       {type="fluid", name="hydrogen-chloride", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     main_product= "hydrogen-chloride",
     order = "b-10",
@@ -260,7 +260,7 @@
     ingredients =
     {
       {type="fluid", name="petroleum-gas", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     results =
     {
@@ -280,12 +280,12 @@
     enabled = false,
     ingredients =
     {
-      {"petroleum-gas-canister", 1},
+      {type="item", name="petroleum-gas-canister", amount=1},
     },
     results =
     {
       {type="fluid", name="petroleum-gas", amount=5},
-      {"gas-canister", 1},
+      {type="item", name="gas-canister", amount=1},
     },
     main_product= "petroleum-gas",
     order = "b-12",

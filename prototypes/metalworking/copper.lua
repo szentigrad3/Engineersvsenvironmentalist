@@ -75,7 +75,7 @@ data:extend({
     order = "a-2",
     energy_required = 6,
     ingredients = {{ "copper-crushed", 3}},
-    result = "copper-plate"
+    results = {{type="item", name="copper-plate", amount=1}}
   },
  --New versions--
 	
@@ -85,9 +85,9 @@ data:extend({
     category = "crusher",
 		subgroup = "copper-processing",
     energy_required = 1,
-    ingredients = {{"chalcopyrite-ore",5}},
+    ingredients = {{type="item", name="chalcopyrite-ore", amount=5}},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/chalcopyritedust.png",
-    results = {{"chalcopyrite-dust",5},{"gravel",3}},
+    results = {{type="item", name="chalcopyrite-dust", amount=5},{type="item", name="gravel", amount=3}},
 		order = "a-3"
 	},
 	{
@@ -96,9 +96,9 @@ data:extend({
     category = "sifter",
 		subgroup = "copper-processing",
     energy_required = 3,
-    ingredients = {{"chalcopyrite-dust",4}, {type="fluid", name="water", amount=2}},
+    ingredients = {{type="item", name="chalcopyrite-dust", amount=4}, {type="fluid", name="water", amount=2}},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/chalcopyritenodules.png",
-    results = {{"chalcopyrite-nodules",4}, {"sand",1}, {"gravel",1}},
+    results = {{type="item", name="chalcopyrite-nodules", amount=4}, {type="item", name="sand", amount=1}, {type="item", name="gravel", amount=1}},
 		order = "a-4"
 	},
 	{
@@ -107,9 +107,9 @@ data:extend({
     category = "smelting",
 		subgroup = "copper-processing",
     energy_required = 4,
-    ingredients = {{"chalcopyrite-nodules",6}},
+    ingredients = {{type="item", name="chalcopyrite-nodules", amount=6}},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/copper-crushed.png",
-    results = {{"copper-crushed",2}, {"iron-sulfate-crushed",2}, {"ash",1}},
+    results = {{type="item", name="copper-crushed", amount=2}, {type="item", name="iron-sulfate-crushed", amount=2}, {type="item", name="ash", amount=1}},
 		order = "a-5"
 	},
 	{
@@ -119,9 +119,9 @@ data:extend({
 		subgroup = "copper-processing",
     energy_required = 2,
     enabled=false,
-    ingredients = {{"copper-crushed",5}},
+    ingredients = {{type="item", name="copper-crushed", amount=5}},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/copper-sulfate.png",
-    results = {{"copper-sulfate",3}},
+    results = {{type="item", name="copper-sulfate", amount=3}},
 		order = "a-6"
 	},
 	{
@@ -131,9 +131,9 @@ data:extend({
 		subgroup = "copper-processing",
     energy_required = 2,
     enabled=false,
-    ingredients = {{"copper-sulfate",1}, {type="fluid", name="water", amount=2}},
+    ingredients = {{type="item", name="copper-sulfate", amount=1}, {type="fluid", name="water", amount=2}},
 		icon = "__base__/graphics/icons/copper-plate.png",
-    results = {{"copper-plate",1}, {type="fluid", name="dirty-sulfur-dioxide", amount=2}},
+    results = {{type="item", name="copper-plate", amount=1}, {type="fluid", name="dirty-sulfur-dioxide", amount=2}},
 		order = "a-7"
 	},
 })

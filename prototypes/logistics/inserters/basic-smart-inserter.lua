@@ -16,17 +16,17 @@ data:extend(
     enabled=false,
     ingredients =
     {
-    {"stupid-ai", 1},
-    {"inserter", 1},
+    {type="item", name="stupid-ai", amount=1},
+    {type="item", name="inserter", amount=1},
     },
-    result = "basic-smart-inserter"
+    results = {{type="item", name="basic-smart-inserter", amount=1}}
   },
   {
     type = "inserter",
     name = "basic-smart-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/basic-smart-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "basic-smart-inserter"},
+    minable = {mining_time = 0.5, result = "basic-smart-inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances =

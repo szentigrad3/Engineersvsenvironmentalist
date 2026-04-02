@@ -17,10 +17,10 @@ data:extend(
     name = "repair-pack",
     ingredients =
     {
-      {"basic-circuit-board", 1},
-      {"iron-gear-wheel", 1}
+      {type="item", name="basic-circuit-board", amount=1},
+      {type="item", name="iron-gear-wheel", amount=1}
     },
-    result = "repair-pack"
+    results = {{type="item", name="repair-pack", amount=1}}
   },
 }
 )

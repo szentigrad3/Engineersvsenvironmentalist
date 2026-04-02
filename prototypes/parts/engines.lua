@@ -16,10 +16,10 @@
     category = "crafting",
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"basic-circuit-board",1},
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="basic-circuit-board", amount=1},
     },
-    result = "steam-unit",
+    results = {{type="item", name="steam-unit", amount=1}},
     enabled = false
   },
  {
@@ -38,10 +38,10 @@
     category = "crafting",
     ingredients =
     {
-      {"iron-gear-wheel", 6},
-      {"stupid-ai",1},
+      {type="item", name="iron-gear-wheel", amount=6},
+      {type="item", name="stupid-ai", amount=1},
     },
-    result = "engine-unit",
+    results = {{type="item", name="engine-unit", amount=1}},
     enabled = false
   },
   {
@@ -61,11 +61,11 @@
     ingredients =
     {
       {type="fluid", name= "lubricant", amount = 2},
-      {"advanced-circuit", 2},
-      {"iron-gear-wheel",50},
-      {"advanced-machine-parts",2}
+      {type="item", name="advanced-circuit", amount=2},
+      {type="item", name="iron-gear-wheel", amount=50},
+      {type="item", name="advanced-machine-parts", amount=2}
     },
-    result = "electric-engine-unit",
+    results = {{type="item", name="electric-engine-unit", amount=1}},
     enabled = false
   },
   }

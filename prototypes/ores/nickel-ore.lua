@@ -9,11 +9,7 @@ data:extend(
     order = "b-d[nickel-ore]",
     stack_size = 500
   },
-  {
-    type = "noise-layer",
-    name = "nickel-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "nickel-ore",
     richness = true,
@@ -24,10 +20,9 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 1.4,
       mining_particle = "stone-particle",
       mining_time = 2,
-      result = "nickel-ore"
+      results = {{type="item", name="nickel-ore", amount=1}}
     },
 		name = "nickel-ore",
 		tint = {r=0.54, g=0.8, b=0.75},
@@ -58,7 +53,6 @@ data:extend(
       },
       {
         influence = 0.30,
-        noise_layer = "nickel-ore",
         noise_octaves_difference = -1.9,
         noise_persistence = 0.3,
         starting_area_weight_optimal = 0,
@@ -67,7 +61,6 @@ data:extend(
       },
       {
         influence = 0.30,
-        noise_layer = "nickel-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 1,

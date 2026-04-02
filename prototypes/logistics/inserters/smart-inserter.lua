@@ -16,18 +16,18 @@
     enabled = false,
     ingredients =
     {
-      {"fast-inserter", 1},
-      {"small-ai", 1},
+      {type="item", name="fast-inserter", amount=1},
+      {type="item", name="small-ai", amount=1},
 	  
     },
-    result = "smart-inserter"
+    results = {{type="item", name="smart-inserter", amount=1}}
   },
   {
     type = "inserter",
     name = "smart-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/smart-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "smart-inserter"},
+    minable = {mining_time = 0.5, result = "smart-inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances =

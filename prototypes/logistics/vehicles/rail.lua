@@ -7,7 +7,7 @@ railpicturesinternal = function(elems)
                 {"straight_rail", "vertical", 64, 64},
                 {"straight_rail", "diagonal", 64, 64},
                 {"curved_rail", "vertical", 128, 256},
-                {"curved_rail" ,"horizontal", 256, 128}}
+                {"curved_rail" ,"horizontal", 256, 128}},
   local res = {}
   for _ , key in ipairs(keys) do
     part = {}
@@ -53,11 +53,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"stone", 5},
-      {"iron-gear-wheel", 5}
+      {type="item", name="stone", amount=5},
+      {type="item", name="iron-gear-wheel", amount=5}
     },
-    result = "straight-rail",
-    result_count = 2
+    results = {{type="item", name="straight-rail", amount=2}}
   },
   {
     type = "straight-rail",
@@ -86,9 +85,8 @@ data:extend(
     type = "recipe",
     name = "curved-rail",
     enabled = false,
-    ingredients = {{"stone", 4},{"iron-gear-wheel", 8}},
-    result = "curved-rail",
-    result_count = 2
+    ingredients = {{type="item", name="stone", amount=4},{type="item", name="iron-gear-wheel", amount=8}},
+    results = {{type="item", name="curved-rail", amount=2}}
   },
   {
     type = "curved-rail",

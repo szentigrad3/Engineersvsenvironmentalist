@@ -16,17 +16,17 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"copper-cable", 1},
-      {"glass", 2}
+      {type="item", name="copper-cable", amount=1},
+      {type="item", name="glass", amount=2}
     },
-    result = "small-lamp",10
+    results = {{type="item", name="small-lamp", amount=10}}
   },
   {
     type = "lamp",
     name = "small-lamp",
     icon = "__base__/graphics/icons/small-lamp.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "small-lamp"},
+    minable = {mining_time = 0.5, result = "small-lamp"},
     max_health = 55,
     corpse = "small-remnants",
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},

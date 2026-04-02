@@ -13,7 +13,7 @@ data:extend(
       { "browncoal", 10},
     },
 	
-    result = "coal", amount=7
+    results = {{type="item", name="coal", amount=7}}
 
  },   
 }

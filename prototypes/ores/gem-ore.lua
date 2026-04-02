@@ -9,11 +9,7 @@ data:extend(
     order = "b-d[gem-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "gem-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "gem-ore",
     richness = true,
@@ -24,10 +20,9 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 2.4,
       mining_particle = "stone-particle",
       mining_time = 4,
-      result = "gem-ore"
+      results = {{type="item", name="gem-ore", amount=1}}
     },
 		name = "gem-ore",
 		map_color = {r = 0, g = 1, b = 0},
@@ -53,7 +48,6 @@ data:extend(
       },
       {
         influence = 0.30,
-        noise_layer = "gem-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,

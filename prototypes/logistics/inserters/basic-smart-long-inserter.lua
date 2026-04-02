@@ -16,19 +16,19 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"stupid-ai", 1},
-      {"long-handed-inserter", 1},
+      {type="item", name="stupid-ai", amount=1},
+      {type="item", name="long-handed-inserter", amount=1},
 	  
 	   
     },
-    result = "basic-smart-long-inserter"
+    results = {{type="item", name="basic-smart-long-inserter", amount=1}}
   },
    {
     type = "inserter",
     name = "basic-smart-long-inserter",
     icon = "__base__/graphics/icons/long-handed-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "basic-smart-long-inserter"},
+    minable = {mining_time = 0.5, result = "basic-smart-long-inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances =

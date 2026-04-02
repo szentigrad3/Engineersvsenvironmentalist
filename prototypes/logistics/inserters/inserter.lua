@@ -17,11 +17,11 @@ data:extend(
     enabled=false,
     ingredients =
     {
-      {"burner-inserter", 1},
-      {"basic-circuit-board", 1},
-      {"iron-gear-wheel", 1},
+      {type="item", name="burner-inserter", amount=1},
+      {type="item", name="basic-circuit-board", amount=1},
+      {type="item", name="iron-gear-wheel", amount=1},
     },
-    result = "inserter"
+    results = {{type="item", name="inserter", amount=1}}
   },
   {
     type = "inserter",
@@ -29,7 +29,7 @@ data:extend(
     icon = "__base__/graphics/icons/inserter.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "inserter"},
+    minable = {mining_time = 0.5, result = "inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances =

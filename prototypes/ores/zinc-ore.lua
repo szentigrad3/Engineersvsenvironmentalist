@@ -9,11 +9,7 @@ data:extend(
     order = "b-d[zinc-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "zinc-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "zinc-ore",
     richness = true,
@@ -24,15 +20,13 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 1.4,
       mining_particle = "stone-particle",
       mining_time = 2,
-      result = "zinc-ore"
+      results = {{type="item", name="zinc-ore", amount=1}}
     },
 		name = "zinc-ore",
 		tint = {r=0.34, g=0.9, b=0.81},
 		map_color = {r=0.47, g=1, b=0.96},
-		hardness = 1.4,
 		mining_time = 2,
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/zinc-ore.png",
@@ -60,7 +54,6 @@ data:extend(
       },
       {
         influence = 0.28,
-        noise_layer = "zinc-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,
@@ -69,7 +62,6 @@ data:extend(
       },
       {
         influence = 0.3,
-        noise_layer = "zinc-ore",
         noise_octaves_difference = -3,
         noise_persistence = 0.4,
         starting_area_weight_optimal = 1,

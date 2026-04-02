@@ -23,7 +23,7 @@ data:extend(
     stack_size = 1000,
     place_as_tile =
     {
-      result = "asphalt-marker",
+      results = {{type="item", name="asphalt-marker", amount=1}},
       condition_size = 3,
       condition = { "water-tile" }
     }
@@ -52,7 +52,7 @@ data:extend(
 		type = "tile",
 		name = "asphalt-marker",
 		needs_correction = false,
-		minable = {hardness = 0.2, mining_time = 0.5, result = "asphalt"},
+		minable = {mining_time = 0.5, result = "asphalt"},
 		mined_sound = { filename = "__base__/sound/walking/concrete-02.ogg" },
 		collision_mask = {"ground-tile"},
 		walking_speed_modifier = asphalt_walking_speed_modifier,

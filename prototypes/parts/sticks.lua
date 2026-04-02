@@ -14,9 +14,8 @@
     {
     type = "recipe",
     name = "iron-stick",
-    ingredients = {{"iron-plate", 1}},
-    result = "iron-stick",
-    result_count = 2,
+    ingredients = {{type="item", name="iron-plate", amount=1}},
+    results = {{type="item", name="iron-stick", amount=2}},
     enabled=false,
     hidden=true,
   },

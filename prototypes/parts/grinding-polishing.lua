@@ -21,8 +21,7 @@
       {type="item", name="iron-gear-wheel", amount=1},
       {type="fluid", name="light-oil", amount=1.5},
     },
-    result="polishing-compound",
-    result_count = 2
+    results = {{type="item", name="polishing-compound", amount=2}}
   },
 {
     type = "item",
@@ -41,11 +40,10 @@
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 1},
-      {"advanced-machine-parts", 5},
+      {type="item", name="steel-plate", amount=1},
+      {type="item", name="advanced-machine-parts", amount=5},
     },
-    result = "grinding-wheel",
-    result_count = 2
+    results = {{type="item", name="grinding-wheel", amount=2}}
   },
 
   {
@@ -65,11 +63,10 @@
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 1},
-      {"iron-gear-wheel", 5},
+      {type="item", name="steel-plate", amount=1},
+      {type="item", name="iron-gear-wheel", amount=5},
     },
-    result = "polishing-wheel",
-    result_count = 2
+    results = {{type="item", name="polishing-wheel", amount=2}}
   },
 
   {
@@ -79,11 +76,10 @@
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 1},
-      {"iron-gear-wheel", 5},
+      {type="item", name="steel-plate", amount=1},
+      {type="item", name="iron-gear-wheel", amount=5},
     },
-    result = "polishing-wheel",
-    result_count = 2
+    results = {{type="item", name="polishing-wheel", amount=2}}
   },
   }
   )

@@ -23,8 +23,7 @@ data:extend(
 	  {type="item", name="stone", amount=1},
       {type="item", name="coal", amount=5},
     },
-    result = "coke",
-    result_count = 5,
+    results = {{type="item", name="coke", amount=5}}
   },
   }
   )

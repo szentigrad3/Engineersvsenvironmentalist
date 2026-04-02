@@ -18,10 +18,10 @@ data:extend(
     category="crafting",
     ingredients =
     {
-      {"plumbing",50},
-      {"basic-circuit-board",10}
+      {type="item", name="plumbing", amount=50},
+      {type="item", name="basic-circuit-board", amount=10}
     },
-    result = "automation-science-pack"
+    results = {{type="item", name="automation-science-pack", amount=1}}
   },
   {
     type = "tool",
@@ -42,12 +42,12 @@ data:extend(
     category="science-pots",
     ingredients =
     {
-      {"iron-gear-wheel", 100},
-      {"transport-belt", 1},
-      {"electronic-circuit", 1},
+      {type="item", name="iron-gear-wheel", amount=100},
+      {type="item", name="transport-belt", amount=1},
+      {type="item", name="electronic-circuit", amount=1},
       
     },
-    result = "logistic-science-pack"
+    results = {{type="item", name="logistic-science-pack", amount=1}}
   },
   {
     type = "tool",
@@ -68,12 +68,12 @@ data:extend(
     category="science-pots",
     ingredients =
     {
-      {"advanced-machine-parts", 100},
-      {"advanced-circuit", 1},
-      {"battery",5},
+      {type="item", name="advanced-machine-parts", amount=100},
+      {type="item", name="advanced-circuit", amount=1},
+      {type="item", name="battery", amount=5},
       
     },
-    result = "chemical-science-pack"
+    results = {{type="item", name="chemical-science-pack", amount=1}}
   }, 
   {
     type = "tool",
@@ -94,13 +94,13 @@ data:extend(
     category="science-pots",
     ingredients =
     {
-      {"amorphicmachineparts", 2000},
-      {"gold-plate", 1},
-      {"processing-unit", 100},
-      {"lithium-ion-battery",1},
+      {type="item", name="amorphicmachineparts", amount=2000},
+      {type="item", name="gold-plate", amount=1},
+      {type="item", name="processing-unit", amount=100},
+      {type="item", name="lithium-ion-battery", amount=1},
       
     },
-    result = "production-science-pack"
+    results = {{type="item", name="production-science-pack", amount=1}}
   }, 
   {
     type = "tool",
@@ -120,12 +120,11 @@ data:extend(
     enabled = false,
     energy_required = 30000,
     ingredients = {
-    {"gold-plate", 1},
-    {"advanced-processing-unit", 100},
+    {type="item", name="gold-plate", amount=1},
+    {type="item", name="advanced-processing-unit", amount=100},
   
     },
-    result = "alien-science-pack",
-    result_count = 10
+    results = {{type="item", name="alien-science-pack", amount=10}}
   },
   }
   )

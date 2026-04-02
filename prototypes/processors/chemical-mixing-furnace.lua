@@ -17,13 +17,13 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 3600},
-      {"iron-gear-wheel",2000},
-      {"plumbing",2000},
+      {type="item", name="wall", amount=3600},
+      {type="item", name="iron-gear-wheel", amount=2000},
+      {type="item", name="plumbing", amount=2000},
 	   {"small-ai" ,5},
 	  
     },
-    result = "electric-chemical-mixing-furnace"
+    results = {{type="item", name="electric-chemical-mixing-furnace", amount=1}}
   },
   {
     type = "assembling-machine",
@@ -126,13 +126,13 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 10000},
-      {"advanced-machine-parts",5000},
-      {"plumbing",20000},
-	  {"medium-ai",5},
+      {type="item", name="wall", amount=10000},
+      {type="item", name="advanced-machine-parts", amount=5000},
+      {type="item", name="plumbing", amount=20000},
+	  {type="item", name="medium-ai", amount=5},
 	  
     },
-    result = "electric-chemical-mixing-furnace-2"
+    results = {{type="item", name="electric-chemical-mixing-furnace-2", amount=1}}
   },
   {
     type = "assembling-machine",

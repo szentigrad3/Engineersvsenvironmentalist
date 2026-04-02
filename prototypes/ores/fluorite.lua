@@ -1,9 +1,5 @@
 data:extend({
-  {
-    type = "noise-layer",
-    name = "fluorite"
-  },
-  {
+{
     type = "autoplace-control",
     name = "fluorite",
     richness = true,
@@ -26,17 +22,15 @@ data:extend({
     order="a-b-f",
     minable =
     {
-      hardness = 0.4,
       mining_particle = "stone-particle",
       mining_time = 2,
-      result = "fluorite"
+      results = {{type="item", name="fluorite", amount=1}}
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
       control = "fluorite",
-	  frequency= none,
       sharpness = 1,
       richness_multiplier = 10000,
       richness_base = 1000,
@@ -47,7 +41,6 @@ data:extend({
       },
       {
         influence = 0.28,
-        noise_layer = "fluorite",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,

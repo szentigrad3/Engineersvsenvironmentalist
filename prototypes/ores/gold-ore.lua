@@ -10,11 +10,7 @@ data:extend(
     order = "b-d[gold-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "gold-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "gold-ore",
     richness = true,
@@ -25,10 +21,9 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 0.6,
       mining_particle = "stone-particle",
       mining_time = 1,
-      result = "gold-ore"
+      results = {{type="item", name="gold-ore", amount=1}}
     },
 		name = "gold-ore",
 		tint = {r = 1, g = 0.75, b = 0},
@@ -60,7 +55,6 @@ data:extend(
       },
       {
         influence = 0.28,
-        noise_layer = "gold-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,
@@ -69,7 +63,6 @@ data:extend(
       },
       {
         influence = 0.31,
-        noise_layer = "gold-ore",
         noise_octaves_difference = -3,
         noise_persistence = 0.4,
         starting_area_weight_optimal = 1,

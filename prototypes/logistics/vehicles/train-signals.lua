@@ -16,10 +16,10 @@
     enabled = false,
     ingredients =
     {
-      {"electronic-circuit", 5},
-      {"iron-gear-wheel", 10},
+      {type="item", name="electronic-circuit", amount=5},
+      {type="item", name="iron-gear-wheel", amount=10},
     },
-    result = "train-stop"
+    results = {{type="item", name="train-stop", amount=1}}
   },
   {
     type = "item",
@@ -37,10 +37,10 @@
     enabled = false,
     ingredients =
     {
-      {"electronic-circuit", 1},
-      {"iron-gear-wheel", 5}
+      {type="item", name="electronic-circuit", amount=1},
+      {type="item", name="iron-gear-wheel", amount=5}
     },
-    result = "rail-signal"
+    results = {{type="item", name="rail-signal", amount=1}}
   },
   {
     type = "item",
@@ -58,10 +58,10 @@
     enabled = false,
     ingredients =
     {
-      {"electronic-circuit", 1},
-      {"iron-gear-wheel", 5}
+      {type="item", name="electronic-circuit", amount=1},
+      {type="item", name="iron-gear-wheel", amount=5}
     },
-    result = "rail-chain-signal"
+    results = {{type="item", name="rail-chain-signal", amount=1}}
   },
   }
   )

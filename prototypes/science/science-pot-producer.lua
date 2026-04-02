@@ -15,18 +15,18 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"basic-circuit-board",500},
-      {"iron-gear-wheel", 2000},
-      {"wall", 500},
+      {type="item", name="basic-circuit-board", amount=500},
+      {type="item", name="iron-gear-wheel", amount=2000},
+      {type="item", name="wall", amount=500},
     },
-    result = "science-pot-producer"
+    results = {{type="item", name="science-pot-producer", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "science-pot-producer",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "science-pot-producer"},
+    minable = {mining_time = 0.5, result = "science-pot-producer"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -119,18 +119,18 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"stupid-ai",500},
-      {"iron-gear-wheel", 3000},
-      {"wall", 1000},
+      {type="item", name="stupid-ai", amount=500},
+      {type="item", name="iron-gear-wheel", amount=3000},
+      {type="item", name="wall", amount=1000},
     },
-    result = "science-pot-producer2"
+    results = {{type="item", name="science-pot-producer2", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "science-pot-producer2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "science-pot-producer2"},
+    minable = {mining_time = 0.5, result = "science-pot-producer2"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -224,18 +224,18 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"basic-circuit-board",50},
-      {"iron-gear-wheel", 100},
-      {"wall", 100},
+      {type="item", name="basic-circuit-board", amount=50},
+      {type="item", name="iron-gear-wheel", amount=100},
+      {type="item", name="wall", amount=100},
     },
-    result = "coal-pot-producer"
+    results = {{type="item", name="coal-pot-producer", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "coal-pot-producer",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "coal-pot-producer"},
+    minable = {mining_time = 0.5, result = "coal-pot-producer"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -349,18 +349,18 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"basic-circuit-board",50},
-      {"iron-gear-wheel", 100},
-      {"wall", 100},
+      {type="item", name="basic-circuit-board", amount=50},
+      {type="item", name="iron-gear-wheel", amount=100},
+      {type="item", name="wall", amount=100},
     },
-    result = "sulfuric-acid-pot-producer"
+    results = {{type="item", name="sulfuric-acid-pot-producer", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "sulfuric-acid-pot-producer",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "sulfuric-acid-pot-producer"},
+    minable = {mining_time = 0.5, result = "sulfuric-acid-pot-producer"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -474,18 +474,18 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"basic-circuit-board",5},
-      {"iron-gear-wheel", 10},
-      {"wall", 10},
+      {type="item", name="basic-circuit-board", amount=5},
+      {type="item", name="iron-gear-wheel", amount=10},
+      {type="item", name="wall", amount=10},
     },
-    result = "steel-pot-producer",
+    results = {{type="item", name="steel-pot-producer", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "steel-pot-producer",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result ="steel-pot-producer"},
+    minable = {mining_time = 0.5, result ="steel-pot-producer"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -602,18 +602,18 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"basic-circuit-board",5},
-      {"iron-gear-wheel", 10},
-      {"wall", 10},
+      {type="item", name="basic-circuit-board", amount=5},
+      {type="item", name="iron-gear-wheel", amount=10},
+      {type="item", name="wall", amount=10},
     },
-    result = "explosive-pot-producer",
+    results = {{type="item", name="explosive-pot-producer", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "explosive-pot-producer",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result ="explosive-pot-producer"},
+    minable = {mining_time = 0.5, result ="explosive-pot-producer"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -727,18 +727,18 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"basic-circuit-board",1},
-      {"iron-gear-wheel", 1},
-      {"wall", 1},
+      {type="item", name="basic-circuit-board", amount=1},
+      {type="item", name="iron-gear-wheel", amount=1},
+      {type="item", name="wall", amount=1},
     },
-    result = "clean-pot-producer",
+    results = {{type="item", name="clean-pot-producer", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "clean-pot-producer",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result ="clean-pot-producer"},
+    minable = {mining_time = 0.5, result ="clean-pot-producer"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -851,18 +851,18 @@ data:extend({
     enabled = true,
     ingredients =
     {
-     {"stupid-ai",50},
-      {"iron-gear-wheel", 100},
-      {"wall", 100},
+     {type="item", name="stupid-ai", amount=50},
+      {type="item", name="iron-gear-wheel", amount=100},
+      {type="item", name="wall", amount=100},
     },
-    result = "computing-pot-producer"
+    results = {{type="item", name="computing-pot-producer", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "computing-pot-producer",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "computing-pot-producer"},
+    minable = {mining_time = 0.5, result = "computing-pot-producer"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -955,18 +955,18 @@ data:extend({
     enabled = true,
     ingredients =
     {
-     {"small-ai",50},
-      {"iron-gear-wheel", 100},
-      {"wall", 100},
+     {type="item", name="small-ai", amount=50},
+      {type="item", name="iron-gear-wheel", amount=100},
+      {type="item", name="wall", amount=100},
     },
-    result = "computing-pot-producer"
+    results = {{type="item", name="computing-pot-producer", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "computing-pot-producer",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "computing-pot-producer"},
+    minable = {mining_time = 0.5, result = "computing-pot-producer"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -1059,18 +1059,18 @@ data:extend({
     enabled = true,
     ingredients =
     {
-     {"stupid-ai",50},
-      {"iron-gear-wheel", 100},
-      {"wall", 100},
+     {type="item", name="stupid-ai", amount=50},
+      {type="item", name="iron-gear-wheel", amount=100},
+      {type="item", name="wall", amount=100},
     },
-    result = "computing-pot-producer"
+    results = {{type="item", name="computing-pot-producer", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "computing-pot-producer",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "computing-pot-producer"},
+    minable = {mining_time = 0.5, result = "computing-pot-producer"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",

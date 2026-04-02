@@ -18,11 +18,11 @@ data:extend(
     name = "steam-engine",
     ingredients =
     {
-      {"iron-gear-wheel", 10},
-      {"plumbing", 10},
-      {"storage-tank", 1},
+      {type="item", name="iron-gear-wheel", amount=10},
+      {type="item", name="plumbing", amount=10},
+      {type="item", name="storage-tank", amount=1},
     },
-    result = "steam-engine"
+    results = {{type="item", name="steam-engine", amount=1}}
   },
 {
     type = "generator",
@@ -207,11 +207,11 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 200},
-      {"plumbing", 200},
-      {"storage-tank", 20},
+      {type="item", name="iron-gear-wheel", amount=200},
+      {type="item", name="plumbing", amount=200},
+      {type="item", name="storage-tank", amount=20},
     },
-    result = "steam-engine-2",
+    results = {{type="item", name="steam-engine-2", amount=1}}
   },
  {
     type = "generator",
@@ -395,11 +395,11 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 4000},
-      {"plumbing", 4000},
-      {"storage-tank", 100},
+      {type="item", name="iron-gear-wheel", amount=4000},
+      {type="item", name="plumbing", amount=4000},
+      {type="item", name="storage-tank", amount=100},
     },
-    result = "steam-engine-3",
+    results = {{type="item", name="steam-engine-3", amount=1}}
   },
  {
     type = "generator",
@@ -583,11 +583,11 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"advanced-machine-parts", 3000},
-      {"plumbing", 10000},
-      {"storage-tank", 100},
+      {type="item", name="advanced-machine-parts", amount=3000},
+      {type="item", name="plumbing", amount=10000},
+      {type="item", name="storage-tank", amount=100},
     },
-    result = "steam-engine-4",
+    results = {{type="item", name="steam-engine-4", amount=1}}
   },
   
   

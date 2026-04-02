@@ -18,10 +18,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 1},
+      {type="item", name="steel-plate", amount=1},
     },
-    result ="empty-fluid-canister",
-    result_count = 5,
+    results = {{type="item", name="empty-fluid-canister", amount=5}}
   },
   {
     type = "item",

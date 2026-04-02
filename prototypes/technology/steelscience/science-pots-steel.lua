@@ -18,10 +18,10 @@ data:extend(
     category="steel-pots",
     ingredients =
     {
-      {"iron-slag",15},
-      {"iron-plate",1},
+      {type="item", name="iron-slag", amount=15},
+      {type="item", name="iron-plate", amount=1},
     },
-    result = "science-pack-steel1"
+    results = {{type="item", name="science-pack-steel1", amount=1}}
   },
 {
     type = "tool",
@@ -43,11 +43,11 @@ data:extend(
     category="steel-pots",
     ingredients =
     {
-      {"steel-plate",10},
-      {"iron-gear-wheel",5},
+      {type="item", name="steel-plate", amount=10},
+      {type="item", name="iron-gear-wheel", amount=5},
       
     },
-    result = "science-pack-steel2"
+    results = {{type="item", name="science-pack-steel2", amount=1}}
   },
 {
     type = "tool",
@@ -71,12 +71,12 @@ data:extend(
     category="steel-pots",
     ingredients =
     {
-      {"steel-plate",1000},
-      {"basic-circuit-board",50},
-	  {"iron-gear-wheel",500},
+      {type="item", name="steel-plate", amount=1000},
+      {type="item", name="basic-circuit-board", amount=50},
+	  {type="item", name="iron-gear-wheel", amount=500},
       
     },
-    result = "science-pack-steel3"
+    results = {{type="item", name="science-pack-steel3", amount=1}}
   },
   
   

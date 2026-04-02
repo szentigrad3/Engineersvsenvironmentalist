@@ -18,11 +18,11 @@
     enabled = "true",
     ingredients =
     {
-      {"wall", 1},
-      {"plumbing", 1},
+      {type="item", name="wall", amount=1},
+      {type="item", name="plumbing", amount=1},
       
     },
-    result = "boiler",
+    results = {{type="item", name="boiler", amount=1}}
   },
   {
     type = "boiler",
@@ -30,7 +30,7 @@
     icon = "__base__/graphics/icons/boiler.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "boiler"},
+    minable = {mining_time = 0.5, result = "boiler"},
     max_health = 200,
     corpse = "small-remnants",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -486,10 +486,10 @@
     enabled = "false",
     ingredients =
     {
-      {"wall", 2},
-      {"plumbing", 2},
+      {type="item", name="wall", amount=2},
+      {type="item", name="plumbing", amount=2},
     },
-    result = "boiler-1",
+    results = {{type="item", name="boiler-1", amount=1}}
   },
  {
     type = "boiler",
@@ -497,7 +497,7 @@
     icon = "__base__/graphics/icons/boiler.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "boiler"},
+    minable = {mining_time = 0.5, result = "boiler"},
     max_health = 200,
     corpse = "small-remnants",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
@@ -953,10 +953,10 @@
     enabled = "false",
     ingredients =
     {
-      {"wall", 200},
-      {"plumbing", 600},
+      {type="item", name="wall", amount=200},
+      {type="item", name="plumbing", amount=600},
     },
-    result = "boiler-2",
+    results = {{type="item", name="boiler-2", amount=1}}
   },
   {
     type = "boiler",
@@ -964,7 +964,7 @@
     icon = "__base__/graphics/icons/boiler.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "boiler"},
+    minable = {mining_time = 0.5, result = "boiler"},
     max_health = 200,
     corpse = "small-remnants",
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },

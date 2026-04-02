@@ -17,9 +17,9 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"iron-gear-wheel", 4},
+      {type="item", name="iron-gear-wheel", amount=4},
     },
-    result = "long-handed-burner-inserter"
+    results = {{type="item", name="long-handed-burner-inserter", amount=1}}
   },
 
   {
@@ -27,7 +27,7 @@ data:extend(
     name = "long-handed-burner-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/long-handed-burner-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "long-handed-burner-inserter"},
+    minable = {mining_time = 0.5, result = "long-handed-burner-inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances = 

@@ -17,17 +17,17 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"wall",1},
-      {"iron-gear-wheel", 10},
+      {type="item", name="wall", amount=1},
+      {type="item", name="iron-gear-wheel", amount=10},
     },
-    result = "assembling-machine-1"
+    results = {{type="item", name="assembling-machine-1", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "assembling-machine-1",
     icon = "__base__/graphics/icons/assembling-machine-1.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-1"},
+    minable = {mining_time = 0.5, result = "assembling-machine-1"},
     max_health = 200,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -106,19 +106,19 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall",40},
-      {"iron-gear-wheel", 160},
-	    {"stupid-ai", 5},
+      {type="item", name="wall", amount=40},
+      {type="item", name="iron-gear-wheel", amount=160},
+	    {type="item", name="stupid-ai", amount=5},
 	
     },
-    result = "assembling-machine-2"
+    results = {{type="item", name="assembling-machine-2", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "assembling-machine-2",
     icon = "__base__/graphics/icons/assembling-machine-2.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-2"},
+    minable = {mining_time = 0.5, result = "assembling-machine-2"},
     max_health = 250,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -213,18 +213,18 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall",800},
-      {"iron-gear-wheel", 3200},
-      {"medium-ai", 1},
+      {type="item", name="wall", amount=800},
+      {type="item", name="iron-gear-wheel", amount=3200},
+      {type="item", name="medium-ai", amount=1},
     },
-    result = "assembling-machine-3"
+    results = {{type="item", name="assembling-machine-3", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "assembling-machine-3",
     icon = "__base__/graphics/icons/assembling-machine-3.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-3"},
+    minable = {mining_time = 0.5, result = "assembling-machine-3"},
     max_health = 300,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -319,18 +319,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"wall",3200},
-      {"iron-gear-wheel", 15000},
-	  {"large-ai", 1}
+      {type="item", name="wall", amount=3200},
+      {type="item", name="iron-gear-wheel", amount=15000},
+	  {type="item", name="large-ai", amount=1}
     },
-    result = "assembling-machine-4"
+    results = {{type="item", name="assembling-machine-4", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "assembling-machine-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-4.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-4"},
+    minable = {mining_time = 0.5, result = "assembling-machine-4"},
     max_health = 400,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -426,12 +426,12 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"wall",32000},
-      {"iron-gear-wheel",64000},
-      {"iron-gear-wheel",64000},
-	  {"large-ai",10},
+      {type="item", name="wall", amount=32000},
+      {type="item", name="iron-gear-wheel", amount=64000},
+      {type="item", name="iron-gear-wheel", amount=64000},
+	  {type="item", name="large-ai", amount=10},
     },
-    result = "assembling-machine-5"
+    results = {{type="item", name="assembling-machine-5", amount=1}}
   },
 
   {
@@ -439,7 +439,7 @@ data:extend(
     name = "assembling-machine-5",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-5.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "assembling-machine-5"},
+    minable = {mining_time = 0.5, result = "assembling-machine-5"},
     max_health = 500,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",

@@ -16,8 +16,8 @@ data:extend(
     order = "aluminium",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"aluminium-plate", 1},{type="fluid", name="lubricant", amount=1}},
-    results = {{"advanced-machine-parts",2}}
+    ingredients = {{type="item", name="aluminium-plate", amount=1},{type="fluid", name="lubricant", amount=1}},
+    results = {{type="item", name="advanced-machine-parts", amount=2}}
   },
   {
     type = "recipe",
@@ -25,8 +25,8 @@ data:extend(
     order = "ceramics",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"silicon-nitride", 1},{type="fluid", name="lubricant", amount=0.5}},
-    results = {{"advanced-machine-parts",1}},
+    ingredients = {{type="item", name="silicon-nitride", amount=1},{type="fluid", name="lubricant", amount=0.5}},
+    results = {{type="item", name="advanced-machine-parts", amount=1}},
   },
   {
     type = "recipe",
@@ -34,8 +34,8 @@ data:extend(
     order = "steel",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"steel-plate", 1},{type="fluid", name="lubricant", amount=0.5}},
-    results = {{"advanced-machine-parts",1}},
+    ingredients = {{type="item", name="steel-plate", amount=1},{type="fluid", name="lubricant", amount=0.5}},
+    results = {{type="item", name="advanced-machine-parts", amount=1}},
   },
   {
     type = "recipe",
@@ -43,8 +43,8 @@ data:extend(
     order = "titanium",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"titanium-plate", 1},{type="fluid", name="lubricant", amount=1}},
-    results = {{"advanced-machine-parts",2}},
+    ingredients = {{type="item", name="titanium-plate", amount=1},{type="fluid", name="lubricant", amount=1}},
+    results = {{type="item", name="advanced-machine-parts", amount=2}},
   },
   {
     type = "recipe",
@@ -52,8 +52,8 @@ data:extend(
     order = "tungsten",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"tungsten-plate", 1},{type="fluid", name="lubricant", amount=1}},
-    results = {{"advanced-machine-parts",2}},
+    ingredients = {{type="item", name="tungsten-plate", amount=1},{type="fluid", name="lubricant", amount=1}},
+    results = {{type="item", name="advanced-machine-parts", amount=2}},
   },
   }
   )
@@ -66,9 +66,9 @@ data:extend(
     category = "crafting-with-fluid",
     enabled=false,
     ingredients = {
-    {"cobalt-steel-alloy", 1},
+    {type="item", name="cobalt-steel-alloy", amount=1},
     {type="fluid", name="lubricant", amount=1}},
-    results = {{"advanced-machine-parts",2}},
+    results = {{type="item", name="advanced-machine-parts", amount=2}},
   },
   {
     type = "recipe",
@@ -77,9 +77,9 @@ data:extend(
     category = "crafting-with-fluid",
     enabled=false,
     ingredients = {
-    {"invar-alloy", 1},
+    {type="item", name="invar-alloy", amount=1},
     {type="fluid", name="lubricant", amount=1}},
-    results = {{"advanced-machine-parts",2}},
+    results = {{type="item", name="advanced-machine-parts", amount=2}},
   },
   {
     type = "recipe",
@@ -88,9 +88,9 @@ data:extend(
     category = "crafting-with-fluid",
     enabled=false,
     ingredients = {
-    {"nitinol-alloy", 1},
+    {type="item", name="nitinol-alloy", amount=1},
     {type="fluid", name="lubricant", amount=5}},
-    results = {{"advanced-machine-parts",10}},
+    results = {{type="item", name="advanced-machine-parts", amount=10}},
   },
   {
     type = "recipe",
@@ -99,9 +99,9 @@ data:extend(
     category = "crafting-with-fluid",
     enabled=false,
     ingredients = {
-    {"copper-tungsten-alloy", 1},
+    {type="item", name="copper-tungsten-alloy", amount=1},
     {type="fluid", name="lubricant", amount=1}},
-    results = {{"advanced-machine-parts",2}},
+    results = {{type="item", name="advanced-machine-parts", amount=2}},
   },
   {
     type = "recipe",
@@ -109,8 +109,8 @@ data:extend(
     order = "tungsten-carbide",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"tungsten-carbide", 1},{type="fluid", name="lubricant", amount=5}},
-    results = {{"advanced-machine-parts",10}},
+    ingredients = {{type="item", name="tungsten-carbide", amount=1},{type="fluid", name="lubricant", amount=5}},
+    results = {{type="item", name="advanced-machine-parts", amount=10}},
   },
     {
     type = "recipe",
@@ -118,8 +118,8 @@ data:extend(
     order = "carbon-nanotubes",
     category = "crafting-with-fluid",
     enabled=false,
-    ingredients = {{"carbon-nanotubes", 1},{type="fluid", name="lubricant", amount=5}},
-    results = {{"advanced-machine-parts",200}},
+    ingredients = {{type="item", name="carbon-nanotubes", amount=1},{type="fluid", name="lubricant", amount=5}},
+    results = {{type="item", name="advanced-machine-parts", amount=200}},
   },
 {
     type = "recipe",
@@ -127,8 +127,8 @@ data:extend(
     order = "amorphicmachineparts",
     category = "crafting-with-fluid",
     enabled=true,
-    ingredients = {{"amorphicmachineparts", 1},{type="fluid", name="lubricant", amount=5}},
-    results = {{"advanced-machine-parts",5}},
+    ingredients = {{type="item", name="amorphicmachineparts", amount=1},{type="fluid", name="lubricant", amount=5}},
+    results = {{type="item", name="advanced-machine-parts", amount=5}},
   },
 
   {
@@ -137,8 +137,8 @@ data:extend(
     order = "amorphicmachineparts1",
     category = "crafting",
     enabled=true,
-    ingredients = {{"carbon-fibre", 1},{type="item", name="iron-gear-wheel", amount=1}},
-    results = {{"advanced-machine-parts",1}},
+    ingredients = {{type="item", name="carbon-fibre", amount=1},{type="item", name="iron-gear-wheel", amount=1}},
+    results = {{type="item", name="advanced-machine-parts", amount=1}},
   },
   
   

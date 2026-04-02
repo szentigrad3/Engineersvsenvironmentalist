@@ -18,9 +18,9 @@ data:extend(
     enabled=true,
     ingredients =
     {
-      {"gravel", 1},
+      {type="item", name="gravel", amount=1},
     },
-    result = "clean-lab"
+    results = {{type="item", name="clean-lab", amount=1}}
   },
   {
     type = "lab",
@@ -109,10 +109,10 @@ data:extend(
     category="clean-pots",
     ingredients =
     {
-      {"gravel",1},
+      {type="item", name="gravel", amount=1},
      
     },
-    result = "science-pack-clean1"
+    results = {{type="item", name="science-pack-clean1", amount=1}}
   },
 
 

@@ -12,12 +12,7 @@ data:extend(
     order = "a-1",
     stack_size = 200
   },
-
-  {
-    type = "noise-layer",
-    name = "lignite-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "lignite-ore",
     richness = true,
@@ -28,10 +23,9 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 0.2,
       mining_particle = "stone-particle",
       mining_time = 0.1,
-      result = "browncoal"
+      results = {{type="item", name="browncoal", amount=1}}
     },
 		name = "lignite-ore",
 		tint = {r = 1, g = 0.75, b = 0},
@@ -65,7 +59,6 @@ data:extend(
         },
         {
           influence = 0.28,
-          noise_layer = "lignite-ore",
           noise_octaves_difference = -2.4,
           noise_persistence = 0.35,
           starting_area_weight_optimal = 0,

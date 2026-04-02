@@ -17,9 +17,9 @@ data:extend(
     energy_required = 3.5,
     ingredients =
     {
-      {"quartz", 1},
+      {type="item", name="quartz", amount=1},
     },
-    result = "glass"
+    results = {{type="item", name="glass", amount=1}}
   },
   {
     type = "recipe",
@@ -29,9 +29,9 @@ data:extend(
     energy_required = 3.5,
     ingredients =
     {
-      {"sand", 4},
+      {type="item", name="sand", amount=4},
     },
-    result = "glass"
+    results = {{type="item", name="glass", amount=1}}
   },
   }
   )

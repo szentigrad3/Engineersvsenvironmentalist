@@ -21,7 +21,7 @@ data:extend(
     {
       { "coal", 100},
     },
-    result = "resin",
+    results = {{type="item", name="resin", amount=1}}
   },
 }
 )

@@ -18,11 +18,10 @@ data:extend(
 	enabled = true,
     ingredients =
     {
-      {"wooden-board", 5},
-      {"copper-cable", 1},
+      {type="item", name="wooden-board", amount=5},
+      {type="item", name="copper-cable", amount=1},
     },
-    result = "basic-circuit-board",
-    result_count=5,
+    results = {{type="item", name="basic-circuit-board", amount=5}}
   },
 }
 )
@@ -47,11 +46,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"basic-circuit-board", 1},
-      {"basic-electronic-components", 5},
-      {"solder",1}
+      {type="item", name="basic-circuit-board", amount=1},
+      {type="item", name="basic-electronic-components", amount=5},
+      {type="item", name="solder", amount=1}
     },
-    result = "electronic-circuit",
+    results = {{type="item", name="electronic-circuit", amount=1}}
   },
   {
     type = "recipe",
@@ -61,9 +60,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"basic-circuit-board", 250},
+      {type="item", name="basic-circuit-board", amount=250},
     },
-    result = "electronic-circuit",
+    results = {{type="item", name="electronic-circuit", amount=1}}
   },
 }
 )
@@ -88,12 +87,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"circuit-board", 1},
-      {"solder", 1},
-      {"basic-electronic-components", 4},
-      {"electronic-components", 1},
+      {type="item", name="circuit-board", amount=1},
+      {type="item", name="solder", amount=1},
+      {type="item", name="basic-electronic-components", amount=4},
+      {type="item", name="electronic-components", amount=1},
     },
-    result = "advanced-circuit",
+    results = {{type="item", name="advanced-circuit", amount=1}}
   },
   {
     type = "recipe",
@@ -103,9 +102,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"electronic-circuit", 750},
+      {type="item", name="electronic-circuit", amount=750},
     },
-    result = "advanced-circuit",
+    results = {{type="item", name="advanced-circuit", amount=1}}
   },
 }
 )
@@ -130,13 +129,13 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"superior-circuit-board", 1},
-      {"solder", 1},      
-      {"basic-electronic-components", 2},
-      {"electronic-components", 4},
-      {"intergrated-electronics", 2},
+      {type="item", name="superior-circuit-board", amount=1},
+      {type="item", name="solder", amount=1},      
+      {type="item", name="basic-electronic-components", amount=2},
+      {type="item", name="electronic-components", amount=4},
+      {type="item", name="intergrated-electronics", amount=2},
     },
-    result = "processing-unit",
+    results = {{type="item", name="processing-unit", amount=1}}
   },
   {
     type = "recipe",
@@ -146,9 +145,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"advanced-circuit", 1000},
+      {type="item", name="advanced-circuit", amount=1000},
     },
-    result = "processing-unit",
+    results = {{type="item", name="processing-unit", amount=1}}
   },
 }
 )
@@ -173,14 +172,14 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"multi-layer-circuit-board", 1},
-      {"solder", 1},      
-      {"basic-electronic-components", 1},
-      {"electronic-components", 2},
-      {"intergrated-electronics", 4},
-      {"processing-electronics", 1},
+      {type="item", name="multi-layer-circuit-board", amount=1},
+      {type="item", name="solder", amount=1},      
+      {type="item", name="basic-electronic-components", amount=1},
+      {type="item", name="electronic-components", amount=2},
+      {type="item", name="intergrated-electronics", amount=4},
+      {type="item", name="processing-electronics", amount=1},
     },
-    result = "advanced-processing-unit",
+    results = {{type="item", name="advanced-processing-unit", amount=1}}
   },
   {
     type = "recipe",
@@ -190,9 +189,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"processing-unit", 200},
+      {type="item", name="processing-unit", amount=200},
     },
-    result = "advanced-processing-unit",
+    results = {{type="item", name="advanced-processing-unit", amount=1}}
   },
 }
 )

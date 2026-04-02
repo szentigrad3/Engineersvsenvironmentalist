@@ -9,18 +9,13 @@ data:extend(
     order = "b-d[chalcopyrite-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "chalcopyrite-ore"
-  },
-	{
+{
 		type = "resource",
 		minable =
     {
-      hardness = 0.9,
       mining_particle = "copper-ore-particle",
       mining_time = 2,
-      result = "copper-ore"
+      results = {{type="item", name="copper-ore", amount=1}}
     },
 		name = "chalcopyrite-ore",
 		tint = {r = 0.8, g = 0.75, b = 0.1},
@@ -53,7 +48,6 @@ data:extend(
       },
       {
         influence = 0.28,
-        noise_layer = "chalcopyrite-ore",
         noise_octaves_difference = -1.9,
         noise_persistence = 0.3,
         starting_area_weight_optimal = 0,
@@ -62,7 +56,6 @@ data:extend(
       },
       {
         influence = 0.34,
-        noise_layer = "chalcopyrite-ore",
         noise_octaves_difference = -3,
         noise_persistence = 0.4,
         starting_area_weight_optimal = 1,

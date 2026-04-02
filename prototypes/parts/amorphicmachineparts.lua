@@ -17,13 +17,13 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 1},
-      {"cast-aluminium", 1},
-	  {"gold-plate", 1},
+      {type="item", name="iron-gear-wheel", amount=1},
+      {type="item", name="cast-aluminium", amount=1},
+	  {type="item", name="gold-plate", amount=1},
 	  
 
     },
-    results= {{"amorphicmachineparts",1}}
+    results= {{type="item", name="amorphicmachineparts", amount=1}}
   },
 
   {
@@ -35,13 +35,13 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 1},
-      {"cast-aluminium", 1},
-	  {"gold-plate", 1},
+      {type="item", name="iron-gear-wheel", amount=1},
+      {type="item", name="cast-aluminium", amount=1},
+	  {type="item", name="gold-plate", amount=1},
 	  
 
     },
-    results= {{"amorphicmachineparts",1}}
+    results= {{type="item", name="amorphicmachineparts", amount=1}}
   },
   {
     type = "recipe",
@@ -52,11 +52,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 1},
-      {"cast-aluminium", 1},
-	{"brass-alloy", 1},
+      {type="item", name="iron-gear-wheel", amount=1},
+      {type="item", name="cast-aluminium", amount=1},
+	{type="item", name="brass-alloy", amount=1},
     },
-    results= {{"amorphicmachineparts",2}}
+    results= {{type="item", name="amorphicmachineparts", amount=2}}
   },
   {
     type = "recipe",
@@ -67,11 +67,11 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"iron-gear-wheel", 1},
-      {"steel-plate", 1},
-{"bronze-alloy", 1},
+      {type="item", name="iron-gear-wheel", amount=1},
+      {type="item", name="steel-plate", amount=1},
+{type="item", name="bronze-alloy", amount=1},
     },
-    results= {{"amorphicmachineparts",5}}
+    results= {{type="item", name="amorphicmachineparts", amount=5}}
   },
 
   {
@@ -83,12 +83,12 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"iron-gear-wheel", 1},
-      {"cast-aluminium", 1},
-{"cobalt-steel-alloy", 1},
-{"silver-plate", 1},
+      {type="item", name="iron-gear-wheel", amount=1},
+      {type="item", name="cast-aluminium", amount=1},
+{type="item", name="cobalt-steel-alloy", amount=1},
+{type="item", name="silver-plate", amount=1},
     },
-    results= {{"amorphicmachineparts",10}}
+    results= {{type="item", name="amorphicmachineparts", amount=10}}
   },
 
   {
@@ -100,14 +100,14 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"iron-gear-wheel", 1},
-      {"cast-aluminium", 1},
-{"cobalt-steel-alloy", 1},
-{"invar-alloy", 1},
-{"nitinol-alloy", 1},
-{"silver-plate", 1},
+      {type="item", name="iron-gear-wheel", amount=1},
+      {type="item", name="cast-aluminium", amount=1},
+{type="item", name="cobalt-steel-alloy", amount=1},
+{type="item", name="invar-alloy", amount=1},
+{type="item", name="nitinol-alloy", amount=1},
+{type="item", name="silver-plate", amount=1},
     },
-    results= {{"amorphicmachineparts",50}}
+    results= {{type="item", name="amorphicmachineparts", amount=50}}
   },
 
   }

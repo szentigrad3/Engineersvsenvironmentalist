@@ -21,8 +21,7 @@ data:extend({
       {type="item", name="coalpowder", amount=10},
 	  {type="fluid", name="liquid-air", amount=50},
     },
-    result = "carbon-fibrestage1",
-    result_count = 1,
+    results = {{type="item", name="carbon-fibrestage1", amount=1}}
   },
  {
     type = "item",
@@ -44,8 +43,7 @@ data:extend({
       {type="item", name="carbon-fibrestage1", amount=10},
 	  {type="fluid", name="nitrogen", amount=50},
     },
-    result = "carbon-fibrestage2",
-    result_count = 1,
+    results = {{type="item", name="carbon-fibrestage2", amount=1}}
   },
   
   
@@ -69,8 +67,7 @@ data:extend({
       {type="item", name="carbon-fibrestage2", amount=10},
 	  {type="fluid", name="nitrogen", amount=50},
     },
-    result = "carbon-fibre",
-    result_count = 1,
+    results = {{type="item", name="carbon-fibre", amount=1}}
   },
 
 })

@@ -63,9 +63,9 @@ data:extend({
 	subgroup = "steel-1",
 	order = "g-3",
     energy_required = 2,
-    ingredients = {{"iron-oxide-crushed",5}},
+    ingredients = {{type="item", name="iron-oxide-crushed", amount=5}},
     results = {
-	{"pig-iron",2},
+	{type="item", name="pig-iron", amount=2},
 		
 	},
 		
@@ -106,10 +106,10 @@ data:extend({
 		subgroup = "steel-1",
 		order = "d-1",
     energy_required = 2,
-    ingredients = {{"pig-iron",5}},
+    ingredients = {{type="item", name="pig-iron", amount=5}},
     results = {
-	{"iron-plate",1},
-	{"iron-slag",4},
+	{type="item", name="iron-plate", amount=1},
+	{type="item", name="iron-slag", amount=4},
 	},
 		
 		
@@ -137,11 +137,11 @@ data:extend({
 		subgroup = "steel-0",
 		order = "a-3",
     energy_required = 20,
-    ingredients = {{"iron-sulfate-crushed",5}},
+    ingredients = {{type="item", name="iron-sulfate-crushed", amount=5}},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/pig-iron.png",
     results = {
-	{"pig-iron",1},
-	{"iron-slag",4},
+	{type="item", name="pig-iron", amount=1},
+	{type="item", name="iron-slag", amount=4},
 	},
 		
 	},
@@ -152,11 +152,11 @@ data:extend({
 		subgroup = "steel-0",
 		order = "a-4",
     energy_required = 8,
-    ingredients = {{"iron-sulfate-crushed",5}, {"sand",1}},
+    ingredients = {{type="item", name="iron-sulfate-crushed", amount=5}, {type="item", name="sand", amount=1}},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/pig-iron.png",
         results = {
-	{"pig-iron",2},
-	{"iron-slag",3},
+	{type="item", name="pig-iron", amount=2},
+	{type="item", name="iron-slag", amount=3},
 	},
 		
 	},

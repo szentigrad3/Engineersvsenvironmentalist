@@ -21,18 +21,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"electronic-circuit", 5},
-      {"iron-plate", 5},
-      {"iron-gear-wheel", 5},
+      {type="item", name="electronic-circuit", amount=5},
+      {type="item", name="iron-plate", amount=5},
+      {type="item", name="iron-gear-wheel", amount=5},
     },
-    result = "electronics-machine-1"
+    results = {{type="item", name="electronics-machine-1", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "electronics-machine-1",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/electronics-machine-1.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "electronics-machine-1"},
+    minable = {mining_time = 0.5, result = "electronics-machine-1"},
     max_health = 250,
     corpse = "medium-remnants",
     dying_explosion = "medium-explosion",
@@ -122,19 +122,19 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"electronics-machine-1", 1},
-      {"advanced-circuit", 5},
-      {"steel-plate", 5},
-      {"iron-gear-wheel", 5},
+      {type="item", name="electronics-machine-1", amount=1},
+      {type="item", name="advanced-circuit", amount=5},
+      {type="item", name="steel-plate", amount=5},
+      {type="item", name="iron-gear-wheel", amount=5},
     },
-    result = "electronics-machine-2"
+    results = {{type="item", name="electronics-machine-2", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "electronics-machine-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/electronics-machine-2.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "electronics-machine-2"},
+    minable = {mining_time = 0.5, result = "electronics-machine-2"},
     max_health = 350,
     corpse = "medium-remnants",
     dying_explosion = "medium-explosion",
@@ -236,19 +236,19 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"electronics-machine-2", 1},
-      {"processing-unit", 5},
-      {"steel-plate", 5},
-      {"iron-gear-wheel", 5},
+      {type="item", name="electronics-machine-2", amount=1},
+      {type="item", name="processing-unit", amount=5},
+      {type="item", name="steel-plate", amount=5},
+      {type="item", name="iron-gear-wheel", amount=5},
     },
-    result = "electronics-machine-3"
+    results = {{type="item", name="electronics-machine-3", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "electronics-machine-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/electronics-machine-3.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "electronics-machine-3"},
+    minable = {mining_time = 0.5, result = "electronics-machine-3"},
     max_health = 450,
     corpse = "medium-remnants",
     dying_explosion = "medium-explosion",

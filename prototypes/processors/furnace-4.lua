@@ -14,9 +14,9 @@
   {
     type = "recipe",
     name = "furnace-4",
-    ingredients = {{"wall",18000},{"small-ai",1},
-{"advanced-machine-parts",20000}},
-    result = "furnace-4",
+    ingredients = {{type="item", name="wall", amount=18000},{type="item", name="small-ai", amount=1},
+{type="item", name="advanced-machine-parts", amount=20000}},
+    results = {{type="item", name="furnace-4", amount=1}},
     energy_required = 2000,
     enabled = false,
   },

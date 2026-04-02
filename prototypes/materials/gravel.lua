@@ -35,7 +35,7 @@ data:extend({
     {
       {type="item", name="gravel", amount=10},
     },
-    results = {{"gravel",8},{"sand",2}},
+    results = {{type="item", name="gravel", amount=8},{type="item", name="sand", amount=2}},
   },
   {
     type = "recipe",
@@ -49,11 +49,11 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"gravel", 2},
+      {type="item", name="gravel", amount=2},
     },
     results=
     {
-      {"processed-gravel",2},
+      {type="item", name="processed-gravel", amount=2},
 	  {type="item",name="gold-ore", probability=0.0001, amount_min=1, amount_max=1},
 	  {type="item",name="silver-ore", probability=0.001, amount_min=1, amount_max=1},
 	   {type="item",name="platinum-grain", probability=0.00001, amount_min=1, amount_max=1},
@@ -73,6 +73,6 @@ data:extend({
     {
       {type="item", name="processed-gravel", amount=10},
     },
-    results = {{"processed-gravel",8},{"sand",2}},
+    results = {{type="item", name="processed-gravel", amount=8},{type="item", name="sand", amount=2}},
   },
 })

@@ -80,7 +80,7 @@ data:extend(
     {
       {type="item", name="rutile-ore", amount=5}
     },
-    results =  {{"rutile-crushed",5},{"gravel",3}},
+    results =  {{type="item", name="rutile-crushed", amount=5},{type="item", name="gravel", amount=3}},
   },
    {
     type = "recipe",
@@ -96,7 +96,7 @@ data:extend(
     {
       {type="item", name="rutile-crushed", amount=1}
     },
-    results =  {{"titanium-dioxide",1}},
+    results =  {{type="item", name="titanium-dioxide", amount=1}},
   },
    {
     type = "recipe",
@@ -132,7 +132,7 @@ data:extend(
       {type="item", name="magnesium", amount=1},
       {type="fluid", name="titanium-tetrachloride", amount=1},
     },
-    results = {{"titanium-slag",1}},
+    results = {{type="item", name="titanium-slag", amount=1}},
   },
 {
     type = "recipe",
@@ -151,9 +151,9 @@ data:extend(
       {type="item", name="titanium-slag", amount=5},
     },
     results = {
-               {"titanium-sponge",5},
-               {"magnesium",1},
-               {"magnesium-chloride",1},
+               {type="item", name="titanium-sponge", amount=5},
+               {type="item", name="magnesium", amount=1},
+               {type="item", name="magnesium-chloride", amount=1},
               }
   },
   {
@@ -171,7 +171,7 @@ data:extend(
       {type="item", name="titanium-sponge", amount=1},
        {type="item", name="nickel-plate", amount=1},
     },
-    results = {{"titanium-plate",1}},
+    results = {{type="item", name="titanium-plate", amount=1}},
   },
 }
 )

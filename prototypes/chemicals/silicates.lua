@@ -142,8 +142,7 @@ data:extend({
       {type="item", name="carbon", amount=3},
       {type="item", name="iron-oxide-crushed", amount=1}
     },
-    result = "ferrosilicon",
-    result_count = 2,
+    results = {{type="item", name="ferrosilicon", amount=2}}
   },
   {
     type = "recipe",
@@ -159,8 +158,7 @@ data:extend({
       {type="item", name="carbon", amount=3},
       {type="item", name="iron-oxide-crushed", amount=1}
     },
-    result = "ferrosilicon",
-    result_count = 2,
+    results = {{type="item", name="ferrosilicon", amount=2}}
   },
   {
     type = "recipe",
@@ -175,8 +173,7 @@ data:extend({
       {type="item", name="sand", amount=5},
       {type="item", name="carbon", amount=2},
     },
-    result = "metallurgicalsilicon",
-    result_count = 1,
+    results = {{type="item", name="metallurgicalsilicon", amount=1}}
   },
   {
     type = "recipe",
@@ -191,8 +188,7 @@ data:extend({
       {type="item", name="quartz-crushed", amount=1},
       {type="item", name="carbon", amount=2},
     },
-    result = "metallurgicalsilicon",
-    result_count = 1,
+    results = {{type="item", name="metallurgicalsilicon", amount=1}}
   },
   {
     type = "recipe",
@@ -265,10 +261,10 @@ data:extend({
     energy_required = 7.5,
     ingredients =
     {
-     {"metallurgicalsilicon", 1},
+     {type="item", name="metallurgicalsilicon", amount=1},
      {type="fluid", name="nitrogen", amount=1.25},
     },
-    result = "silicon-nitride",
+    results = {{type="item", name="silicon-nitride", amount=1}}
   },
   {
 	type = "recipe",
@@ -279,10 +275,9 @@ data:extend({
 	energy_required = 5,
 	ingredients =
 	{
-		{"silicon",1}
+		{type="item", name="silicon", amount=1}
 	},
-	result = "silicon-wafer",
-	result_count = 8
+	results = {{type="item", name="silicon-wafer", amount=8}}
   },
   {
     type = "recipe",
@@ -293,10 +288,9 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"metallurgicalsilicon", 1},
+      {type="item", name="metallurgicalsilicon", amount=1},
       {type="item", name="carbon", amount=1}
     },
-    result="silicon-carbide",
-    result_count = 2,
+    results = {{type="item", name="silicon-carbide", amount=2}}
   },
 })

@@ -10,11 +10,7 @@ data:extend(
     order = "b-d[quartz]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "quartz"
-  },
-  {
+{
     type = "autoplace-control",
     name = "quartz",
     richness = true,
@@ -32,10 +28,9 @@ data:extend(
 		stage_mult = 10,
 		minable =
     {
-      hardness = 0.5,
       mining_particle = "stone-particle",
       mining_time = 2,
-      result = "quartz"
+      results = {{type="item", name="quartz", amount=1}}
     },
 		item =
 		{
@@ -62,7 +57,6 @@ data:extend(
       },
       {
         influence = 0.28,
-        noise_layer = "quartz",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,
@@ -71,7 +65,6 @@ data:extend(
       },
       {
         influence = 0.30,
-        noise_layer = "quartz",
         noise_octaves_difference = -3,
         noise_persistence = 0.4,
         starting_area_weight_optimal = 1,

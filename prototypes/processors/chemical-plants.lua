@@ -18,13 +18,13 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"wall",5},
-      {"storage-tank",1},
-      {"plumbing",5},
-      {"iron-gear-wheel",5},
-	  {"stupid-ai",1},
+      {type="item", name="wall", amount=5},
+      {type="item", name="storage-tank", amount=1},
+      {type="item", name="plumbing", amount=5},
+      {type="item", name="iron-gear-wheel", amount=5},
+	  {type="item", name="stupid-ai", amount=1},
     },
-    result= "chemical-plant"
+    results = {{type="item", name="chemical-plant", amount=1}}
   },
   {
     type = "assembling-machine",
@@ -32,7 +32,7 @@ data:extend(
     icon = "__base__/graphics/icons/chemical-plant.png",
 	icon_size = 32,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant"},
+    minable = {mining_time = 0.5, result = "chemical-plant"},
     max_health = 300,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -273,20 +273,20 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall",500},
-      {"storage-tank",5},
-      {"plumbing",150},
-      {"iron-gear-wheel",250},
-	  {"small-ai",5},
+      {type="item", name="wall", amount=500},
+      {type="item", name="storage-tank", amount=5},
+      {type="item", name="plumbing", amount=150},
+      {type="item", name="iron-gear-wheel", amount=250},
+	  {type="item", name="small-ai", amount=5},
     },
-    result = "chemical-plant-2"
+    results = {{type="item", name="chemical-plant-2", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "chemical-plant-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-2.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-2"},
+    minable = {mining_time = 0.5, result = "chemical-plant-2"},
     max_health = 350,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -517,20 +517,20 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall",5000},
-      {"storage-tank",100},
-      {"plumbing",3000},
-      {"iron-gear-wheel",3000},
-	   {"medium-ai",5},
+      {type="item", name="wall", amount=5000},
+      {type="item", name="storage-tank", amount=100},
+      {type="item", name="plumbing", amount=3000},
+      {type="item", name="iron-gear-wheel", amount=3000},
+	   {type="item", name="medium-ai", amount=5},
     },
-    result = "chemical-plant-3"
+    results = {{type="item", name="chemical-plant-3", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "chemical-plant-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-3.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-3"},
+    minable = {mining_time = 0.5, result = "chemical-plant-3"},
     max_health = 400,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -760,20 +760,20 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall",5000},
-      {"storage-tank",100},
-      {"plumbing",60000},
-      {"advanced-machine-parts",30000},
-	  {"large-ai",1},
+      {type="item", name="wall", amount=5000},
+      {type="item", name="storage-tank", amount=100},
+      {type="item", name="plumbing", amount=60000},
+      {type="item", name="advanced-machine-parts", amount=30000},
+	  {type="item", name="large-ai", amount=1},
     },
-    result = "chemical-plant-4"
+    results = {{type="item", name="chemical-plant-4", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "chemical-plant-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/chemical-plant-4.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "chemical-plant-4"},
+    minable = {mining_time = 0.5, result = "chemical-plant-4"},
     max_health = 500,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",

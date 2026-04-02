@@ -102,19 +102,19 @@ data:extend(
     enabled=false,
     ingredients =
     {
-      {"steam-unit", 1},
-      {"iron-gear-wheel", 10},
-	  {"wall", 1},
-	  {"explosives-analogue", 1},
+      {type="item", name="steam-unit", amount=1},
+      {type="item", name="iron-gear-wheel", amount=10},
+	  {type="item", name="wall", amount=1},
+	  {type="item", name="explosives-analogue", amount=1},
     },
-    results = {{"transport-belt",10}}
+    results = {{type="item", name="transport-belt", amount=10}}
   },
   {
     type = "transport-belt",
     name = "transport-belt",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/transport-belt.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.3, result = "transport-belt"},
+    minable = {mining_time = 0.3, result = "transport-belt"},
     max_health = 50,
     corpse = "small-remnants",
     resistances =
@@ -179,19 +179,18 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"transport-belt", 50},
-	  {"wall", 10},
-	  {"explosives-analogue", 100},
+      {type="item", name="transport-belt", amount=50},
+	  {type="item", name="wall", amount=10},
+	  {type="item", name="explosives-analogue", amount=100},
     },
-    result_count = 20,
-    result = "transport-belt-to-ground"
+    results = {{type="item", name="transport-belt-to-ground", amount=20}}
   },
   {
     type = "underground-belt",
     name = "transport-belt-to-ground",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/underground-belt.png",
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "transport-belt-to-ground"},
+    minable = {mining_time = 0.5, result = "transport-belt-to-ground"},
     max_health = 70,
     corpse = "small-remnants",
     max_distance = 5,
@@ -269,20 +268,20 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"transport-belt", 2},
-      {"steam-unit", 1},
-      {"basic-circuit-board", 3},
+      {type="item", name="transport-belt", amount=2},
+      {type="item", name="steam-unit", amount=1},
+      {type="item", name="basic-circuit-board", amount=3},
       
       
     },
-    result = "splitter"
+    results = {{type="item", name="splitter", amount=1}}
   },
   {
     type = "splitter",
     name = "splitter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/splitter.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "splitter"},
+    minable = {mining_time = 0.5, result = "splitter"},
     max_health = 80,
     corpse = "medium-remnants",
     resistances =

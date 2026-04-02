@@ -18,18 +18,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"electronic-circuit", 2},
-      {"copper-cable", 2},
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="electronic-circuit", amount=2},
+      {type="item", name="copper-cable", amount=2},
     },
-    result = "solar-panel-large"
+    results = {{type="item", name="solar-panel-large", amount=1}}
   },
 {
     type = "solar-panel",
     name = "solar-panel-large",
     icon = "__base__/graphics/icons/solar-panel.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "solar-panel-large"},
+    minable = {mining_time = 0.5, result = "solar-panel-large"},
     max_health = 100,
     corpse = "big-remnants",
     collision_box = {{-1.9, -1.9}, {1.9, 1.9}},
@@ -66,18 +66,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 4},
-      {"advanced-circuit", 2},
-      {"advanced-electric-cable", 4},
+      {type="item", name="iron-gear-wheel", amount=4},
+      {type="item", name="advanced-circuit", amount=2},
+      {type="item", name="advanced-electric-cable", amount=4},
     },
-    result = "solar-panel-large-2"
+    results = {{type="item", name="solar-panel-large-2", amount=1}}
   },
   {
     type = "solar-panel",
     name = "solar-panel-large-2",
     icon = "__base__/graphics/icons/solar-panel.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "solar-panel-large-2"},
+    minable = {mining_time = 0.5, result = "solar-panel-large-2"},
     max_health = 150,
     corpse = "big-remnants",
     collision_box = {{-1.9, -1.9}, {1.9, 1.9}},
@@ -114,18 +114,18 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"carbon-nanotubes", 1},
-      {"circuit-electric-cable",2},
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="carbon-nanotubes", amount=1},
+      {type="item", name="circuit-electric-cable", amount=2},
     },
-    result = "solar-panel-large-3"
+    results = {{type="item", name="solar-panel-large-3", amount=1}}
   },
   {
     type = "solar-panel",
     name = "solar-panel-large-3",
     icon = "__base__/graphics/icons/solar-panel.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "solar-panel-large-3"},
+    minable = {mining_time = 0.5, result = "solar-panel-large-3"},
     max_health = 200,
     corpse = "big-remnants",
     collision_box = {{-1.9, -1.9}, {1.9, 1.9}},

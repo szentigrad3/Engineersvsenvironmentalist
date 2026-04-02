@@ -7,7 +7,7 @@ data:extend(
     enabled=false;
     ingredients =
     {
-	  {"gem-ore", 1},
+	  {type="item", name="gem-ore", amount=1},
     },
     results =
     {

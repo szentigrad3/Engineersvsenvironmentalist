@@ -90,20 +90,20 @@ express_belt_starting_side =
     enabled = false,
     ingredients =
     {
-      {"engine-unit",1},
-      {"iron-gear-wheel", 1000},
-	  {"wall", 1000},
-	  {"explosives-analogue", 10000},
+      {type="item", name="engine-unit", amount=1},
+      {type="item", name="iron-gear-wheel", amount=1000},
+	  {type="item", name="wall", amount=1000},
+	  {type="item", name="explosives-analogue", amount=10000},
      
     },
-    results = {{"express-transport-belt",20}}
+    results = {{type="item", name="express-transport-belt", amount=20}}
   },
   {
     type = "transport-belt",
     name = "express-transport-belt",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-transport-belt.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.3, result = "express-transport-belt"},
+    minable = {mining_time = 0.3, result = "express-transport-belt"},
     max_health = 50,
     corpse = "small-remnants",
     max_distance = 15,
@@ -170,19 +170,18 @@ express_belt_starting_side =
     enabled = false,
     ingredients =
     {
-      {"express-transport-belt", 150},
-	  {"wall", 1000},
-	  {"explosives-analogue", 10000},
+      {type="item", name="express-transport-belt", amount=150},
+	  {type="item", name="wall", amount=1000},
+	  {type="item", name="explosives-analogue", amount=10000},
     },
-    result_count = 20,
-    result = "express-transport-belt-to-ground"
+    results = {{type="item", name="express-transport-belt-to-ground", amount=20}}
   },
   {
     type = "underground-belt",
     name = "express-transport-belt-to-ground",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-underground-belt.png",
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "express-transport-belt-to-ground"},
+    minable = {mining_time = 0.5, result = "express-transport-belt-to-ground"},
     max_health = 60,
     corpse = "small-remnants",
     underground_sprite =
@@ -261,19 +260,19 @@ express_belt_starting_side =
     energy_required = 2,
     ingredients =
     {
-      {"express-transport-belt", 2},
-      {"engine-unit",1},
-      {"advanced-circuit", 3},
+      {type="item", name="express-transport-belt", amount=2},
+      {type="item", name="engine-unit", amount=1},
+      {type="item", name="advanced-circuit", amount=3},
       {type="fluid",name="lubricant",amount=1},
     },
-    result = "express-splitter"
+    results = {{type="item", name="express-splitter", amount=1}}
   },
   {
     type = "splitter",
     name = "express-splitter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/express-splitter.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "express-splitter"},
+    minable = {mining_time = 0.5, result = "express-splitter"},
     max_health = 80,
     corpse = "medium-remnants",
     resistances =

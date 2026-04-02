@@ -133,7 +133,7 @@ data:extend({
     },
     results={
 	
-	  {"sand",1},
+	  {type="item", name="sand", amount=1},
       {type="fluid", name="sulfuric-acid", amount=100},
       {type="fluid", name="red-mud", amount=100},
     },
