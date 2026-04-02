@@ -91,64 +91,6 @@ data:extend(
       apparent_volume = 1.5,
       max_sounds_per_type = 3
     },
-    circuit_wire_connection_points =
-    {
-      {
-        shadow =
-        {
-          red = {2.6875, 1.3125},
-          green = {2.6875, 1.3125},
-        },
-        wire =
-        {
-          red = {1.1875, -0.28125},
-          green = {1.1875, -0.28125},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.21875, 1.1875},
-          green = {0.21875, 1.1875},
-        },
-        wire =
-        {
-          red = {-1, -0.25},
-          green = {-1, -0.25},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {2.6875, 1.3125},
-          green = {2.6875, 1.3125},
-        },
-        wire =
-        {
-          red = {1.1875, -0.28125},
-          green = {1.1875, -0.28125},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.21875, 1.1875},
-          green = {0.21875, 1.1875},
-        },
-        wire =
-        {
-          red = {-1, -0.25},
-          green = {-1, -0.25},
-        }
-      }
-    },
-circuit_connector_sprites =
-    {
-      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
-      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
-      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
-      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
-    },
     circuit_wire_max_distance = 7.5
   },
   {
@@ -242,64 +184,6 @@ circuit_connector_sprites =
       },
       apparent_volume = 1.5,
       max_sounds_per_type = 3
-    },
-    circuit_wire_connection_points =
-    {
-      {
-        shadow =
-        {
-          red = {2.6875, 1.3125},
-          green = {2.6875, 1.3125},
-        },
-        wire =
-        {
-          red = {1.1875, -0.28125},
-          green = {1.1875, -0.28125},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.21875, 1.1875},
-          green = {0.21875, 1.1875},
-        },
-        wire =
-        {
-          red = {-1, -0.25},
-          green = {-1, -0.25},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {2.6875, 1.3125},
-          green = {2.6875, 1.3125},
-        },
-        wire =
-        {
-          red = {1.1875, -0.28125},
-          green = {1.1875, -0.28125},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.21875, 1.1875},
-          green = {0.21875, 1.1875},
-        },
-        wire =
-        {
-          red = {-1, -0.25},
-          green = {-1, -0.25},
-        }
-      }
-    },
-    circuit_connector_sprites =
-    {
-      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
-      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
-      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
-      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
     },
     circuit_wire_max_distance = 7.5
   },
@@ -396,64 +280,6 @@ circuit_connector_sprites =
       apparent_volume = 1.5,
       max_sounds_per_type = 3
     },
-    circuit_wire_connection_points =
-    {
-      {
-        shadow =
-        {
-          red = {2.6875, 1.3125},
-          green = {2.6875, 1.3125},
-        },
-        wire =
-        {
-          red = {1.1875, -0.28125},
-          green = {1.1875, -0.28125},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.21875, 1.1875},
-          green = {0.21875, 1.1875},
-        },
-        wire =
-        {
-          red = {-1, -0.25},
-          green = {-1, -0.25},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {2.6875, 1.3125},
-          green = {2.6875, 1.3125},
-        },
-        wire =
-        {
-          red = {1.1875, -0.28125},
-          green = {1.1875, -0.28125},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.21875, 1.1875},
-          green = {0.21875, 1.1875},
-        },
-        wire =
-        {
-          red = {-1, -0.25},
-          green = {-1, -0.25},
-        }
-      }
-    },
-    circuit_connector_sprites =
-    {
-      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
-      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
-      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
-      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
-    },
     circuit_wire_max_distance = 7.5
   },
   {
@@ -547,64 +373,6 @@ circuit_connector_sprites =
       },
       apparent_volume = 1.5,
       max_sounds_per_type = 3
-    },
-    circuit_wire_connection_points =
-    {
-      {
-        shadow =
-        {
-          red = {2.6875, 1.3125},
-          green = {2.6875, 1.3125},
-        },
-        wire =
-        {
-          red = {1.1875, -0.28125},
-          green = {1.1875, -0.28125},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.21875, 1.1875},
-          green = {0.21875, 1.1875},
-        },
-        wire =
-        {
-          red = {-1, -0.25},
-          green = {-1, -0.25},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {2.6875, 1.3125},
-          green = {2.6875, 1.3125},
-        },
-        wire =
-        {
-          red = {1.1875, -0.28125},
-          green = {1.1875, -0.28125},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.21875, 1.1875},
-          green = {0.21875, 1.1875},
-        },
-        wire =
-        {
-          red = {-1, -0.25},
-          green = {-1, -0.25},
-        }
-      }
-    },
-    circuit_connector_sprites =
-    {
-      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
-      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
-      get_circuit_connector_sprites({-0.1875, -0.375}, nil, 7),
-      get_circuit_connector_sprites({0.375, -0.53125}, nil, 1),
     },
     circuit_wire_max_distance = 7.5
   },
