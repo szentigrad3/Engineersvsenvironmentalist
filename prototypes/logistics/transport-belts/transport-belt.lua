@@ -143,7 +143,7 @@ data:extend(
       width = 40,
       height = 40,
       frame_count = 16,
-direction_count = 12,
+      direction_count = 12,
     },
     belt_horizontal = basic_belt_horizontal,
     belt_vertical = basic_belt_vertical,

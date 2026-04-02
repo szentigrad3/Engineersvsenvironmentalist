@@ -133,7 +133,7 @@ express_belt_starting_side =
       width = 40,
       height = 40,
       frame_count = 32,
-direction_count = 12,
+      direction_count = 12,
     },
     belt_horizontal = express_belt_horizontal, -- specified in transport-belt-pictures.lua
     belt_vertical = express_belt_vertical,

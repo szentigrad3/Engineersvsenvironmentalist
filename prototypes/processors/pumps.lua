@@ -87,7 +87,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions_per_minute = { pollution = 0.240000 },
     },
     energy_usage = "30kW",
     pumping_speed = 200,

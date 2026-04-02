@@ -84,7 +84,7 @@
       fuel_category = "chemical",
       effectivity = 0.5,
       fuel_inventory_size = 1,
-      emissions = 0.1 / 6.5,
+      emissions_per_minute = { pollution = 0.923077 },
       smoke =
       {
         {
@@ -408,7 +408,7 @@
       fuel_category = "chemical",
       effectivity = 0.5,
       fuel_inventory_size = 1,
-      emissions = 0.1 / 6.5,
+      emissions_per_minute = { pollution = 0.923077 },
       smoke =
       {
         {
@@ -732,7 +732,7 @@
       fuel_category = "chemical",
       effectivity = 0.5,
       fuel_inventory_size = 1,
-      emissions = 0.1 / 6.5,
+      emissions_per_minute = { pollution = 0.923077 },
       smoke =
       {
         {

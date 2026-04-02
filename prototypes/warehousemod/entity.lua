@@ -4,142 +4,6 @@
  * See LICENCE in the project directory for licence information
 --]]
 
-function define_warehouse_connector(mainOffset)
-	local logisticAnimationOffset = {0.015625, 0.234375};
-	local result =
-	{
-		connector_main =
-		{
-			filename = "__Engineersvsenvironmentalist__/graphics/entity/circuit-connector/circuit-connector-main.png",
-			priority = "low",
-			width = 28,
-			height = 27,
-			x = 0,
-			y = 0,
-			shift = {0 + mainOffset[1], 0.015625 + mainOffset[2]},
-		},
-		led_red =
-		{
-			filename = "__Engineersvsenvironmentalist__/graphics/entity/circuit-connector/circuit-connector-led-red.png",
-			priority = "low",
-			width = 20,
-			height = 16,
-			x = 0,
-			y = 0,
-			shift = {0 + mainOffset[1], -0.03125 + mainOffset[2]},
-		},
-		led_green =
-		{
-			filename = "__Engineersvsenvironmentalist__/graphics/entity/circuit-connector/circuit-connector-led-green.png",
-			priority = "low",
-			width = 20,
-			height = 16,
-			x = 0,
-			y = 0,
-			shift = {0 + mainOffset[1], -0.03125 + mainOffset[2]},
-		},
-		led_blue =
-		{
-			filename = "__Engineersvsenvironmentalist__/graphics/entity/circuit-connector/circuit-connector-led-blue.png",
-			priority = "low",
-			width = 21,
-			height = 22,
-			x = 0,
-			y = 0,
-			shift = {-0.015625 + mainOffset[1], 0 + mainOffset[2]},
-		},
-		logistic_animation = 
-		{
-			filename = "__Engineersvsenvironmentalist__/graphics/entity/circuit-connector/circuit-connector-logistic-animation.png",
-			priority = "low",
-			blend_mode = "additive",
-			line_length = 4,
-			width = 43,
-			height = 43,
-			frame_count = 15,
-			shift = {0.015625 + logisticAnimationOffset[1] + mainOffset[1], -0.234375 + logisticAnimationOffset[2] + mainOffset[2]},
-		},
-
-		led_light =
-		{
-			intensity = 0.8,
-			size = 0.9,
-		},
-		blue_led_light_offset = {0 + mainOffset[1], -0.03125 + mainOffset[2]},
-		red_green_led_light_offset = {0 + mainOffset[1], -0.15625 + mainOffset[2]},
-	};
-
-	return result;
-end
-
-function define_storehouse_connector(mainOffset)
-	local logisticAnimationOffset = {0.015625, 0.234375};
-	local result =
-	{
-		connector_main =
-		{
-			filename = "__Engineersvsenvironmentalist__/graphics/entity/circuit-connector/circuit-connector-main.png",
-			priority = "low",
-			width = 28,
-			height = 27,
-			x = 0,
-			y = 0,
-			shift = {0 + mainOffset[1], 0.015625 + mainOffset[2]},
-		},
-		led_red =
-		{
-			filename = "__Engineersvsenvironmentalist__/graphics/entity/circuit-connector/circuit-connector-led-red.png",
-			priority = "low",
-			width = 20,
-			height = 16,
-			x = 0,
-			y = 0,
-			shift = {0 + mainOffset[1], -0.03125 + mainOffset[2]},
-		},
-		led_green =
-		{
-			filename = "__Engineersvsenvironmentalist__/graphics/entity/circuit-connector/circuit-connector-led-green.png",
-			priority = "low",
-			width = 20,
-			height = 16,
-			x = 0,
-			y = 0,
-			shift = {0 + mainOffset[1], -0.03125 + mainOffset[2]},
-		},
-		led_blue =
-		{
-			filename = "__Engineersvsenvironmentalist__/graphics/entity/circuit-connector/circuit-connector-led-blue.png",
-			priority = "low",
-			width = 21,
-			height = 22,
-			x = 0,
-			y = 0,
-			shift = {-0.015625 + mainOffset[1], 0 + mainOffset[2]},
-		},
-		logistic_animation = 
-		{
-			filename = "__Engineersvsenvironmentalist__/graphics/entity/circuit-connector/circuit-connector-logistic-animation.png",
-			priority = "low",
-			blend_mode = "additive",
-			line_length = 4,
-			width = 43,
-			height = 43,
-			frame_count = 15,
-			shift = {0.015625 + logisticAnimationOffset[1] + mainOffset[1], -0.234375 + logisticAnimationOffset[2] + mainOffset[2]},
-		},
-
-		led_light =
-		{
-			intensity = 0.8,
-			size = 0.9,
-		},
-		blue_led_light_offset = {0 + mainOffset[1], -0.03125 + mainOffset[2]},
-		red_green_led_light_offset = {0 + mainOffset[1], -0.15625 + mainOffset[2]},
-	};
-
-	return result;
-end
-
 function define_warehouse(name, logistics_name)
 	local entity_type = "container";
 	if (logistics_name ~= nil) then
@@ -175,21 +39,7 @@ function define_warehouse(name, logistics_name)
 			height = 240,
 			shift = {1.0, -0.3},
 		},
-		-- circuit_connector_sprites = define_warehouse_connector({0.1875, 0.15625}),
 		circuit_wire_max_distance = 7.5,
-		circuit_wire_connection_point =
-		{
-			shadow =
-			{
-				red = {2.01, 0.6},
-				green = {2.52, 0.6}
-			},
-			wire =
-			{
-				red = {1.71, 0.3},
-				green = {2.22, 0.3}
-			}
-		},
 	};
 
 	if (logistics_name ~= nil) then
@@ -237,21 +87,7 @@ function define_storehouse(name, logistics_name)
 			height = 100,
 			shift = {0.421875, 0},
 		},
-		-- circuit_connector_sprites = define_storehouse_connector({0.1875, 0.15625}),
 		circuit_wire_max_distance = 7.5,
-		circuit_wire_connection_point =
-		{
-			shadow =
-			{
-				red = {.26, -0.6},
-				green = {.36, -0.6}
-			},
-			wire =
-			{
-				red = {-0.16, -0.9},
-				green = {0.16, -0.9}
-			}
-		},
 	};
 
 	if (logistics_name ~= nil) then

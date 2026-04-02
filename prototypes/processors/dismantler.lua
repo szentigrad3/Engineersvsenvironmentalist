@@ -54,30 +54,33 @@
       fuel_inventory_size = 1,
       emissions_per_minute = { pollution = 0.015 },
     },
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
-        },
-      }
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
+        }
+      },
     },
     fast_replaceable_group = "dismantler"
   },

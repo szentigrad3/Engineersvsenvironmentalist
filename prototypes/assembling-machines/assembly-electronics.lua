@@ -98,7 +98,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01
+      emissions_per_minute = { pollution = 0.600000 },
     },
     energy_usage = "100kW",
     module_specification =
@@ -213,7 +213,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01
+      emissions_per_minute = { pollution = 0.600000 },
     },
     energy_usage = "213.75kW",
     module_specification =
@@ -328,7 +328,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01
+      emissions_per_minute = { pollution = 0.600000 },
     },
     energy_usage = "360kW",
     module_specification =
