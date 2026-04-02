@@ -5,7 +5,7 @@ data:extend(
     name = "furnace-1",
     icon = "__base__/graphics/icons/stone-furnace.png",
 	icon_size = 32,
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "basic-smelting",
     order = "a[stone-furnace]",
     place_result = "furnace-1",

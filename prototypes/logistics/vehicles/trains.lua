@@ -6,7 +6,7 @@ data:extend(
     type = "item",
     name = "electric-locomotive",
     icon = "__base__/graphics/icons/diesel-locomotive.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "trains",
     order = "a[train-system]-f[electric-locomotive]",
     place_result = "electric-locomotive",

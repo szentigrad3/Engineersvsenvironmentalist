@@ -11,7 +11,7 @@ data:extend(
       count = 10,
       time = 30,
       ingredients = {
-        {"science-pack-1", 1},
+        {"automation-science-pack", 1},
       },
     },
     effects =
@@ -50,8 +50,8 @@ data:extend(
       count = 20,
       time = 30,
       ingredients = {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
       },
     },
     effects =

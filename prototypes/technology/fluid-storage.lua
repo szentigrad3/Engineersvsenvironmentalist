@@ -14,7 +14,7 @@
     unit =
     {
       count = 20,
-      ingredients = {{"science-pack-1", 1}},
+      ingredients = {{"automation-science-pack", 1}},
       time = 15
     },
     order = "a-f-a",
@@ -34,7 +34,7 @@
     unit =
     {
       count = 20,
-      ingredients = {{"science-pack-1", 1}},
+      ingredients = {{"automation-science-pack", 1}},
       time = 15
     },
     order = "a-f-a",
@@ -54,7 +54,7 @@
     unit =
     {
       count = 20,
-      ingredients = {{"science-pack-1", 1}},
+      ingredients = {{"automation-science-pack", 1}},
       time = 15
     },
     order = "a-f-a",

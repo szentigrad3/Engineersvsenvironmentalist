@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "furnace-2",
     icon = "__base__/graphics/icons/steel-furnace.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "basic-smelting",
     order = "b[steel-furnace]",
     place_result = "furnace-2",

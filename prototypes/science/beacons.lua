@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "beacon",
     icon = "__base__/graphics/icons/beacon.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "h-modules",
     order = "a[beacon]",
     place_result = "beacon",

@@ -5,7 +5,7 @@
     type = "item",
     name = "furnace-4",
     icon = "__base__/graphics/icons/electric-furnace.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "basic-smelting",
     order = "c[electric-furnace]",
     place_result = "furnace-4",

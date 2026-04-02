@@ -30,7 +30,7 @@
     name = "h-mining",
     order = "a-d",
     inventory_order = "d-a",
-    icon = "__base__/graphics/icons/iron-axe.png",
+    icon = "__base__/graphics/icons/burner-mining-drill.png",
 	icon_size = 32,
   },
         {

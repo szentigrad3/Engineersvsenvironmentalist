@@ -2,7 +2,7 @@ data:extend(
 {
 {
     type = "tool",
-    name = "science-pack-1",
+    name = "automation-science-pack",
     icon = "__base__/graphics/icons/science-pack-1.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "pots",
@@ -13,7 +13,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "science-pack-1",
+    name = "automation-science-pack",
     energy_required = 5,
     category="crafting",
     ingredients =
@@ -21,11 +21,11 @@ data:extend(
       {"plumbing",50},
       {"basic-circuit-board",10}
     },
-    result = "science-pack-1"
+    result = "automation-science-pack"
   },
   {
     type = "tool",
-    name = "science-pack-2",
+    name = "logistic-science-pack",
     icon = "__base__/graphics/icons/science-pack-2.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "pots",
@@ -36,7 +36,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "science-pack-2",
+    name = "logistic-science-pack",
     enabled = false,
     energy_required = 50,
     category="science-pots",
@@ -47,11 +47,11 @@ data:extend(
       {"electronic-circuit", 1},
       
     },
-    result = "science-pack-2"
+    result = "logistic-science-pack"
   },
   {
     type = "tool",
-    name = "science-pack-3",
+    name = "chemical-science-pack",
     icon = "__base__/graphics/icons/science-pack-3.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "pots",
@@ -62,7 +62,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "science-pack-3",
+    name = "chemical-science-pack",
     enabled = false,
     energy_required = 3000,
     category="science-pots",
@@ -73,11 +73,11 @@ data:extend(
       {"battery",5},
       
     },
-    result = "science-pack-3"
+    result = "chemical-science-pack"
   }, 
   {
     type = "tool",
-    name = "science-pack-4",
+    name = "production-science-pack",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/science/science-pack-4.png",
     flags = {"goes-to-main-inventory"},
     subgroup = "pots",
@@ -88,7 +88,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "science-pack-4",
+    name = "production-science-pack",
     enabled = false,
     energy_required = 50000,
     category="science-pots",
@@ -100,7 +100,7 @@ data:extend(
       {"lithium-ion-battery",1},
       
     },
-    result = "science-pack-4"
+    result = "production-science-pack"
   }, 
   {
     type = "tool",

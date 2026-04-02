@@ -13,10 +13,6 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "steel-axe"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "iron-gear-wheel|steel"
       }, 
       {
@@ -35,7 +31,7 @@ data:extend(
     unit =
     {
       count = 2,
-      ingredients = {{"science-pack-1", 5}},
+      ingredients = {{"automation-science-pack", 5}},
       time = 5
     },
     order = "c-a"

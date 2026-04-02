@@ -15,7 +15,7 @@
     unit =
     {
       count = 10,
-      ingredients = {{"science-pack-1", 1}},
+      ingredients = {{"automation-science-pack", 1}},
       time = 15
     },
     order = "a-h-a",

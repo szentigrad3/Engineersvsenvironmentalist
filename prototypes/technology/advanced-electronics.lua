@@ -32,7 +32,7 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "science-pack-3"
+        recipe = "chemical-science-pack"
       },
     },
     prerequisites = {"electronics","silicon-processing","plastics","chemical-plants-2"},
@@ -41,8 +41,8 @@ data:extend(
       count = 40,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
 		{ "computing-pack-1",1},
 		
       },
