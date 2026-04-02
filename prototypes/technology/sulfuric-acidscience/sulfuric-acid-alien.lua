@@ -46,7 +46,7 @@ data:extend(
       count = 10,
       ingredients =
       {
-		{"alien-science-pack", 1},
+		{type="item", name="alien-science-pack", amount=1},
       },
       time = 30
     },

@@ -54,12 +54,12 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"wall",1},
-      {"plumbing",5},
-      {"iron-gear-wheel",5},
-	  {"stupid-ai",1},
+      {type="item", name="wall", amount=1},
+      {type="item", name="plumbing", amount=5},
+      {type="item", name="iron-gear-wheel", amount=5},
+	  {type="item", name="stupid-ai", amount=1},
     },
-    result = "electrolyser"
+    results = {{type="item", name="electrolyser", amount=1}}
   },
 
   {
@@ -69,13 +69,13 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",500},
-      {"storage-tank",100},
-      {"plumbing",1000},
-      {"iron-gear-wheel",1000},
-	  {"small-ai",1}, 
+      {type="item", name="wall", amount=500},
+      {type="item", name="storage-tank", amount=100},
+      {type="item", name="plumbing", amount=1000},
+      {type="item", name="iron-gear-wheel", amount=1000},
+	  {type="item", name="small-ai", amount=1}, 
     },
-    result = "electrolyser-2"
+    results = {{type="item", name="electrolyser-2", amount=1}}
   },
 
   {
@@ -85,13 +85,13 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",5000},
-      {"storage-tank",100},
-      {"plumbing",5000},
-       {"iron-gear-wheel",10000},
-	   {"small-ai",1}, 
+      {type="item", name="wall", amount=5000},
+      {type="item", name="storage-tank", amount=100},
+      {type="item", name="plumbing", amount=5000},
+       {type="item", name="iron-gear-wheel", amount=10000},
+	   {type="item", name="small-ai", amount=1}, 
     },
-    result = "electrolyser-3"
+    results = {{type="item", name="electrolyser-3", amount=1}}
   },
 
   {
@@ -101,14 +101,14 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",20000},
-      {"storage-tank",100},
-      {"plumbing",40000},
-	  {"advanced-machine-parts",5000},
-	  {"medium-ai",1},
+      {type="item", name="wall", amount=20000},
+      {type="item", name="storage-tank", amount=100},
+      {type="item", name="plumbing", amount=40000},
+	  {type="item", name="advanced-machine-parts", amount=5000},
+	  {type="item", name="medium-ai", amount=1},
      
     },
-    result = "electrolyser-4"
+    results = {{type="item", name="electrolyser-4", amount=1}}
   },
 })
 
@@ -119,7 +119,7 @@ data:extend({
     name = "electrolyser",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyser"},
+    minable = {mining_time = 0.5, result = "electrolyser"},
     fast_replaceable_group = "electrolyser",
     corpse = "big-remnants",
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
@@ -224,7 +224,7 @@ data:extend({
     name = "electrolyser-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-2.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyser-2"},
+    minable = {mining_time = 0.5, result = "electrolyser-2"},
     fast_replaceable_group = "electrolyser",
     corpse = "big-remnants",
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
@@ -327,7 +327,7 @@ data:extend({
     name = "electrolyser-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-3.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyser-3"},
+    minable = {mining_time = 0.5, result = "electrolyser-3"},
     fast_replaceable_group = "electrolyser",
     corpse = "big-remnants",
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
@@ -430,7 +430,7 @@ data:extend({
     name = "electrolyser-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/electrolyser-4.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "electrolyser-4"},
+    minable = {mining_time = 0.5, result = "electrolyser-4"},
     fast_replaceable_group = "electrolyser",
     corpse = "big-remnants",
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},

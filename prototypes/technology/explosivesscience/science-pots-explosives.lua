@@ -18,10 +18,10 @@ data:extend(
     category="explosive-pots",
     ingredients =
     {
-      {"explosives-analogue",10},
-      {"iron-gear-wheel",10},
+      {type="item", name="explosives-analogue", amount=10},
+      {type="item", name="iron-gear-wheel", amount=10},
     },
-    result = "science-pack-explosives1"
+    results = {{type="item", name="science-pack-explosives1", amount=1}}
   },
   {
     type = "tool",
@@ -42,12 +42,12 @@ data:extend(
     category="explosive-pots",
     ingredients =
     {
-      {"explosives-analogue",100},
-      {"basic-circuit-board",5},
-	  {"iron-gear-wheel",5},
+      {type="item", name="explosives-analogue", amount=100},
+      {type="item", name="basic-circuit-board", amount=5},
+	  {type="item", name="iron-gear-wheel", amount=5},
       
     },
-    result = "science-pack-explosives2"
+    results = {{type="item", name="science-pack-explosives2", amount=1}}
   },
   {
     type = "tool",
@@ -71,12 +71,12 @@ data:extend(
     category="explosive-pots",
     ingredients =
     {
-      {"explosives-analogue",1000},
-      {"basic-circuit-board",5},
-	  {"iron-gear-wheel",50},
+      {type="item", name="explosives-analogue", amount=1000},
+      {type="item", name="basic-circuit-board", amount=5},
+	  {type="item", name="iron-gear-wheel", amount=50},
       
     },
-    result = "science-pack-explosives3"
+    results = {{type="item", name="science-pack-explosives3", amount=1}}
   },
   
   {
@@ -100,12 +100,12 @@ data:extend(
     category="explosive-pots",
     ingredients =
     {
-      {"explosives-analogue",10000},
-      {"basic-circuit-board",5},
-	  {"iron-gear-wheel",5},
+      {type="item", name="explosives-analogue", amount=10000},
+      {type="item", name="basic-circuit-board", amount=5},
+	  {type="item", name="iron-gear-wheel", amount=5},
       
     },
-    result = "science-pack-explosives4"
+    results = {{type="item", name="science-pack-explosives4", amount=1}}
   },
   
   

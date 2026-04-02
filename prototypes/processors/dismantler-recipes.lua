@@ -7,7 +7,7 @@ data:extend(
     category = "dismantler",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/dismantling.png",
     hidden=true,
-    ingredients = {{"dismantler",1}},
+    ingredients = {{type="item", name="dismantler", amount=1}},
     energy_required = 10,
     results = {{type="item", name="wall", probability=1, amount_min=1, amount_max=4}},
  },

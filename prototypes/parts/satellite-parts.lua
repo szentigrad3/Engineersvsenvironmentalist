@@ -18,11 +18,11 @@
     order = "d-1",
     ingredients =
     {
-      {"steel-plate", 10},
-      {"copper-plate", 5},
-      {"plastic-bar", 5}
+      {type="item", name="steel-plate", amount=10},
+      {type="item", name="copper-plate", amount=5},
+      {type="item", name="plastic-bar", amount=5}
     },
-    result= "low-density-structure"
+    results = {{type="item", name="low-density-structure", amount=1}}
   },
   {
     type = "item",
@@ -42,10 +42,10 @@
     category = "crafting",
     ingredients =
     {
-      {"processing-unit", 1},
-      {"speed-module", 1}
+      {type="item", name="processing-unit", amount=1},
+      {type="item", name="speed-module", amount=1}
     },
-    result= "rocket-control-unit"
+    results = {{type="item", name="rocket-control-unit", amount=1}}
   },
   {
     type = "item",
@@ -65,11 +65,11 @@
     category = "rocket-building",
     ingredients =
     {
-      {"low-density-structure", 10},
-      {"rocket-fuel", 10},
-      {"rocket-control-unit", 10}
+      {type="item", name="low-density-structure", amount=10},
+      {type="item", name="rocket-fuel", amount=10},
+      {type="item", name="rocket-control-unit", amount=10}
     },
-    result= "rocket-part"
+    results = {{type="item", name="rocket-part", amount=1}}
   },
    {
     type = "item",
@@ -89,14 +89,14 @@
     category = "crafting",
     ingredients =
     {
-      {"low-density-structure", 100},
-      {"solar-panel", 100},
-      {"accumulator", 100},
-      {"radar", 5},
-      {"processing-unit", 100},
-      {"rocket-fuel", 50}
+      {type="item", name="low-density-structure", amount=100},
+      {type="item", name="solar-panel", amount=100},
+      {type="item", name="accumulator", amount=100},
+      {type="item", name="radar", amount=5},
+      {type="item", name="processing-unit", amount=100},
+      {type="item", name="rocket-fuel", amount=50}
     },
-    result= "satellite"
+    results = {{type="item", name="satellite", amount=1}}
   },
   }
   )

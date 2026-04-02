@@ -20,7 +20,7 @@ data:extend(
       count = 10,
       ingredients =
       {
-        {"science-pack-sulfuric-acid1", 1},
+        {type="item", name="science-pack-sulfuric-acid1", amount=1},
      
       },
       time = 30

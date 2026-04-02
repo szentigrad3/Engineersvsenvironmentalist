@@ -17,10 +17,9 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"wood", 1},
+      {type="item", name="wood", amount=1},
     },
-    result = "wooden-board",
-    result_count = 2
+    results = {{type="item", name="wooden-board", amount=2}}
   },
   }
   )
@@ -34,10 +33,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-     {"synthetic-wood", 1},
+     {type="item", name="synthetic-wood", amount=1},
     },
-    result = "wooden-board",
-    result_count = 2
+    results = {{type="item", name="wooden-board", amount=2}}
   },
 }
 )
@@ -50,10 +48,9 @@ data:extend(
     enabled = true,
     ingredients =
     {
-     {"glass", 1},
+     {type="item", name="glass", amount=1},
     },
-    result = "wooden-board",
-    result_count = 1
+    results = {{type="item", name="wooden-board", amount=1}}
   },
 }
 )
@@ -77,11 +74,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wood", 1},
-      {"resin", 1},  --Phenol formaldehyde resin
+      {type="item", name="wood", amount=1},
+      {type="item", name="resin", amount=1},  --Phenol formaldehyde resin
     },
-    result = "phenolic-board",
-    result_count = 2
+    results = {{type="item", name="phenolic-board", amount=2}}
   },
   {
     type = "recipe",
@@ -91,11 +87,10 @@ data:extend(
     ingredients =
     {
 
-      {"synthetic-wood", 1},
-      {"resin", 1},   --Phenol formaldehyde resin
+      {type="item", name="synthetic-wood", amount=1},
+      {type="item", name="resin", amount=1},   --Phenol formaldehyde resin
     },
-    result = "phenolic-board",
-    result_count = 2
+    results = {{type="item", name="phenolic-board", amount=2}}
   },
 }
 )
@@ -119,12 +114,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"calcium-oxide", 1},
-      {"sand", 1},
+      {type="item", name="calcium-oxide", amount=1},
+      {type="item", name="sand", amount=1},
       --soda ash
     },
-    result = "fibreglass-board",
-    result_count = 2
+    results = {{type="item", name="fibreglass-board", amount=2}}
   },
 }
 )
@@ -149,11 +143,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"phenolic-board", 1},
-      {"copper-plate", 1},
+      {type="item", name="phenolic-board", amount=1},
+      {type="item", name="copper-plate", amount=1},
       {type="fluid", name="ferric-chloride-solution", amount=0.5}
     },
-    result = "circuit-board",
+    results = {{type="item", name="circuit-board", amount=1}}
   },
 }
 )
@@ -177,11 +171,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"fibreglass-board", 1},
-      {"copper-plate", 1},
+      {type="item", name="fibreglass-board", amount=1},
+      {type="item", name="copper-plate", amount=1},
       {type="fluid", name="ferric-chloride-solution", amount=0.5}
     },
-    result = "superior-circuit-board",
+    results = {{type="item", name="superior-circuit-board", amount=1}}
   },
 }
 )
@@ -205,11 +199,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"fibreglass-board", 1},
-      {"copper-plate", 2},
+      {type="item", name="fibreglass-board", amount=1},
+      {type="item", name="copper-plate", amount=2},
       {type="fluid", name="ferric-chloride-solution", amount=1}
     },
-    result = "multi-layer-circuit-board",
+    results = {{type="item", name="multi-layer-circuit-board", amount=1}}
   },
 }
 )

@@ -29,8 +29,7 @@ data:extend({
     {
       {type="item", name="coalpowder", amount=1000},
     },
-    result = "carbon-nanotubes",
-    result_count = 1,
+    results = {{type="item", name="carbon-nanotubes", amount=1}}
   },
   {
 		type = "recipe",
@@ -39,9 +38,9 @@ data:extend({
 		subgroup = "coal-base",
 		enabled = "true",
     energy_required = 0.1,
-    ingredients = {{"coal",1}},
+    ingredients = {{type="item", name="coal", amount=1}},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/coalpowder.png",
-    results = {{"coalpowder",1}},
+    results = {{type="item", name="coalpowder", amount=1}},
 		order = "a"
 	}
 })

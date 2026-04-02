@@ -18,10 +18,10 @@ data:extend(
     category="clean-pots",
     ingredients =
     {
-      {"pollutants",1},
+      {type="item", name="pollutants", amount=1},
       
     },
-    result = "science-pack-clean1"
+    results = {{type="item", name="science-pack-clean1", amount=1}}
   },
   {
     type = "tool",
@@ -42,10 +42,10 @@ data:extend(
     category="clean-pots",
     ingredients =
     {
-      {"pollutants",100},
+      {type="item", name="pollutants", amount=100},
             
     },
-    result = "science-pack-clean2"
+    results = {{type="item", name="science-pack-clean2", amount=1}}
   },
   {
     type = "tool",
@@ -66,11 +66,11 @@ data:extend(
     category="clean-pots",
     ingredients =
     {
-      {"pollutants", 5000},
+      {type="item", name="pollutants", amount=5000},
     
       
     },
-    result = "science-pack-clean3"
+    results = {{type="item", name="science-pack-clean3", amount=1}}
   }, 
   {
     type = "tool",
@@ -91,11 +91,11 @@ data:extend(
     category="clean-pots",
     ingredients =
     {
-      {"pollutants", 64000},
+      {type="item", name="pollutants", amount=64000},
  
       
     },
-    result = "science-pack-clean4"
+    results = {{type="item", name="science-pack-clean4", amount=1}}
   },
   
   

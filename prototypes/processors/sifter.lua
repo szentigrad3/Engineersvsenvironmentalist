@@ -15,18 +15,18 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"wall", 1},
-      {"plumbing", 5},
-      {"iron-gear-wheel", 1},
+      {type="item", name="wall", amount=1},
+      {type="item", name="plumbing", amount=5},
+      {type="item", name="iron-gear-wheel", amount=1},
     },
-    result = "sifter-1"
+    results = {{type="item", name="sifter-1", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "sifter-1",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/sifter.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "sifter-1"},
+    minable = {mining_time = 0.5, result = "sifter-1"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -148,18 +148,18 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall", 450},
-      {"plumbing", 450},
-      {"iron-gear-wheel", 500},
+      {type="item", name="wall", amount=450},
+      {type="item", name="plumbing", amount=450},
+      {type="item", name="iron-gear-wheel", amount=500},
     },
-    result = "sifter-3"
+    results = {{type="item", name="sifter-3", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "sifter-3",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/sifter.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "sifter-3"},
+    minable = {mining_time = 0.5, result = "sifter-3"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -272,18 +272,18 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall", 30000},
-      {"plumbing", 9000},
-      {"iron-gear-wheel", 1000},
+      {type="item", name="wall", amount=30000},
+      {type="item", name="plumbing", amount=9000},
+      {type="item", name="iron-gear-wheel", amount=1000},
     },
-    result = "sifter-4"
+    results = {{type="item", name="sifter-4", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "sifter-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/sifter.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "sifter-4"},
+    minable = {mining_time = 0.5, result = "sifter-4"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -396,18 +396,18 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"wall", 50},
-      {"plumbing", 50},
-      {"iron-gear-wheel", 50},
+      {type="item", name="wall", amount=50},
+      {type="item", name="plumbing", amount=50},
+      {type="item", name="iron-gear-wheel", amount=50},
     },
-    result = "sifter-2"
+    results = {{type="item", name="sifter-2", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "sifter-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/sifter.png",
     flags = {"placeable-neutral","placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "sifter-2"},
+    minable = {mining_time = 0.5, result = "sifter-2"},
     max_health = 600,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",

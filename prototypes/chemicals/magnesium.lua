@@ -40,11 +40,11 @@ data:extend(
     order = "a-1",
     energy_required = 1,
     enabled = false,
-    ingredients =  {{"calcium-oxide",1},
+    ingredients =  {{type="item", name="calcium-oxide", amount=1},
                     {type="fluid", name="water", amount=1}},
     results = {
-                 {"calcium",1},
-                 {"magnesium-hydroxide",1},
+                 {type="item", name="calcium", amount=1},
+                 {type="item", name="magnesium-hydroxide", amount=1},
               },
 
   },
@@ -58,10 +58,10 @@ data:extend(
     order = "a-2",
     energy_required = 1,
     enabled = false,
-    ingredients =  {{"magnesium-hydroxide",1},
+    ingredients =  {{type="item", name="magnesium-hydroxide", amount=1},
                     {type="fluid", name="hydrogen-chloride", amount=2}},
     results = {
-                 {"magnesium-chloride",1},
+                 {type="item", name="magnesium-chloride", amount=1},
                  {type="fluid", name="water", amount=2},
               },
 
@@ -76,10 +76,10 @@ data:extend(
     order = "a-3",
     energy_required = 1,
     enabled = false,
-    ingredients =  {{"magnesium-chloride",1}},
+    ingredients =  {{type="item", name="magnesium-chloride", amount=1}},
     results = {
                  {type="fluid", name="chlorine", amount=2},
-                 {"magnesium",1},
+                 {type="item", name="magnesium", amount=1},
               },
 
   },

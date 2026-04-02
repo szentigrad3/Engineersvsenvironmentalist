@@ -43,8 +43,8 @@ data:extend(
     order = "silver-1",
     energy_required = 1,
     enabled = true,
-    ingredients = {{"silver-ore", 5},},
-    results = {{"crushed-silver", 5},{"gravel",3}},
+    ingredients = {{type="item", name="silver-ore", amount=5},},
+    results = {{type="item", name="crushed-silver", amount=5},{type="item", name="gravel", amount=3}},
   },
    {
     type = "recipe",
@@ -58,12 +58,12 @@ data:extend(
     enabled = false,
     ingredients = 
     {
-    {"crushed-silver", 10},
-    {"cement",1},
+    {type="item", name="crushed-silver", amount=10},
+    {type="item", name="cement", amount=1},
     {type="fluid", name="water", amount=10}
     --{type="fluid", name="sodium-cyanide", amount=1}
     },
-    results = {{"silver-concentration", 10},{"gravel",1}},
+    results = {{type="item", name="silver-concentration", amount=10},{type="item", name="gravel", amount=1}},
   },
   {
     type = "recipe",
@@ -77,10 +77,10 @@ data:extend(
     enabled = false,
     ingredients = 
     {
-    {"silver-concentration", 10},
-    {"zinc-plate",1},
+    {type="item", name="silver-concentration", amount=10},
+    {type="item", name="zinc-plate", amount=1},
     },
-    results = {{"silver-plate", 10}},
+    results = {{type="item", name="silver-plate", amount=10}},
   },
 }
 )
@@ -109,12 +109,12 @@ data:extend(
     energy_required = 5,
     ingredients =
     {
-      {"silver-plate", 1},
+      {type="item", name="silver-plate", amount=1},
       {type="fluid", name="nitric-acid", amount=2},
     },
     results=
     {
-    {"silver-nitrate",1},
+    {type="item", name="silver-nitrate", amount=1},
     {type="fluid", name="water", amount=1},
     {type="fluid", name="nitrogen-dioxide", amount=2},
     }
@@ -146,11 +146,11 @@ data:extend(
     energy_required = 5,
     ingredients =
     {
-     {"silver-nitrate", 2},
-     {"sodium-hydroxide", 2},
+     {type="item", name="silver-nitrate", amount=2},
+     {type="item", name="sodium-hydroxide", amount=2},
     },
-    results={ {"silver-oxide",1},
-              {"sodium-nitrate",1},
+    results={ {type="item", name="silver-oxide", amount=1},
+              {type="item", name="sodium-nitrate", amount=1},
               {type="fluid", name="water", amount=1}},
   },
   }

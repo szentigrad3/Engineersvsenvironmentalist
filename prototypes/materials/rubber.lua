@@ -20,7 +20,7 @@ data:extend(
     {
       { "resin", 1},
     },
-    result = "rubber",
+    results = {{type="item", name="rubber", amount=1}}
   },
     {
     type = "recipe",
@@ -33,7 +33,7 @@ data:extend(
     {
       { type="fluid", name="heavy-oil", amount=1},
     },
-    results = {{"rubber",1}},
+    results = {{type="item", name="rubber", amount=1}},
   },
 }
 )

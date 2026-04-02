@@ -1,10 +1,6 @@
 data:extend(
 {
-  {
-    type = "noise-layer",
-    name = "sulfur"
-  },
-  {
+{
     type = "autoplace-control",
     name = "sulfur",
     richness = true,
@@ -15,15 +11,13 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 0.5,
       mining_particle = "stone-particle",
       mining_time = 1,
-      result = "sulfur"
+      results = {{type="item", name="sulfur", amount=1}}
     },
 		name = "sulfur",
 		tint = {r = 0.9, g = 0.75, b = 0.1},
 		map_color = {r=0.8, g=0.75, b=0.1},
-		hardness = 0.3,
 		mining_time = 1,
 		enabled = false,
 		icon = "__base__/graphics/icons/sulfur.png",
@@ -52,7 +46,6 @@ data:extend(
       },
       {
         influence = 0.28,
-        noise_layer = "sulfur",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.3,
         starting_area_weight_optimal = 1,

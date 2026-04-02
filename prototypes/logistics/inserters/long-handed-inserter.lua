@@ -16,18 +16,18 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"long-handed-burner-inserter", 1},
-      {"basic-circuit-board", 1},
-      {"iron-gear-wheel", 1},
+      {type="item", name="long-handed-burner-inserter", amount=1},
+      {type="item", name="basic-circuit-board", amount=1},
+      {type="item", name="iron-gear-wheel", amount=1},
     },
-    result = "long-handed-inserter"
+    results = {{type="item", name="long-handed-inserter", amount=1}}
   },
    {
     type = "inserter",
     name = "long-handed-inserter",
     icon = "__base__/graphics/icons/long-handed-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "long-handed-inserter"},
+    minable = {mining_time = 0.5, result = "long-handed-inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances =

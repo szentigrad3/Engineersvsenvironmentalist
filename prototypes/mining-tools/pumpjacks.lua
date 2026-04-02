@@ -18,11 +18,11 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"iron-gear-wheel", 20},
-      {"pipe", 100},
-      {"stupid-ai",1},
+      {type="item", name="iron-gear-wheel", amount=20},
+      {type="item", name="pipe", amount=100},
+      {type="item", name="stupid-ai", amount=1},
     },
-    result = "pumpjack",
+    results = {{type="item", name="pumpjack", amount=1}},
     enabled = true,
   },
   {
@@ -136,11 +136,11 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"iron-gear-wheel", 40},
-      {"small-ai", 1},
-      {"pipe", 500},
+      {type="item", name="iron-gear-wheel", amount=40},
+      {type="item", name="small-ai", amount=1},
+      {type="item", name="pipe", amount=500},
     },
-    result = "pumpjack-2",
+    results = {{type="item", name="pumpjack-2", amount=1}},
     enabled = "false"
   },
   {
@@ -246,11 +246,11 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"iron-gear-wheel", 500},
-      {"medium-ai", 1},
-      {"pipe", 40},
+      {type="item", name="iron-gear-wheel", amount=500},
+      {type="item", name="medium-ai", amount=1},
+      {type="item", name="pipe", amount=40},
     },
-    result = "pumpjack-3",
+    results = {{type="item", name="pumpjack-3", amount=1}},
     enabled = "false"
   },
   {
@@ -356,11 +356,11 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"iron-gear-wheel", 5000},
-      {"large-ai", 1},
-      {"pipe", 80},
+      {type="item", name="iron-gear-wheel", amount=5000},
+      {type="item", name="large-ai", amount=1},
+      {type="item", name="pipe", amount=80},
     },
-    result = "pumpjack-4",
+    results = {{type="item", name="pumpjack-4", amount=1}},
     enabled = "false"
   },
   {
@@ -465,11 +465,11 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"iron-gear-wheel", 32000},
-      {"large-ai", 5},
-      {"pipe", 160},
+      {type="item", name="iron-gear-wheel", amount=32000},
+      {type="item", name="large-ai", amount=5},
+      {type="item", name="pipe", amount=160},
     },
-    result = "pumpjack-5",
+    results = {{type="item", name="pumpjack-5", amount=1}},
     enabled = "false"
   },
   {

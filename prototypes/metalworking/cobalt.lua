@@ -60,8 +60,7 @@ data:extend(
       {type="item", name="cobalt-crushed", amount=2},
       {type="item", name="calcium", amount=1}
     },
-    result="cobalt-oxide",
-    result_count = 2,
+    results = {{type="item", name="cobalt-oxide", amount=2}}
   },
   {
     type = "recipe",
@@ -76,7 +75,7 @@ data:extend(
       {type="item", name="cobalt-oxide", amount=1},
       {type="fluid", name="sulfuric-acid", amount=1},
     },
-    result = "cobalt-plate",
+    results = {{type="item", name="cobalt-plate", amount=1}}
   },
 
   

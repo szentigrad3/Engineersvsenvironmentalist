@@ -9,11 +9,11 @@ data:extend({
 		order = "a-4",
     energy_required = 8,
 	enabled= false,
-    ingredients = {{"iron-sulfate-crushed",5}, {"sand",1}},
+    ingredients = {{type="item", name="iron-sulfate-crushed", amount=5}, {type="item", name="sand", amount=1}},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/pig-iron.png",
         results = {
-	{"pig-iron",2},
-	{"iron-slag",3},
+	{type="item", name="pig-iron", amount=2},
+	{type="item", name="iron-slag", amount=3},
 	},
 	
 	},
@@ -26,14 +26,14 @@ data:extend({
     energy_required = 3,
 	enabled= false,
     ingredients = {
-	{"iron-slag",5}, 
-	{"calcium-oxide",1},
-	{"coal",4},
+	{type="item", name="iron-slag", amount=5}, 
+	{type="item", name="calcium-oxide", amount=1},
+	{type="item", name="coal", amount=4},
 	
 	},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/pig-iron.png",
         results = {
-	{"pig-iron",5},
+	{type="item", name="pig-iron", amount=5},
 	},
 		order = "a-2"
 	},
@@ -58,14 +58,14 @@ data:extend({
     energy_required = 100,
     ingredients = 
 	{
-	{"pig-iron", 15}, 
-	{"calcium-oxide", 10},
-	{"coal", 10},
+	{type="item", name="pig-iron", amount=15}, 
+	{type="item", name="calcium-oxide", amount=10},
+	{type="item", name="coal", amount=10},
 	},
 		icon = "__base__/graphics/icons/steel-plate.png",
     results = {
-	{"steel-plate",5},
-	{"iron-slag",10}
+	{type="item", name="steel-plate", amount=5},
+	{type="item", name="iron-slag", amount=10}
 	},
 		order = "a-4"
   },

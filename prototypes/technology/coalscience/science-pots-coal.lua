@@ -18,11 +18,11 @@ data:extend(
     category="coal-pots",
     ingredients =
     {
-      {"coal",100},
-      {"basic-circuit-board",1},
-	  {"iron-gear-wheel",10},
+      {type="item", name="coal", amount=100},
+      {type="item", name="basic-circuit-board", amount=1},
+	  {type="item", name="iron-gear-wheel", amount=10},
     },
-    result = "science-pack-coal1"
+    results = {{type="item", name="science-pack-coal1", amount=1}}
   },
   {
     type = "tool",
@@ -43,12 +43,12 @@ data:extend(
     category="coal-pots",
     ingredients =
     {
-      {"carbon",100},
-      {"basic-circuit-board",5},
-	  {"iron-gear-wheel",5},
+      {type="item", name="carbon", amount=100},
+      {type="item", name="basic-circuit-board", amount=5},
+	  {type="item", name="iron-gear-wheel", amount=5},
       
     },
-    result = "science-pack-coal2"
+    results = {{type="item", name="science-pack-coal2", amount=1}}
   },
   {
     type = "tool",
@@ -69,12 +69,12 @@ data:extend(
     category="coal-pots",
     ingredients =
     {
-      {"iron-gear-wheel", 500},
-      {"coke", 500},
-      {"basic-circuit-board",50},
+      {type="item", name="iron-gear-wheel", amount=500},
+      {type="item", name="coke", amount=500},
+      {type="item", name="basic-circuit-board", amount=50},
       
     },
-    result = "science-pack-coal3"
+    results = {{type="item", name="science-pack-coal3", amount=1}}
   }, 
   {
     type = "tool",
@@ -95,13 +95,13 @@ data:extend(
     category="coal-pots",
     ingredients =
     {
-      {"carbon-fibre", 10},
-      {"gold-plate", 1},
-      {"processing-unit", 100},
+      {type="item", name="carbon-fibre", amount=10},
+      {type="item", name="gold-plate", amount=1},
+      {type="item", name="processing-unit", amount=100},
     
       
     },
-    result = "science-pack-coal4"
+    results = {{type="item", name="science-pack-coal4", amount=1}}
   },
   
   

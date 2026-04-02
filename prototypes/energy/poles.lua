@@ -16,18 +16,17 @@ data:extend(
     name = "small-electric-pole",
     ingredients =
     {
-      {"wood", 2},
-      {"copper-cable", 2}
+      {type="item", name="wood", amount=2},
+      {type="item", name="copper-cable", amount=2}
     },
-    result = "small-electric-pole",
-    result_count = 2
+    results = {{type="item", name="small-electric-pole", amount=2}}
   },
   {
     type = "electric-pole",
     name = "small-electric-pole",
     icon = "__base__/graphics/icons/small-electric-pole.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "small-electric-pole"},
+    minable = {mining_time = 0.5, result = "small-electric-pole"},
     max_health = 35,
     corpse = "small-remnants",
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
@@ -135,10 +134,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"advanced-electric-cable", 2}
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="advanced-electric-cable", amount=2}
     },
-    result = "medium-electric-pole"
+    results = {{type="item", name="medium-electric-pole", amount=1}}
   },
   {
     type = "electric-pole",
@@ -146,7 +145,7 @@ data:extend(
     icon = "__base__/graphics/icons/medium-electric-pole.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "medium-electric-pole"},
+    minable = {mining_time = 0.5, result = "medium-electric-pole"},
     max_health = 100,
     corpse = "small-remnants",
     resistances =
@@ -261,10 +260,10 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"advanced-electric-cable", 4},
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="advanced-electric-cable", amount=4},
     },
-    result = "medium-electric-pole-2"
+    results = {{type="item", name="medium-electric-pole-2", amount=1}}
   },
   {
     type = "electric-pole",
@@ -272,7 +271,7 @@ data:extend(
     icon = "__base__/graphics/icons/medium-electric-pole.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "medium-electric-pole-2"},
+    minable = {mining_time = 0.5, result = "medium-electric-pole-2"},
     max_health = 150,
     corpse = "small-remnants",
     resistances = 
@@ -413,10 +412,10 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"advanced-electric-cable", 6},
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="advanced-electric-cable", amount=6},
     },
-    result = "medium-electric-pole-3"
+    results = {{type="item", name="medium-electric-pole-3", amount=1}}
   },
   {
     type = "electric-pole",
@@ -424,7 +423,7 @@ data:extend(
     icon = "__base__/graphics/icons/medium-electric-pole.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "medium-electric-pole-3"},
+    minable = {mining_time = 0.5, result = "medium-electric-pole-3"},
     max_health = 200,
     corpse = "small-remnants",
     resistances = 
@@ -566,10 +565,10 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"advanced-electric-cable", 8},
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="advanced-electric-cable", amount=8},
     },
-    result = "medium-electric-pole-4"
+    results = {{type="item", name="medium-electric-pole-4", amount=1}}
   },
   {
     type = "electric-pole",
@@ -577,7 +576,7 @@ data:extend(
     icon = "__base__/graphics/icons/medium-electric-pole.png",
 	icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "medium-electric-pole-4"},
+    minable = {mining_time = 0.5, result = "medium-electric-pole-4"},
     max_health = 250,
     corpse = "small-remnants",
     resistances = 
@@ -717,17 +716,17 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 5},
-      {"advanced-electric-cable", 5}
+      {type="item", name="iron-gear-wheel", amount=5},
+      {type="item", name="advanced-electric-cable", amount=5}
     },
-    result = "big-electric-pole"
+    results = {{type="item", name="big-electric-pole", amount=1}}
   },
   {
     type = "electric-pole",
     name = "big-electric-pole",
     icon = "__base__/graphics/icons/big-electric-pole.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "big-electric-pole"},
+    minable = {mining_time = 0.5, result = "big-electric-pole"},
     max_health = 150,
     corpse = "medium-remnants",
     resistances =
@@ -840,17 +839,17 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 5},
-      {"advanced-electric-cable", 10},
+      {type="item", name="iron-gear-wheel", amount=5},
+      {type="item", name="advanced-electric-cable", amount=10},
     },
-    result = "big-electric-pole-2"
+    results = {{type="item", name="big-electric-pole-2", amount=1}}
   },
   {
     type = "electric-pole",
     name = "big-electric-pole-2",
     icon = "__base__/graphics/icons/big-electric-pole.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "big-electric-pole-2"},
+    minable = {mining_time = 0.5, result = "big-electric-pole-2"},
     max_health = 225,
     corpse = "medium-remnants",
     resistances = 
@@ -990,17 +989,17 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 5},
-      {"advanced-electric-cable", 15},
+      {type="item", name="iron-gear-wheel", amount=5},
+      {type="item", name="advanced-electric-cable", amount=15},
     },
-    result = "big-electric-pole-3"
+    results = {{type="item", name="big-electric-pole-3", amount=1}}
   },
    {
     type = "electric-pole",
     name = "big-electric-pole-3",
     icon = "__base__/graphics/icons/big-electric-pole.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "big-electric-pole-3"},
+    minable = {mining_time = 0.5, result = "big-electric-pole-3"},
     max_health = 300,
     corpse = "medium-remnants",
     resistances = 
@@ -1140,17 +1139,17 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 5},
-      {"advanced-electric-cable", 20},
+      {type="item", name="iron-gear-wheel", amount=5},
+      {type="item", name="advanced-electric-cable", amount=20},
     },
-    result = "big-electric-pole-4"
+    results = {{type="item", name="big-electric-pole-4", amount=1}}
   },
    {
     type = "electric-pole",
     name = "big-electric-pole-4",
     icon = "__base__/graphics/icons/big-electric-pole.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "big-electric-pole-4"},
+    minable = {mining_time = 0.5, result = "big-electric-pole-4"},
     max_health = 375,
     corpse = "medium-remnants",
     resistances = 
@@ -1290,17 +1289,17 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 10},
-      {"advanced-electric-cable", 10},
+      {type="item", name="iron-gear-wheel", amount=10},
+      {type="item", name="advanced-electric-cable", amount=10},
     },
-    result = "substation"
+    results = {{type="item", name="substation", amount=1}}
   },
   {
     type = "electric-pole",
     name = "substation",
     icon = "__base__/graphics/icons/substation.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "substation"},
+    minable = {mining_time = 0.5, result = "substation"},
     max_health = 200,
     corpse = "medium-remnants",
     resistances =
@@ -1420,17 +1419,17 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 15},
-      {"advanced-electric-cable", 15},
+      {type="item", name="iron-gear-wheel", amount=15},
+      {type="item", name="advanced-electric-cable", amount=15},
     },
-    result = "substation-2"
+    results = {{type="item", name="substation-2", amount=1}}
   },
   {
     type = "electric-pole",
     name = "substation-2",
     icon = "__base__/graphics/icons/substation.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "substation-2"},
+    minable = {mining_time = 0.5, result = "substation-2"},
     max_health = 300,
     corpse = "medium-remnants",
     resistances = 
@@ -1576,17 +1575,17 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 20},
-      {"advanced-electric-cable", 20},
+      {type="item", name="iron-gear-wheel", amount=20},
+      {type="item", name="advanced-electric-cable", amount=20},
     },
-    result = "substation-3"
+    results = {{type="item", name="substation-3", amount=1}}
   },
   {
     type = "electric-pole",
     name = "substation-3",
     icon = "__base__/graphics/icons/substation.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "substation-3"},
+    minable = {mining_time = 0.5, result = "substation-3"},
     max_health = 400,
     corpse = "medium-remnants",
     resistances = 
@@ -1732,17 +1731,17 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"iron-gear-wheel", 25},
-      {"advanced-electric-cable", 25},
+      {type="item", name="iron-gear-wheel", amount=25},
+      {type="item", name="advanced-electric-cable", amount=25},
     },
-    result = "substation-4"
+    results = {{type="item", name="substation-4", amount=1}}
   },
   {
     type = "electric-pole",
     name = "substation-4",
     icon = "__base__/graphics/icons/substation.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "substation-4"},
+    minable = {mining_time = 0.5, result = "substation-4"},
     max_health = 500,
     corpse = "medium-remnants",
     resistances = 

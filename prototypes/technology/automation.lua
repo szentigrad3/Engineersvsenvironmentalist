@@ -11,7 +11,7 @@
     unit =
     {
       count = 1,
-      ingredients = {{"automation-science-pack", 1}},
+      ingredients = {{type="item", name="automation-science-pack", amount=1}},
       time = 10
     },
     order = "a-b-a",
@@ -34,7 +34,7 @@
     unit =
     {
       count = 20,
-      ingredients = {{"automation-science-pack", 1}},
+      ingredients = {{type="item", name="automation-science-pack", amount=1}},
       time = 10
     },
     order = "a-b-a",
@@ -59,7 +59,7 @@
     unit =
     {
       count = 40,
-      ingredients = {{"automation-science-pack", 1},{"logistic-science-pack", 1},  { "computing-pack-1",1}, },
+      ingredients = {{type="item", name="automation-science-pack", amount=1},{type="item", name="logistic-science-pack", amount=1},  { "computing-pack-1",1}, },
       time = 15
     },
     order = "a-b-b",
@@ -81,10 +81,10 @@
     {
       count = 100,
       ingredients = {
-	  {"automation-science-pack", 1},
-	  {"logistic-science-pack", 1}, 
-	  {"chemical-science-pack", 1},
-	  {"computing-pack-2",1},
+	  {type="item", name="automation-science-pack", amount=1},
+	  {type="item", name="logistic-science-pack", amount=1}, 
+	  {type="item", name="chemical-science-pack", amount=1},
+	  {type="item", name="computing-pack-2", amount=1},
 	  },
       time = 60
     },
@@ -114,11 +114,11 @@
       count = 80,
       ingredients =
       {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
-        {"production-science-pack", 1},
-		{"computing-pack-3",1},
+        {type="item", name="automation-science-pack", amount=1},
+        {type="item", name="logistic-science-pack", amount=1},
+        {type="item", name="chemical-science-pack", amount=1},
+        {type="item", name="production-science-pack", amount=1},
+		{type="item", name="computing-pack-3", amount=1},
       },
       time = 45
     },

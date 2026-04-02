@@ -21,7 +21,7 @@ data:extend(
     {
       {type="fluid", name="water", amount=2.5}
     },
-    result="salt",
+    results = {{type="item", name="salt", amount=1}}
   },
     }
   )

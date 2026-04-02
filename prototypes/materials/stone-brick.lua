@@ -10,7 +10,7 @@ data:extend(
     stack_size = 400,
     place_as_tile =
     {
-      result = "stone-path",
+      results = {{type="item", name="stone-path", amount=1}},
       condition_size = 4,
       condition = { "water-tile" }
     }
@@ -23,8 +23,8 @@ data:extend(
     category = "smelting",
     energy_required = 3.5,
     enabled = false,
-    ingredients = {{"stone", 2}},
-    results = {{"stone-brick",2}},
+    ingredients = {{type="item", name="stone", amount=2}},
+    results = {{type="item", name="stone-brick", amount=2}},
   },
     {
     type = "recipe",
@@ -35,8 +35,8 @@ data:extend(
     category = "smelting",
     energy_required = 7,
     enabled = true,
-    ingredients = {{"stone", 2}},
-    results = {{"stone-brick",4},{"gravel",1}},
+    ingredients = {{type="item", name="stone", amount=2}},
+    results = {{type="item", name="stone-brick", amount=4},{type="item", name="gravel", amount=1}},
   },
   {
     type = "recipe",
@@ -51,8 +51,7 @@ data:extend(
       {type="fluid", name="water", amount=0.5},
       {type="item", name="dirt", amount=8},
     },
-    result = "stone-brick",
-    result_count = 2,
+    results = {{type="item", name="stone-brick", amount=2}}
   },
   }
   )

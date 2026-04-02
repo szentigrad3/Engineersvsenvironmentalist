@@ -19,8 +19,7 @@ data:extend({
     {
       {type="item", name="coalpowder", amount=1000},
     },
-    result = "carbon-nanotubes",
-    result_count = 1,
+    results = {{type="item", name="carbon-nanotubes", amount=1}}
   },
  
 })

@@ -91,8 +91,8 @@ data:extend(
     {
       {type="item", name="gold-sifted", amount=10},
       {type="fluid", name="water", amount=10},
-      {"resin",1},
-      {"calcium-oxide",1}
+      {type="item", name="resin", amount=1},
+      {type="item", name="calcium-oxide", amount=1}
     },
     results=
     {
@@ -135,7 +135,7 @@ data:extend(
     {
       {type="item", name="gold-grain", amount=15000},
     },
-    results =  {{"gold-plate",1}},
+    results =  {{type="item", name="gold-plate", amount=1}},
   },
 
 

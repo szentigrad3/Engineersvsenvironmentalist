@@ -40,6 +40,6 @@
       {type="item", name="coal", amount=1},
       {type="fluid", name="water", amount=1},
     },
-    result= "explosives"
+    results = {{type="item", name="explosives", amount=1}}
   },
   })

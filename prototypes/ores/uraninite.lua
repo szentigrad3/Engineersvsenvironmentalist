@@ -1,9 +1,5 @@
 data:extend({
-  {
-    type = "noise-layer",
-    name = "uraninite"
-  },
-  {
+{
     type = "autoplace-control",
     name = "uraninite",
     richness = true,
@@ -26,17 +22,15 @@ data:extend({
     order="a-b-e",
     minable =
     {
-      hardness = 0.4,
       mining_particle = "stone-particle",
       mining_time = 2,
-      result = "uraninite"
+      results = {{type="item", name="uraninite", amount=1}}
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
     autoplace =
     {
       control = "uraninite",
-	  frequency= none,
       sharpness = 1,
       richness_multiplier = 8000,
       richness_base = 250,
@@ -47,7 +41,6 @@ data:extend({
       },
       {
         influence = 0.28,
-        noise_layer = "uraninite",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,

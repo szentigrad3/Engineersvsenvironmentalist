@@ -14,7 +14,7 @@ data:extend(
     {
       {type="item", name="stone", amount=1},
     },
-    results = {{"gravel",3}},
+    results = {{type="item", name="gravel", amount=3}},
   },
   }
   )

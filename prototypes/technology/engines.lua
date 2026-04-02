@@ -10,7 +10,7 @@
       count = 1,
       ingredients =
       {
-        {"automation-science-pack", 5},
+        {type="item", name="automation-science-pack", amount=5},
       },
       time = 15
     },
@@ -29,7 +29,7 @@
       count = 1,
       ingredients =
       {
-        {"automation-science-pack", 5},
+        {type="item", name="automation-science-pack", amount=5},
       },
       time = 25
     },

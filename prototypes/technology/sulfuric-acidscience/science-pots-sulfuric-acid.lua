@@ -51,11 +51,11 @@ data:extend(
     category="sulfuric-acid-pots",
     ingredients =
     {
-      {"sulfur",50},
-      {"basic-circuit-board",1},
-      {"iron-gear-wheel",10},
+      {type="item", name="sulfur", amount=50},
+      {type="item", name="basic-circuit-board", amount=1},
+      {type="item", name="iron-gear-wheel", amount=10},
     },
-    result = "science-pack-sulfuric-acid1"
+    results = {{type="item", name="science-pack-sulfuric-acid1", amount=1}}
   },
  {
     type = "recipe",
@@ -64,12 +64,12 @@ data:extend(
     category="sulfuric-acid-pots",
     ingredients =
     {
-      {"sulfur",100},
-      {"salpeter",10},
-      {"basic-circuit-board",1},
-      {"iron-gear-wheel",10},
+      {type="item", name="sulfur", amount=100},
+      {type="item", name="salpeter", amount=10},
+      {type="item", name="basic-circuit-board", amount=1},
+      {type="item", name="iron-gear-wheel", amount=10},
     },
-    result = "science-pack-sulfuric-acid2"
+    results = {{type="item", name="science-pack-sulfuric-acid2", amount=1}}
   },
   {
     type = "recipe",
@@ -78,12 +78,12 @@ data:extend(
     category="sulfuric-acid-pots",
     ingredients =
     {
-      {"sulfur",100},
-      {"iron-sulfate-crushed",10},
-      {"basic-circuit-board",1},
-      {"iron-gear-wheel",10},
+      {type="item", name="sulfur", amount=100},
+      {type="item", name="iron-sulfate-crushed", amount=10},
+      {type="item", name="basic-circuit-board", amount=1},
+      {type="item", name="iron-gear-wheel", amount=10},
     },
-    result = "science-pack-sulfuric-acid3"
+    results = {{type="item", name="science-pack-sulfuric-acid3", amount=1}}
   },
   {
     type = "recipe",
@@ -92,12 +92,12 @@ data:extend(
     category="sulfuric-acid-pots",
     ingredients =
     {
-      {"sulfur",100},
-      {"catalyst",1},
-      {"basic-circuit-board",1},
-      {"iron-gear-wheel",10},
+      {type="item", name="sulfur", amount=100},
+      {type="item", name="catalyst", amount=1},
+      {type="item", name="basic-circuit-board", amount=1},
+      {type="item", name="iron-gear-wheel", amount=10},
     },
-    result = "science-pack-sulfuric-acid4"
+    results = {{type="item", name="science-pack-sulfuric-acid4", amount=1}}
   },
   }
   )

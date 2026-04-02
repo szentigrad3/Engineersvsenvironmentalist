@@ -15,10 +15,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"stupid-ai", 1},
-      {"copper-cable", 1}
+      {type="item", name="stupid-ai", amount=1},
+      {type="item", name="copper-cable", amount=1}
     },
-    result = "red-wire"
+    results = {{type="item", name="red-wire", amount=1}}
   },
     {
     type = "item",
@@ -35,10 +35,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"stupid-ai", 1},
-      {"copper-cable", 1}
+      {type="item", name="stupid-ai", amount=1},
+      {type="item", name="copper-cable", amount=1}
     },
-    result = "green-wire"
+    results = {{type="item", name="green-wire", amount=1}}
   },
   }
   )

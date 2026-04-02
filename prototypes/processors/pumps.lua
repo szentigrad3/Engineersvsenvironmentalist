@@ -16,11 +16,11 @@ data:extend(
     name = "offshore-pump",
     ingredients =
     {
-      {"basic-circuit-board", 2},
-      {"pipe", 1},
-      {"iron-gear-wheel", 1}
+      {type="item", name="basic-circuit-board", amount=2},
+      {type="item", name="pipe", amount=1},
+      {type="item", name="iron-gear-wheel", amount=1}
     },
-    result = "offshore-pump"
+    results = {{type="item", name="offshore-pump", amount=1}}
   },
   }
   )
@@ -44,11 +44,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"electric-engine-unit", 1},
-      {"advanced-machine-parts", 1},
-      {"pipe", 1}
+      {type="item", name="electric-engine-unit", amount=1},
+      {type="item", name="advanced-machine-parts", amount=1},
+      {type="item", name="pipe", amount=1}
     },
-    result= "small-pump"
+    results = {{type="item", name="small-pump", amount=1}}
   },
   {
     type = "pump",
@@ -395,11 +395,11 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"iron-gear-wheel", 4},
-      {"basic-circuit-board", 2},
-      {"pipe", 2},
+      {type="item", name="iron-gear-wheel", amount=4},
+      {type="item", name="basic-circuit-board", amount=2},
+      {type="item", name="pipe", amount=2},
     },
-    result = "air-pump"
+    results = {{type="item", name="air-pump", amount=1}}
   },
   {
     type = "assembling-machine",
@@ -510,11 +510,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 8},
-      {"electronic-circuit", 3},
-      {"pipe", 2},
+      {type="item", name="iron-gear-wheel", amount=8},
+      {type="item", name="electronic-circuit", amount=3},
+      {type="item", name="pipe", amount=2},
     },
-    result = "air-pump-2"
+    results = {{type="item", name="air-pump-2", amount=1}}
   },
   {
     type = "assembling-machine",
@@ -625,12 +625,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"advanced-machine-parts", 4},
-      {"iron-gear-wheel", 8},
-      {"advanced-circuit", 3},
-      {"pipe", 2},
+      {type="item", name="advanced-machine-parts", amount=4},
+      {type="item", name="iron-gear-wheel", amount=8},
+      {type="item", name="advanced-circuit", amount=3},
+      {type="item", name="pipe", amount=2},
     },
-    result = "air-pump-3"
+    results = {{type="item", name="air-pump-3", amount=1}}
   },
   {
     type = "assembling-machine",
@@ -741,12 +741,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 8},
-      {"advanced-machine-parts", 8},
-      {"electric-engine-unit", 1},
-      {"processing-unit", 3},
+      {type="item", name="iron-gear-wheel", amount=8},
+      {type="item", name="advanced-machine-parts", amount=8},
+      {type="item", name="electric-engine-unit", amount=1},
+      {type="item", name="processing-unit", amount=3},
     },
-    result = "air-pump-4"
+    results = {{type="item", name="air-pump-4", amount=1}}
   },
   {
     type = "assembling-machine",
@@ -859,11 +859,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 4},
-      {"electronic-circuit", 2},
-      {"pipe", 2},
+      {type="item", name="iron-gear-wheel", amount=4},
+      {type="item", name="electronic-circuit", amount=2},
+      {type="item", name="pipe", amount=2},
     },
-    result = "water-pump"
+    results = {{type="item", name="water-pump", amount=1}}
   },
   {
     type = "assembling-machine",
@@ -974,11 +974,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 8},
-      {"advanced-circuit", 3},
-      {"pipe", 2},
+      {type="item", name="iron-gear-wheel", amount=8},
+      {type="item", name="advanced-circuit", amount=3},
+      {type="item", name="pipe", amount=2},
     },
-    result = "water-pump-2"
+    results = {{type="item", name="water-pump-2", amount=1}}
   },
   {
     type = "assembling-machine",
@@ -1089,12 +1089,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 8},
-      {"advanced-machine-parts", 4},
-      {"processing-unit", 3},
-      {"pipe", 2},
+      {type="item", name="iron-gear-wheel", amount=8},
+      {type="item", name="advanced-machine-parts", amount=4},
+      {type="item", name="processing-unit", amount=3},
+      {type="item", name="pipe", amount=2},
     },
-    result = "water-pump-3"
+    results = {{type="item", name="water-pump-3", amount=1}}
   },
   {
     type = "assembling-machine",
@@ -1205,12 +1205,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 8},
-      {"advanced-machine-parts", 8},
-      {"electric-engine-unit", 1},
-      {"advanced-processing-unit", 3},
+      {type="item", name="iron-gear-wheel", amount=8},
+      {type="item", name="advanced-machine-parts", amount=8},
+      {type="item", name="electric-engine-unit", amount=1},
+      {type="item", name="advanced-processing-unit", amount=3},
     },
-    result = "water-pump-4"
+    results = {{type="item", name="water-pump-4", amount=1}}
   },
   {
     type = "assembling-machine",
@@ -1321,11 +1321,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"iron-gear-wheel", 2},
-      {"basic-circuit-board", 2},
-      {"pipe", 2},
+      {type="item", name="iron-gear-wheel", amount=2},
+      {type="item", name="basic-circuit-board", amount=2},
+      {type="item", name="pipe", amount=2},
     },
-    result = "void-pump"
+    results = {{type="item", name="void-pump", amount=1}}
   },
   {
     type = "furnace",

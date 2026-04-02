@@ -14,8 +14,8 @@ data:extend(
     {
     type = "recipe",
     name = "furnace-1",
-    ingredients = {{"wall",1}},
-    result = "furnace-1"
+    ingredients = {{type="item", name="wall", amount=1}},
+    results = {{type="item", name="furnace-1", amount=1}}
   },
   {
     type = "assembling-machine",

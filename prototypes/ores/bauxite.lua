@@ -10,11 +10,7 @@ data:extend(
     order = "b-d[bauxite-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "bauxite-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "bauxite-ore",
     richness = true,
@@ -25,10 +21,9 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 1.4,
       mining_particle = "stone-particle",
       mining_time = 2,
-      result = "bauxite-ore"
+      results = {{type="item", name="bauxite-ore", amount=1}}
     },
 		name = "bauxite-ore",
 		tint = {r=0.777, g=0.7, b=0.333},
@@ -59,7 +54,6 @@ data:extend(
       },
       {
         influence = 0.28,
-        noise_layer = "bauxite-ore",
         noise_octaves_difference = -1.9,
         noise_persistence = 0.3,
         starting_area_weight_optimal = 0,

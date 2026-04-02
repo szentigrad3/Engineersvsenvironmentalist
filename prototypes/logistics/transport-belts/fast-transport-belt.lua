@@ -90,19 +90,19 @@ data:extend(
     enabled = false,
     ingredients =
     {
-     {"steam-unit", 1},
-      {"iron-gear-wheel", 10},
-	  {"wall", 10},
-	  {"explosives-analogue", 100},
+     {type="item", name="steam-unit", amount=1},
+      {type="item", name="iron-gear-wheel", amount=10},
+	  {type="item", name="wall", amount=10},
+	  {type="item", name="explosives-analogue", amount=100},
     },
-    results = {{"fast-transport-belt",10}}
+    results = {{type="item", name="fast-transport-belt", amount=10}}
   },
   {
     type = "transport-belt",
     name = "fast-transport-belt",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-transport-belt.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.3, result = "fast-transport-belt"},
+    minable = {mining_time = 0.3, result = "fast-transport-belt"},
     max_health = 50,
     corpse = "small-remnants",
     resistances =
@@ -166,19 +166,18 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"fast-transport-belt", 100},
-	  {"wall", 100},
-	  {"explosives-analogue", 1000},
+      {type="item", name="fast-transport-belt", amount=100},
+	  {type="item", name="wall", amount=100},
+	  {type="item", name="explosives-analogue", amount=1000},
     },
-    result_count = 20,
-    result = "fast-transport-belt-to-ground"
+    results = {{type="item", name="fast-transport-belt-to-ground", amount=20}}
   },
   {
     type = "underground-belt",
     name = "fast-transport-belt-to-ground",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-underground-belt.png",
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "fast-transport-belt-to-ground"},
+    minable = {mining_time = 0.5, result = "fast-transport-belt-to-ground"},
     max_health = 60,
     corpse = "small-remnants",
     max_distance = 13,
@@ -256,18 +255,18 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"fast-transport-belt",2},
-      {"engine-unit", 1},
-      {"electronic-circuit", 3}
+      {type="item", name="fast-transport-belt", amount=2},
+      {type="item", name="engine-unit", amount=1},
+      {type="item", name="electronic-circuit", amount=3}
     },
-    result = "fast-splitter"
+    results = {{type="item", name="fast-splitter", amount=1}}
   },
   {
     type = "splitter",
     name = "fast-splitter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/transport-belts/fast-splitter.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "fast-splitter"},
+    minable = {mining_time = 0.5, result = "fast-splitter"},
     max_health = 80,
     corpse = "medium-remnants",
     resistances =

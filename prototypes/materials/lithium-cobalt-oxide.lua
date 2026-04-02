@@ -18,11 +18,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"lithium", 1},
-      {"cobalt-oxide", 1},
+      {type="item", name="lithium", amount=1},
+      {type="item", name="cobalt-oxide", amount=1},
     },
-    result = "lithium-cobalt-oxide",
-    result_count = 2,
+    results = {{type="item", name="lithium-cobalt-oxide", amount=2}}
   },
   }
   )

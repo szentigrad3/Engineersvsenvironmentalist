@@ -19,13 +19,13 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"small-ai", 1},
-      {"iron-gear-wheel", 30},
-	{"explosives-analogue", 100},
+      {type="item", name="small-ai", amount=1},
+      {type="item", name="iron-gear-wheel", amount=30},
+	{type="item", name="explosives-analogue", amount=100},
 
 
     },
-    result = "area-mining-drill-2"
+    results = {{type="item", name="area-mining-drill-2", amount=1}}
   },
   {
     type = "mining-drill",
@@ -903,11 +903,11 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"medium-ai", 1},
-      {"iron-gear-wheel", 60},
-	{"explosives-analogue", 1000},
+      {type="item", name="medium-ai", amount=1},
+      {type="item", name="iron-gear-wheel", amount=60},
+	{type="item", name="explosives-analogue", amount=1000},
     },
-    result = "area-mining-drill-3"
+    results = {{type="item", name="area-mining-drill-3", amount=1}}
   },
   {
     type = "mining-drill",
@@ -1785,10 +1785,10 @@ data:extend(
     ingredients =
     {
       {"large-ai" , 1},
-      {"iron-gear-wheel", 120},
-	{"explosives-analogue", 10000},
+      {type="item", name="iron-gear-wheel", amount=120},
+	{type="item", name="explosives-analogue", amount=10000},
     },
-    result = "area-mining-drill-4"
+    results = {{type="item", name="area-mining-drill-4", amount=1}}
   },
    {
     type = "mining-drill",
@@ -2664,11 +2664,11 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"large-ai", 5},
-      {"iron-gear-wheel", 240},
-	{"explosives-analogue", 64000},
+      {type="item", name="large-ai", amount=5},
+      {type="item", name="iron-gear-wheel", amount=240},
+	{type="item", name="explosives-analogue", amount=64000},
     },
-    result = "area-mining-drill-5"
+    results = {{type="item", name="area-mining-drill-5", amount=1}}
   },
   {
     type = "mining-drill",

@@ -12,7 +12,7 @@ data:extend({
     stack_size = 50,
     place_as_tile =
     {
-      result = "dirt-marker",
+      results = {{type="item", name="dirt-marker", amount=1}},
       condition_size = 3,
       condition = { "water-tile" }
     }
@@ -21,7 +21,7 @@ data:extend({
 		type = "tile",
 		name = "dirt-marker",
 		needs_correction = false,
-		minable = {hardness = 0.2, mining_time = 0.1, result = "dirt"},
+		minable = {mining_time = 0.1, result = "dirt"},
 		mined_sound = { filename = "__base__/sound/walking/dirt-02.ogg" },
 		collision_mask = {"ground-tile"},
 		walking_speed_modifier = dirt_walking_speed_modifier,

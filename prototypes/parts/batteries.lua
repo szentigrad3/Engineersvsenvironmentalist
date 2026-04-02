@@ -19,11 +19,11 @@ data:extend(
     ingredients =
     {
       {type="fluid", name="sulfuric-acid", amount=2},
-      {"lead-plate", 1},
-      {"copper-cable", 2},
-      {"plastic-bar",1},
+      {type="item", name="lead-plate", amount=1},
+      {type="item", name="copper-cable", amount=2},
+      {type="item", name="plastic-bar", amount=1},
     },
-    results= {{"battery",1}}
+    results= {{type="item", name="battery", amount=1}}
   },
   {
     type = "item",
@@ -41,13 +41,13 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"lithium-perchlorate", 2},
-      {"lithium-cobalt-oxide", 1},
-      {"carbon", 1},
-      {"advanced-electric-cable",2},
-      {"plastic-bar", 1},
+      {type="item", name="lithium-perchlorate", amount=2},
+      {type="item", name="lithium-cobalt-oxide", amount=1},
+      {type="item", name="carbon", amount=1},
+      {type="item", name="advanced-electric-cable", amount=2},
+      {type="item", name="plastic-bar", amount=1},
     },
-    result = "lithium-ion-battery",
+    results = {{type="item", name="lithium-ion-battery", amount=1}}
   },
   {
     type = "item",
@@ -65,13 +65,13 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"sodium-hydroxide", 2},
-      {"silver-oxide", 1},
-      {"zinc-plate", 1},
-      {"circuit-electric-cable",2},
-      {"plastic-bar", 1},
+      {type="item", name="sodium-hydroxide", amount=2},
+      {type="item", name="silver-oxide", amount=1},
+      {type="item", name="zinc-plate", amount=1},
+      {type="item", name="circuit-electric-cable", amount=2},
+      {type="item", name="plastic-bar", amount=1},
     },
-    result = "silver-zinc-battery",
+    results = {{type="item", name="silver-zinc-battery", amount=1}}
   },
   }
   )

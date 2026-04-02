@@ -16,12 +16,12 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"wall", 300},
-      {"iron-gear-wheel",150},
-      {"plumbing", 100},
-	  {"stupid-ai",1},
+      {type="item", name="wall", amount=300},
+      {type="item", name="iron-gear-wheel", amount=150},
+      {type="item", name="plumbing", amount=100},
+	  {type="item", name="stupid-ai", amount=1},
     },
-    result = "basic-oil-refinery",
+    results = {{type="item", name="basic-oil-refinery", amount=1}},
     enabled = true,
   },
   {
@@ -197,13 +197,13 @@ data:extend(
     energy_required = 20,
     ingredients =
     {
-      {"wall", 2500},
-      {"storage-tank", 100},
-      {"iron-gear-wheel",4000},
-      {"plumbing", 5000},
-	  {"small-ai",50},
+      {type="item", name="wall", amount=2500},
+      {type="item", name="storage-tank", amount=100},
+      {type="item", name="iron-gear-wheel", amount=4000},
+      {type="item", name="plumbing", amount=5000},
+	  {type="item", name="small-ai", amount=50},
     },
-    result = "oil-refinery",
+    results = {{type="item", name="oil-refinery", amount=1}},
     enabled = false
   },
   {
@@ -367,13 +367,13 @@ data:extend(
     energy_required = 5000,
     ingredients =
     {
-      {"wall", 64000},
-      {"storage-tank", 80},
-      {"iron-gear-wheel",64000},
-      {"plumbing", 64000},
-	  {"medium-ai",500},
+      {type="item", name="wall", amount=64000},
+      {type="item", name="storage-tank", amount=80},
+      {type="item", name="iron-gear-wheel", amount=64000},
+      {type="item", name="plumbing", amount=64000},
+	  {type="item", name="medium-ai", amount=500},
     },
-    result = "advanced-oil-refinery",
+    results = {{type="item", name="advanced-oil-refinery", amount=1}},
     enabled = false
   },
   {

@@ -114,16 +114,16 @@ data:extend(
     {
       {type="item", name="lead-crushed", amount=10},
       {type="fluid", name="water", amount=2},
-      {"resin",1},
-      {"calcium-oxide",1}
+      {type="item", name="resin", amount=1},
+      {type="item", name="calcium-oxide", amount=1}
     },
     results = 
     {
-    {"lead-sifted",10},
-    {"lead-sulfide",1},
-    {"copper-sulfate",1},
-    {"crushed-zinc",10},
-    {"gravel",5},
+    {type="item", name="lead-sifted", amount=10},
+    {type="item", name="lead-sulfide", amount=1},
+    {type="item", name="copper-sulfate", amount=1},
+    {type="item", name="crushed-zinc", amount=10},
+    {type="item", name="gravel", amount=5},
     },
   },
   {
@@ -138,12 +138,12 @@ data:extend(
     enabled = false,
     ingredients = 
     {
-    {"lead-sulfide", 2},
+    {type="item", name="lead-sulfide", amount=2},
     {type="fluid",name="oxygen",amount=3},
     },
     results = 
     {
-    {"lead-oxide",2},
+    {type="item", name="lead-oxide", amount=2},
      {type="fluid",name="sulfur-dioxide",amount=5},
     }
   },
@@ -159,11 +159,11 @@ data:extend(
     enabled = false,
     ingredients = 
     {
-    {"lead-sifted", 1},
+    {type="item", name="lead-sifted", amount=1},
     },
     results = 
     {
-    {"lead-filtered",1},
+    {type="item", name="lead-filtered", amount=1},
     {type="item",name="copper-sulfate", probability=0.1, amount_min=1, amount_max=1},
     {type="item",name="zinc-ore", probability=0.1, amount_min=1, amount_max=1},
     },
@@ -180,12 +180,12 @@ data:extend(
     enabled = false,
     ingredients = 
     {
-    {"lead-filtered", 10},
-    {"coal",1}
+    {type="item", name="lead-filtered", amount=10},
+    {type="item", name="coal", amount=1}
     },
     results = 
     {
-    {"lead-oxide",10},
+    {type="item", name="lead-oxide", amount=10},
     {type="fluid",name="dirty-sulfur-dioxide",amount=1},
     },
   },
@@ -201,7 +201,7 @@ data:extend(
     enabled = false,
     ingredients = 
     {
-    {"lead-oxide", 1},
+    {type="item", name="lead-oxide", amount=1},
     },
     results = 
     {
@@ -222,11 +222,11 @@ data:extend(
     ingredients = 
     {
         {type="fluid",name="lead-molten",amount=1},
-        {"crushed-zinc",1},
+        {type="item", name="crushed-zinc", amount=1},
     },
     results = 
     {
-    {"lead-plate",1},
+    {type="item", name="lead-plate", amount=1},
     {type="item",name="gold-ore", probability=0.1, amount_min=1, amount_max=1},
     {type="item",name="silver-ore", probability=0.1, amount_min=1, amount_max=1},
     },

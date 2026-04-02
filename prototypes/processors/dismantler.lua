@@ -13,8 +13,8 @@
   {
     type = "recipe",
     name = "dismantler",
-    ingredients = {{"wall", 4}},
-    result = "dismantler"
+    ingredients = {{type="item", name="wall", amount=4}},
+    results = {{type="item", name="dismantler", amount=1}}
   },
   {
     type = "furnace",

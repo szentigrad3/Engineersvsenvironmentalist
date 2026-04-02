@@ -20,14 +20,14 @@ data:extend({
     energy_required = 1,
 	enabled= false,
     ingredients = {
-	{"iron-sulfate-crushed",181},
-	{"calcium-oxide",100},
-	{"coke",90},
-	{"heat-enthalpy1GJ",5},
+	{type="item", name="iron-sulfate-crushed", amount=181},
+	{type="item", name="calcium-oxide", amount=100},
+	{type="item", name="coke", amount=90},
+	{type="item", name="heat-enthalpy1GJ", amount=5},
 	},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/pig-iron.png",
         results = {
-	{"iron-sinter",250},
+	{type="item", name="iron-sinter", amount=250},
 
 	},
 		order = "a-2"
@@ -42,14 +42,14 @@ data:extend({
     energy_required = 1,
 	enabled= false,
     ingredients = {
-	{"iron-oxide-crushed",181},
-	{"calcium-oxide",6},
-	{"coke",90},
-	{"heat-enthalpy1GJ",5},
+	{type="item", name="iron-oxide-crushed", amount=181},
+	{type="item", name="calcium-oxide", amount=6},
+	{type="item", name="coke", amount=90},
+	{type="item", name="heat-enthalpy1GJ", amount=5},
 	},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/pig-iron.png",
         results = {
-	{"iron-sinter",250},
+	{type="item", name="iron-sinter", amount=250},
 
 	},
 		order = "a-3"
@@ -66,8 +66,8 @@ data:extend({
     energy_required = 1,
 	enabled= false,
     ingredients = {
-	{"iron-sinter",750},	
-	{"coke",210}},
+	{type="item", name="iron-sinter", amount=750},	
+	{type="item", name="coke", amount=210}},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/pig-iron.png",
         results = {
 	{type="fluid", name="molten-pig-iron", amount=700},
@@ -90,7 +90,7 @@ data:extend({
 	},
 		icon = "__base__/graphics/icons/steel-plate.png",
         results = {
-	{"steel-plate",500},
+	{type="item", name="steel-plate", amount=500},
 	{type="item", name="heat-enthalpy1GJ", amount=54},
 	},
 		order = "a-5"

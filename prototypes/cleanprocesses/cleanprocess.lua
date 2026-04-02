@@ -30,7 +30,7 @@ data:extend(
     },
     results=
     {
-	{"science-pack-clean1", 1},
+	{type="item", name="science-pack-clean1", amount=1},
 
 	},
     },
@@ -52,7 +52,7 @@ data:extend(
     },
     results=
     {
-	{"science-pack-clean2", 1},
+	{type="item", name="science-pack-clean2", amount=1},
 
 	},
     },
@@ -74,7 +74,7 @@ data:extend(
     },
     results=
     {
-	{"science-pack-clean3", 1},
+	{type="item", name="science-pack-clean3", amount=1},
 	},
 		{
 
@@ -94,7 +94,7 @@ data:extend(
     },
     results=
     {
-	{"science-pack-clean4", 1},
+	{type="item", name="science-pack-clean4", amount=1},
 
 	},
     },

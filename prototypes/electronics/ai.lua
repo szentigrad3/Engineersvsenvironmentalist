@@ -15,17 +15,17 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",1},
-      {"iron-gear-wheel", 10},
+      {type="item", name="wall", amount=1},
+      {type="item", name="iron-gear-wheel", amount=10},
     },
-    result = "ai-trainer-1"
+    results = {{type="item", name="ai-trainer-1", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "ai-trainer-1",
     icon = "__base__/graphics/icons/assembling-machine-1.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "ai-trainer-1"},
+    minable = {mining_time = 0.5, result = "ai-trainer-1"},
     max_health = 200,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -101,18 +101,18 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",100},
-      {"iron-gear-wheel", 300},
-	  {  "stupid-ai", 300},
+      {type="item", name="wall", amount=100},
+      {type="item", name="iron-gear-wheel", amount=300},
+      {type="item", name="stupid-ai", amount=300},
     },
-    result = "ai-trainer-2"
+    results = {{type="item", name="ai-trainer-2", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "ai-trainer-2",
     icon = "__base__/graphics/icons/assembling-machine-1.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "ai-trainer-2"},
+    minable = {mining_time = 0.5, result = "ai-trainer-2"},
     max_health = 200,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -188,18 +188,18 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",1000},
-      {"iron-gear-wheel", 3000},
-	  {"small-ai", 500},
+      {type="item", name="wall", amount=1000},
+      {type="item", name="iron-gear-wheel", amount=3000},
+	  {type="item", name="small-ai", amount=500},
     },
-    result = "ai-trainer-3"
+    results = {{type="item", name="ai-trainer-3", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "ai-trainer-3",
     icon = "__base__/graphics/icons/assembling-machine-1.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "ai-trainer-3"},
+    minable = {mining_time = 0.5, result = "ai-trainer-3"},
     max_health = 200,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -275,19 +275,19 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"wall",10000},
-      {"iron-gear-wheel", 10000},
-	     {"medium-ai", 666},
+      {type="item", name="wall", amount=10000},
+      {type="item", name="iron-gear-wheel", amount=10000},
+	     {type="item", name="medium-ai", amount=666},
 	
     },
-    result = "ai-trainer-4"
+    results = {{type="item", name="ai-trainer-4", amount=1}}
   },
   {
     type = "assembling-machine",
     name = "ai-trainer-4",
     icon = "__base__/graphics/icons/assembling-machine-1.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "ai-trainer-4"},
+    minable = {mining_time = 0.5, result = "ai-trainer-4"},
     max_health = 200,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
@@ -364,9 +364,9 @@ data:extend({
 	category="ai-training",
     ingredients =
     {
-	{"basic-circuit-board",10}
+	{type="item", name="basic-circuit-board", amount=10}
     },
-    result = "stupid-ai",
+    results = {{type="item", name="stupid-ai", amount=1}}
   },
 })
 data:extend({
@@ -387,9 +387,9 @@ data:extend({
 	category="ai-training",
     ingredients =
     {
-	{"electronic-circuit",10}
+	{type="item", name="electronic-circuit", amount=10}
     },
-    result = "small-ai",
+    results = {{type="item", name="small-ai", amount=1}}
   },
 })
 data:extend({
@@ -410,9 +410,9 @@ data:extend({
 	category="ai-training",
     ingredients =
     {
-	{"advanced-circuit",10}
+	{type="item", name="advanced-circuit", amount=10}
     },
-    result = "medium-ai"
+    results = {{type="item", name="medium-ai", amount=1}}
   },
 })
 data:extend({
@@ -433,8 +433,8 @@ data:extend({
 	category="ai-training",
     ingredients =
     {
-	{"processing-unit",10}
+	{type="item", name="processing-unit", amount=10}
     },
-    result = "large-ai"
+    results = {{type="item", name="large-ai", amount=1}}
   },
 })

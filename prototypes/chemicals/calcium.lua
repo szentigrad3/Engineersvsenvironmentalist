@@ -67,7 +67,7 @@ data:extend({
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium.png",
 		icon_size = 28,
 		
-    results = {{"calcium",4}},
+    results = {{type="item", name="calcium", amount=4}},
 		order = "a-5"
   },
   {
@@ -83,7 +83,7 @@ data:extend({
     },
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-oxide.png",
 		icon_size = 28,
-    results = {{"calcium-oxide",3}},
+    results = {{type="item", name="calcium-oxide", amount=3}},
 		order = "a-5"
   },
   {
@@ -98,7 +98,7 @@ data:extend({
       {type="item", name="calcium", amount=1},
       {type="fluid", name="hydrogen-chloride", amount=1},
     },
-    result="calcium-chloride",
+    results = {{type="item", name="calcium-chloride", amount=1}},
     order = "f[calcium-chloride]"
   },
   {
@@ -113,7 +113,6 @@ data:extend({
       {type="item", name="sand", amount=1},
       {type="item", name="calcium-oxide", amount=2},
     },
-    result = "cement",
-    result_count = 3,
+    results = {{type="item", name="cement", amount=3}}
   },
 })

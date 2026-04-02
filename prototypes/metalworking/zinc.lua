@@ -56,7 +56,7 @@ data:extend(
     ingredients =  {{type="item", name="zinc-ore", amount=5}},
     results = {
                  {type="item", name="crushed-zinc", amount=5},
-                 {"gravel",3}
+                 {type="item", name="gravel", amount=3}
               },
   },
   {
@@ -69,8 +69,8 @@ data:extend(
     order="a-2",
     energy_required = 10,
     enabled = false,
-    ingredients = {{"crushed-zinc", 10},{type="fluid", name="water", amount=10}},
-    results = {{"zinc-sifted", 10},{"gravel",1}},
+    ingredients = {{type="item", name="crushed-zinc", amount=10},{type="fluid", name="water", amount=10}},
+    results = {{type="item", name="zinc-sifted", amount=10},{type="item", name="gravel", amount=1}},
   },
    {
     type = "recipe",
@@ -82,8 +82,8 @@ data:extend(
     order="a-3",
     energy_required =  10,
     enabled = false,
-    ingredients = {{"zinc-sifted", 10},{"calcium-oxide",1}},
-    results = {{"zinc-oxide", 10}},
+    ingredients = {{type="item", name="zinc-sifted", amount=10},{type="item", name="calcium-oxide", amount=1}},
+    results = {{type="item", name="zinc-oxide", amount=10}},
   },
  {
     type = "recipe",
@@ -95,8 +95,8 @@ data:extend(
     order="a-4",
     energy_required = 10,
     enabled = false,
-    ingredients = {{"zinc-oxide", 10},{"lead-plate",1}},
-    results = {{"zinc-plate", 10},{"lead-plate",1}},
+    ingredients = {{type="item", name="zinc-oxide", amount=10},{type="item", name="lead-plate", amount=1}},
+    results = {{type="item", name="zinc-plate", amount=10},{type="item", name="lead-plate", amount=1}},
   },
 }
 )

@@ -25,7 +25,7 @@ data:extend({
       ingredients =
       {
    
-		{"computing-pack-1", 5},
+		{type="item", name="computing-pack-1", amount=5},
       },
       time = 30
     },

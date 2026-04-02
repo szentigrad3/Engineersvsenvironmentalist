@@ -22,8 +22,7 @@ data:extend(
       {type="item", name="steel-plate", amount=5},
       {type="item", name="cobalt-plate", amount=1},
     },
-    result = "cobalt-steel-alloy",
-    result_count = 10,
+    results = {{type="item", name="cobalt-steel-alloy", amount=10}}
   },
   }
   )

@@ -14,8 +14,8 @@ data:extend(
       count = 20,
       time = 30,
       ingredients = {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
+        {type="item", name="automation-science-pack", amount=1},
+        {type="item", name="logistic-science-pack", amount=1},
       },
     },
     effects =
@@ -57,9 +57,9 @@ data:extend(
       count = 40,
       time = 30,
       ingredients = {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
+        {type="item", name="automation-science-pack", amount=1},
+        {type="item", name="logistic-science-pack", amount=1},
+        {type="item", name="chemical-science-pack", amount=1},
       },
     },
     effects =
@@ -97,10 +97,10 @@ data:extend(
       count = 60,
       time = 30,
       ingredients = {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
-        {"production-science-pack", 1},
+        {type="item", name="automation-science-pack", amount=1},
+        {type="item", name="logistic-science-pack", amount=1},
+        {type="item", name="chemical-science-pack", amount=1},
+        {type="item", name="production-science-pack", amount=1},
       },
     },
     effects =

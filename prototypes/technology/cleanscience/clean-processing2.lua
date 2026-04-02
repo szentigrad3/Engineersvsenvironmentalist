@@ -18,8 +18,8 @@ data:extend({
       count = 10,
       ingredients =
       {
-        {"science-pack-clean1", 1},
-		{"science-pack-clean2", 5},
+        {type="item", name="science-pack-clean1", amount=1},
+		{type="item", name="science-pack-clean2", amount=5},
       },
       time = 30
     },

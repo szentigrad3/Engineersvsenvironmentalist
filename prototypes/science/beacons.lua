@@ -17,12 +17,12 @@ data:extend(
     energy_required = 15,
     ingredients =
     {
-      {"electronic-circuit", 20},
-      {"advanced-circuit", 20},
-      {"advanced-machine-parts", 10},
-      {"copper-cable", 10}
+      {type="item", name="electronic-circuit", amount=20},
+      {type="item", name="advanced-circuit", amount=20},
+      {type="item", name="advanced-machine-parts", amount=10},
+      {type="item", name="copper-cable", amount=10}
     },
-    result = "beacon"
+    results = {{type="item", name="beacon", amount=1}}
   },
   {
     type = "beacon",

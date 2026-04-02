@@ -16,12 +16,12 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"inserter", 1},
-      {"electronic-circuit", 1},
-      {"iron-gear-wheel", 4},
+      {type="item", name="inserter", amount=1},
+      {type="item", name="electronic-circuit", amount=1},
+      {type="item", name="iron-gear-wheel", amount=4},
       
     },
-    result = "fast-inserter"
+    results = {{type="item", name="fast-inserter", amount=1}}
   },
   {
     type = "inserter",
@@ -30,9 +30,8 @@ data:extend(
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable =
     {
-      hardness = 0.2,
       mining_time = 0.5,
-      result = "fast-inserter"
+      results = {{type="item", name="fast-inserter", amount=1}}
     },
     max_health = 40,
     corpse = "small-remnants",

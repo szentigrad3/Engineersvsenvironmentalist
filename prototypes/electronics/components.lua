@@ -16,11 +16,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"copper-cable", 2},
-      {"rubber", 1},
+      {type="item", name="copper-cable", amount=2},
+      {type="item", name="rubber", amount=1},
     },
-    result = "insulated-cable",
-    result_count = 2
+    results = {{type="item", name="insulated-cable", amount=2}}
   },
 }
 )
@@ -44,11 +43,10 @@ data:extend(
       enabled = false,
       ingredients =
       {
-        {"solder-alloy", 3},
-        {"carbon", 1},
+        {type="item", name="solder-alloy", amount=3},
+        {type="item", name="carbon", amount=1},
       },
-      result = "solder",
-      result_count = 30
+      results = {{type="item", name="solder", amount=30}}
     },
   }
   )
@@ -73,11 +71,10 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"advanced-electric-cable", 5},
-      {"carbon", 1},
+      {type="item", name="advanced-electric-cable", amount=5},
+      {type="item", name="carbon", amount=1},
     },
-    result = "basic-electronic-components",
-    result_count = 100,
+    results = {{type="item", name="basic-electronic-components", amount=100}}
   },
 }
 )
@@ -102,12 +99,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"advanced-electric-cable", 1},
-      {"silicon-wafer", 1},
-      {"plastic-bar", 1},
+      {type="item", name="advanced-electric-cable", amount=1},
+      {type="item", name="silicon-wafer", amount=1},
+      {type="item", name="plastic-bar", amount=1},
     },
-    result = "electronic-components",
-    result_count = 100
+    results = {{type="item", name="electronic-components", amount=100}}
   },
 }
 )
@@ -132,13 +128,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"circuit-electric-cable", 1},
-      {"silicon-wafer", 1},
-      {"plastic-bar",1},
+      {type="item", name="circuit-electric-cable", amount=1},
+      {type="item", name="silicon-wafer", amount=1},
+      {type="item", name="plastic-bar", amount=1},
       {type="fluid", name = "sulfuric-acid", amount = 0.5},
     },
-    result = "intergrated-electronics",
-    result_count = 5
+    results = {{type="item", name="intergrated-electronics", amount=5}}
   },
 }
 )
@@ -163,13 +158,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"circuit-electric-cable", 2},
-      {"silicon-wafer", 1},
-      {"plastic-bar", 1},
+      {type="item", name="circuit-electric-cable", amount=2},
+      {type="item", name="silicon-wafer", amount=1},
+      {type="item", name="plastic-bar", amount=1},
       {type="fluid", name = "sulfuric-acid", amount = 0.5},
     },
-    result = "processing-electronics",
-    result_count = 5
+    results = {{type="item", name="processing-electronics", amount=5}}
   },
 }
 )

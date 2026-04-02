@@ -9,7 +9,7 @@ data:extend({
     stack_size = 1000,
     place_as_tile =
     {
-      result = "concrete",
+      results = {{type="item", name="concrete", amount=1}},
       condition_size = 4,
       condition = { "water-tile" }
     }
@@ -22,14 +22,13 @@ data:extend({
     category = "crafting-with-fluid",
     ingredients =
     {
-      {"cement", 5},
-      {"gravel", 5},
-      {"iron-gear-wheel", 1},
-      --{"calcium-sulfate", 1},
-      {"calcium", 1},
+      {type="item", name="cement", amount=5},
+      {type="item", name="gravel", amount=5},
+      {type="item", name="iron-gear-wheel", amount=1},
+      --{type="item", name="calcium-sulfate", amount=1},
+      {type="item", name="calcium", amount=1},
       {type="fluid", name="water", amount=10}
     },
-    result= "concrete",
-    result_count = 200
+    results = {{type="item", name="concrete", amount=200}}
   }
 })

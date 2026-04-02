@@ -19,12 +19,12 @@ data:extend(
     ingredients =
     {
 		
-      {"stupid-ai", 5},
-      {"iron-gear-wheel", 10},
-      {"plumbing",10},
-      {"wall", 10},
+      {type="item", name="stupid-ai", amount=5},
+      {type="item", name="iron-gear-wheel", amount=10},
+      {type="item", name="plumbing", amount=10},
+      {type="item", name="wall", amount=10},
     },
-    result = "lab"
+    results = {{type="item", name="lab", amount=1}}
   },
   {
     type = "lab",
@@ -111,12 +111,12 @@ data:extend(
     energy_required = 15,
     ingredients =
     {
-      {"stupid-ai", 900},
-      {"iron-gear-wheel", 50},
-      {"plumbing",50},
-      {"wall", 50},
+      {type="item", name="stupid-ai", amount=900},
+      {type="item", name="iron-gear-wheel", amount=50},
+      {type="item", name="plumbing", amount=50},
+      {type="item", name="wall", amount=50},
     },
-    result = "lab-2"
+    results = {{type="item", name="lab-2", amount=1}}
   },
   {
     type = "lab",
@@ -197,12 +197,12 @@ data:extend(
     enabled=true,
     ingredients =
     {
-      {"basic-circuit-board", 10},
-      {"iron-gear-wheel", 10},
-      {"plumbing",10},
-      {"wall", 10},
+      {type="item", name="basic-circuit-board", amount=10},
+      {type="item", name="iron-gear-wheel", amount=10},
+      {type="item", name="plumbing", amount=10},
+      {type="item", name="wall", amount=10},
     },
-    result = "coal-lab"
+    results = {{type="item", name="coal-lab", amount=1}}
   },
   {
     type = "lab",
@@ -287,12 +287,12 @@ data:extend(
     enabled=true,
     ingredients =
     {
-      {"basic-circuit-board", 10},
-      {"iron-gear-wheel", 10},
-      {"plumbing",10},
-      {"wall", 10},
+      {type="item", name="basic-circuit-board", amount=10},
+      {type="item", name="iron-gear-wheel", amount=10},
+      {type="item", name="plumbing", amount=10},
+      {type="item", name="wall", amount=10},
     },
-    result = "sulfur-lab"
+    results = {{type="item", name="sulfur-lab", amount=1}}
   },
   {
     type = "lab",
@@ -379,12 +379,12 @@ data:extend(
     enabled=true,
     ingredients =
     {
-      {"basic-circuit-board", 10},
-      {"iron-gear-wheel", 10},
-      {"plumbing",10},
-      {"wall", 10},
+      {type="item", name="basic-circuit-board", amount=10},
+      {type="item", name="iron-gear-wheel", amount=10},
+      {type="item", name="plumbing", amount=10},
+      {type="item", name="wall", amount=10},
     },
-    result = "steel-lab"
+    results = {{type="item", name="steel-lab", amount=1}}
   },
   {
     type = "lab",
@@ -470,12 +470,12 @@ data:extend(
     enabled=true,
     ingredients =
     {
-      {"basic-circuit-board", 10},
-      {"iron-gear-wheel", 10},
-      {"plumbing",10},
-      {"wall", 10},
+      {type="item", name="basic-circuit-board", amount=10},
+      {type="item", name="iron-gear-wheel", amount=10},
+      {type="item", name="plumbing", amount=10},
+      {type="item", name="wall", amount=10},
     },
-    result = "explosive-lab",
+    results = {{type="item", name="explosive-lab", amount=1}}
   },
   {
     type = "lab",
@@ -569,11 +569,11 @@ data:extend(
     enabled=true,
     ingredients =
     {
-      {"basic-circuit-board", 10},
-      {"iron-gear-wheel", 10},
-      {"wall", 10},
+      {type="item", name="basic-circuit-board", amount=10},
+      {type="item", name="iron-gear-wheel", amount=10},
+      {type="item", name="wall", amount=10},
     },
-    result = "computing-lab",
+    results = {{type="item", name="computing-lab", amount=1}}
   },
   {
     type = "lab",

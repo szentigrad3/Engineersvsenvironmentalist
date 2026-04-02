@@ -11,11 +11,7 @@ data:extend(
     order = "a-2",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "coal"
-  },
-  {
+{
     type = "autoplace-control",
     name = "coal",
     richness = true,
@@ -29,10 +25,9 @@ data:extend(
     order="a-b-c",
     minable =
     {
-      hardness = 0.4,
       mining_particle = "coal-particle",
       mining_time = 0.7,
-      result = "coal"
+      results = {{type="item", name="coal", amount=1}}
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -52,7 +47,6 @@ data:extend(
         },
         {
           influence = 0.3,
-          noise_layer = "coal",
           noise_octaves_difference = -1.9,
           noise_persistence = 0.35,
           starting_area_weight_optimal = 0,
@@ -67,7 +61,6 @@ data:extend(
         },
         {
           influence = 0.3,
-          noise_layer = "coal",
           noise_octaves_difference = -2.3,
           noise_persistence = 0.4,
           starting_area_weight_optimal = 1,

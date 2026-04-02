@@ -13,8 +13,8 @@ data:extend(
     {
     type = "recipe",
     name = "furnace-5",
-    ingredients = {{"wall",32},{"iron-gear-wheel",90},{"stupid-ai",1},},
-    result = "furnace-5",
+    ingredients = {{type="item", name="wall", amount=32},{type="item", name="iron-gear-wheel", amount=90},{type="item", name="stupid-ai", amount=1},},
+    results = {{type="item", name="furnace-5", amount=1}},
     energy_required = 10,
     enabled = true,
   },

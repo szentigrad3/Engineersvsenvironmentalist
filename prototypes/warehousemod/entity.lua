@@ -196,7 +196,6 @@ function define_warehouse(name, logistics_name)
 
 	if (logistics_name ~= nil) then
 		result.max_health = 450;
-		result.minable.hardness = 0.2;
 		result.logistic_mode = logistics_name;
 		if (logistics_name == "storage") then
 			result.inventory_size = 1000;
@@ -260,7 +259,6 @@ function define_storehouse(name, logistics_name)
 	};
 
 	if (logistics_name ~= nil) then
-		result.minable.hardness = 0.2;
 		result.logistic_mode = logistics_name;
 		if (logistics_name == "storage") then
 			result.inventory_size = 300;

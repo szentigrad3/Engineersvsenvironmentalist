@@ -92,20 +92,20 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"electric-engine-unit",1},
-      {"iron-gear-wheel", 1000},
-      {"advanced-machine-parts", 1000},	     
-	  {"explosives-analogue", 10000},
+      {type="item", name="electric-engine-unit", amount=1},
+      {type="item", name="iron-gear-wheel", amount=1000},
+      {type="item", name="advanced-machine-parts", amount=1000},	     
+	  {type="item", name="explosives-analogue", amount=10000},
 	   {type="fluid",name="lubricant",amount=200},
     },
-    results = {{"green-transport-belt",10}}
+    results = {{type="item", name="green-transport-belt", amount=10}}
   },
   {
     type = "transport-belt",
     name = "green-transport-belt",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/green-transport-belt.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.3, result = "green-transport-belt"},
+    minable = {mining_time = 0.3, result = "green-transport-belt"},
     max_health = 50,
     corpse = "small-remnants",
     resistances = 
@@ -169,17 +169,16 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"green-transport-belt", 20},
+      {type="item", name="green-transport-belt", amount=20},
     },
-    result_count = 2,
-    result = "green-transport-belt-to-ground"
+    results = {{type="item", name="green-transport-belt-to-ground", amount=2}}
   },
   {
     type = "underground-belt",
     name = "green-transport-belt-to-ground",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/green-transport-belt-to-ground.png",
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "green-transport-belt-to-ground"},
+    minable = {mining_time = 0.5, result = "green-transport-belt-to-ground"},
     max_health = 60,
     corpse = "small-remnants",
     underground_sprite =
@@ -258,19 +257,19 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"green-transport-belt", 2},
-      {"electric-engine-unit",1},
-      {"processing-unit", 5},
-      {"advanced-machine-parts", 5},
+      {type="item", name="green-transport-belt", amount=2},
+      {type="item", name="electric-engine-unit", amount=1},
+      {type="item", name="processing-unit", amount=5},
+      {type="item", name="advanced-machine-parts", amount=5},
     },
-    result = "green-splitter"
+    results = {{type="item", name="green-splitter", amount=1}}
   },
 {
     type = "splitter",
     name = "green-splitter",
     icon="__Engineersvsenvironmentalist__/graphics/icons/transport-belts/green-splitter.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "green-splitter"},
+    minable = {mining_time = 0.5, result = "green-splitter"},
     max_health = 80,
     corpse = "medium-remnants",
     resistances = 

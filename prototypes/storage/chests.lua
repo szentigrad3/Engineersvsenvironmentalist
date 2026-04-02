@@ -13,8 +13,8 @@
     {
     type = "recipe",
     name = "wooden-chest",
-    ingredients = {{"wood", 4}},
-    result = "wooden-chest"
+    ingredients = {{type="item", name="wood", amount=4}},
+    results = {{type="item", name="wooden-chest", amount=1}}
   },
   {
     type = "item",
@@ -30,8 +30,8 @@
     type = "recipe",
     name = "iron-chest",
     enabled = true,
-    ingredients = {{"iron-gear-wheel", 8}},
-    result = "iron-chest"
+    ingredients = {{type="item", name="iron-gear-wheel", amount=8}},
+    results = {{type="item", name="iron-chest", amount=1}}
   },
   {
     type = "item",
@@ -47,8 +47,8 @@
     type = "recipe",
     name = "steel-chest",
     enabled = false,
-    ingredients = {{"advanced-machine-parts", 8}},
-    result = "steel-chest"
+    ingredients = {{type="item", name="advanced-machine-parts", amount=8}},
+    results = {{type="item", name="steel-chest", amount=1}}
   },
   {
     type = "item",
@@ -66,10 +66,10 @@
     enabled = false,
     ingredients =
     {
-      {"steel-chest", 1},
-      {"advanced-circuit", 1}
+      {type="item", name="steel-chest", amount=1},
+      {type="item", name="advanced-circuit", amount=1}
     },
-    result = "logistic-chest-passive-provider"
+    results = {{type="item", name="logistic-chest-passive-provider", amount=1}}
   },
   {
     type = "item",
@@ -87,10 +87,10 @@
     enabled = false,
     ingredients =
     {
-      {"steel-chest", 1},
-      {"advanced-circuit", 1}
+      {type="item", name="steel-chest", amount=1},
+      {type="item", name="advanced-circuit", amount=1}
     },
-    result = "logistic-chest-active-provider"
+    results = {{type="item", name="logistic-chest-active-provider", amount=1}}
   },
   {
     type = "item",
@@ -109,10 +109,10 @@
     enabled = false,
     ingredients =
     {
-      {"steel-chest", 1},
-      {"advanced-circuit", 1}
+      {type="item", name="steel-chest", amount=1},
+      {type="item", name="advanced-circuit", amount=1}
     },
-    result = "logistic-chest-storage"
+    results = {{type="item", name="logistic-chest-storage", amount=1}}
   },
   {
     type = "item",
@@ -130,10 +130,10 @@
     enabled = false,
     ingredients =
     {
-      {"steel-chest", 1},
-      {"advanced-circuit", 1}
+      {type="item", name="steel-chest", amount=1},
+      {type="item", name="advanced-circuit", amount=1}
     },
-    result = "logistic-chest-requester"
+    results = {{type="item", name="logistic-chest-requester", amount=1}}
   },
   }
   )

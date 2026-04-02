@@ -13,12 +13,12 @@ data:extend({
     type = "recipe",
     name = "crusher-1",
     ingredients = {
-	  {"wall", 1},
-    {"iron-gear-wheel",4},
-	{"stupid-ai",1},
+	  {type="item", name="wall", amount=1},
+    {type="item", name="iron-gear-wheel", amount=4},
+	{type="item", name="stupid-ai", amount=1},
 		},
 		enabled = true,
-    result = "crusher-1"
+    results = {{type="item", name="crusher-1", amount=1}}
   },
 	{
     type = "assembling-machine",
@@ -112,12 +112,12 @@ data:extend({
     type = "recipe",
     name = "crusher-2",
     ingredients = {
-	  {"wall", 500},
-    {"iron-gear-wheel",2000},
-	{"small-ai",1},
+	  {type="item", name="wall", amount=500},
+    {type="item", name="iron-gear-wheel", amount=2000},
+	{type="item", name="small-ai", amount=1},
 		},
 		enabled = false,
-    result = "crusher-2"
+    results = {{type="item", name="crusher-2", amount=1}}
   },
 	{
     type = "assembling-machine",
@@ -212,12 +212,12 @@ data:extend({
     type = "recipe",
     name = "crusher-3",
     ingredients = {
-	  {"wall", 3000},
-    {"iron-gear-wheel",20000},
-	{"small-ai",1},
+	  {type="item", name="wall", amount=3000},
+    {type="item", name="iron-gear-wheel", amount=20000},
+	{type="item", name="small-ai", amount=1},
 		},
 		enabled = false,
-    result = "crusher-3"
+    results = {{type="item", name="crusher-3", amount=1}}
   },
 	{
     type = "assembling-machine",
@@ -305,12 +305,12 @@ data:extend({
     type = "recipe",
     name = "crusher-4",
     ingredients = {
-			{"wall", 5000},
-      {"advanced-machine-parts",30000},
-	  {"small-ai",1},
+			{type="item", name="wall", amount=5000},
+      {type="item", name="advanced-machine-parts", amount=30000},
+	  {type="item", name="small-ai", amount=1},
 		},
 		enabled = false,
-    result = "crusher-4"
+    results = {{type="item", name="crusher-4", amount=1}}
   },
 	{
     type = "assembling-machine",

@@ -83,13 +83,13 @@ data:extend({
     energy_required = 10,
     enabled = false,
     ingredients = {
-      {"bauxite-crushed",5},
-      {"sodium-hydroxide",3},
+      {type="item", name="bauxite-crushed", amount=5},
+      {type="item", name="sodium-hydroxide", amount=3},
       {type="fluid", name="water", amount=2}
     },
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/corundum.png",
     results = {
-      {"alumina",4},
+      {type="item", name="alumina", amount=4},
       {type="fluid", name="red-mud", amount=5},
       {type="fluid", name="water", amount=2},
     },
@@ -103,15 +103,15 @@ data:extend({
     energy_required = 25,
     enabled = false,
     ingredients = {
-      {"alumina",5},
-      {"cryolite",2},
-      {"carbon",1},
-      {"fluorite",1},
+      {type="item", name="alumina", amount=5},
+      {type="item", name="cryolite", amount=2},
+      {type="item", name="carbon", amount=1},
+      {type="item", name="fluorite", amount=1},
       {type="fluid", name="water", amount=2}
     },
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/aluminium-plate.png",
     results = {
-      {"aluminium-plate",4},
+      {type="item", name="aluminium-plate", amount=4},
       {type="fluid", name="hydrogen-fluoride", amount=3},
       {type="fluid", name="water", amount=2},
     },
@@ -125,13 +125,13 @@ data:extend({
     energy_required = 25,
     enabled = false,
     ingredients = {
-      {"aluminium-plate",4},
-      {"ferrosilicon",1},
+      {type="item", name="aluminium-plate", amount=4},
+      {type="item", name="ferrosilicon", amount=1},
       {type="fluid", name="water", amount=2}
     },
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/cast-aluminum.png",
     results = {
-      {"cast-aluminium",4},
+      {type="item", name="cast-aluminium", amount=4},
       {type="fluid", name="hydrogen-fluoride", amount=3},
       {type="fluid", name="water", amount=2},
     },
@@ -145,13 +145,13 @@ data:extend({
     energy_required = 10,
     enabled = false,
     ingredients = {
-      {"bauxite-crushed",1},
-      {"sodium-hydroxide",1},
+      {type="item", name="bauxite-crushed", amount=1},
+      {type="item", name="sodium-hydroxide", amount=1},
       {type="fluid", name="hydrogen-fluoride", amount=1}
     },
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/cryolite.png",
     results = {
-      {"cryolite",4},
+      {type="item", name="cryolite", amount=4},
       {type="fluid", name="hydrogen-fluoride", amount=1},
      
     },

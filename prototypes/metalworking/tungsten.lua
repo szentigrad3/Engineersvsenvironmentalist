@@ -60,8 +60,8 @@ data:extend(
   order = "a-1",
 	enabled = false,
   energy_required = 1,
-  ingredients = {{"tungsten-ore",5}},
-  results = {{"tungsten-crushed",5},{"gravel",3}},
+  ingredients = {{type="item", name="tungsten-ore", amount=5}},
+  results = {{type="item", name="tungsten-crushed", amount=5},{type="item", name="gravel", amount=3}},
 	},
   {
     type = "recipe",
@@ -96,7 +96,7 @@ data:extend(
     {
       {type="fluid", name="tungstic-acid", amount=1},
     },
-    result="tungsten-oxide",
+    results = {{type="item", name="tungsten-oxide", amount=1}}
   },
  {
     type = "recipe",
@@ -111,7 +111,7 @@ data:extend(
       {type="item", name="tungsten-oxide", amount=1},
       {type="fluid", name="hydrogen", amount=3}
     },
-    result="powdered-tungsten",
+    results = {{type="item", name="powdered-tungsten", amount=1}}
   },
   {
     type = "recipe",
@@ -126,8 +126,7 @@ data:extend(
       {type="item", name="nickel-plate", amount=1},
       {type="item", name="powdered-tungsten", amount=4},
     },
-    result = "tungsten-plate",
-    result_count = 5,
+    results = {{type="item", name="tungsten-plate", amount=5}}
   },
 
 

@@ -11,7 +11,7 @@
     unit =
     {
       count = 1,
-      ingredients = {{"automation-science-pack", 1}},
+      ingredients = {{type="item", name="automation-science-pack", amount=1}},
       time = 15
     },
     order = "a-f-a",
@@ -39,7 +39,7 @@
     unit =
     {
       count = 50,
-      ingredients = {{"automation-science-pack", 1}},
+      ingredients = {{type="item", name="automation-science-pack", amount=1}},
       time = 15
     },
     order = "a-f-a",
@@ -69,8 +69,8 @@
       count = 40,
       ingredients =
       {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1}
+        {type="item", name="automation-science-pack", amount=1},
+        {type="item", name="logistic-science-pack", amount=1}
       },
       time = 30
     },
@@ -101,9 +101,9 @@
       count = 100,
       ingredients =
       {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1}
+        {type="item", name="automation-science-pack", amount=1},
+        {type="item", name="logistic-science-pack", amount=1},
+        {type="item", name="chemical-science-pack", amount=1}
       },
       time = 15
     },
@@ -134,10 +134,10 @@
       count = 150,
       ingredients =
       {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
-        {"production-science-pack", 1}
+        {type="item", name="automation-science-pack", amount=1},
+        {type="item", name="logistic-science-pack", amount=1},
+        {type="item", name="chemical-science-pack", amount=1},
+        {type="item", name="production-science-pack", amount=1}
       },
       time = 20
     },
@@ -168,11 +168,11 @@
       count = 150,
       ingredients =
       {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"chemical-science-pack", 1},
-        {"production-science-pack", 1},
-        {"alien-science-pack", 1},
+        {type="item", name="automation-science-pack", amount=1},
+        {type="item", name="logistic-science-pack", amount=1},
+        {type="item", name="chemical-science-pack", amount=1},
+        {type="item", name="production-science-pack", amount=1},
+        {type="item", name="alien-science-pack", amount=1},
       },
       time = 30
     },

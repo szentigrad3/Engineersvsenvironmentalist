@@ -9,11 +9,7 @@ data:extend(
     order = "b-d[lead-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "lead-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "lead-ore",
     richness = true,
@@ -24,14 +20,12 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 0.7,
       mining_particle = "stone-particle",
       mining_time = 1.5,
-      result = "lead-ore"
+      results = {{type="item", name="lead-ore", amount=1}}
     },
 		name = "lead-ore",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/lead-ore.png",
-		hardness = 0.7,
 		mining_time = 1.5,
 		tint = {r = 0.8, g = 0.5, b = 0.5},
 		map_color = {r=0.250, g=0.250, b=0.250},
@@ -64,7 +58,6 @@ data:extend(
         },
         {
           influence = 0.28,
-          noise_layer = "lead-ore",
           noise_octaves_difference = -1.9,
           noise_persistence = 0.3,
           starting_area_weight_optimal = 0,
@@ -79,7 +72,6 @@ data:extend(
         },
         {
           influence = 0.3,
-          noise_layer = "lead-ore",
           noise_octaves_difference = -1,
           noise_persistence = 0.4,
           starting_area_weight_optimal = 1,

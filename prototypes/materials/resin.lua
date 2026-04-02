@@ -21,7 +21,7 @@ data:extend(
     {
       { "raw-wood", 1},
     },
-    result = "resin",
+    results = {{type="item", name="resin", amount=1}}
   },
   
   {
@@ -35,7 +35,7 @@ data:extend(
     {
       { "coal", 100},
     },
-    result = "resin",
+    results = {{type="item", name="resin", amount=1}}
   },
   {
     type = "recipe",
@@ -48,7 +48,7 @@ data:extend(
     {
       {type="fluid", name="heavy-oil", amount=1},
     },
-    result = "resin",
+    results = {{type="item", name="resin", amount=1}}
   },
 }
 )

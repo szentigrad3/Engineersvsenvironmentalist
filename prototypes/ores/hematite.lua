@@ -10,11 +10,7 @@ data:extend(
 		order = "g1[other]",
 		stack_size = 200
 	},
-  {
-    type = "noise-layer",
-    name = "hematite"
-  },
-  {
+{
     type = "autoplace-control",
     name = "hematite",
     richness = true,
@@ -24,10 +20,9 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 1.4,
       mining_particle = "iron-ore-particle",
       mining_time = 4,
-      result = "iron-oxide"
+      results = {{type="item", name="iron-oxide", amount=1}}
     },
 		name = "hematite",
 		tint = {r = 0.8, g = 0.75, b = 0.1},
@@ -60,7 +55,6 @@ data:extend(
       },
       {
         influence = 0.30,
-        noise_layer = "hematite",
         noise_octaves_difference = -1.9,
         noise_persistence = 0.3,
         starting_area_weight_optimal = 0,
@@ -69,7 +63,6 @@ data:extend(
       },
       {
         influence = 0.30,
-        noise_layer = "hematite",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.3,
         starting_area_weight_optimal = 1,

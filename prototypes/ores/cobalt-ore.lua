@@ -9,11 +9,7 @@ data:extend(
     order = "b-d[cobalt-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "cobalt-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "cobalt-ore",
     richness = true,
@@ -30,10 +26,9 @@ data:extend(
 		stage_mult = 10,
 		minable =
     {
-      hardness = 2.0,
       mining_particle = "stone-particle",
       mining_time = 3,
-      result = "cobalt-ore"
+      results = {{type="item", name="cobalt-ore", amount=1}}
     },
 		item =
 		{
@@ -58,7 +53,6 @@ data:extend(
       },
       {
         influence = 0.28,
-        noise_layer = "cobalt-ore",
         noise_octaves_difference = -1.9,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,

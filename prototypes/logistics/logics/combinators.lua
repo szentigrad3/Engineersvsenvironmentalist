@@ -16,10 +16,10 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"copper-cable", 5},
-      {"small-ai", 2},
+      {type="item", name="copper-cable", amount=5},
+      {type="item", name="small-ai", amount=2},
     },
-    result = "arithmetic-combinator"
+    results = {{type="item", name="arithmetic-combinator", amount=1}}
   },
   {
     type = "item",
@@ -37,10 +37,10 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"copper-cable", 5},
-      {"small-ai", 1},
+      {type="item", name="copper-cable", amount=5},
+      {type="item", name="small-ai", amount=1},
     },
-    result = "decider-combinator"
+    results = {{type="item", name="decider-combinator", amount=1}}
   },
   {
     type = "item",
@@ -58,10 +58,10 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"copper-cable", 5},
-      {"small-ai", 1},
+      {type="item", name="copper-cable", amount=5},
+      {type="item", name="small-ai", amount=1},
     },
-    result = "constant-combinator"
+    results = {{type="item", name="constant-combinator", amount=1}}
   },
 }
 )

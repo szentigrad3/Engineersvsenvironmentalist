@@ -18,9 +18,9 @@ data:extend(
     category="computing-pots",
     ingredients =
     {
-      {"basic-circuit-board",50},
+      {type="item", name="basic-circuit-board", amount=50},
     },
-    result = "computing-pack-1"
+    results = {{type="item", name="computing-pack-1", amount=1}}
   },
 }
 )
@@ -45,9 +45,9 @@ data:extend(
 	enabled=true;
     ingredients =
     {
-      {"stupid-ai",1},
+      {type="item", name="stupid-ai", amount=1},
     },
-    result = "computing-pack-2"
+    results = {{type="item", name="computing-pack-2", amount=1}}
   },
 }
 )
@@ -72,9 +72,9 @@ data:extend(
 		enabled=true;
     ingredients =
     {
-  {"small-ai",1},
+  {type="item", name="small-ai", amount=1},
     },
-    result = "computing-pack-3"
+    results = {{type="item", name="computing-pack-3", amount=1}}
   },
 }
 )
@@ -99,9 +99,9 @@ data:extend(
 		enabled=true;
     ingredients =
     {
-       {"medium-ai",1}, 
+       {type="item", name="medium-ai", amount=1}, 
     },
-    result = "computing-pack-4"
+    results = {{type="item", name="computing-pack-4", amount=1}}
   },
 }
 )
@@ -126,9 +126,9 @@ data:extend(
 		enabled=true;
     ingredients =
     {
-      {"large-ai",1}, 
+      {type="item", name="large-ai", amount=1}, 
     },
-    result = "computing-pack-5"
+    results = {{type="item", name="computing-pack-5", amount=1}}
   },
 }
 )

@@ -71,8 +71,8 @@ data:extend(
     order="a-1",
     energy_required = 1,
     enabled = false,
-    ingredients = {{"tin-ore", 5}},
-    results = {{"tin-crushed", 5},{"gravel",3}},
+    ingredients = {{type="item", name="tin-ore", amount=5}},
+    results = {{type="item", name="tin-crushed", amount=5},{type="item", name="gravel", amount=3}},
   },
   {
     type = "recipe",
@@ -84,10 +84,10 @@ data:extend(
     order="a-2",
     energy_required = 1,
     enabled = false,
-    ingredients = {{"tin-crushed", 1},{type="fluid", name="water", amount=1}},
+    ingredients = {{type="item", name="tin-crushed", amount=1},{type="fluid", name="water", amount=1}},
     results = 
     {
-    {"tin-sifted", 1},
+    {type="item", name="tin-sifted", amount=1},
     {type="item",name="iron-oxide-crushed", probability=0.1, amount_min=1, amount_max=1},
     {type="item",name="gravel", probability=0.1, amount_min=1, amount_max=1},
     },
@@ -102,8 +102,8 @@ data:extend(
     order="a-3",
     energy_required = 3.5,
     enabled = false,
-    ingredients = {{"tin-sifted", 10},{"carbon",1},{"sand",1},{"calcium-oxide",1}},
-    results = {{"tin-crude", 5},{"tin-slag-1",5}},
+    ingredients = {{type="item", name="tin-sifted", amount=10},{type="item", name="carbon", amount=1},{type="item", name="sand", amount=1},{type="item", name="calcium-oxide", amount=1}},
+    results = {{type="item", name="tin-crude", amount=5},{type="item", name="tin-slag-1", amount=5}},
   },
   {
     type = "recipe",
@@ -115,8 +115,8 @@ data:extend(
     order="a-4",
     energy_required = 3.5,
     enabled = false,
-    ingredients = {{"tin-slag-1", 10},{"carbon",1},{"iron-oxide-crushed",1},{"calcium-oxide",1}},
-    results = {{"tin-crude", 5},{"tin-slag-2",5}},
+    ingredients = {{type="item", name="tin-slag-1", amount=10},{type="item", name="carbon", amount=1},{type="item", name="iron-oxide-crushed", amount=1},{type="item", name="calcium-oxide", amount=1}},
+    results = {{type="item", name="tin-crude", amount=5},{type="item", name="tin-slag-2", amount=5}},
   },
     {
     type = "recipe",
@@ -128,8 +128,8 @@ data:extend(
     order="a-5",
     energy_required = 3.5,
     enabled = false,
-    ingredients = {{"tin-slag-2", 2}},
-    results = {{"tin-crude", 1},{"metal-waste",1}},
+    ingredients = {{type="item", name="tin-slag-2", amount=2}},
+    results = {{type="item", name="tin-crude", amount=1},{type="item", name="metal-waste", amount=1}},
   },
   {
     type = "recipe",
@@ -141,10 +141,10 @@ data:extend(
     order="a-6",
     energy_required = 1,
     enabled = false,
-    ingredients = {{"tin-crude", 1}},
+    ingredients = {{type="item", name="tin-crude", amount=1}},
     results = 
     {
-    {"tin-plate", 1},
+    {type="item", name="tin-plate", amount=1},
     {type="item",name="iron-oxide-crushed", probability=0.25, amount_min=1, amount_max=1},
     {type="item",name="copper-crushed", probability=0.25, amount_min=1, amount_max=1},
     },

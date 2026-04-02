@@ -57,7 +57,7 @@ data:extend(
     {
       {type="fluid", name="lithia-water", amount=2.5}
     },
-    result="lithium-chloride",
+    results = {{type="item", name="lithium-chloride", amount=1}}
   },
 }
 )
@@ -116,9 +116,9 @@ data:extend(
     enabled = false,
     ingredients =
     {
-        {"lithium-chloride", 1},
+        {type="item", name="lithium-chloride", amount=1},
     },
-    result = "lithium",
+    results = {{type="item", name="lithium", amount=1}}
   },
 }
 )

@@ -18,10 +18,10 @@ data:extend(
       category = "mixing-furnace",
       ingredients =
       {
-          {"tin-plate", 2},
-          {"lead-plate", 3},
+          {type="item", name="tin-plate", amount=2},
+          {type="item", name="lead-plate", amount=3},
       },
-      results = {{"solder-alloy",5}},
+      results = {{type="item", name="solder-alloy", amount=5}},
     },
 	
 	    {
@@ -32,10 +32,10 @@ data:extend(
       category = "mixing-furnace",
       ingredients =
       {
-          {"iron-gear-wheel", 50},
-          {"lead-plate", 3},
+          {type="item", name="iron-gear-wheel", amount=50},
+          {type="item", name="lead-plate", amount=3},
       },
-      results = {{"solder-alloy",5}},
+      results = {{type="item", name="solder-alloy", amount=5}},
     },
   }
   )

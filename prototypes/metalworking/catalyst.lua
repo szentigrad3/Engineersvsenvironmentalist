@@ -15,9 +15,9 @@ data:extend(
 		enabled = true,
 		ingredients = 
 		{
-			{"platinum-grain",10},
+			{type="item", name="platinum-grain", amount=10},
 		},
-		result = "catalyst"
+		results = {{type="item", name="catalyst", amount=1}}
 	},
 	
 	{

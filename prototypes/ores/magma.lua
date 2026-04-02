@@ -10,11 +10,7 @@ data:extend(
     order = "z-1",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "magma"
-  },
-  {
+{
     type = "autoplace-control",
     name = "magma",
     richness = true,
@@ -25,10 +21,9 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 199,
       mining_particle = "stone-particle",
       mining_time = 1000,
-      result = "magma"
+      results = {{type="item", name="magma", amount=1}}
     },
 		name = "magma",
 		tint = {r = 1, g = 0, b = 0},
@@ -60,7 +55,6 @@ data:extend(
       },
       {
         influence = 0.35,
-        noise_layer = "magma",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,
@@ -69,7 +63,6 @@ data:extend(
       },
       {
         influence = 0.35,
-        noise_layer = "magma",
         noise_octaves_difference = -3,
         noise_persistence = 0.4,
         starting_area_weight_optimal = 1,

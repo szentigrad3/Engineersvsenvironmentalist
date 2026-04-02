@@ -10,11 +10,7 @@ data:extend(
     order = "b-d[silver-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "silver-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "silver-ore",
     richness = true,
@@ -25,15 +21,13 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 1.4,
       mining_particle = "stone-particle",
       mining_time = 2,
-      result = "silver-ore"
+      results = {{type="item", name="silver-ore", amount=1}}
     },
 		name = "silver-ore",
 		tint = {r = 0.875, g = 0.975, b = 1},
 		map_color = {r=0.578, g=0.684, b=0.695},
-		hardness = 0.6,
 		mining_time = 1.5,
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/silver-ore.png",
@@ -62,7 +56,6 @@ data:extend(
       },
       {
         influence = 0.30,
-        noise_layer = "silver-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,
@@ -71,7 +64,6 @@ data:extend(
       },
       {
         influence = 0.3,
-        noise_layer = "silver-ore",
         noise_octaves_difference = -3,
         noise_persistence = 0.4,
         starting_area_weight_optimal = 1,

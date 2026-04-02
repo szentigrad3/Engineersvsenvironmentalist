@@ -37,7 +37,7 @@ data:extend(
       {type="fluid", name="sulfur-dioxide", amount=1},
       {type="fluid", name="hydrogen", amount=2}
     },
-    result = "sulfur",
+    results = {{type="item", name="sulfur", amount=1}},
     order = "f[sulfur]"
   },
 }

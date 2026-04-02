@@ -10,12 +10,12 @@ data:extend({
 		enabled = "false",
 		ingredients = 
 		{
-			{"iron-gear-wheel",300},
-			{"wall", 50},			
+			{type="item", name="iron-gear-wheel", amount=300},
+			{type="item", name="wall", amount=50},			
 			
 			
 		},
-		result = "warehouse-basic"
+		results = {{type="item", name="warehouse-basic", amount=1}}
 	},
 	{ -- Passive Provider Warehouse
 		type = "recipe",
@@ -23,12 +23,12 @@ data:extend({
 		enabled = "false",
 		ingredients = 
 		{
-			{"warehouse-basic",1},
-			{"logistic-chest-passive-provider",1},
-			{"iron-gear-wheel",300},	
-			{"medium-ai",1}, 
+			{type="item", name="warehouse-basic", amount=1},
+			{type="item", name="logistic-chest-passive-provider", amount=1},
+			{type="item", name="iron-gear-wheel", amount=300},	
+			{type="item", name="medium-ai", amount=1}, 
 		},
-		result = "warehouse-passive-provider"
+		results = {{type="item", name="warehouse-passive-provider", amount=1}}
 	},
 	{ -- Storage Warehouse
 		type = "recipe",
@@ -36,12 +36,12 @@ data:extend({
 		enabled = "false",
 		ingredients = 
 		{
-			{"warehouse-basic",1},
-			{"logistic-chest-storage",1},
-			{"iron-gear-wheel",600},	
-			{"medium-ai",1}, 
+			{type="item", name="warehouse-basic", amount=1},
+			{type="item", name="logistic-chest-storage", amount=1},
+			{type="item", name="iron-gear-wheel", amount=600},	
+			{type="item", name="medium-ai", amount=1}, 
 		},
-		result = "warehouse-storage"
+		results = {{type="item", name="warehouse-storage", amount=1}}
 	},
 	{ -- Active Provider Warehouse
 		type = "recipe",
@@ -49,12 +49,12 @@ data:extend({
 		enabled = "false",
 		ingredients = 
 		{
-			{"warehouse-basic",1},
-			{"logistic-chest-active-provider",1},
-			{"iron-gear-wheel",600},	
-			{"medium-ai",1}, 
+			{type="item", name="warehouse-basic", amount=1},
+			{type="item", name="logistic-chest-active-provider", amount=1},
+			{type="item", name="iron-gear-wheel", amount=600},	
+			{type="item", name="medium-ai", amount=1}, 
 		},
-		result = "warehouse-active-provider"
+		results = {{type="item", name="warehouse-active-provider", amount=1}}
 	},
 	{ -- Requestor Warehouse
 		type = "recipe",
@@ -62,12 +62,12 @@ data:extend({
 		enabled = "false",
 		ingredients = 
 		{
-			{"warehouse-basic",1},
-			{"logistic-chest-requester",1},
-			{"iron-gear-wheel",600},	
-			{"medium-ai",1}, 
+			{type="item", name="warehouse-basic", amount=1},
+			{type="item", name="logistic-chest-requester", amount=1},
+			{type="item", name="iron-gear-wheel", amount=600},	
+			{type="item", name="medium-ai", amount=1}, 
 		},
-		result = "warehouse-requester"
+		results = {{type="item", name="warehouse-requester", amount=1}}
 	},
 	{ -- Basic Storehouse
 		type = "recipe",
@@ -76,11 +76,11 @@ data:extend({
 		ingredients = 
 		{
 			
-			{"iron-gear-wheel",100},	
-			{"wall", 8},
+			{type="item", name="iron-gear-wheel", amount=100},	
+			{type="item", name="wall", amount=8},
 			
 		},
-		result = "storehouse-basic"
+		results = {{type="item", name="storehouse-basic", amount=1}}
 	},
 	{ -- Passive Provider Storehouse
 		type = "recipe",
@@ -88,12 +88,12 @@ data:extend({
 		enabled = "false",
 		ingredients = 
 		{
-			{"storehouse-basic",1},
-			{"logistic-chest-passive-provider",1},
-			{"iron-gear-wheel",200},	
-			{"medium-ai",1}, 
+			{type="item", name="storehouse-basic", amount=1},
+			{type="item", name="logistic-chest-passive-provider", amount=1},
+			{type="item", name="iron-gear-wheel", amount=200},	
+			{type="item", name="medium-ai", amount=1}, 
 		},
-		result = "storehouse-passive-provider"
+		results = {{type="item", name="storehouse-passive-provider", amount=1}}
 	},
 	{ -- Storage Storehouse
 		type = "recipe",
@@ -101,12 +101,12 @@ data:extend({
 		enabled = "false",
 		ingredients = 
 		{
-			{"storehouse-basic",1},
-			{"logistic-chest-storage",1},
-			{"iron-gear-wheel",200},	
-			{"medium-ai",1}, 
+			{type="item", name="storehouse-basic", amount=1},
+			{type="item", name="logistic-chest-storage", amount=1},
+			{type="item", name="iron-gear-wheel", amount=200},	
+			{type="item", name="medium-ai", amount=1}, 
 		},
-		result = "storehouse-storage"
+		results = {{type="item", name="storehouse-storage", amount=1}}
 	},
 	{ -- Active Provider Storehouse
 		type = "recipe",
@@ -114,12 +114,12 @@ data:extend({
 		enabled = "false",
 		ingredients = 
 		{
-			{"storehouse-basic",1},
-			{"logistic-chest-active-provider",1},
-			{"iron-gear-wheel",200},	
-			{"medium-ai",1}, 
+			{type="item", name="storehouse-basic", amount=1},
+			{type="item", name="logistic-chest-active-provider", amount=1},
+			{type="item", name="iron-gear-wheel", amount=200},	
+			{type="item", name="medium-ai", amount=1}, 
 		},
-		result = "storehouse-active-provider"
+		results = {{type="item", name="storehouse-active-provider", amount=1}}
 	},
 	{ -- Requestor Storehouse
 		type = "recipe",
@@ -127,11 +127,11 @@ data:extend({
 		enabled = "false",
 		ingredients = 
 		{
-			{"storehouse-basic",1},
-			{"logistic-chest-requester",1},
-			{"iron-gear-wheel",200},	
-			{"medium-ai",1}, 
+			{type="item", name="storehouse-basic", amount=1},
+			{type="item", name="logistic-chest-requester", amount=1},
+			{type="item", name="iron-gear-wheel", amount=200},	
+			{type="item", name="medium-ai", amount=1}, 
 		},
-		result = "storehouse-requester"
+		results = {{type="item", name="storehouse-requester", amount=1}}
 	},
 })

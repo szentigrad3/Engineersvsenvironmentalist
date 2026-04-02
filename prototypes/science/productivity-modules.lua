@@ -21,11 +21,11 @@ data:extend(
     enabled = false,
     ingredients =
     {
-     {"small-ai",2},
+     {type="item", name="small-ai", amount=2},
      
     },
     energy_required = 15,
-    result = "productivity-module"
+    results = {{type="item", name="productivity-module", amount=1}}
   },
   {
     type = "module",
@@ -48,12 +48,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"productivity-module", 4},
-      {"medium-ai",1},
+      {type="item", name="productivity-module", amount=4},
+      {type="item", name="medium-ai", amount=1},
       
     },
     energy_required = 30,
-    result = "productivity-module-2"
+    results = {{type="item", name="productivity-module-2", amount=1}}
   },
   {
     type = "module",
@@ -76,13 +76,13 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"productivity-module-2", 5},
-      {"large-ai",1},
-    {"large-ai",3},
-      {"alien-artifact", 1}
+      {type="item", name="productivity-module-2", amount=5},
+      {type="item", name="large-ai", amount=1},
+    {type="item", name="large-ai", amount=3},
+      {type="item", name="alien-artifact", amount=1}
     },
     energy_required = 60,
-    result = "productivity-module-3"
+    results = {{type="item", name="productivity-module-3", amount=1}}
   },
   }
   )

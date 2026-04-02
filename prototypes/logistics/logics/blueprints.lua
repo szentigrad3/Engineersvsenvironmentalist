@@ -24,9 +24,9 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"advanced-circuit", 1}
+      {type="item", name="advanced-circuit", amount=1}
     },
-    result = "blueprint",
+    results = {{type="item", name="blueprint", amount=1}},
     enabled = false
   },
   {
@@ -50,9 +50,9 @@ data:extend(
     energy_required = 1,
     ingredients =
     {
-      {"advanced-circuit", 1}
+      {type="item", name="advanced-circuit", amount=1}
     },
-    result = "deconstruction-planner",
+    results = {{type="item", name="deconstruction-planner", amount=1}},
     enabled = false
   },
   {
@@ -72,9 +72,9 @@ data:extend(
     subgroup = "logics",
     ingredients =
     {
-      {"advanced-circuit", 15}
+      {type="item", name="advanced-circuit", amount=15}
     },
-    result = "blueprint-book",
+    results = {{type="item", name="blueprint-book", amount=1}},
     enabled = false
   },
 })

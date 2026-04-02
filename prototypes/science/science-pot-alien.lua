@@ -20,10 +20,9 @@ data:extend(
     energy_required = 50,
     ingredients = {
  
-    {"alien-artifact",1000},
+    {type="item", name="alien-artifact", amount=1000},
     },
-    result = "alien-science-pack",
-    result_count = 10
+    results = {{type="item", name="alien-science-pack", amount=10}}
   },
   }
   )

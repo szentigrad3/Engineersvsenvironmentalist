@@ -19,32 +19,32 @@ data:extend(
     name = "circuit-electric-cable|aluminium",
     order = "aluminium",
     enabled=false,
-    ingredients = {{"aluminium-plate", 2}},
-    results = {{"circuit-electric-cable",1}}
+    ingredients = {{type="item", name="aluminium-plate", amount=2}},
+    results = {{type="item", name="circuit-electric-cable", amount=1}}
   },
   {
     type = "recipe",
     name = "circuit-electric-cable|copper",
     order = "copper",
     enabled=true,
-    ingredients = {{"copper-plate", 1}},
-    results = {{"circuit-electric-cable",1}},
+    ingredients = {{type="item", name="copper-plate", amount=1}},
+    results = {{type="item", name="circuit-electric-cable", amount=1}},
   },
   {
     type = "recipe",
     name = "circuit-electric-cable|gold",
     order = "gold",
     enabled=true,
-    ingredients = {{"gold-plate", 2}},
-    results = {{"circuit-electric-cable",1}},
+    ingredients = {{type="item", name="gold-plate", amount=2}},
+    results = {{type="item", name="circuit-electric-cable", amount=1}},
   },
   {
     type = "recipe",
     name = "circuit-electric-cable|silver",
     order = "silver",
     enabled=false,
-    ingredients = {{"silver-plate", 1}},
-    results = {{"circuit-electric-cable",1}},
+    ingredients = {{type="item", name="silver-plate", amount=1}},
+    results = {{type="item", name="circuit-electric-cable", amount=1}},
   },
   }
   )

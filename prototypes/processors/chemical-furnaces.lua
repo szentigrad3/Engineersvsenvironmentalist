@@ -17,12 +17,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 9},
-      {"plumbing", 7},
-      {"iron-gear-wheel",3},
-	   {"stupid-ai",3},
+      {type="item", name="wall", amount=9},
+      {type="item", name="plumbing", amount=7},
+      {type="item", name="iron-gear-wheel", amount=3},
+	   {type="item", name="stupid-ai", amount=3},
     },
-    result = "chemical-boiler"
+    results = {{type="item", name="chemical-boiler", amount=1}}
   },
   {
     type = "assembling-machine",
@@ -174,12 +174,12 @@ data:extend(
     enabled = false,
     ingredients =
     {
-      {"wall", 2000},
-      {"plumbing", 1250},
-      {"iron-gear-wheel",750},
+      {type="item", name="wall", amount=2000},
+      {type="item", name="plumbing", amount=1250},
+      {type="item", name="iron-gear-wheel", amount=750},
 	    {"small-ai" ,5},
     },
-    result = "chemical-furnace"
+    results = {{type="item", name="chemical-furnace", amount=1}}
   },
   {
     type = "assembling-machine",

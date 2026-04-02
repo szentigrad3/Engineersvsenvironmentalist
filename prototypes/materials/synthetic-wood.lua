@@ -22,8 +22,7 @@ data:extend(
     {
       {type="fluid", name="heavy-oil", amount=1}
     },
-    result = "synthetic-wood",
-    result_count = 2,
+    results = {{type="item", name="synthetic-wood", amount=2}}
   },
 }
 )

@@ -22,8 +22,7 @@ data:extend(
       {type="fluid", name="water", amount=0.5},
       {type="item", name="coal", amount=1},
     },
-    result = "carbon",
-    result_count = 1,
+    results = {{type="item", name="carbon", amount=1}}
   },
   }
   )

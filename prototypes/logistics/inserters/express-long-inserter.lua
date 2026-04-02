@@ -17,11 +17,11 @@ data:extend(
     enabled = "false",
     ingredients =
     {
-      {"fast-long-inserter", 1},
-      {"advanced-circuit", 1},
-      {"advanced-machine-parts", 6},
+      {type="item", name="fast-long-inserter", amount=1},
+      {type="item", name="advanced-circuit", amount=1},
+      {type="item", name="advanced-machine-parts", amount=6},
     },
-    result = "express-long-inserter"
+    results = {{type="item", name="express-long-inserter", amount=1}}
   },
 
   {
@@ -29,7 +29,7 @@ data:extend(
     name = "express-long-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/express-long-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "express-long-inserter"},
+    minable = {mining_time = 0.5, result = "express-long-inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances =

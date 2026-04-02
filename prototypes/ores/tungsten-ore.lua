@@ -9,11 +9,7 @@ data:extend(
     order = "b-d[tungsten-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "tungsten-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "tungsten-ore",
     richness = true,
@@ -24,15 +20,13 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 2.6,
       mining_particle = "stone-particle",
       mining_time = 4,
-      result = "tungsten-ore"
+      results = {{type="item", name="tungsten-ore", amount=1}}
     },
 		name = "tungsten-ore",
 		tint = {r = 0.75, g = 0.5, b = 0.25},
 		map_color = {r = 0.6, g = 0.5, b = 0.1},
-		hardness = 2.6,
 		mining_time = 2,
 		enabled = false,
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/tungsten-ore.png",
@@ -60,7 +54,6 @@ data:extend(
       },
       {
         influence = 0.28,
-        noise_layer = "tungsten-ore",
         noise_octaves_difference = -2.4,
         noise_persistence = 0.35,
         starting_area_weight_optimal = 0,

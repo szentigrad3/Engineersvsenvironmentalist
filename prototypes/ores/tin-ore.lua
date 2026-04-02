@@ -10,11 +10,7 @@ data:extend(
     order = "b-d[tin-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "tin-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "tin-ore",
     richness = true,
@@ -25,10 +21,9 @@ data:extend(
 		type = "resource",
 		minable =
     {
-      hardness = 0.8,
       mining_particle = "stone-particle",
       mining_time = 2,
-      result = "tin-ore"
+      results = {{type="item", name="tin-ore", amount=1}}
     },
 		name = "tin-ore",
 		tint = {r = 0.95, g = 0.95, b = 0.95},
@@ -63,7 +58,6 @@ data:extend(
         },
         {
           influence = 0.30,
-          noise_layer = "tin-ore",
           noise_octaves_difference = -1.9,
           noise_persistence = 0.3,
           starting_area_weight_optimal = 0,
@@ -78,7 +72,6 @@ data:extend(
         },
         {
           influence = 0.3,
-          noise_layer = "tin-ore",
           noise_octaves_difference = -1,
           noise_persistence = 0.4,
           starting_area_weight_optimal = 1,

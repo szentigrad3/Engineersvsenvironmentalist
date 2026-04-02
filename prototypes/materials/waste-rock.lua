@@ -18,9 +18,9 @@ data:extend(
   order = "a-1",
 	enabled = "true",
     energy_required = 0.2,
-    ingredients = {{"waste-rock",1}},
+    ingredients = {{type="item", name="waste-rock", amount=1}},
 		
-    results = {{"stone",4},{"gravel",2}},
+    results = {{type="item", name="stone", amount=4},{type="item", name="gravel", amount=2}},
 	
 	}
 }

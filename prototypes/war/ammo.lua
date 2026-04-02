@@ -49,9 +49,8 @@ data:extend(
     type = "recipe",
     name = "basic-bullet-magazine",
     energy_required = 2,
-    ingredients = {{"iron-gear-wheel", 1}},
-    result = "basic-bullet-magazine",
-    result_count = 4
+    ingredients = {{type="item", name="iron-gear-wheel", amount=1}},
+    results = {{type="item", name="basic-bullet-magazine", amount=4}}
   },
 }
 )
@@ -103,11 +102,10 @@ data:extend(
     energy_required = 3,
     ingredients =
     {
-      {"iron-gear-wheel", 5},
-      {"steel-plate",1}
+      {type="item", name="iron-gear-wheel", amount=5},
+      {type="item", name="steel-plate", amount=1}
     },
-    result = "piercing-bullet-magazine",
-    result_count=5,
+    results = {{type="item", name="piercing-bullet-magazine", amount=5}}
   },
   }
   )
@@ -155,11 +153,10 @@ data:extend(
     energy_required = 3,
     ingredients =
     {
-      {"iron-gear-wheel", 5},
-      {"plastic-bar", 1}
+      {type="item", name="iron-gear-wheel", amount=5},
+      {type="item", name="plastic-bar", amount=1}
     },
-    result = "shotgun-shell",
-    result_count=5,
+    results = {{type="item", name="shotgun-shell", amount=5}}
   },
   }
   )

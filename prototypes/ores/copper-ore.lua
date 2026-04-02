@@ -10,11 +10,7 @@ data:extend(
     order = "f[copper-ore]",
     stack_size = 200
   },
-  {
-    type = "noise-layer",
-    name = "copper-ore"
-  },
-  {
+{
     type = "autoplace-control",
     name = "copper-ore",
     richness = true,
@@ -29,10 +25,9 @@ data:extend(
     order="a-b-a",
     minable =
     {
-      hardness = 0.9,
       mining_particle = "copper-ore-particle",
       mining_time = 4,
-      result = "copper-ore"
+      results = {{type="item", name="copper-ore", amount=1}}
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
@@ -49,7 +44,6 @@ data:extend(
       },
       {
         influence = 0.30,
-        noise_layer = "copper-ore",
         noise_octaves_difference = -3,
         noise_persistence = 0.4,
         starting_area_weight_optimal = 0,

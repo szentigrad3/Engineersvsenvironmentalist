@@ -24,8 +24,8 @@ data:extend({
       count = 100,
       ingredients =
       {
-        {"computing-pack-1", 1},
-		{"computing-pack-2", 5},
+        {type="item", name="computing-pack-1", amount=1},
+		{type="item", name="computing-pack-2", amount=5},
       },
       time = 30
     },

@@ -18,11 +18,11 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"electric-engine-unit", 20},
-      {"electronic-circuit", 10},
-      {"advanced-machine-parts", 30}
+      {type="item", name="electric-engine-unit", amount=20},
+      {type="item", name="electronic-circuit", amount=10},
+      {type="item", name="advanced-machine-parts", amount=30}
     },
-    result = "electric-locomotive"
+    results = {{type="item", name="electric-locomotive", amount=1}}
   },
   {
     type = "locomotive",

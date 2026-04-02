@@ -16,16 +16,16 @@ data:extend(
     enabled = true,
     ingredients =
     {
-      {"iron-gear-wheel", 2},
+      {type="item", name="iron-gear-wheel", amount=2},
     },
-    result = "burner-inserter"
+    results = {{type="item", name="burner-inserter", amount=1}}
   },
   {
     type = "inserter",
     name = "burner-inserter",
     icon = "__base__/graphics/icons/burner-inserter.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
-    minable = {hardness = 0.2, mining_time = 0.5, result = "burner-inserter"},
+    minable = {mining_time = 0.5, result = "burner-inserter"},
     max_health = 40,
     corpse = "small-remnants",
     resistances =
