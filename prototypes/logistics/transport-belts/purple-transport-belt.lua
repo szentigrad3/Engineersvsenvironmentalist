@@ -136,7 +136,7 @@ data:extend(
       width = 40,
       height = 40,
       frame_count = 32,
-2
+direction_count = 12,
     },
     belt_horizontal = purple_belt_horizontal,
     belt_vertical = purple_belt_vertical,

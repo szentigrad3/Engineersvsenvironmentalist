@@ -88,7 +88,7 @@ data:extend(
       height = 42,
       frame_count = 1,
       shift = {0.015625, -0.09375},
-6,
+direction_count = 16,
       y = 42
     },
     idle_with_cargo =
@@ -111,7 +111,7 @@ data:extend(
       height = 42,
       frame_count = 1,
       shift = {0.015625, -0.09375},
-6,
+direction_count = 16,
       y = 126
     },
     in_motion_with_cargo =
@@ -123,7 +123,7 @@ data:extend(
       height = 42,
       frame_count = 1,
       shift = {0.015625, -0.09375},
-6,
+direction_count = 16,
       y = 84
     },
     shadow_idle =
@@ -135,7 +135,7 @@ data:extend(
       height = 23,
       frame_count = 1,
       shift = {0.96875, 0.609375},
-6,
+direction_count = 16,
       y = 23
     },
     shadow_idle_with_cargo =
@@ -158,7 +158,7 @@ data:extend(
       height = 23,
       frame_count = 1,
       shift = {0.96875, 0.609375},
-6,
+direction_count = 16,
       y = 23
     },
     shadow_in_motion_with_cargo =
@@ -235,7 +235,7 @@ data:extend(
       height = 36,
       frame_count = 1,
       shift = {0, -0.15625},
-6,
+direction_count = 16,
       y = 36
     },
     shadow_idle =
@@ -269,7 +269,7 @@ data:extend(
       height = 36,
       frame_count = 2,
       shift = {0, -0.15625},
-6,
+direction_count = 16,
       animation_speed = 0.3,
     },
     shadow_working =
