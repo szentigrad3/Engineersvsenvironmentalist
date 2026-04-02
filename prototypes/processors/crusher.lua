@@ -43,7 +43,6 @@ data:extend({
       module_info_icon_shift = {0, 0.5},
       module_info_multi_row_initial_height_modifier = -0.3
     },
-    ingredient_count = 1,
 		result_inventory_size = 5,
     crafting_speed = 0.1,
     crafting_categories = {"crusher"},
@@ -53,7 +52,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.0000013740,
+      emissions_per_minute = { pollution = 8.244e-05 },
       smoke =
       {
         {
@@ -142,7 +141,6 @@ data:extend({
       module_info_icon_shift = {0, 0.5},
       module_info_multi_row_initial_height_modifier = -0.3
     },
-    ingredient_count = 1,
 		result_inventory_size = 5,
     crafting_speed = 1,
     crafting_categories = {"crusher"},
@@ -152,7 +150,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000013740,
+      emissions_per_minute = { pollution = 0.0008244000000000001 },
       smoke =
       {
         {
@@ -242,7 +240,6 @@ data:extend({
       module_info_icon_shift = {0, 0.5},
       module_info_multi_row_initial_height_modifier = -0.3
     },
-    ingredient_count = 1,
 		result_inventory_size = 5,
     crafting_speed = 5,
     crafting_categories = {"crusher"},
@@ -251,7 +248,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000007200,
+      emissions_per_minute = { pollution = 0.000432 },
     },
 		working_sound =
     {
@@ -335,7 +332,6 @@ data:extend({
       module_info_icon_shift = {0, 0.5},
       module_info_multi_row_initial_height_modifier = -0.3
     },
-    ingredient_count = 1,
 		result_inventory_size = 5,
     crafting_speed = 25,
     crafting_categories = {"crusher"},
@@ -344,7 +340,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000007206,
+      emissions_per_minute = { pollution = 0.00043236 },
     },
 		working_sound =
     {

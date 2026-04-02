@@ -47,7 +47,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000049091,
+      emissions_per_minute = { pollution = 0.00294546 },
       smoke =
       {
         {
@@ -61,7 +61,6 @@ data:extend(
       }
     },  
     energy_usage = "55MW",
-    ingredient_count = 4,
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
@@ -133,7 +132,7 @@ data:extend(
         light = {intensity = 0.4, size = 6, color = {r = 1.0, g = 1.0, b = 1.0}}
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = { filename = "__base__/sound/oil-refinery.ogg" },
@@ -228,10 +227,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000019565,
+      emissions_per_minute = { pollution = 0.0011739 },
     },
     energy_usage = "184MW",
-    ingredient_count = 4,
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
@@ -303,7 +301,7 @@ data:extend(
         light = {intensity = 0.4, size = 6, color = {r = 1.0, g = 1.0, b = 1.0}}
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = { filename = "__base__/sound/oil-refinery.ogg" },
@@ -399,10 +397,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000019636,
+      emissions_per_minute = { pollution = 0.00117816 },
     },
     energy_usage = "275MW",
-    ingredient_count = 4,
     animation = make_4way_animation_from_spritesheet({ layers =
     {
       {
@@ -474,7 +471,7 @@ data:extend(
         light = {intensity = 0.4, size = 6, color = {r = 1.0, g = 1.0, b = 1.0}}
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = { filename = "__base__/sound/oil-refinery.ogg" },

@@ -4,7 +4,7 @@ data:extend({
     type = "item",
     name = "carbon-nanotubes",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/carbon.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "coal-base",
     order = "carbon-nanotubes",
     stack_size = 64000

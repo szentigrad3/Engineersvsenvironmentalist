@@ -7,7 +7,7 @@
     order = "a-a",
     inventory_order = "a-a",
     icon = "__base__/graphics/icons/transport-belt.png",
-	icon_size = 32,
+	icon_size = 64,
   },
     {
     type = "item-group",
@@ -15,7 +15,7 @@
     order = "a-b",
     inventory_order = "b-a",
     icon = "__base__/graphics/icons/logistic-chest-storage.png",
-	icon_size = 32,
+	icon_size = 64,
   },
     {
     type = "item-group",
@@ -23,7 +23,7 @@
     order = "a-c",
     inventory_order = "c-a",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
-	icon_size = 32,
+	icon_size = 64,
   },
       {
     type = "item-group",
@@ -31,7 +31,7 @@
     order = "a-d",
     inventory_order = "d-a",
     icon = "__base__/graphics/icons/burner-mining-drill.png",
-	icon_size = 32,
+	icon_size = 64,
   },
         {
     type = "item-group",
@@ -39,7 +39,7 @@
     order = "a-e",
     inventory_order = "e-a",
     icon = "__base__/graphics/icons/stone-furnace.png",
-	icon_size = 32,
+	icon_size = 64,
   },
   {
     type = "item-group",
@@ -55,7 +55,7 @@
     order = "a-g",
     inventory_order = "g-a",
     icon = "__base__/graphics/icons/raw-wood.png",
-	icon_size = 32,
+	icon_size = 64,
   },
   {
     type = "item-group",
@@ -63,7 +63,7 @@
     order = "a-h",
     inventory_order = "h-a",
     icon = "__base__/graphics/icons/copper-ore.png",
-	icon_size = 32,
+	icon_size = 64,
   },
   {
     type = "item-group",
@@ -71,7 +71,7 @@
     order = "a-i",
     inventory_order = "i-a",
     icon = "__base__/graphics/icons/fluid/heavy-oil.png",
-	icon_size = 32,
+	icon_size = 64,
   },
   {
     type = "item-group",
@@ -79,7 +79,7 @@
     order = "a-j",
     inventory_order = "j-a",
     icon = "__base__/graphics/icons/iron-gear-wheel.png",
-	icon_size = 32,
+	icon_size = 64,
   },
   
   {

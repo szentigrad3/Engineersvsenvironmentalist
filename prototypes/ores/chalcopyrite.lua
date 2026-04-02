@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "chalcopyrite-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/chalcopyrite-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "b-d[chalcopyrite-ore]",
     stack_size = 200
@@ -22,7 +22,7 @@ data:extend(
 		map_color = {r=0.5, g=0.4, b=0.2},
 		enabled = false,
 		icon = "__base__/graphics/icons/copper-ore.png",
-		icon_size = 32,
+		icon_size = 64,
 		stage_mult = 10,
 		items =
 		{

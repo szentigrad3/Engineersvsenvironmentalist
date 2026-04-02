@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "catalyst",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "platinum-processing",
     order = "platinum1",
     stack_size = 5

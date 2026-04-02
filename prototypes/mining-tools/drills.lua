@@ -46,7 +46,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.0000076336,
+      emissions_per_minute = { pollution = 0.00045801599999999995 },
       smoke =
       {
         {
@@ -123,7 +123,7 @@ data:extend(
     type = "item",
     name = "electric-mining-drill",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "basic-mining",
     order = "c-1",
@@ -148,7 +148,7 @@ data:extend(
     type = "mining-drill",
     name = "electric-mining-drill",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "electric-mining-drill"},
     max_health = 300,
@@ -157,7 +157,7 @@ data:extend(
     collision_box = {{ -1.4, -1.4}, {1.4, 1.4}},
     selection_box = {{ -1.5, -1.5}, {1.5, 1.5}},
 		
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =
@@ -195,7 +195,6 @@ data:extend(
         height = 113,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -8.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -206,7 +205,6 @@ data:extend(
           height = 226,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(0, -8),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -221,7 +219,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(3.5, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -232,7 +229,6 @@ data:extend(
           height = 197,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(3.75, -1.25),
           run_mode = "forward-then-backward",      
           scale = 0.5
@@ -247,7 +243,6 @@ data:extend(
         height = 109,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -1.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -258,7 +253,6 @@ data:extend(
           height = 219,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(0, -1.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -273,7 +267,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-3.5, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -284,7 +277,6 @@ data:extend(
           height = 197,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-3.75, -0.75),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -302,7 +294,6 @@ data:extend(
         height = 111,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1.5, -7.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -313,7 +304,6 @@ data:extend(
           height = 223,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1.25, -7.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -328,7 +318,6 @@ data:extend(
         height = 97,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(6, -0.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -339,7 +328,6 @@ data:extend(
           height = 195,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(6.25, -0.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -354,7 +342,6 @@ data:extend(
         height = 103,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1, 2.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -365,7 +352,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1, 2.5),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -380,7 +366,6 @@ data:extend(
         height = 97,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1, -0.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -391,7 +376,6 @@ data:extend(
           height = 195,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1.25, -0.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -408,7 +392,6 @@ data:extend(
         width = 100,
         height = 111,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -6.5),
         hr_version = {
           priority = "extra-high",
@@ -417,7 +400,6 @@ data:extend(
           width = 200,
           height = 222,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -6.5),
           scale = 0.5
         }
@@ -430,7 +412,6 @@ data:extend(
         width = 100,
         height = 110,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -6),
         hr_version = {
           priority = "extra-high",
@@ -439,7 +420,6 @@ data:extend(
           width = 200,
           height = 219,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(0, -5.75),
           scale = 0.5
         }
@@ -452,7 +432,6 @@ data:extend(
         width = 100,
         height = 113,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -7.5),
         hr_version = {
           priority = "extra-high",
@@ -461,7 +440,6 @@ data:extend(
           width = 200,
           height = 226,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -7.5),
           scale = 0.5
         }
@@ -474,7 +452,6 @@ data:extend(
         width = 100,
         height = 108,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -5),
         hr_version = {
           priority = "extra-high",
@@ -483,7 +460,6 @@ data:extend(
           width = 200,
           height = 220,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -6),
           scale = 0.5
         }
@@ -499,7 +475,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -508,7 +483,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -521,7 +495,6 @@ data:extend(
         width = 112,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(6, 0),
         hr_version = {
           priority = "extra-high",
@@ -530,7 +503,6 @@ data:extend(
           width = 224,
           height = 198,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(6, 0),
           scale = 0.5
         }
@@ -543,7 +515,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -552,7 +523,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -565,7 +535,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -574,7 +543,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -592,7 +560,6 @@ data:extend(
         height = 102,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-1, -3),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -604,7 +571,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -2),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -620,7 +586,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -2),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -632,7 +597,6 @@ data:extend(
           height = 209,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -1.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -648,7 +612,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-1, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -660,7 +623,6 @@ data:extend(
           height = 204,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -2.5),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -676,7 +638,6 @@ data:extend(
         height = 99,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -1.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -688,7 +649,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1, -2),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -705,7 +665,6 @@ data:extend(
         width = 72,
         height = 54,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-1, 1),
         hr_version = {
           priority = "extra-high",
@@ -714,7 +673,6 @@ data:extend(
           width = 142,
           height = 107,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-1, 0.75),
           scale = 0.5
         }
@@ -727,7 +685,6 @@ data:extend(
         width = 51,
         height = 74,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-11.5, -11),
         hr_version = {
           priority = "extra-high",
@@ -736,7 +693,6 @@ data:extend(
           width = 104,
           height = 147,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-11, -11.25),
           scale = 0.5
         }
@@ -749,7 +705,6 @@ data:extend(
         width = 71,
         height = 44,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-1.5, -29),
         hr_version = {
           priority = "extra-high",
@@ -758,7 +713,6 @@ data:extend(
           width = 141,
           height = 86,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-1.75, -29),
           scale = 0.5
         }
@@ -771,7 +725,6 @@ data:extend(
         width = 41,
         height = 69,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(11.5, -11.5),
         hr_version = {
           priority = "extra-high",
@@ -780,7 +733,6 @@ data:extend(
           width = 80,
           height = 137,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(11.5, -11.25),
           scale = 0.5
         }
@@ -798,7 +750,6 @@ data:extend(
           width = 68,
           height = 50,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -1),
           hr_version = {
             priority = "extra-high",
@@ -807,7 +758,6 @@ data:extend(
             width = 136,
             height = 99,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2.5, -0.75),
             scale = 0.5
           }
@@ -820,7 +770,6 @@ data:extend(
           width = 41,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-11.5, -11),
           hr_version = {
             priority = "extra-high",
@@ -829,7 +778,6 @@ data:extend(
             width = 82,
             height = 139,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-11.5, -11.25),
             scale = 0.5
           }
@@ -842,7 +790,6 @@ data:extend(
           width = 68,
           height = 40,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -29),
           hr_version = {
             priority = "extra-high",
@@ -851,7 +798,6 @@ data:extend(
             width = 136,
             height = 80,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2.5, -29.5),
             scale = 0.5
           }
@@ -864,7 +810,6 @@ data:extend(
           width = 42,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(11, -11),
           hr_version = {
             priority = "extra-high",
@@ -873,7 +818,6 @@ data:extend(
             width = 83,
             height = 140,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(10.75, -11),
             scale = 0.5
           }
@@ -891,7 +835,6 @@ data:extend(
           width = 70,
           height = 48,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, 0),
           hr_version = {
             priority = "extra-high",
@@ -900,7 +843,6 @@ data:extend(
             width = 138,
             height = 94,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2, 0),
             scale = 0.5
           }
@@ -913,7 +855,6 @@ data:extend(
           width = 42,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-12, -11),
           hr_version = {
             priority = "extra-high",
@@ -922,7 +863,6 @@ data:extend(
             width = 84,
             height = 138,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-12, -11),
             scale = 0.5
           }
@@ -935,7 +875,6 @@ data:extend(
           width = 70,
           height = 40,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -29),
           hr_version = {
             priority = "extra-high",
@@ -944,7 +883,6 @@ data:extend(
             width = 138,
             height = 80,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2, -29),
             scale = 0.5
           }
@@ -957,7 +895,6 @@ data:extend(
           width = 42,
           height = 69,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(12, -10.5),
           hr_version = {
             priority = "extra-high",
@@ -966,7 +903,6 @@ data:extend(
             width = 83,
             height = 137,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(11.75, -10.75),
             scale = 0.5
           }
@@ -977,7 +913,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.000230769,
+      emissions_per_minute = { pollution = 0.01384614 },
       usage_priority = "secondary-input"
     },
     energy_usage = "39MW",
@@ -1006,7 +942,7 @@ data:extend(
     type = "item",
     name = "mining-drill-2",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "basic-mining",
     order = "c-2",
@@ -1031,7 +967,7 @@ data:extend(
     type = "mining-drill",
     name = "mining-drill-2",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "mining-drill-2"},
     max_health = 450,
@@ -1075,7 +1011,6 @@ data:extend(
         height = 113,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -8.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1086,7 +1021,6 @@ data:extend(
           height = 226,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(0, -8),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1101,7 +1035,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(3.5, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1112,7 +1045,6 @@ data:extend(
           height = 197,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(3.75, -1.25),
           run_mode = "forward-then-backward",      
           scale = 0.5
@@ -1127,7 +1059,6 @@ data:extend(
         height = 109,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -1.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1138,7 +1069,6 @@ data:extend(
           height = 219,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(0, -1.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1153,7 +1083,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-3.5, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1164,7 +1093,6 @@ data:extend(
           height = 197,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-3.75, -0.75),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1182,7 +1110,6 @@ data:extend(
         height = 111,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1.5, -7.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1193,7 +1120,6 @@ data:extend(
           height = 223,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1.25, -7.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1208,7 +1134,6 @@ data:extend(
         height = 97,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(6, -0.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1219,7 +1144,6 @@ data:extend(
           height = 195,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(6.25, -0.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1234,7 +1158,6 @@ data:extend(
         height = 103,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1, 2.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1245,7 +1168,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1, 2.5),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1260,7 +1182,6 @@ data:extend(
         height = 97,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1, -0.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1271,7 +1192,6 @@ data:extend(
           height = 195,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1.25, -0.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1288,7 +1208,6 @@ data:extend(
         width = 100,
         height = 111,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -6.5),
         hr_version = {
           priority = "extra-high",
@@ -1297,7 +1216,6 @@ data:extend(
           width = 200,
           height = 222,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -6.5),
           scale = 0.5
         }
@@ -1310,7 +1228,6 @@ data:extend(
         width = 100,
         height = 110,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -6),
         hr_version = {
           priority = "extra-high",
@@ -1319,7 +1236,6 @@ data:extend(
           width = 200,
           height = 219,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(0, -5.75),
           scale = 0.5
         }
@@ -1332,7 +1248,6 @@ data:extend(
         width = 100,
         height = 113,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -7.5),
         hr_version = {
           priority = "extra-high",
@@ -1341,7 +1256,6 @@ data:extend(
           width = 200,
           height = 226,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -7.5),
           scale = 0.5
         }
@@ -1354,7 +1268,6 @@ data:extend(
         width = 100,
         height = 108,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -5),
         hr_version = {
           priority = "extra-high",
@@ -1363,7 +1276,6 @@ data:extend(
           width = 200,
           height = 220,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -6),
           scale = 0.5
         }
@@ -1379,7 +1291,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -1388,7 +1299,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -1401,7 +1311,6 @@ data:extend(
         width = 112,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(6, 0),
         hr_version = {
           priority = "extra-high",
@@ -1410,7 +1319,6 @@ data:extend(
           width = 224,
           height = 198,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(6, 0),
           scale = 0.5
         }
@@ -1423,7 +1331,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -1432,7 +1339,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -1445,7 +1351,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -1454,7 +1359,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -1472,7 +1376,6 @@ data:extend(
         height = 102,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-1, -3),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1484,7 +1387,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -2),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1500,7 +1402,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -2),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1512,7 +1413,6 @@ data:extend(
           height = 209,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -1.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1528,7 +1428,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-1, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1540,7 +1439,6 @@ data:extend(
           height = 204,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -2.5),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1556,7 +1454,6 @@ data:extend(
         height = 99,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -1.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1568,7 +1465,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1, -2),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1585,7 +1481,6 @@ data:extend(
         width = 72,
         height = 54,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-1, 1),
         hr_version = {
           priority = "extra-high",
@@ -1594,7 +1489,6 @@ data:extend(
           width = 142,
           height = 107,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-1, 0.75),
           scale = 0.5
         }
@@ -1607,7 +1501,6 @@ data:extend(
         width = 51,
         height = 74,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-11.5, -11),
         hr_version = {
           priority = "extra-high",
@@ -1616,7 +1509,6 @@ data:extend(
           width = 104,
           height = 147,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-11, -11.25),
           scale = 0.5
         }
@@ -1629,7 +1521,6 @@ data:extend(
         width = 71,
         height = 44,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-1.5, -29),
         hr_version = {
           priority = "extra-high",
@@ -1638,7 +1529,6 @@ data:extend(
           width = 141,
           height = 86,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-1.75, -29),
           scale = 0.5
         }
@@ -1651,7 +1541,6 @@ data:extend(
         width = 41,
         height = 69,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(11.5, -11.5),
         hr_version = {
           priority = "extra-high",
@@ -1660,7 +1549,6 @@ data:extend(
           width = 80,
           height = 137,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(11.5, -11.25),
           scale = 0.5
         }
@@ -1678,7 +1566,6 @@ data:extend(
           width = 68,
           height = 50,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -1),
           hr_version = {
             priority = "extra-high",
@@ -1687,7 +1574,6 @@ data:extend(
             width = 136,
             height = 99,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2.5, -0.75),
             scale = 0.5
           }
@@ -1700,7 +1586,6 @@ data:extend(
           width = 41,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-11.5, -11),
           hr_version = {
             priority = "extra-high",
@@ -1709,7 +1594,6 @@ data:extend(
             width = 82,
             height = 139,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-11.5, -11.25),
             scale = 0.5
           }
@@ -1722,7 +1606,6 @@ data:extend(
           width = 68,
           height = 40,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -29),
           hr_version = {
             priority = "extra-high",
@@ -1731,7 +1614,6 @@ data:extend(
             width = 136,
             height = 80,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2.5, -29.5),
             scale = 0.5
           }
@@ -1744,7 +1626,6 @@ data:extend(
           width = 42,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(11, -11),
           hr_version = {
             priority = "extra-high",
@@ -1753,7 +1634,6 @@ data:extend(
             width = 83,
             height = 140,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(10.75, -11),
             scale = 0.5
           }
@@ -1771,7 +1651,6 @@ data:extend(
           width = 70,
           height = 48,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, 0),
           hr_version = {
             priority = "extra-high",
@@ -1780,7 +1659,6 @@ data:extend(
             width = 138,
             height = 94,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2, 0),
             scale = 0.5
           }
@@ -1793,7 +1671,6 @@ data:extend(
           width = 42,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-12, -11),
           hr_version = {
             priority = "extra-high",
@@ -1802,7 +1679,6 @@ data:extend(
             width = 84,
             height = 138,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-12, -11),
             scale = 0.5
           }
@@ -1815,7 +1691,6 @@ data:extend(
           width = 70,
           height = 40,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -29),
           hr_version = {
             priority = "extra-high",
@@ -1824,7 +1699,6 @@ data:extend(
             width = 138,
             height = 80,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2, -29),
             scale = 0.5
           }
@@ -1837,7 +1711,6 @@ data:extend(
           width = 42,
           height = 69,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(12, -10.5),
           hr_version = {
             priority = "extra-high",
@@ -1846,7 +1719,6 @@ data:extend(
             width = 83,
             height = 137,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(11.75, -10.75),
             scale = 0.5
           }
@@ -1856,7 +1728,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.000228814,
+      emissions_per_minute = { pollution = 0.01372884 },
       usage_priority = "secondary-input"
     },
     energy_usage = "59MW",
@@ -1888,7 +1760,7 @@ data:extend(
     type = "item",
     name = "mining-drill-3",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "basic-mining",
     order = "c-3",
@@ -1913,7 +1785,7 @@ data:extend(
     type = "mining-drill",
     name = "mining-drill-3",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "mining-drill-3"},
     max_health = 600,
@@ -1957,7 +1829,6 @@ data:extend(
         height = 113,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -8.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1968,7 +1839,6 @@ data:extend(
           height = 226,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(0, -8),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -1983,7 +1853,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(3.5, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -1994,7 +1863,6 @@ data:extend(
           height = 197,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(3.75, -1.25),
           run_mode = "forward-then-backward",      
           scale = 0.5
@@ -2009,7 +1877,6 @@ data:extend(
         height = 109,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -1.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2020,7 +1887,6 @@ data:extend(
           height = 219,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(0, -1.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2035,7 +1901,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-3.5, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2046,7 +1911,6 @@ data:extend(
           height = 197,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-3.75, -0.75),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2064,7 +1928,6 @@ data:extend(
         height = 111,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1.5, -7.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2075,7 +1938,6 @@ data:extend(
           height = 223,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1.25, -7.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2090,7 +1952,6 @@ data:extend(
         height = 97,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(6, -0.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2101,7 +1962,6 @@ data:extend(
           height = 195,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(6.25, -0.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2116,7 +1976,6 @@ data:extend(
         height = 103,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1, 2.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2127,7 +1986,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1, 2.5),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2142,7 +2000,6 @@ data:extend(
         height = 97,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1, -0.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2153,7 +2010,6 @@ data:extend(
           height = 195,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1.25, -0.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2170,7 +2026,6 @@ data:extend(
         width = 100,
         height = 111,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -6.5),
         hr_version = {
           priority = "extra-high",
@@ -2179,7 +2034,6 @@ data:extend(
           width = 200,
           height = 222,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -6.5),
           scale = 0.5
         }
@@ -2192,7 +2046,6 @@ data:extend(
         width = 100,
         height = 110,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -6),
         hr_version = {
           priority = "extra-high",
@@ -2201,7 +2054,6 @@ data:extend(
           width = 200,
           height = 219,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(0, -5.75),
           scale = 0.5
         }
@@ -2214,7 +2066,6 @@ data:extend(
         width = 100,
         height = 113,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -7.5),
         hr_version = {
           priority = "extra-high",
@@ -2223,7 +2074,6 @@ data:extend(
           width = 200,
           height = 226,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -7.5),
           scale = 0.5
         }
@@ -2236,7 +2086,6 @@ data:extend(
         width = 100,
         height = 108,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -5),
         hr_version = {
           priority = "extra-high",
@@ -2245,7 +2094,6 @@ data:extend(
           width = 200,
           height = 220,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -6),
           scale = 0.5
         }
@@ -2261,7 +2109,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -2270,7 +2117,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -2283,7 +2129,6 @@ data:extend(
         width = 112,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(6, 0),
         hr_version = {
           priority = "extra-high",
@@ -2292,7 +2137,6 @@ data:extend(
           width = 224,
           height = 198,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(6, 0),
           scale = 0.5
         }
@@ -2305,7 +2149,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -2314,7 +2157,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -2327,7 +2169,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -2336,7 +2177,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -2354,7 +2194,6 @@ data:extend(
         height = 102,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-1, -3),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2366,7 +2205,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -2),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2382,7 +2220,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -2),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2394,7 +2231,6 @@ data:extend(
           height = 209,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -1.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2410,7 +2246,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-1, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2422,7 +2257,6 @@ data:extend(
           height = 204,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -2.5),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2438,7 +2272,6 @@ data:extend(
         height = 99,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -1.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2450,7 +2283,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1, -2),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2467,7 +2299,6 @@ data:extend(
         width = 72,
         height = 54,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-1, 1),
         hr_version = {
           priority = "extra-high",
@@ -2476,7 +2307,6 @@ data:extend(
           width = 142,
           height = 107,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-1, 0.75),
           scale = 0.5
         }
@@ -2489,7 +2319,6 @@ data:extend(
         width = 51,
         height = 74,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-11.5, -11),
         hr_version = {
           priority = "extra-high",
@@ -2498,7 +2327,6 @@ data:extend(
           width = 104,
           height = 147,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-11, -11.25),
           scale = 0.5
         }
@@ -2511,7 +2339,6 @@ data:extend(
         width = 71,
         height = 44,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-1.5, -29),
         hr_version = {
           priority = "extra-high",
@@ -2520,7 +2347,6 @@ data:extend(
           width = 141,
           height = 86,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-1.75, -29),
           scale = 0.5
         }
@@ -2533,7 +2359,6 @@ data:extend(
         width = 41,
         height = 69,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(11.5, -11.5),
         hr_version = {
           priority = "extra-high",
@@ -2542,7 +2367,6 @@ data:extend(
           width = 80,
           height = 137,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(11.5, -11.25),
           scale = 0.5
         }
@@ -2560,7 +2384,6 @@ data:extend(
           width = 68,
           height = 50,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -1),
           hr_version = {
             priority = "extra-high",
@@ -2569,7 +2392,6 @@ data:extend(
             width = 136,
             height = 99,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2.5, -0.75),
             scale = 0.5
           }
@@ -2582,7 +2404,6 @@ data:extend(
           width = 41,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-11.5, -11),
           hr_version = {
             priority = "extra-high",
@@ -2591,7 +2412,6 @@ data:extend(
             width = 82,
             height = 139,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-11.5, -11.25),
             scale = 0.5
           }
@@ -2604,7 +2424,6 @@ data:extend(
           width = 68,
           height = 40,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -29),
           hr_version = {
             priority = "extra-high",
@@ -2613,7 +2432,6 @@ data:extend(
             width = 136,
             height = 80,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2.5, -29.5),
             scale = 0.5
           }
@@ -2626,7 +2444,6 @@ data:extend(
           width = 42,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(11, -11),
           hr_version = {
             priority = "extra-high",
@@ -2635,7 +2452,6 @@ data:extend(
             width = 83,
             height = 140,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(10.75, -11),
             scale = 0.5
           }
@@ -2653,7 +2469,6 @@ data:extend(
           width = 70,
           height = 48,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, 0),
           hr_version = {
             priority = "extra-high",
@@ -2662,7 +2477,6 @@ data:extend(
             width = 138,
             height = 94,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2, 0),
             scale = 0.5
           }
@@ -2675,7 +2489,6 @@ data:extend(
           width = 42,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-12, -11),
           hr_version = {
             priority = "extra-high",
@@ -2684,7 +2497,6 @@ data:extend(
             width = 84,
             height = 138,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-12, -11),
             scale = 0.5
           }
@@ -2697,7 +2509,6 @@ data:extend(
           width = 70,
           height = 40,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -29),
           hr_version = {
             priority = "extra-high",
@@ -2706,7 +2517,6 @@ data:extend(
             width = 138,
             height = 80,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2, -29),
             scale = 0.5
           }
@@ -2719,7 +2529,6 @@ data:extend(
           width = 42,
           height = 69,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(12, -10.5),
           hr_version = {
             priority = "extra-high",
@@ -2728,7 +2537,6 @@ data:extend(
             width = 83,
             height = 137,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(11.75, -10.75),
             scale = 0.5
           }
@@ -2738,7 +2546,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.000230114,
+      emissions_per_minute = { pollution = 0.01380684 },
       usage_priority = "secondary-input"
     },
     energy_usage = "88MW",
@@ -2770,7 +2578,7 @@ data:extend(
     type = "item",
     name = "mining-drill-4",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "basic-mining",
     order = "c-4",
@@ -2795,7 +2603,7 @@ data:extend(
     type = "mining-drill",
     name = "mining-drill-4",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "mining-drill-4"},
     max_health = 750,
@@ -2839,7 +2647,6 @@ data:extend(
         height = 113,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -8.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2850,7 +2657,6 @@ data:extend(
           height = 226,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(0, -8),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2865,7 +2671,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(3.5, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2876,7 +2681,6 @@ data:extend(
           height = 197,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(3.75, -1.25),
           run_mode = "forward-then-backward",      
           scale = 0.5
@@ -2891,7 +2695,6 @@ data:extend(
         height = 109,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -1.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2902,7 +2705,6 @@ data:extend(
           height = 219,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(0, -1.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2917,7 +2719,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-3.5, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2928,7 +2729,6 @@ data:extend(
           height = 197,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-3.75, -0.75),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2946,7 +2746,6 @@ data:extend(
         height = 111,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1.5, -7.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2957,7 +2756,6 @@ data:extend(
           height = 223,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1.25, -7.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2972,7 +2770,6 @@ data:extend(
         height = 97,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(6, -0.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -2983,7 +2780,6 @@ data:extend(
           height = 195,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(6.25, -0.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -2998,7 +2794,6 @@ data:extend(
         height = 103,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1, 2.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3009,7 +2804,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1, 2.5),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3024,7 +2818,6 @@ data:extend(
         height = 97,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1, -0.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3035,7 +2828,6 @@ data:extend(
           height = 195,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1.25, -0.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3052,7 +2844,6 @@ data:extend(
         width = 100,
         height = 111,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -6.5),
         hr_version = {
           priority = "extra-high",
@@ -3061,7 +2852,6 @@ data:extend(
           width = 200,
           height = 222,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -6.5),
           scale = 0.5
         }
@@ -3074,7 +2864,6 @@ data:extend(
         width = 100,
         height = 110,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -6),
         hr_version = {
           priority = "extra-high",
@@ -3083,7 +2872,6 @@ data:extend(
           width = 200,
           height = 219,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(0, -5.75),
           scale = 0.5
         }
@@ -3096,7 +2884,6 @@ data:extend(
         width = 100,
         height = 113,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -7.5),
         hr_version = {
           priority = "extra-high",
@@ -3105,7 +2892,6 @@ data:extend(
           width = 200,
           height = 226,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -7.5),
           scale = 0.5
         }
@@ -3118,7 +2904,6 @@ data:extend(
         width = 100,
         height = 108,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -5),
         hr_version = {
           priority = "extra-high",
@@ -3127,7 +2912,6 @@ data:extend(
           width = 200,
           height = 220,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -6),
           scale = 0.5
         }
@@ -3143,7 +2927,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -3152,7 +2935,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -3165,7 +2947,6 @@ data:extend(
         width = 112,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(6, 0),
         hr_version = {
           priority = "extra-high",
@@ -3174,7 +2955,6 @@ data:extend(
           width = 224,
           height = 198,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(6, 0),
           scale = 0.5
         }
@@ -3187,7 +2967,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -3196,7 +2975,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -3209,7 +2987,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -3218,7 +2995,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -3236,7 +3012,6 @@ data:extend(
         height = 102,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-1, -3),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3248,7 +3023,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -2),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3264,7 +3038,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -2),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3276,7 +3049,6 @@ data:extend(
           height = 209,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -1.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3292,7 +3064,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-1, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3304,7 +3075,6 @@ data:extend(
           height = 204,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -2.5),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3320,7 +3090,6 @@ data:extend(
         height = 99,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -1.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3332,7 +3101,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1, -2),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3349,7 +3117,6 @@ data:extend(
         width = 72,
         height = 54,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-1, 1),
         hr_version = {
           priority = "extra-high",
@@ -3358,7 +3125,6 @@ data:extend(
           width = 142,
           height = 107,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-1, 0.75),
           scale = 0.5
         }
@@ -3371,7 +3137,6 @@ data:extend(
         width = 51,
         height = 74,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-11.5, -11),
         hr_version = {
           priority = "extra-high",
@@ -3380,7 +3145,6 @@ data:extend(
           width = 104,
           height = 147,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-11, -11.25),
           scale = 0.5
         }
@@ -3393,7 +3157,6 @@ data:extend(
         width = 71,
         height = 44,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-1.5, -29),
         hr_version = {
           priority = "extra-high",
@@ -3402,7 +3165,6 @@ data:extend(
           width = 141,
           height = 86,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-1.75, -29),
           scale = 0.5
         }
@@ -3415,7 +3177,6 @@ data:extend(
         width = 41,
         height = 69,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(11.5, -11.5),
         hr_version = {
           priority = "extra-high",
@@ -3424,7 +3185,6 @@ data:extend(
           width = 80,
           height = 137,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(11.5, -11.25),
           scale = 0.5
         }
@@ -3442,7 +3202,6 @@ data:extend(
           width = 68,
           height = 50,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -1),
           hr_version = {
             priority = "extra-high",
@@ -3451,7 +3210,6 @@ data:extend(
             width = 136,
             height = 99,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2.5, -0.75),
             scale = 0.5
           }
@@ -3464,7 +3222,6 @@ data:extend(
           width = 41,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-11.5, -11),
           hr_version = {
             priority = "extra-high",
@@ -3473,7 +3230,6 @@ data:extend(
             width = 82,
             height = 139,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-11.5, -11.25),
             scale = 0.5
           }
@@ -3486,7 +3242,6 @@ data:extend(
           width = 68,
           height = 40,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -29),
           hr_version = {
             priority = "extra-high",
@@ -3495,7 +3250,6 @@ data:extend(
             width = 136,
             height = 80,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2.5, -29.5),
             scale = 0.5
           }
@@ -3508,7 +3262,6 @@ data:extend(
           width = 42,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(11, -11),
           hr_version = {
             priority = "extra-high",
@@ -3517,7 +3270,6 @@ data:extend(
             width = 83,
             height = 140,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(10.75, -11),
             scale = 0.5
           }
@@ -3535,7 +3287,6 @@ data:extend(
           width = 70,
           height = 48,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, 0),
           hr_version = {
             priority = "extra-high",
@@ -3544,7 +3295,6 @@ data:extend(
             width = 138,
             height = 94,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2, 0),
             scale = 0.5
           }
@@ -3557,7 +3307,6 @@ data:extend(
           width = 42,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-12, -11),
           hr_version = {
             priority = "extra-high",
@@ -3566,7 +3315,6 @@ data:extend(
             width = 84,
             height = 138,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-12, -11),
             scale = 0.5
           }
@@ -3579,7 +3327,6 @@ data:extend(
           width = 70,
           height = 40,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -29),
           hr_version = {
             priority = "extra-high",
@@ -3588,7 +3335,6 @@ data:extend(
             width = 138,
             height = 80,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2, -29),
             scale = 0.5
           }
@@ -3601,7 +3347,6 @@ data:extend(
           width = 42,
           height = 69,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(12, -10.5),
           hr_version = {
             priority = "extra-high",
@@ -3610,7 +3355,6 @@ data:extend(
             width = 83,
             height = 137,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(11.75, -10.75),
             scale = 0.5
           }
@@ -3620,7 +3364,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.000230114,
+      emissions_per_minute = { pollution = 0.01380684 },
       usage_priority = "secondary-input"
     },
     energy_usage = "132MW",
@@ -3652,7 +3396,7 @@ data:extend(
     type = "item",
     name = "mining-drill-5",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "basic-mining",
     order = "c-5",
@@ -3677,7 +3421,7 @@ data:extend(
     type = "mining-drill",
     name = "mining-drill-5",
     icon = "__base__/graphics/icons/electric-mining-drill.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "mining-drill-5"},
     max_health = 900,
@@ -3721,7 +3465,6 @@ data:extend(
         height = 113,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -8.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3732,7 +3475,6 @@ data:extend(
           height = 226,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(0, -8),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3747,7 +3489,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(3.5, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3758,7 +3499,6 @@ data:extend(
           height = 197,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(3.75, -1.25),
           run_mode = "forward-then-backward",      
           scale = 0.5
@@ -3773,7 +3513,6 @@ data:extend(
         height = 109,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -1.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3784,7 +3523,6 @@ data:extend(
           height = 219,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(0, -1.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3799,7 +3537,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-3.5, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3810,7 +3547,6 @@ data:extend(
           height = 197,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-3.75, -0.75),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3828,7 +3564,6 @@ data:extend(
         height = 111,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1.5, -7.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3839,7 +3574,6 @@ data:extend(
           height = 223,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1.25, -7.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3854,7 +3588,6 @@ data:extend(
         height = 97,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(6, -0.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3865,7 +3598,6 @@ data:extend(
           height = 195,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(6.25, -0.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3880,7 +3612,6 @@ data:extend(
         height = 103,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1, 2.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3891,7 +3622,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1, 2.5),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3906,7 +3636,6 @@ data:extend(
         height = 97,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(1, -0.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -3917,7 +3646,6 @@ data:extend(
           height = 195,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1.25, -0.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -3934,7 +3662,6 @@ data:extend(
         width = 100,
         height = 111,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -6.5),
         hr_version = {
           priority = "extra-high",
@@ -3943,7 +3670,6 @@ data:extend(
           width = 200,
           height = 222,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -6.5),
           scale = 0.5
         }
@@ -3956,7 +3682,6 @@ data:extend(
         width = 100,
         height = 110,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -6),
         hr_version = {
           priority = "extra-high",
@@ -3965,7 +3690,6 @@ data:extend(
           width = 200,
           height = 219,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(0, -5.75),
           scale = 0.5
         }
@@ -3978,7 +3702,6 @@ data:extend(
         width = 100,
         height = 113,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -7.5),
         hr_version = {
           priority = "extra-high",
@@ -3987,7 +3710,6 @@ data:extend(
           width = 200,
           height = 226,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -7.5),
           scale = 0.5
         }
@@ -4000,7 +3722,6 @@ data:extend(
         width = 100,
         height = 108,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(0, -5),
         hr_version = {
           priority = "extra-high",
@@ -4009,7 +3730,6 @@ data:extend(
           width = 200,
           height = 220,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -6),
           scale = 0.5
         }
@@ -4025,7 +3745,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -4034,7 +3753,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -4047,7 +3765,6 @@ data:extend(
         width = 112,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(6, 0),
         hr_version = {
           priority = "extra-high",
@@ -4056,7 +3773,6 @@ data:extend(
           width = 224,
           height = 198,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(6, 0),
           scale = 0.5
         }
@@ -4069,7 +3785,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -4078,7 +3793,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -4091,7 +3805,6 @@ data:extend(
         width = 110,
         height = 98,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(5, 0),
         hr_version = {
           priority = "extra-high",
@@ -4100,7 +3813,6 @@ data:extend(
           width = 220,
           height = 197,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(5, -0.25),
           scale = 0.5
         }
@@ -4118,7 +3830,6 @@ data:extend(
         height = 102,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-1, -3),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -4130,7 +3841,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -2),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -4146,7 +3856,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -2),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -4158,7 +3867,6 @@ data:extend(
           height = 209,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -1.25),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -4174,7 +3882,6 @@ data:extend(
         height = 98,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(-1, -1),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -4186,7 +3893,6 @@ data:extend(
           height = 204,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, -2.5),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -4202,7 +3908,6 @@ data:extend(
         height = 99,
         frame_count = 64,
         animation_speed = 0.5,
-        direction_count = 1,
         shift = util.by_pixel(0, -1.5),
         run_mode = "forward-then-backward",
         hr_version = {
@@ -4214,7 +3919,6 @@ data:extend(
           height = 206,
           frame_count = 64,
           animation_speed = 0.5,
-          direction_count = 1,
           shift = util.by_pixel(1, -2),
           run_mode = "forward-then-backward",
           scale = 0.5
@@ -4231,7 +3935,6 @@ data:extend(
         width = 72,
         height = 54,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-1, 1),
         hr_version = {
           priority = "extra-high",
@@ -4240,7 +3943,6 @@ data:extend(
           width = 142,
           height = 107,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-1, 0.75),
           scale = 0.5
         }
@@ -4253,7 +3955,6 @@ data:extend(
         width = 51,
         height = 74,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-11.5, -11),
         hr_version = {
           priority = "extra-high",
@@ -4262,7 +3963,6 @@ data:extend(
           width = 104,
           height = 147,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-11, -11.25),
           scale = 0.5
         }
@@ -4275,7 +3975,6 @@ data:extend(
         width = 71,
         height = 44,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(-1.5, -29),
         hr_version = {
           priority = "extra-high",
@@ -4284,7 +3983,6 @@ data:extend(
           width = 141,
           height = 86,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-1.75, -29),
           scale = 0.5
         }
@@ -4297,7 +3995,6 @@ data:extend(
         width = 41,
         height = 69,
         frame_count = 1,
-        direction_count = 1,
         shift = util.by_pixel(11.5, -11.5),
         hr_version = {
           priority = "extra-high",
@@ -4306,7 +4003,6 @@ data:extend(
           width = 80,
           height = 137,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(11.5, -11.25),
           scale = 0.5
         }
@@ -4324,7 +4020,6 @@ data:extend(
           width = 68,
           height = 50,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -1),
           hr_version = {
             priority = "extra-high",
@@ -4333,7 +4028,6 @@ data:extend(
             width = 136,
             height = 99,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2.5, -0.75),
             scale = 0.5
           }
@@ -4346,7 +4040,6 @@ data:extend(
           width = 41,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-11.5, -11),
           hr_version = {
             priority = "extra-high",
@@ -4355,7 +4048,6 @@ data:extend(
             width = 82,
             height = 139,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-11.5, -11.25),
             scale = 0.5
           }
@@ -4368,7 +4060,6 @@ data:extend(
           width = 68,
           height = 40,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -29),
           hr_version = {
             priority = "extra-high",
@@ -4377,7 +4068,6 @@ data:extend(
             width = 136,
             height = 80,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2.5, -29.5),
             scale = 0.5
           }
@@ -4390,7 +4080,6 @@ data:extend(
           width = 42,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(11, -11),
           hr_version = {
             priority = "extra-high",
@@ -4399,7 +4088,6 @@ data:extend(
             width = 83,
             height = 140,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(10.75, -11),
             scale = 0.5
           }
@@ -4417,7 +4105,6 @@ data:extend(
           width = 70,
           height = 48,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, 0),
           hr_version = {
             priority = "extra-high",
@@ -4426,7 +4113,6 @@ data:extend(
             width = 138,
             height = 94,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2, 0),
             scale = 0.5
           }
@@ -4439,7 +4125,6 @@ data:extend(
           width = 42,
           height = 70,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-12, -11),
           hr_version = {
             priority = "extra-high",
@@ -4448,7 +4133,6 @@ data:extend(
             width = 84,
             height = 138,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-12, -11),
             scale = 0.5
           }
@@ -4461,7 +4145,6 @@ data:extend(
           width = 70,
           height = 40,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(-2, -29),
           hr_version = {
             priority = "extra-high",
@@ -4470,7 +4153,6 @@ data:extend(
             width = 138,
             height = 80,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(-2, -29),
             scale = 0.5
           }
@@ -4483,7 +4165,6 @@ data:extend(
           width = 42,
           height = 69,
           frame_count = 1,
-          direction_count = 1,
           shift = util.by_pixel(12, -10.5),
           hr_version = {
             priority = "extra-high",
@@ -4492,7 +4173,6 @@ data:extend(
             width = 83,
             height = 137,
             frame_count = 1,
-            direction_count = 1,
             shift = util.by_pixel(11.75, -10.75),
             scale = 0.5
           }
@@ -4502,7 +4182,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.000228957,
+      emissions_per_minute = { pollution = 0.01373742 },
       usage_priority = "secondary-input"
     },
     energy_usage = "199MW",
@@ -4581,7 +4261,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.0000000001,
+      emissions_per_minute = { pollution = 6e-09 },
       smoke =
       {
         {

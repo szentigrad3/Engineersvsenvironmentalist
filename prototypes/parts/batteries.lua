@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "battery",
     icon = "__base__/graphics/icons/battery.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "advanced-parts",
     order = "a-1",
     stack_size = 200
@@ -29,7 +29,7 @@ data:extend(
     type = "item",
     name = "lithium-ion-battery",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/lithium-ion-battery.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "advanced-parts",
     order = "a-2",
     stack_size = 200
@@ -53,7 +53,7 @@ data:extend(
     type = "item",
     name = "silver-zinc-battery",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/silver-zinc-battery.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "advanced-parts",
     order = "a-3",
     stack_size = 200

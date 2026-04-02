@@ -4,13 +4,14 @@ data:extend({
 		name = "iron-sulfate-ore",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/iron-sulfate-ore.png",
 		icon_size = 27,
-		flags = {"goes-to-main-inventory"},
+		flags = {},
 		subgroup = "minerals",
 		order = "g1[other]",
 		stack_size = 200
 	},
 {
     type = "autoplace-control",
+    category = "resource",
     name = "iron-ore",
     richness = true,
     order = "b-a"

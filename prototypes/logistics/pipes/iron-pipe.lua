@@ -392,8 +392,6 @@ data:extend(
       width = 24,
       height = 15,
       frame_count = 60,
-      axially_symmetrical = false,
-      direction_count = 1,
       hr_version =
       {
         filename = "__base__/graphics/entity/pipe/hr-steam.png",
@@ -402,8 +400,6 @@ data:extend(
         width = 48,
         height = 30,
         frame_count = 60,
-        axially_symmetrical = false,
-        direction_count = 1
       }
     }
   }
@@ -481,7 +477,7 @@ end
       width = 32,
       height = 32
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     pictures =
     {
       up =

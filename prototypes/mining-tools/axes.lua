@@ -5,7 +5,7 @@ data:extend(
     type = "repair-tool",
     name = "repair-pack",
     icon = "__base__/graphics/icons/repair-pack.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "h-tool",
     order = "b[repair]-a[repair-pack]",
     speed = 1,

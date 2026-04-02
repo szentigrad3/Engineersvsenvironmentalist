@@ -5,7 +5,7 @@ data:extend(
     name = "coal",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/coal.png",
     dark_background_icon = "__base__/graphics/icons/coal-dark-background.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     fuel_category = "chemical", fuel_value = "4GJ",
     subgroup = "coal-base",
     order = "a-2",
@@ -13,6 +13,7 @@ data:extend(
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "coal",
     richness = true,
     order = "b-d"

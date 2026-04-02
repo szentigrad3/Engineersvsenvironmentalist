@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "waste-rock",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/waste-rock.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "stone-base",
     order = "d[stone]",
     stack_size = 25,

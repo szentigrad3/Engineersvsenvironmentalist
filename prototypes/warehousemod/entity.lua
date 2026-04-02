@@ -155,9 +155,7 @@ function define_warehouse(name, logistics_name)
 		max_health = 350,
 		corpse = "big-remnants",
 		dying_explosion = "medium-explosion",
-		open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-		close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-		vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+		impact_category = "metal",
 		resistances =
 		{
 			{
@@ -219,9 +217,7 @@ function define_storehouse(name, logistics_name)
 		max_health = 250,
 		corpse = "big-remnants",
 		dying_explosion = "medium-explosion",
-		open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-		close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-		vehicle_impact_sound = { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+		impact_category = "metal",
 		resistances =
 		{
 			{

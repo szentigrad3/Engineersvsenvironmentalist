@@ -21,7 +21,7 @@ data:extend(
     type = "item",
     name = "flying-robot-frame",
     icon = "__base__/graphics/icons/flying-robot-frame.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "advanced-parts",
     order = "c-1",
     stack_size = 50
@@ -88,7 +88,7 @@ data:extend(
       height = 42,
       frame_count = 1,
       shift = {0.015625, -0.09375},
-      direction_count = 16,
+6,
       y = 42
     },
     idle_with_cargo =
@@ -100,7 +100,7 @@ data:extend(
       height = 42,
       frame_count = 1,
       shift = {0.015625, -0.09375},
-      direction_count = 16
+6
     },
     in_motion =
     {
@@ -111,7 +111,7 @@ data:extend(
       height = 42,
       frame_count = 1,
       shift = {0.015625, -0.09375},
-      direction_count = 16,
+6,
       y = 126
     },
     in_motion_with_cargo =
@@ -123,7 +123,7 @@ data:extend(
       height = 42,
       frame_count = 1,
       shift = {0.015625, -0.09375},
-      direction_count = 16,
+6,
       y = 84
     },
     shadow_idle =
@@ -135,7 +135,7 @@ data:extend(
       height = 23,
       frame_count = 1,
       shift = {0.96875, 0.609375},
-      direction_count = 16,
+6,
       y = 23
     },
     shadow_idle_with_cargo =
@@ -147,7 +147,7 @@ data:extend(
       height = 23,
       frame_count = 1,
       shift = {0.96875, 0.609375},
-      direction_count = 16
+6
     },
     shadow_in_motion =
     {
@@ -158,7 +158,7 @@ data:extend(
       height = 23,
       frame_count = 1,
       shift = {0.96875, 0.609375},
-      direction_count = 16,
+6,
       y = 23
     },
     shadow_in_motion_with_cargo =
@@ -170,7 +170,7 @@ data:extend(
       height = 23,
       frame_count = 1,
       shift = {0.96875, 0.609375},
-      direction_count = 16
+6
     },
     working_sound = flying_robot_sounds(),
     cargo_centered = {0.0, 0.2},
@@ -224,7 +224,7 @@ data:extend(
       height = 36,
       frame_count = 1,
       shift = {0, -0.15625},
-      direction_count = 16
+6
     },
     in_motion =
     {
@@ -235,7 +235,7 @@ data:extend(
       height = 36,
       frame_count = 1,
       shift = {0, -0.15625},
-      direction_count = 16,
+6,
       y = 36
     },
     shadow_idle =
@@ -247,7 +247,7 @@ data:extend(
       height = 24,
       frame_count = 1,
       shift = {1.09375, 0.59375},
-      direction_count = 16
+6
     },
     shadow_in_motion =
     {
@@ -258,7 +258,7 @@ data:extend(
       height = 24,
       frame_count = 1,
       shift = {1.09375, 0.59375},
-      direction_count = 16
+6
     },
     working =
     {
@@ -269,7 +269,7 @@ data:extend(
       height = 36,
       frame_count = 2,
       shift = {0, -0.15625},
-      direction_count = 16,
+6,
       animation_speed = 0.3,
     },
     shadow_working =
@@ -287,7 +287,7 @@ data:extend(
       height = 24,
       frame_count = 2,
       shift = {1.09375, 0.59375},
-      direction_count = 16
+6
     },
     smoke =
     {
@@ -476,7 +476,7 @@ data:extend(
       scale = 1.5,
       animation_speed = 0.5
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = { filename = "__base__/sound/roboport-working.ogg", volume = 0.6 },

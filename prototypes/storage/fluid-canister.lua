@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "empty-fluid-canister",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/empty-canister.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "fluid-logistics",
     order = "f-c[empty-canister]",
     stack_size = 100
@@ -26,7 +26,7 @@ data:extend(
     type = "item",
     name = "liquid-fuel-canister",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/liquid-fuel-canister.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     fuel_category = "chemical", fuel_value = "150MJ",
     subgroup = "fluid-logistics",
     order = "f-c[liquid-fuel-canister]",
@@ -37,7 +37,7 @@ data:extend(
     type = "item",
     name = "ferric-chloride-canister",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/storage/ferric-chloride-canister.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "fluid-logistics",
     order = "f-c[ferric-chloride-canister]",
     stack_size = 100

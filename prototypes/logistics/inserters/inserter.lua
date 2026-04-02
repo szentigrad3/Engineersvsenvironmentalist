@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "inserter",
     icon = "__base__/graphics/icons/inserter.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "inserters",
     order = "b[inserter-1]",
@@ -27,7 +27,7 @@ data:extend(
     type = "inserter",
     name = "inserter",
     icon = "__base__/graphics/icons/inserter.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 0.5, result = "inserter"},
     max_health = 40,
@@ -52,7 +52,7 @@ data:extend(
     extension_speed = 0.03,
     rotation_speed = 0.014,
     fast_replaceable_group = "inserter",
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       match_progress_to_activity = true,

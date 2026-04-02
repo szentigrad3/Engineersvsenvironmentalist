@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "wall",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/building-segments/building-segment.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "building-segments",
     stack_size = 100000
   },
@@ -16,7 +16,7 @@ data:extend(
     type = "recipe",
     name = "wall|wood",
     icon = "__base__/graphics/icons/raw-wood.png",
-	icon_size = 32,
+	icon_size = 64,
     order = "b-01",
     ingredients = {{type="item", name="raw-wood", amount=50}},
     results = {{type="item", name="wall", amount=1}}

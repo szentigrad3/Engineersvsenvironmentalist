@@ -53,7 +53,7 @@ data:extend(
       drain = "0.4kW"
     },
     fast_replaceable_group = "long-handed-inserter",
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       match_progress_to_activity = true,

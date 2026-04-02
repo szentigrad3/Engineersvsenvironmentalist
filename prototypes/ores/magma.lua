@@ -5,13 +5,14 @@ data:extend(
     name = "magma",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gold-ore.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "z-1",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "magma",
     richness = true,
     order = "z-1"

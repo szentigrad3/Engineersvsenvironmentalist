@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "pollutants",
     icon = "__base__/graphics/icons/explosives.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
 	subgroup = "coal-base",
     order = "g-1",
     stack_size = 64000

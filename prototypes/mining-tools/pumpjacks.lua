@@ -5,7 +5,7 @@ data:extend(
     type = "item",
     name = "pumpjack",
     icon = "__base__/graphics/icons/pumpjack.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "oil-mining",
     order = "e[fluids]-b[pumpjack-1]",
@@ -29,7 +29,7 @@ data:extend(
     type = "mining-drill",
     name = "pumpjack",
     icon = "__base__/graphics/icons/pumpjack.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pumpjack"},
     resource_categories = {"basic-fluid"},
@@ -44,7 +44,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000230769,
+      emissions_per_minute = { pollution = 0.01384614 },
       smoke =
       {
         {
@@ -106,7 +106,7 @@ data:extend(
         animation_speed = 0.5
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = { filename = "__base__/sound/pumpjack.ogg" },
@@ -123,7 +123,7 @@ data:extend(
     type = "item",
     name = "pumpjack-2",
     icon = "__base__/graphics/icons/pumpjack.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "oil-mining",
     order = "e[fluids]-b[pumpjack-2]",
@@ -147,7 +147,7 @@ data:extend(
     type = "mining-drill",
     name = "pumpjack-2",
     icon = "__base__/graphics/icons/pumpjack.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pumpjack-2"},
     resource_categories = {"basic-fluid"},
@@ -160,7 +160,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.000228814,
+      emissions_per_minute = { pollution = 0.01372884 },
       usage_priority = "secondary-input"
     },
     fluid_box =
@@ -233,7 +233,7 @@ data:extend(
     type = "item",
     name = "pumpjack-3",
     icon = "__base__/graphics/icons/pumpjack.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "oil-mining",
     order = "e[fluids]-b[pumpjack-3]",
@@ -257,7 +257,7 @@ data:extend(
     type = "mining-drill",
     name = "pumpjack-3",
     icon = "__base__/graphics/icons/pumpjack.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pumpjack-3"},
     resource_categories = {"basic-fluid"},
@@ -270,7 +270,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.000230114,
+      emissions_per_minute = { pollution = 0.01380684 },
       usage_priority = "secondary-input"
     },
     fluid_box =
@@ -343,7 +343,7 @@ data:extend(
     type = "item",
     name = "pumpjack-4",
     icon = "__base__/graphics/icons/pumpjack.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "oil-mining",
     order = "e[fluids]-b[pumpjack-4]",
@@ -367,7 +367,7 @@ data:extend(
     type = "mining-drill",
     name = "pumpjack-4",
     icon = "__base__/graphics/icons/pumpjack.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pumpjack-4"},
     resource_categories = {"basic-fluid"},
@@ -380,7 +380,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.000230114,
+      emissions_per_minute = { pollution = 0.01380684 },
       usage_priority = "secondary-input"
     },
     fluid_box =
@@ -452,7 +452,7 @@ data:extend(
     type = "item",
     name = "pumpjack-5",
     icon = "__base__/graphics/icons/pumpjack.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "oil-mining",
     order = "e[fluids]-b[pumpjack-5]",
@@ -476,7 +476,7 @@ data:extend(
     type = "mining-drill",
     name = "pumpjack-5",
     icon = "__base__/graphics/icons/pumpjack.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 1, result = "pumpjack-5"},
     resource_categories = {"basic-fluid"},
@@ -489,7 +489,7 @@ data:extend(
     energy_source =
     {
       type = "electric",
-      emissions = 0.000228957,
+      emissions_per_minute = { pollution = 0.01373742 },
       usage_priority = "secondary-input"
     },
     fluid_box =

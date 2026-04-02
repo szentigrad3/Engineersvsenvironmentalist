@@ -2,6 +2,7 @@ data:extend(
 {
 {
     type = "autoplace-control",
+    category = "resource",
     name = "sulfur",
     richness = true,
     order = "b-f"

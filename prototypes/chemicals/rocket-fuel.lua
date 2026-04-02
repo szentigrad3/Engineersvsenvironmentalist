@@ -4,7 +4,7 @@
     type = "item",
     name = "rocket-fuel",
     icon = "__base__/graphics/icons/rocket-fuel.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     fuel_category = "chemical", fuel_value = "14GJ",
     subgroup = "fuel-processing",
     order = "l[rocket-fuel]",

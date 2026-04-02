@@ -6,7 +6,7 @@ data:extend(
     name = "alien-science-pack",
     icon = "__base__/graphics/icons/alien-science-pack.png",
 	icon_size = 29,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "pots",
     order = "d[alien-science-pack]",
     stack_size = 200,

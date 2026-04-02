@@ -73,7 +73,7 @@ data:extend(
     },
     discharge_cooldown = 60,
     discharge_light = {intensity = 0.7, size = 7},
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =

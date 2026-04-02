@@ -79,14 +79,13 @@ data:extend({
     selection_box = {{-0.8, -1}, {0.8, 1}},
     crafting_categories = {"smelting", "mixing-furnace"},
     energy_usage = "79MW",
-    ingredient_count = 3,
     crafting_speed = 1,
     energy_source =
     {
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000022785,
+      emissions_per_minute = { pollution = 0.0013671 },
       smoke =
       {
         {
@@ -151,7 +150,6 @@ data:extend({
       module_info_icon_shift = {0, 0.5},
       module_info_multi_row_initial_height_modifier = -0.3
     },
-    ingredient_count = 4,
     crafting_speed = 5,
     crafting_categories = {"smelting", "mixing-furnace"},
     energy_usage = "79MW",
@@ -160,7 +158,7 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000011392,
+      emissions_per_minute = { pollution = 0.0006835200000000001 },
     },
     working_sound =
     {

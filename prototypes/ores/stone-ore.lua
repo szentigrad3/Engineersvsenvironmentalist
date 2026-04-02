@@ -4,13 +4,14 @@ data:extend(
     type = "item",
     name = "stone",
     icon = "__base__/graphics/icons/stone.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "d[stone]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "stone",
     richness = true,
     order = "b-c"

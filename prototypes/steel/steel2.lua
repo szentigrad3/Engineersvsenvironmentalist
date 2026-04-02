@@ -42,7 +42,7 @@ data:extend({
     type = "item",
     name = "steel-plate",
     icon = "__base__/graphics/icons/steel-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "steel-2",
     order = "a-3",
     stack_size = 5000

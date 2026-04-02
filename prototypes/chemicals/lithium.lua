@@ -40,7 +40,7 @@ data:extend(
     type = "item",
     name = "lithium-chloride",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/lithium-chloride.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "lithium-base",
     order = "f[lithium-chloride]",
     stack_size = 100
@@ -68,7 +68,7 @@ data:extend(
     type = "item",
     name = "lithium-perchlorate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/lithium-perchlorate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "lithium-base",
     order = "f[lithium-perchlorate]",
     stack_size = 100
@@ -101,7 +101,7 @@ data:extend(
     type = "item",
     name = "lithium",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lithium-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "lithium-base",
     order = "c-a-e[lithium-plate]",
     stack_size = 200

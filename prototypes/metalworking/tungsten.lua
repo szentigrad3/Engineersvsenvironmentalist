@@ -18,7 +18,7 @@ data:extend(
     type = "item",
     name = "tungsten-crushed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tungsten-crushed.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "tungsten-processing",
     order = "f[tungsten-oxide]",
     stack_size = 100
@@ -27,7 +27,7 @@ data:extend(
     type = "item",
     name = "tungsten-oxide",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/tungsten-oxide.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "tungsten-processing",
     order = "f[tungsten-oxide]",
     stack_size = 100
@@ -36,7 +36,7 @@ data:extend(
     type = "item",
     name = "powdered-tungsten",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/powdered-tungsten.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "tungsten-processing",
     order = "f[powdered-tungsten]",
     stack_size = 100
@@ -45,7 +45,7 @@ data:extend(
     type = "item",
     name = "tungsten-plate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tungsten-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "tungsten-processing",
     order = "c-a-i[tungsten-plate]",
     stack_size = 200

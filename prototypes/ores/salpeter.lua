@@ -2,6 +2,7 @@ data:extend(
 {
 {
     type = "autoplace-control",
+    category = "resource",
     name = "salpeter",
     richness = true,
     order = "b-f"

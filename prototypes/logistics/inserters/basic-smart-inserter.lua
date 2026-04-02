@@ -50,7 +50,7 @@ data:extend(
     rotation_speed = 0.014,
     fast_replaceable_group = "inserter",
 	filter_count = 1,
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       match_progress_to_activity = true,

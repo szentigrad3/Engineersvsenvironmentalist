@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "chemical-plant",
     icon = "__base__/graphics/icons/chemical-plant.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "chemistry-industry",
     order = "e[chemical-plant-1]",
@@ -30,7 +30,7 @@ data:extend(
     type = "assembling-machine",
     name = "chemical-plant",
     icon = "__base__/graphics/icons/chemical-plant.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral","placeable-player", "player-creation"},
     minable = {mining_time = 0.5, result = "chemical-plant"},
     max_health = 300,
@@ -45,7 +45,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000060000,
+      emissions_per_minute = { pollution = 0.0036 },
       smoke =
       {
         {
@@ -56,7 +56,6 @@ data:extend(
       }
     },
     energy_usage = "30MW",
-    ingredient_count = 4,
     crafting_categories = {"chemistry"},
     module_specification =
     {
@@ -212,7 +211,7 @@ data:extend(
         }
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =
@@ -297,14 +296,13 @@ data:extend(
     {
       module_slots = 4,
     },
-    ingredient_count = 6,
     crafting_speed = 4,
     energy_usage = "92MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000029348,
+      emissions_per_minute = { pollution = 0.00176088 },
     },
     crafting_categories = {"chemistry"},
 	fast_replaceable_group = "chemical-plant",
@@ -455,7 +453,7 @@ data:extend(
         }
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =
@@ -541,14 +539,13 @@ data:extend(
     {
       module_slots = 5,
     },
-    ingredient_count = 8,
     crafting_speed = 25,
     energy_usage = "137MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000029562,
+      emissions_per_minute = { pollution = 0.00177372 },
     },
     crafting_categories = {"chemistry"},
 	fast_replaceable_group = "chemical-plant",
@@ -699,7 +696,7 @@ data:extend(
         }
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =
@@ -784,14 +781,13 @@ data:extend(
     {
       module_slots = 6,
     },
-    ingredient_count = 10,
     crafting_speed = 125,
     energy_usage = "206MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000029490,
+      emissions_per_minute = { pollution = 0.0017694 },
     },
     crafting_categories = {"chemistry"},
 	fast_replaceable_group = "chemical-plant",
@@ -942,7 +938,7 @@ data:extend(
         }
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =

@@ -30,7 +30,6 @@ data:extend(
     icon = "__base__/graphics/icons/diesel-locomotive.png",
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-on-map"},
     minable = {mining_time = 1, result = "electric-locomotive"},
-    mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
     max_health = 1000,
     corpse = "medium-remnants",
     dying_explosion = "medium-explosion",
@@ -177,7 +176,7 @@ data:extend(
     },
     drive_over_tie_trigger = drive_over_tie(),
     tie_distance = 50,
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =
@@ -187,8 +186,6 @@ data:extend(
       },
       match_speed_to_activity = true,
     },
-    open_sound = { filename = "__base__/sound/car-door-open.ogg", volume=0.7 },
-    close_sound = { filename = "__base__/sound/car-door-close.ogg", volume = 0.7 },
     sound_minimum_speed = 0.5;
   },
   }

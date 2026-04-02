@@ -5,13 +5,14 @@ data:extend(
     name = "tin-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/tin-ore.png",
 	icon_size = 29,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "b-d[tin-ore]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "tin-ore",
     richness = true,
     order = "b-f"

@@ -5,7 +5,7 @@ data:extend(
     name = "sodium-nitrate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/sodium-nitrate.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silver-processing",
     order = "f[sodium-nitrate]",
     stack_size = 100

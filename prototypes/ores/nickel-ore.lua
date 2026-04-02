@@ -4,13 +4,14 @@ data:extend(
     type = "item",
     name = "nickel-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/pentlandite-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "b-d[nickel-ore]",
     stack_size = 500
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "nickel-ore",
     richness = true,
     order = "b-f"

@@ -27,7 +27,7 @@ data:extend(
     type = "item",
     name = "gem-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gem-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gem-processing",
     order = "a-0[gem-ore]",
     stack_size = 200
@@ -37,7 +37,7 @@ data:extend(
     type = "item",
     name = "ruby-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/ruby-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gem-processing",
     order = "a-1",
     stack_size = 100
@@ -46,7 +46,7 @@ data:extend(
     type = "item",
     name = "sapphire-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/sapphire-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gem-processing",
     order = "b-1",
     stack_size = 100
@@ -55,7 +55,7 @@ data:extend(
     type = "item",
     name = "emerald-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/emerald-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gem-processing",
     order = "c-1",
     stack_size = 100
@@ -64,7 +64,7 @@ data:extend(
     type = "item",
     name = "amethyst-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/amethyst-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gem-processing",
     order = "d-1",
     stack_size = 100
@@ -73,7 +73,7 @@ data:extend(
     type = "item",
     name = "topaz-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/topaz-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gem-processing",
     order = "e-1",
     stack_size = 100
@@ -82,7 +82,7 @@ data:extend(
     type = "item",
     name = "diamond-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/gems/diamond-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gem-processing",
     order = "f-1",
     stack_size = 100

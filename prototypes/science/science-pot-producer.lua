@@ -37,8 +37,6 @@ data:extend({
         percent = 70
       }
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -88,10 +86,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "50MW",
-    ingredient_count = 4,
     module_specification =
     {
       module_slots = 6,
@@ -141,8 +138,6 @@ data:extend({
         percent = 70
       }
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -192,10 +187,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "5GW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -266,8 +260,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -317,10 +309,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "1GW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -391,8 +382,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -442,10 +431,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "10MW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -516,8 +504,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -567,10 +553,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "10MW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -644,8 +629,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -695,10 +678,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "10MW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -769,8 +751,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -820,10 +800,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = -200000,
+      emissions_per_minute = { pollution = -12000000 },
     },
     energy_usage = "1MW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -873,8 +852,6 @@ data:extend({
         percent = 70
       },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -924,10 +901,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000025,
+      emissions_per_minute = { pollution = 0.0015 },
     },
     energy_usage = "3GW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -977,8 +953,6 @@ data:extend({
         percent = 70
       },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -1028,10 +1002,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000025,
+      emissions_per_minute = { pollution = 0.0015 },
     },
     energy_usage = "4GW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -1081,8 +1054,6 @@ data:extend({
         percent = 70
       },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -1132,10 +1103,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000025,
+      emissions_per_minute = { pollution = 0.0015 },
     },
     energy_usage = "10GW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,

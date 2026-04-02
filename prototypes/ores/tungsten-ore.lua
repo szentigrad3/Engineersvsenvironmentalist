@@ -4,13 +4,14 @@ data:extend(
     type = "item",
     name = "tungsten-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/tungsten-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "b-d[tungsten-ore]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "tungsten-ore",
     richness = true,
     order = "b-f"

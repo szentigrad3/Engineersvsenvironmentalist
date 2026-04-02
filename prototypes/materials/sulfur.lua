@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "sulfur",
     icon = "__base__/graphics/icons/sulfur.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "sulfurates",
     order = "f[sulfur]",
     stack_size = 500

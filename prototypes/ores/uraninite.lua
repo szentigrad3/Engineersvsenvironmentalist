@@ -1,6 +1,7 @@
 data:extend({
 {
     type = "autoplace-control",
+    category = "resource",
     name = "uraninite",
     richness = true,
     order = "b-e"
@@ -9,7 +10,7 @@ data:extend({
 		type = "item",
 		name = "uraninite",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/uraninite.png",
-		flags = {"goes-to-main-inventory"},
+		flags = {},
 		subgroup = "minerals",
 		order = "e[uraninite]",
 		stack_size = 50

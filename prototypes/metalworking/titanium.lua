@@ -6,7 +6,7 @@ data:extend(
     name = "rutile-crushed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/rutile-crushed.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "titanium-processing",
     order = "c-a-h[titanium-plate]-1",
     stack_size = 200
@@ -16,7 +16,7 @@ data:extend(
     name = "titanium-dioxide",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-dioxide.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "titanium-processing",
     order = "c-a-h[titanium-plate]-1",
     stack_size = 200
@@ -40,7 +40,7 @@ data:extend(
     name = "titanium-slag",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-slag.png",
 	icon_size = 26,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "titanium-processing",
     order = "c-a-h[titanium-plate]-3",
     stack_size = 200
@@ -50,7 +50,7 @@ data:extend(
     name = "titanium-sponge",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-sponge.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "titanium-processing",
     order = "c-a-h[titanium-plate]-4",
     stack_size = 200
@@ -60,7 +60,7 @@ data:extend(
     name = "titanium-plate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/titanium-plate.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "titanium-processing",
     order = "c-a-h[titanium-plate]-4",
     stack_size = 200

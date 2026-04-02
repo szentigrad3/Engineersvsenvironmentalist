@@ -4,13 +4,14 @@ data:extend(
     type = "item",
     name = "zinc-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/zinc-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "b-d[zinc-ore]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "zinc-ore",
     richness = true,
     order = "b-f"

@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "salpeter",
     icon = "__base__/graphics/icons/sulfur.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "coal-base",
     order = "h[explosives]",
     stack_size = 500

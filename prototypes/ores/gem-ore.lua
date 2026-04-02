@@ -4,13 +4,14 @@ data:extend(
     type = "item",
     name = "gem-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gem-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gem-processing",
     order = "b-d[gem-ore]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "gem-ore",
     richness = true,
     order = "b-f"

@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "void",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/void/void.png",
-    flags = {"goes-to-main-inventory", "hidden"},
+    flags = {"hidden"},
     subgroup = "void",
     order = "void",
     stack_size = 100

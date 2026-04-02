@@ -7,7 +7,7 @@ data:extend(
     name = "crushed-silver",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-crushed.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silver-processing",
     order = "silver-1",
     stack_size = 200
@@ -17,7 +17,7 @@ data:extend(
     name = "silver-concentration",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-concentration.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silver-processing",
     order = "silver-2",
     stack_size = 200
@@ -27,7 +27,7 @@ data:extend(
     name = "silver-plate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/silver-plate.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silver-processing",
     order = "silver-3",
     stack_size = 200
@@ -92,7 +92,7 @@ data:extend(
     name = "silver-nitrate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silver-nitrate.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silver-processing",
     order = "silver-4",
     stack_size = 100
@@ -129,7 +129,7 @@ data:extend(
     name = "silver-oxide",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/silver-oxide.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silver-processing",
     order = "silver-5",
     stack_size = 100

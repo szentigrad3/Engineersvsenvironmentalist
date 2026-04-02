@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "basic-circuit-board",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/basic-circuit-board.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "circuits",
     order = "c[electronic-circuit]-1",
     stack_size = 10000
@@ -32,7 +32,7 @@ data:extend(
     type = "item",
     name = "electronic-circuit",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/basic-electronic-circuit-board.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "circuits",
     order = "c[electronic-circuit]-2",
     stack_size = 2000
@@ -73,7 +73,7 @@ data:extend(
     type = "item",
     name = "advanced-circuit",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/electronic-circuit-board.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "circuits",
     order = "c[electronic-circuit]-3",
     stack_size = 2000
@@ -115,7 +115,7 @@ data:extend(
     type = "item",
     name = "processing-unit",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/electronic-logic-board.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "circuits",
     order = "c[electronic-circuit]-4",
     stack_size = 2000
@@ -158,7 +158,7 @@ data:extend(
     type = "item",
     name = "advanced-processing-unit",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/electronic-processing-board.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "circuits",
     order = "c[electronic-circuit]-5",
     stack_size = 2000

@@ -6,7 +6,7 @@ data:extend(
     type = "item",
     name = "steam-engine",
     icon = "__base__/graphics/icons/steam-engine.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "steam-engines",
     order = "b[steam-power]-b[steam-engine]",
@@ -28,7 +28,7 @@ data:extend(
     type = "generator",
     name = "steam-engine",
     icon = "__base__/graphics/icons/steam-engine.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "steam-engine"},
     max_health = 400,
@@ -171,7 +171,7 @@ data:extend(
         starting_frame_deviation = 60
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =
@@ -194,7 +194,7 @@ data:extend(
     type = "item",
     name = "steam-engine-2",
     icon = "__base__/graphics/icons/steam-engine.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "steam-engines",
     order = "b[steam-power]-b[steam-engine]-2",
@@ -217,7 +217,7 @@ data:extend(
     type = "generator",
     name = "steam-engine-2",
     icon = "__base__/graphics/icons/steam-engine.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "steam-engine-2"},
     max_health = 400,
@@ -360,7 +360,7 @@ data:extend(
         starting_frame_deviation = 60
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =
@@ -382,7 +382,7 @@ data:extend(
     type = "item",
     name = "steam-engine-3",
     icon = "__base__/graphics/icons/steam-engine.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "steam-engines",
     order = "b[steam-power]-b[steam-engine]-3",
@@ -405,7 +405,7 @@ data:extend(
     type = "generator",
     name = "steam-engine-3",
     icon = "__base__/graphics/icons/steam-engine.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "steam-engine-3"},
     max_health = 400,
@@ -548,7 +548,7 @@ data:extend(
         starting_frame_deviation = 60
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =
@@ -570,7 +570,7 @@ data:extend(
     type = "item",
     name = "steam-engine-4",
     icon = "__base__/graphics/icons/steam-engine.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "steam-engines",
     order = "b[steam-power]-b[steam-engine]-4",
@@ -595,7 +595,7 @@ data:extend(
     type = "generator",
     name = "steam-engine-4",
     icon = "__base__/graphics/icons/steam-engine.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "steam-engine-4"},
     max_health = 400,
@@ -738,7 +738,7 @@ data:extend(
         starting_frame_deviation = 60
       }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =

@@ -4,13 +4,14 @@ data:extend(
     type = "item",
     name = "rutile-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/rutile-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "b-d[rutile-ore]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "rutile-ore",
     richness = true,
     order = "b-f"

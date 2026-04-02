@@ -8,7 +8,7 @@ data:extend({
     name = "magma",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gold-ore.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "steel-5",
     order = "a-1",
     stack_size = 200

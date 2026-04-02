@@ -5,13 +5,14 @@ data:extend(
     name = "gold-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/gold-ore.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "b-d[gold-ore]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "gold-ore",
     richness = true,
     order = "b-f"

@@ -31,11 +31,8 @@ data:extend(
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "chemical-boiler"},
     max_health = 150,
-    ingredient_count = 2,
     crafting_speed = 1,
     corpse = "medium-remnants",
-    repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
-    mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
     working_sound =
     {
       sound = { filename = "__base__/sound/furnace.ogg" }
@@ -70,7 +67,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000022785,
+      emissions_per_minute = { pollution = 0.0013671 },
       smoke =
       {
         {
@@ -217,7 +214,6 @@ data:extend(
       module_info_icon_shift = {0, 0.5},
       module_info_multi_row_initial_height_modifier = -0.3
     },
-    ingredient_count = 4,
     crafting_speed = 5,
     crafting_categories = {"smelting", "chemical-furnace"},
     energy_usage = "79MW",
@@ -225,7 +221,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000011392,
+      emissions_per_minute = { pollution = 0.0006835200000000001 },
     },
     working_sound =
     {

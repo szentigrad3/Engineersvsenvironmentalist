@@ -6,7 +6,7 @@ data:extend({
 		name = "gravel",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/gravel.png",
 		icon_size = 31,
-		flags = {"goes-to-main-inventory"},
+		flags = {},
 		subgroup = "stone-base",
 		order = "g1[other]",
 		stack_size = 250
@@ -16,7 +16,7 @@ data:extend({
 		name = "processed-gravel",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/gravel-processed.png",
 		icon_size = 31,
-		flags = {"goes-to-main-inventory"},
+		flags = {},
 		subgroup = "stone-base",
 		order = "g1[other]",
 		stack_size = 750

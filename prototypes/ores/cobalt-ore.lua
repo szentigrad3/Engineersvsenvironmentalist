@@ -4,13 +4,14 @@ data:extend(
     type = "item",
     name = "cobalt-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/cobalt-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "b-d[cobalt-ore]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "cobalt-ore",
     richness = true,
     order = "b-f"

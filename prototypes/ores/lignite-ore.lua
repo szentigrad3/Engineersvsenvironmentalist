@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "browncoal",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/browncoal.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "coal-base",
     fuel_category = "chemical",
 	fuel_value = "2GJ",
@@ -14,6 +14,7 @@ data:extend(
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "lignite-ore",
     richness = true,
     order = "b-f"

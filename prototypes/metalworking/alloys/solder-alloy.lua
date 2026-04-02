@@ -4,7 +4,7 @@ data:extend(
       type = "item",
       name = "solder-alloy",
       icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/solder-plate.png",
-      flags = {"goes-to-main-inventory"},
+      flags = {},
       subgroup = "alloy-processing",
       order = "solder",
       stack_size = 200

@@ -57,8 +57,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = false
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -109,7 +107,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000015385,
+      emissions_per_minute = { pollution = 0.0009230999999999999 },
       smoke =
       {
         {
@@ -120,7 +118,6 @@ data:extend({
       }
     },
     energy_usage = "13MW",
-    ingredient_count = 12,
     storage_slots = 4,
     module_specification =
     {
@@ -190,8 +187,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = false
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -241,10 +236,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000007692,
+      emissions_per_minute = { pollution = 0.00046152 },
     },
     energy_usage = "39MW",
-    ingredient_count = 12,
     storage_slots = 4,
     module_specification =
     {
@@ -314,8 +308,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = false
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -365,10 +357,9 @@ data:extend({
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000007627,
+      emissions_per_minute = { pollution = 0.00045762 },
     },
     energy_usage = "59MW",
-    ingredient_count = 12,
     storage_slots = 4,
     module_specification =
     {
@@ -438,8 +429,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = false
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -490,7 +479,7 @@ data:extend({
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000015385,
+      emissions_per_minute = { pollution = 0.0009230999999999999 },
       smoke =
       {
         {
@@ -501,7 +490,6 @@ data:extend({
       }
     },
     energy_usage = "13MW",
-    ingredient_count = 12,
     storage_slots = 4,
     module_specification =
     {

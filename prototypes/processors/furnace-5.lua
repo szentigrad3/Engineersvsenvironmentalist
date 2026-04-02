@@ -26,7 +26,7 @@ data:extend(
     minable = {mining_time = 1, result = "furnace-5"},
     max_health = 200,
     corpse = "medium-remnants",
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = { filename = "__base__/sound/furnace.ogg" }
@@ -45,13 +45,12 @@ data:extend(
     energy_usage = "160MW",
     crafting_speed = 5,
     source_inventory_size = 5,
-    ingredient_count = 5,
     energy_source =
     {
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000045570,
+      emissions_per_minute = { pollution = 0.0027342 },
       smoke =
       {
         {
@@ -120,8 +119,6 @@ data:extend(
           width = 29,
           height = 40,
           frame_count = 48,
-          axially_symmetrical = false,
-          direction_count = 1,
           shift = util.by_pixel(-0.5, 6),
           hr_version = {
             filename = "__base__/graphics/entity/steel-furnace/hr-steel-furnace-fire.png",
@@ -130,8 +127,6 @@ data:extend(
             width = 57,
             height = 81,
             frame_count = 48,
-            axially_symmetrical = false,
-            direction_count = 1,
             shift = util.by_pixel(-0.75, 5.75),
             scale = 0.5
           }
@@ -169,8 +164,6 @@ data:extend(
           width = 64,
           height = 75,
           frame_count = 1,
-          axially_symmetrical = false,
-          direction_count = 1,
           shift = util.by_pixel(0, -4.5),
           blend_mode = "additive",
           hr_version = {
@@ -180,8 +173,6 @@ data:extend(
             width = 130,
             height = 149,
             frame_count = 1,
-            axially_symmetrical = false,
-            direction_count = 1,
             shift = util.by_pixel(0, -4.25),
             blend_mode = "additive",
             scale = 0.5

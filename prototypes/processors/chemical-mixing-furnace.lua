@@ -61,7 +61,6 @@ data:extend(
       module_info_icon_shift = {0, 0.5},
       module_info_multi_row_initial_height_modifier = -0.3
     },
-    ingredient_count = 6,
     crafting_speed = 5,
     crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
     energy_usage = "200MW",
@@ -69,7 +68,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000010000,
+      emissions_per_minute = { pollution = 0.0006000000000000001 },
     },
     working_sound =
     {
@@ -170,7 +169,6 @@ data:extend(
       module_info_icon_shift = {0, 0.5},
       module_info_multi_row_initial_height_modifier = -0.3
     },
-    ingredient_count = 8,
     crafting_speed = 25,
     crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
     energy_usage = "200MW",
@@ -178,7 +176,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000010000,
+      emissions_per_minute = { pollution = 0.0006000000000000001 },
     },
     working_sound =
     {

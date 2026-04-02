@@ -91,7 +91,7 @@ data:extend(
     },
     energy_usage = "30kW",
     pumping_speed = 200,
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
 
     animations =
     {
@@ -352,7 +352,6 @@ data:extend(
     max_health = 150,
     crafting_categories = {"air-pump"},
     crafting_speed = 1,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 1,
@@ -393,7 +392,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009231,
+      emissions_per_minute = { pollution = 0.00055386 },
     },
     energy_usage = "13MW",
     animation =
@@ -467,7 +466,6 @@ data:extend(
     max_health = 180,
     crafting_categories = {"air-pump"},
     crafting_speed = 2,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 2,
@@ -508,7 +506,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009474,
+      emissions_per_minute = { pollution = 0.0005684399999999999 },
     },
     energy_usage = "19MW",
     animation =
@@ -583,7 +581,6 @@ data:extend(
     max_health = 230,
     crafting_categories = {"air-pump"},
     crafting_speed = 3.5,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 4,
@@ -624,7 +621,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009310,
+      emissions_per_minute = { pollution = 0.0005586 },
     },
     energy_usage = "29MW",
     animation =
@@ -699,7 +696,6 @@ data:extend(
     max_health = 300,
     crafting_categories = {"air-pump"},
     crafting_speed = 5,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 6,
@@ -740,7 +736,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009205,
+      emissions_per_minute = { pollution = 0.0005523 },
     },
     energy_usage = "44MW",
     animation =
@@ -816,7 +812,6 @@ data:extend(
     max_health = 120,
     crafting_categories = {"water-pump"},
     crafting_speed = 1,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 1,
@@ -857,7 +852,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009231,
+      emissions_per_minute = { pollution = 0.00055386 },
     },
     energy_usage = "13MW",
     animation =
@@ -931,7 +926,6 @@ data:extend(
     max_health = 180,
     crafting_categories = {"water-pump"},
     crafting_speed = 2,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 2,
@@ -972,7 +966,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009474,
+      emissions_per_minute = { pollution = 0.0005684399999999999 },
     },
     energy_usage = "19MW",
     animation =
@@ -1047,7 +1041,6 @@ data:extend(
     max_health = 230,
     crafting_categories = {"water-pump"},
     crafting_speed = 3.5,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 4,
@@ -1088,7 +1081,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009310,
+      emissions_per_minute = { pollution = 0.0005586 },
     },
     energy_usage = "29MW",
     animation =
@@ -1163,7 +1156,6 @@ data:extend(
     max_health = 300,
     crafting_categories = {"water-pump"},
     crafting_speed = 5,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 6,
@@ -1204,7 +1196,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009205,
+      emissions_per_minute = { pollution = 0.0005523 },
     },
     energy_usage = "44MW",
     animation =
@@ -1303,13 +1295,10 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009231,
+      emissions_per_minute = { pollution = 0.00055386 },
     },
     energy_usage = "13MW",
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+    impact_category = "metal",
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     crafting_categories = {"void-fluid"},

@@ -5,13 +5,14 @@ data:extend(
     name = "copper-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/copper-ore.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "f[copper-ore]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "copper-ore",
     richness = true,
     order = "b-b"

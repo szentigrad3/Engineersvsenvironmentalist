@@ -7,7 +7,7 @@ data:extend(
     name = "gold-grain",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-grain.png",
 	icon_size = 29,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
     stack_size = 100000
@@ -16,7 +16,7 @@ data:extend(
     type = "item",
     name = "gold-crushed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-crushed.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
     stack_size = 200
@@ -25,7 +25,7 @@ data:extend(
     type = "item",
     name = "gold-sifted",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-sifted.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
     stack_size = 200
@@ -34,7 +34,7 @@ data:extend(
     type = "item",
     name = "gold-plate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gold-processing",
     order = "c-a-d[gold-plate]",
     stack_size = 200

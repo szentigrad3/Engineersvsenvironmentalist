@@ -1,1 +1,10 @@
-{"name": "Engineersvsenvironmentalist","version": "1.0.1","title": "Engineersvsenvironmentalist","author": "Alreadyacounderfor AB, Commander_Swagnington, Murmeldjuret, Szentigrade","contact": "Szentigrade","homepage": "-","description": "Fun is Mandatory","factorio_version": "2.0","dependencies": ["base >= 2.0"]}
+{
+  "name": "Engineersvsenvironmentalist",
+  "version": "2.0.0",
+  "title": "Engineers vs Environmentalist",
+  "author": "Alreadyacounderfor AB, Commander_Swagnington, Murmeldjuret, Szentigrade",
+  "contact": "Szentigrade",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0"],
+  "description": "A total overhaul mod pitting engineering progress against environmental impact. Adds new ores, materials, chemicals, alloys, electronics, explosives, science trees, and more."
+}

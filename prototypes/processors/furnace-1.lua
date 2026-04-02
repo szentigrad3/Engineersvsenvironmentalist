@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "furnace-1",
     icon = "__base__/graphics/icons/stone-furnace.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "basic-smelting",
     order = "a[stone-furnace]",
@@ -21,16 +21,12 @@ data:extend(
     type = "assembling-machine",
     name = "furnace-1",
     icon = "__base__/graphics/icons/stone-furnace.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "furnace-1"},
     max_health = 150,
     corpse = "medium-remnants",
-    repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
-    mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-stone-impact.ogg", volume = 1.0 },
+    impact_category = "stone",
     working_sound =
     {
       sound = { filename = "__base__/sound/furnace.ogg", }
@@ -53,13 +49,12 @@ data:extend(
     energy_usage = "79MW",
     crafting_speed = 1,
     source_inventory_size = 1,
-    ingredient_count = 1,
     energy_source =
     {
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000022785,
+      emissions_per_minute = { pollution = 0.0013671 },
       smoke =
       {
         {
@@ -130,8 +125,6 @@ data:extend(
             width = 20,
             height = 49,
             frame_count = 48,
-            axially_symmetrical = false,
-            direction_count = 1,
             shift = util.by_pixel(2, 5.5),
             hr_version = {
               filename = "__base__/graphics/entity/stone-furnace/hr-stone-furnace-fire.png",
@@ -140,8 +133,6 @@ data:extend(
               width = 41,
               height = 100,
               frame_count = 48,
-              axially_symmetrical = false,
-              direction_count = 1,
               shift = util.by_pixel(-0.75, 5.5),
               scale = 0.5
             }

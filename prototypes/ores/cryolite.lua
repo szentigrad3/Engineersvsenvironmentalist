@@ -1,6 +1,7 @@
 data:extend({
 {
     type = "autoplace-control",
+    category = "resource",
     name = "cryolite",
     richness = true,
     order = "b-e"
@@ -9,7 +10,7 @@ data:extend({
 		type = "item",
 		name = "cryolite",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/cryolite.png",
-		flags = {"goes-to-main-inventory"},
+		flags = {},
 		subgroup = "minerals",
 		order = "e[cryolite]",
 		stack_size = 200

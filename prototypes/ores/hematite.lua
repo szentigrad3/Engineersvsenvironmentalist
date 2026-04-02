@@ -5,13 +5,14 @@ data:extend(
 		name = "iron-oxide-ore",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/iron-oxide-ore.png",
 		icon_size = 30,
-		flags = {"goes-to-main-inventory"},
+		flags = {},
 		subgroup = "minerals",
 		order = "g1[other]",
 		stack_size = 200
 	},
 {
     type = "autoplace-control",
+    category = "resource",
     name = "hematite",
     richness = true,
     order = "b-f"

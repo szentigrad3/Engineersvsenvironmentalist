@@ -48,15 +48,14 @@ data:extend(
     energy_usage = "79MW",
     crafting_speed = 5,
     source_inventory_size = 4,
-    ingredient_count = 4,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000011392,
+      emissions_per_minute = { pollution = 0.0006835200000000001 },
     },
 
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =

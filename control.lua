@@ -1,21 +1,21 @@
 -- Migration / compatibility skeleton for Factorio 2.0
 local MOD_NAME = "Engineersvsenvironmentalist"
-local MOD_VERSION = "1.0.1"
+local MOD_VERSION = "2.0.0"
 
 local function migrate_from(old_version, new_version)
   -- Add migration steps here.
   -- Example:
   -- if old_version == nil then
-  --   -- fresh install or very old version: initialize global tables
+  --   -- fresh install or very old version: initialize storage tables
   -- elseif old_version < "0.2.0" and new_version >= "0.2.0" then
-  --   -- convert global data structures, re-index, rename keys, etc.
+  --   -- convert storage data structures, re-index, rename keys, etc.
   -- end
 end
 
 script.on_init(function()
   -- initialization for new games
-  -- e.g. ensure global tables exist:
-  -- global.my_mod_data = global.my_mod_data or {}
+  -- e.g. ensure storage tables exist:
+  -- storage.my_mod_data = storage.my_mod_data or {}
 end)
 
 script.on_configuration_changed(function(data)
@@ -24,7 +24,7 @@ script.on_configuration_changed(function(data)
     local old = mod_changes.old_version
     local new = mod_changes.new_version
     migrate_from(old, new)
-    -- perform any immediate fixes needed after prototye/API changes
+    -- perform any immediate fixes needed after prototype/API changes
   end
 end)
 
@@ -32,9 +32,8 @@ end)
 script.on_event(defines.events.on_player_created, function(event)
     local player = game.players[event.player_index]
     if player and player.valid then
-      if player.clear_items_inside then
-        player.clear_items_inside()
-      end
+      local inv = player.get_inventory(defines.inventory.character_main)
+      if inv then inv.clear() end
       player.insert{name="burner-mining-drill", count=10}
       player.insert{name="furnace-1", count=10}
       player.insert{name="crusher-1", count=10}

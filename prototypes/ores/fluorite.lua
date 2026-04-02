@@ -1,6 +1,7 @@
 data:extend({
 {
     type = "autoplace-control",
+    category = "resource",
     name = "fluorite",
     richness = true,
     order = "b-f"
@@ -9,7 +10,7 @@ data:extend({
 		type = "item",
 		name = "fluorite",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/fluorite.png",
-		flags = {"goes-to-main-inventory"},
+		flags = {},
 		subgroup = "minerals",
 		order = "e[fluorite]",
 		stack_size = 200

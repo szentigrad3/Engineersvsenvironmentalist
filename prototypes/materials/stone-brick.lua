@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "stone-brick",
     icon = "__base__/graphics/icons/stone-brick.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "stone-base",
     order = "a[stone-brick]",
     stack_size = 400,

@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "circuit-electric-cable",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/circuit-electric-cable.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "circuit-electric-cable",
     order = "a[wires]-1",
     stack_size = 200

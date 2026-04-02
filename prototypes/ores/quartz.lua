@@ -5,13 +5,14 @@ data:extend(
     name = "quartz",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/quartz-ore.png",
 	icon_size = 31,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "b-d[quartz]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "quartz",
     richness = true,
     order = "b-f"

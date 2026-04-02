@@ -73,8 +73,6 @@ data:extend(
         },
       }
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -99,7 +97,6 @@ data:extend(
       emissions = 0.01
     },
     energy_usage = "100kW",
-    ingredient_count = 3,
     module_specification =
     {
       module_slots = 2,
@@ -187,8 +184,6 @@ data:extend(
         },
       }
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -213,7 +208,6 @@ data:extend(
       emissions = 0.01
     },
     energy_usage = "213.75kW",
-    ingredient_count = 4,
     module_specification =
     {
       module_slots = 4,
@@ -301,8 +295,6 @@ data:extend(
         },
       }
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -327,7 +319,6 @@ data:extend(
       emissions = 0.01
     },
     energy_usage = "360kW",
-    ingredient_count = 6,
     module_specification =
     {
       module_slots = 6,

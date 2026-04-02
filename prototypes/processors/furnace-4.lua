@@ -54,10 +54,9 @@
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000007627,
+      emissions_per_minute = { pollution = 0.00045762 },
     },
-	ingredient_count = 4,
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound =

@@ -31,7 +31,7 @@ data:extend(
     corpse = "small-remnants",
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     energy_source =
     {
       type = "electric",
@@ -46,8 +46,6 @@ data:extend(
       width = 67,
       height = 58,
       frame_count = 1,
-      axially_symmetrical = false,
-      direction_count = 1,
       shift = {-0.021875, 0.16875},
     },
     picture_on =
@@ -57,8 +55,6 @@ data:extend(
       width = 62,
       height = 62,
       frame_count = 1,
-      axially_symmetrical = false,
-      direction_count = 1,
       shift = {-0.0375, -0.01875},
     },
 

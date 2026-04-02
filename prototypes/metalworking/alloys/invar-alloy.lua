@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "invar-alloy",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/invar-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "alloy-processing",
     order = "invar",
     stack_size = 200

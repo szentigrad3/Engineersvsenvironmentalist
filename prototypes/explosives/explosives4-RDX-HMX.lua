@@ -19,7 +19,7 @@ data:extend({
     type = "item",
     name = "RDX",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/explosives/explosives.png",
-    flags = {"goes-to-main-inventory"},  
+    flags = {},  
     category = "chemistry",
     subgroup = "coal-base",
     stack_size = 200
@@ -29,7 +29,7 @@ data:extend({
     type = "item",
     name = "HMX",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/explosives/explosives.png",
-    flags = {"goes-to-main-inventory"},  
+    flags = {},  
     category = "chemistry",
     subgroup = "coal-base",
     stack_size = 200

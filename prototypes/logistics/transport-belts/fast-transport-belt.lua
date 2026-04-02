@@ -131,7 +131,7 @@ data:extend(
       width = 40,
       height = 40,
       frame_count = 32,
-      direction_count = 12
+2
     },
     belt_horizontal = fast_belt_horizontal, -- specified in transport-belt-pictures.lua
     belt_vertical = fast_belt_vertical,

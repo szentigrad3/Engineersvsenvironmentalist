@@ -47,7 +47,7 @@ data:extend(
       type = "burner",
       effectivity = 0.1,
       fuel_inventory_size = 1,
-      emissions = 0.0001,
+      emissions_per_minute = { pollution = 0.006 },
       smoke =
       {
         {
@@ -62,7 +62,7 @@ data:extend(
     pickup_position = {0, -2},
     insert_position = {0, 2.2},
     fast_replaceable_group = "long-handed-inserter",
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       match_progress_to_activity = true,
