@@ -103,7 +103,7 @@ data:extend({
     {
       {type="item", name="wall", amount=100},
       {type="item", name="iron-gear-wheel", amount=300},
-	  {  "stupid-ai", 300},
+      {type="item", name="stupid-ai", amount=300},
     },
     results = {{type="item", name="ai-trainer-2", amount=1}}
   },
