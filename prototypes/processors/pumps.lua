@@ -313,64 +313,6 @@ data:extend(
       }
     },
 
-    circuit_wire_connection_points =
-    {
-      {
-        shadow =
-        {
-          red = {0.171875, 0.140625},
-          green = {0.171875, 0.265625},
-        },
-        wire =
-        {
-          red = {-0.53125, -0.15625},
-          green = {-0.53125, 0},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.890625, 0.703125},
-          green = {0.75, 0.75},
-        },
-        wire =
-        {
-          red = {0.34375, 0.28125},
-          green = {0.34375, 0.4375},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.15625, 0.0625},
-          green = {0.09375, 0.125},
-        },
-        wire =
-        {
-          red = {-0.53125, -0.09375},
-          green = {-0.53125, 0.03125},
-        }
-      },
-      {
-        shadow =
-        {
-          red = {0.796875, 0.703125},
-          green = {0.625, 0.75},
-        },
-        wire =
-        {
-          red = {0.40625, 0.28125},
-          green = {0.40625, 0.4375},
-        }
-      }
-    },
-    circuit_connector_sprites =
-    {
-      get_circuit_connector_sprites({-0.40625, -0.3125}, nil, 24),
-      get_circuit_connector_sprites({0.125, 0.21875}, {0.34375, 0.40625}, 18),
-      get_circuit_connector_sprites({-0.40625, -0.25}, nil, 24),
-      get_circuit_connector_sprites({0.203125, 0.203125}, {0.25, 0.40625}, 18),
-    },
     circuit_wire_max_distance = 7.5
 
   },
