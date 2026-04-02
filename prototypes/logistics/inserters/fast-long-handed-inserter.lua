@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "fast-long-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/fast-long-inserter.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "inserters",
     order = "c[long-handed-inserter-2]",
     place_result = "fast-long-inserter",

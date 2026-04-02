@@ -5,7 +5,7 @@ data:extend(
     type = "item",
     name = "clean-lab",
     icon = "__base__/graphics/icons/lab.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
 	subgroup = "clean-pots",
     order = "a-pollution1",
     place_result = "clean-lab",

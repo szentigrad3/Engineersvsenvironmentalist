@@ -4,7 +4,7 @@
     type = "item",
     name = "dismantler",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/assembling-machines/assembling-machine-6.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "dismantler",
     order = "a-1",
     place_result = "dismantler",

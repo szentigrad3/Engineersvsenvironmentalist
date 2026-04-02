@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "small-lamp",
     icon = "__base__/graphics/icons/small-lamp.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "lighting",
     order = "c[light]-a[small-lamp]",
     place_result = "small-lamp",

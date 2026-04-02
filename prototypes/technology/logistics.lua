@@ -11,7 +11,7 @@
     unit =
     {
       count = 1,
-      ingredients = {{"science-pack-1", 1}},
+      ingredients = {{"automation-science-pack", 1}},
       time = 15
     },
     order = "a-f-a",
@@ -39,7 +39,7 @@
     unit =
     {
       count = 50,
-      ingredients = {{"science-pack-1", 1}},
+      ingredients = {{"automation-science-pack", 1}},
       time = 15
     },
     order = "a-f-a",
@@ -69,8 +69,8 @@
       count = 40,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1}
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1}
       },
       time = 30
     },
@@ -101,9 +101,9 @@
       count = 100,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1}
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1}
       },
       time = 15
     },
@@ -134,10 +134,10 @@
       count = 150,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
-        {"science-pack-4", 1}
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1}
       },
       time = 20
     },
@@ -168,10 +168,10 @@
       count = 150,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
-        {"science-pack-4", 1},
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"chemical-science-pack", 1},
+        {"production-science-pack", 1},
         {"alien-science-pack", 1},
       },
       time = 30

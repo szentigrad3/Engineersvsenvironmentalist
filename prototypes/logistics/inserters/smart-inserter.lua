@@ -4,7 +4,7 @@
     type = "item",
     name = "smart-inserter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/inserters/smart-inserter.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "inserters",
     order = "d[smart-inserter-2]",
     place_result = "smart-inserter",

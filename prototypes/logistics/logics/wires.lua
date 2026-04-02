@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "red-wire",
     icon = "__base__/graphics/icons/red-wire.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "logics",
     order = "a[wires]-b[red-wire]",
     stack_size = 200
@@ -24,7 +24,7 @@ data:extend(
     type = "item",
     name = "green-wire",
     icon = "__base__/graphics/icons/green-wire.png",
-    flags = {"goes-to-quickbar"},
+    flags = {},
     subgroup = "logics",
     order = "a[wires]-c[green-wire]",
     stack_size = 200

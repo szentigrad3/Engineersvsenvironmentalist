@@ -32,7 +32,7 @@
     unit =
     {
       count = 5,
-      ingredients = {{"science-pack-1", 1}},
+      ingredients = {{"automation-science-pack", 1}},
       time = 30
     },
     order = "d-c"

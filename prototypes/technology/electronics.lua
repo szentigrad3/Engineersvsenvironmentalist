@@ -38,14 +38,14 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "science-pack-2"
+        recipe = "logistic-science-pack"
       },
     },
     prerequisites = {"chemical-boiler","mixing-furnace","tin-processing","lead-processing"},
     unit =
     {
       count = 20,
-      ingredients = {{"science-pack-1", 1}},
+      ingredients = {{"automation-science-pack", 1}},
       time = 15
     },
     order = "a-d-a",

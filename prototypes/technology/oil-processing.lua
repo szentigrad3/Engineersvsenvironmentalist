@@ -31,7 +31,7 @@
     unit =
     {
       count = 10,
-      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}},
+      ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}},
       time = 30
     },
     order = "d-a"
@@ -80,9 +80,9 @@
     unit =
     {
       count = 75,
-      ingredients = {{"science-pack-1", 1},
-                     {"science-pack-2", 1},
-                     {"science-pack-3", 1}},
+      ingredients = {{"automation-science-pack", 1},
+                     {"logistic-science-pack", 1},
+                     {"chemical-science-pack", 1}},
       time = 30
     },
     order = "d-b"

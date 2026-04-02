@@ -25,7 +25,7 @@ data:extend(
 		unit =
 		{
 			count = 40,
-			ingredients = {{ "science-pack-1", 1}},
+			ingredients = {{ "automation-science-pack", 1}},
 			time = 20
 		},
 		order = "c-a"
@@ -75,9 +75,9 @@ data:extend(
 		{
 			count = 25,
 			ingredients = {
-				{ "science-pack-1", 2},
-				{ "science-pack-2", 2},
-				{ "science-pack-3", 1}
+				{ "automation-science-pack", 2},
+				{ "logistic-science-pack", 2},
+				{ "chemical-science-pack", 1}
 			},
 			time = 30
 		},

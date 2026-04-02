@@ -137,7 +137,7 @@ data:extend(
     unit =
     {
       count = 75,
-      ingredients = {{"science-pack-1", 1}, {"science-pack-2", 1}},
+      ingredients = {{"automation-science-pack", 1}, {"logistic-science-pack", 1}},
       time = 30
     },
     order = "d-a-a"

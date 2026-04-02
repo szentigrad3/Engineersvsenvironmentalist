@@ -29,10 +29,6 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "tungsten-axe"
-      },
-      {
-        type = "unlock-recipe",
         recipe = "iron-gear-wheel|tungsten"
       },
       {
@@ -57,7 +53,7 @@ data:extend(
       count = 25,
       ingredients =
       {
-        {"science-pack-1", 1},
+        {"automation-science-pack", 1},
       },
       time = 15
     },
