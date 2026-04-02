@@ -1,13 +1,1 @@
-{
-  "name": "Engineersvsenvironmentalist",
-  "version": "1.0.1",
-  "title": "Engineersvsenvironmentalist",
-  "author": "Alreadyaccounderfor AB, Commander_Swagnington, Murmeldjuret",
-  "contact": "Fredrick Fly (facebuuk)",
-  "homepage": "-",
-  "description": "Fun is Mandatory",
-  "factorio_version": "2.0",
-  "dependencies": [
-    "base >= 2.0"
-  ]
-}
+{"name": "Engineersvsenvironmentalist","version": "1.0.1","title": "Engineersvsenvironmentalist","author": "Alreadyacounderfor AB, Commander_Swagnington, Murmeldjuret, Szentigrade","contact": "Szentigrade","homepage": "-","description": "Fun is Mandatory","factorio_version": "2.0","dependencies": ["base >= 2.0"]}
