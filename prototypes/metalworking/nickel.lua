@@ -5,7 +5,7 @@ data:extend(
     type = "item",
     name = "nickel-crushed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-crushed.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "nickel-processing",
     order = "a-1",
     stack_size = 200
@@ -14,7 +14,7 @@ data:extend(
     type = "item",
     name = "nickel-slurry",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-slurry.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "nickel-processing",
     order = "a-2",
     stack_size = 200
@@ -24,7 +24,7 @@ data:extend(
     type = "item",
     name = "nickel-plate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/nickel-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "nickel-processing",
     order = "a-3",
     stack_size = 400

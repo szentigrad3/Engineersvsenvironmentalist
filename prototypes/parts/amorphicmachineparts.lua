@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "amorphicmachineparts",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/glass.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "bearings",
     stack_size = 64000
   },

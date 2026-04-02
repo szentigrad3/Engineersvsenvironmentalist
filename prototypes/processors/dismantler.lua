@@ -24,11 +24,7 @@
     minable = {mining_time = 1, result = "dismantler"},
     max_health = 150,
     corpse = "medium-remnants",
-    repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
-    mined_sound = { filename = "__base__/sound/deconstruct-bricks.ogg" },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-stone-impact.ogg", volume = 1.0 },
+    impact_category = "stone",
     working_sound =
     {
       sound = { filename = "__base__/sound/furnace.ogg", }
@@ -56,32 +52,35 @@
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
-        },
-      }
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
+        }
+      },
     },
     fast_replaceable_group = "dismantler"
   },

@@ -34,7 +34,7 @@ data:extend(
     drawing_box = {{-0.5, -2.6}, {0.5, 0.5}},
     maximum_wire_distance = 7.5,
     supply_area_distance = 2.5,
-    vehicle_impact_sound =  { filename = "__base__/sound/car-wood-impact.ogg", volume = 1.0 },
+    impact_category = "metal",
     pictures =
     {
       filename = "__base__/graphics/entity/small-electric-pole/small-electric-pole.png",
@@ -121,7 +121,7 @@ data:extend(
     type = "item",
     name = "medium-electric-pole",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "poles",
     order = "a[energy]-b[medium-electric-pole-1]",
@@ -143,7 +143,7 @@ data:extend(
     type = "electric-pole",
     name = "medium-electric-pole",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "medium-electric-pole"},
     max_health = 100,
@@ -160,7 +160,7 @@ data:extend(
     drawing_box = {{-0.5, -2.8}, {0.5, 0.5}},
     maximum_wire_distance = 9,
     supply_area_distance = 3.5,
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     pictures =
     {
       filename = "__base__/graphics/entity/medium-electric-pole/medium-electric-pole.png",
@@ -247,7 +247,7 @@ data:extend(
     type = "item",
     name = "medium-electric-pole-2",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "poles",
     order = "a[energy]-b[medium-electric-pole-2]",
@@ -269,7 +269,7 @@ data:extend(
     type = "electric-pole",
     name = "medium-electric-pole-2",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "medium-electric-pole-2"},
     max_health = 150,
@@ -292,7 +292,6 @@ data:extend(
       priority = "high",
       width = 136,
       height = 122,
-      axially_symmetrical = false,
       direction_count = 4,
       shift = {1.4, -1.0}
     },
@@ -399,7 +398,7 @@ data:extend(
     type = "item",
     name = "medium-electric-pole-3",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "poles",
     order = "a[energy]-b[medium-electric-pole-3]",
@@ -421,7 +420,7 @@ data:extend(
     type = "electric-pole",
     name = "medium-electric-pole-3",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "medium-electric-pole-3"},
     max_health = 200,
@@ -444,7 +443,6 @@ data:extend(
       priority = "high",
       width = 136,
       height = 122,
-      axially_symmetrical = false,
       direction_count = 4,
       shift = {1.4, -1.0}
     },
@@ -552,7 +550,7 @@ data:extend(
     type = "item",
     name = "medium-electric-pole-4",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "poles",
     order = "a[energy]-b[medium-electric-pole-4]",
@@ -574,7 +572,7 @@ data:extend(
     type = "electric-pole",
     name = "medium-electric-pole-4",
     icon = "__base__/graphics/icons/medium-electric-pole.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.5, result = "medium-electric-pole-4"},
     max_health = 250,
@@ -597,7 +595,6 @@ data:extend(
       priority = "high",
       width = 136,
       height = 122,
-      axially_symmetrical = false,
       direction_count = 4,
       shift = {1.4, -1.0}
     },
@@ -741,7 +738,7 @@ data:extend(
     drawing_box = {{-1, -3}, {1, 0.5}},
     maximum_wire_distance = 30,
     supply_area_distance = 2,
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     pictures =
     {
       filename = "__base__/graphics/entity/big-electric-pole/big-electric-pole.png",
@@ -870,7 +867,6 @@ data:extend(
       priority = "high",
       width = 168,
       height = 165,
-      axially_symmetrical = false,
       direction_count = 4,
       shift = {1.6, -1.1}
     },
@@ -1020,7 +1016,6 @@ data:extend(
       priority = "high",
       width = 168,
       height = 165,
-      axially_symmetrical = false,
       direction_count = 4,
       shift = {1.6, -1.1}
     },
@@ -1170,7 +1165,6 @@ data:extend(
       priority = "high",
       width = 168,
       height = 165,
-      axially_symmetrical = false,
       direction_count = 4,
       shift = {1.6, -1.1}
     },
@@ -1323,7 +1317,7 @@ data:extend(
       direction_count = 4,
       shift = {0.9, -1}
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = { filename = "__base__/sound/substation.ogg" },
@@ -1450,7 +1444,6 @@ data:extend(
       priority = "high",
       width = 132,
       height = 144,
-      axially_symmetrical = false,
       direction_count = 4,
       shift = {0.9, -1}
     },
@@ -1606,7 +1599,6 @@ data:extend(
       priority = "high",
       width = 132,
       height = 144,
-      axially_symmetrical = false,
       direction_count = 4,
       shift = {0.9, -1}
     },
@@ -1762,7 +1754,6 @@ data:extend(
       priority = "high",
       width = 132,
       height = 144,
-      axially_symmetrical = false,
       direction_count = 4,
       shift = {0.9, -1}
     },

@@ -4,7 +4,7 @@ data:extend({
     type = "item",
     name = "iron-sinter",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/carbon.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "steel-4",
     order = "a-1",
     stack_size = 3000

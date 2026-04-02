@@ -6,7 +6,7 @@ data:extend({
     type = "item",
     name = "explosives-analogue",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/explosives/explosives.png",
-    flags = {"goes-to-main-inventory"},  
+    flags = {},  
     category = "chemistry",
     subgroup = "explosives-analogue",
     stack_size = 64000

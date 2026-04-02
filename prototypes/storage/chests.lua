@@ -96,7 +96,7 @@
     type = "item",
     name = "logistic-chest-storage",
     icon = "__base__/graphics/icons/logistic-chest-storage.png",
-	icon_size = 32,
+	icon_size = 64,
     flags = {},
     subgroup = "logistics-storage",
     order = "b[storage]-c[logistic-chest-storage]",

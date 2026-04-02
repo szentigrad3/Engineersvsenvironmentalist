@@ -132,14 +132,13 @@ data:extend({
       module_slots = 1,
     },
     crafting_speed = 0.1,
-    ingredient_count = 4,
     energy_usage = "30MW",
     energy_source =
     {
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000060000,
+      emissions_per_minute = { pollution = 0.0036 },
     },
     fluid_boxes =
     {
@@ -170,41 +169,45 @@ data:extend({
         pipe_connections = {{ position = {1, 2} }}
       },
     },
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt1u.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt1u.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t1l.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt1d.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t1r.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        }
       },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t1l.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt1d.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t1r.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      }
     },
+
     working_sound =
     {
       sound =
@@ -237,13 +240,12 @@ data:extend({
       module_slots = 3,
     },
     crafting_speed = 1,
-    ingredient_count = 6,
     energy_usage = "2500MW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000029348,
+      emissions_per_minute = { pollution = 0.00176088 },
     },
     fluid_boxes =
     {
@@ -274,41 +276,45 @@ data:extend({
         pipe_connections = {{ position = {1, 2} }}
       },
     },
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt2u.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt2u.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t2l.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt2d.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t2r.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        }
       },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t2l.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt2d.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t2r.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      }
     },
+
     working_sound =
     {
       sound = {
@@ -340,13 +346,12 @@ data:extend({
       module_slots = 5,
     },
     crafting_speed = 25,
-    ingredient_count = 8,
     energy_usage = "40GW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000029562,
+      emissions_per_minute = { pollution = 0.00177372 },
     },
     fluid_boxes =
     {
@@ -377,41 +382,45 @@ data:extend({
         pipe_connections = {{ position = {1, 2} }}
       },
     },
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt3u.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt3u.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t3l.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt3d.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t3r.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        }
       },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t3l.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt3d.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t3r.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      }
     },
+
     working_sound =
     {
       sound = {
@@ -443,13 +452,12 @@ data:extend({
       module_slots = 6,
     },
     crafting_speed = 125,
-    ingredient_count = 10,
     energy_usage = "180GW",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000029490,
+      emissions_per_minute = { pollution = 0.0017694 },
     },
     fluid_boxes =
     {
@@ -480,41 +488,45 @@ data:extend({
         pipe_connections = {{ position = {1, 2} }}
       },
     },
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt4u.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt4u.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t4l.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt4d.png",
+          width = 108,
+          height = 130,
+          frame_count = 1,
+          shift = {0, -0.28125}
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t4r.png",
+          width = 112,
+          height = 120,
+          frame_count = 1,
+          shift = {0, -0.21875}
+        }
       },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t4l.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-vt4d.png",
-        width = 108,
-        height = 130,
-        frame_count = 1,
-        shift = {0, -0.28125}
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electro-h-t4r.png",
-        width = 112,
-        height = 120,
-        frame_count = 1,
-        shift = {0, -0.21875}
-      }
     },
+
     working_sound =
     {
       sound = {

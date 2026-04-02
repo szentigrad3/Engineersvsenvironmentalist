@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "copper-tungsten-alloy",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/copper-tungsten-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "alloy-processing",
     order = "tungsten-1",
     stack_size = 200
@@ -13,7 +13,7 @@ data:extend(
     type = "item",
     name = "tungsten-carbide",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/tungsten-carbide-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "alloy-processing",
     order = "tungsten-2",
     stack_size = 5000

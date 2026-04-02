@@ -61,7 +61,6 @@ data:extend(
       module_info_icon_shift = {0, 0.5},
       module_info_multi_row_initial_height_modifier = -0.3
     },
-    ingredient_count = 6,
     crafting_speed = 5,
     crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
     energy_usage = "200MW",
@@ -69,7 +68,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000010000,
+      emissions_per_minute = { pollution = 0.0006000000000000001 },
     },
     working_sound =
     {
@@ -80,32 +79,36 @@ data:extend(
       },
       apparent_volume = 1.5
     },
-    animation =
+    graphics_set =
     {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace.png",
-      priority = "high",
-      width = 131,
-      height = 102,
-      frame_count = 1,
-      shift = {0.5, 0.05 }
-    },
-    working_visualisations =
-    {
+      animation =
       {
-        north_position = { 0.09375, 0.96875 },
-        west_position = { 0.09375, 0.96875 },
-        south_position = { 0.09375, 0.96875 },
-        east_position = { 0.09375, 0.96875 },
-        animation =
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace.png",
+        priority = "high",
+        width = 131,
+        height = 102,
+        frame_count = 1,
+        shift = {0.5, 0.05 }
+      },
+      working_visualisations =
+      {
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
-          width = 29,
-          height = 19,
-          frame_count = 12,
-          animation_speed = 0.5,
-        }
+          north_position = { 0.09375, 0.96875 },
+          west_position = { 0.09375, 0.96875 },
+          south_position = { 0.09375, 0.96875 },
+          east_position = { 0.09375, 0.96875 },
+          animation =
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
+            width = 29,
+            height = 19,
+            frame_count = 12,
+            animation_speed = 0.5,
+          }
+        },
       },
     },
+
     fast_replaceable_group = "furnace",
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
   },
@@ -170,7 +173,6 @@ data:extend(
       module_info_icon_shift = {0, 0.5},
       module_info_multi_row_initial_height_modifier = -0.3
     },
-    ingredient_count = 8,
     crafting_speed = 25,
     crafting_categories = {"smelting", "mixing-furnace", "chemical-furnace"},
     energy_usage = "200MW",
@@ -178,7 +180,7 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000010000,
+      emissions_per_minute = { pollution = 0.0006000000000000001 },
     },
     working_sound =
     {
@@ -189,32 +191,36 @@ data:extend(
       },
       apparent_volume = 1.5
     },
-    animation =
+    graphics_set =
     {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-2.png",
-      priority = "high",
-      width = 131,
-      height = 102,
-      frame_count = 1,
-      shift = {0.5, 0.05 }
-    },
-    working_visualisations =
-    {
+      animation =
       {
-        north_position = { 0.09375, 0.96875 },
-        west_position = { 0.09375, 0.96875 },
-        south_position = { 0.09375, 0.96875 },
-        east_position = { 0.09375, 0.96875 },
-        animation =
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-2.png",
+        priority = "high",
+        width = 131,
+        height = 102,
+        frame_count = 1,
+        shift = {0.5, 0.05 }
+      },
+      working_visualisations =
+      {
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
-          width = 29,
-          height = 19,
-          frame_count = 12,
-          animation_speed = 0.5,
-        }
+          north_position = { 0.09375, 0.96875 },
+          west_position = { 0.09375, 0.96875 },
+          south_position = { 0.09375, 0.96875 },
+          east_position = { 0.09375, 0.96875 },
+          animation =
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/electric-chemical-mixing-furnace/electric-chemical-mixing-furnace-fire.png",
+            width = 29,
+            height = 19,
+            frame_count = 12,
+            animation_speed = 0.5,
+          }
+        },
       },
     },
+
     fast_replaceable_group = "furnace",
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
   },

@@ -4,7 +4,7 @@
     type = "item",
     name = "polishing-compound",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/polishing-compound.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gem-processing",
     order = "f[polishing-compound]",
     stack_size = 100
@@ -27,7 +27,7 @@
     type = "item",
     name = "grinding-wheel",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/grinding-wheel.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gem-processing",
     order = "f-c[grinding-wheel]",
     stack_size = 100
@@ -50,7 +50,7 @@
     type = "item",
     name = "polishing-wheel",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/parts/polishing-wheel.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "gem-processing",
     order = "f-c[polishing-wheel]",
     stack_size = 100

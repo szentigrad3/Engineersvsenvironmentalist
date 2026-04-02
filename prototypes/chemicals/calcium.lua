@@ -5,7 +5,7 @@ data:extend({
     name = "calcium",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "stone-base",
     order = "calcium",
     stack_size = 100
@@ -15,7 +15,7 @@ data:extend({
     name = "calcium-chloride",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-chloride.png",
     icon_size = 28,
-	flags = {"goes-to-main-inventory"},
+	flags = {},
     subgroup = "stone-base",
     order = "calcium-chloride",
     stack_size = 100
@@ -25,7 +25,7 @@ data:extend({
     name = "calcium-oxide",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-oxide.png",
     icon_size = 28,
-	flags = {"goes-to-main-inventory"},
+	flags = {},
     subgroup = "stone-base",
     order = "calcium-oxide",
     stack_size = 100
@@ -35,7 +35,7 @@ data:extend({
     name = "cement",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/cement.png",
     icon_size = 28,
-	flags = {"goes-to-main-inventory"},
+	flags = {},
     subgroup = "stone-base",
     order = "cement",
     stack_size = 3000
@@ -45,7 +45,7 @@ data:extend({
     name = "calcium-sulfate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/calcium-sulfate.png",
     icon_size = 28,
-	flags = {"goes-to-main-inventory"},
+	flags = {},
     subgroup = "stone-base",
     order = "calcium-sulfate",
     stack_size = 100

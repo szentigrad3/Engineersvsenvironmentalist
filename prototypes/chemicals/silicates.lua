@@ -4,7 +4,7 @@ data:extend({
     type = "item",
     name = "quartz-crushed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/quartz-crushed.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silicon-processing",
     order = "f[silicon-carbide]",
     stack_size = 100
@@ -13,7 +13,7 @@ data:extend({
     type = "item",
     name = "silicon-carbide",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silicon-carbide.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silicon-processing",
     order = "f[silicon-carbide]",
     stack_size = 100
@@ -22,7 +22,7 @@ data:extend({
     type = "item",
     name = "silicon",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silicon-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silicon-processing",
     order = "c-a-e[silicon-plate]",
     stack_size = 200
@@ -31,7 +31,7 @@ data:extend({
     type = "item",
     name = "ferrosilicon",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/ferrosilicon.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silicon-processing",
     order = "c-a-e[ferrosilicon]",
     stack_size = 200
@@ -40,7 +40,7 @@ data:extend({
     type = "item",
     name = "metallurgicalsilicon",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/metallurgicalsilicon.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silicon-processing",
     order = "c-a-e[metallurgicalsilicon]",
     stack_size = 200
@@ -49,7 +49,7 @@ data:extend({
     type = "item",
     name = "silicon-nitride",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silicon-nitride.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "silicon-processing",
     order = "f[silicon-nitride]",
     stack_size = 100
@@ -58,7 +58,7 @@ data:extend({
 	type = "item",
 	name = "silicon-wafer",
 	icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silicon-wafer.png",
-	flags = {"goes-to-main-inventory"},
+	flags = {},
 	subgroup = "silicon-processing",
 	order = "f[silicon-wafer]",
 	stack_size = 500

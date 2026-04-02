@@ -3,7 +3,7 @@ data:extend({
 		type = "item",
 		name = "coalpowder",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/coalpowder.png",
-		flags = {"goes-to-main-inventory"},
+		flags = {},
 		subgroup = "coal-base",
     fuel_category = "chemical", fuel_value = "3.5GJ",
 		order = "g1[other]",
@@ -14,7 +14,7 @@ data:extend({
     type = "item",
     name = "carbon-nanotubes",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/carbon.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "coal-base",
     order = "carbon-nanotubes",
     stack_size = 64000

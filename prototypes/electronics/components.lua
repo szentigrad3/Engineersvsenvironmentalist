@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "insulated-cable",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/insulated-cable.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "components",
     order = "a[wires]-3",
     stack_size = 200
@@ -29,7 +29,7 @@ data:extend(
       type = "item",
       name = "solder",
       icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/solder.png",
-      flags = {"goes-to-main-inventory"},
+      flags = {},
       subgroup = "components",
       order = "a[wires]-5",
       stack_size = 200
@@ -57,7 +57,7 @@ data:extend(
     type = "item",
     name = "basic-electronic-components",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/basic-electronic-components.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "components",
     order = "a[wires]-6",
     stack_size = 200
@@ -85,7 +85,7 @@ data:extend(
     type = "item",
     name = "electronic-components",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/electronic-components.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "components",
     order = "a[wires]-7",
     stack_size = 200
@@ -114,7 +114,7 @@ data:extend(
     type = "item",
     name = "intergrated-electronics",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/integrated-electronics.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "components",
     order = "a[wires]-8",
     stack_size = 200
@@ -144,7 +144,7 @@ data:extend(
     type = "item",
     name = "processing-electronics",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/processing-electronics.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "components",
     order = "a[wires]-9",
     stack_size = 200

@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "synthetic-wood",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/synthetic-wood.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     fuel_category = "chemical", fuel_value = "1MJ",
     subgroup = "plastics",
     order = "d[synthetic-wood]",

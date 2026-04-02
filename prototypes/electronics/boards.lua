@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "wooden-board",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/wooden-board.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "boards",
     order = "a-1",
     stack_size = 200
@@ -61,7 +61,7 @@ data:extend(
     type = "item",
     name = "phenolic-board",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/phenolic-board.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "boards",
     order = "a-2",
     stack_size = 200
@@ -101,7 +101,7 @@ data:extend(
     type = "item",
     name = "fibreglass-board",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/fibreglass-board.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "boards",
     order = "a-4",
     stack_size = 200
@@ -129,7 +129,7 @@ data:extend(
     type = "item",
     name = "circuit-board",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/circuit-board.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "boards",
     order = "a-3",
     stack_size = 200
@@ -157,7 +157,7 @@ data:extend(
     type = "item",
     name = "superior-circuit-board",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/superior-circuit-board.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "boards",
     order = "a-5",
     stack_size = 200
@@ -185,7 +185,7 @@ data:extend(
     type = "item",
     name = "multi-layer-circuit-board",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/electronics/multi-layer-circuit-board.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "boards",
     order = "a-6",
     stack_size = 200

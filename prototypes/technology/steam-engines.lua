@@ -8,7 +8,7 @@ data:extend(
       "electric-energy-distribution-1"
     },
     icon = "__base__/graphics/icons/steam-engine.png",
-	icon_size = 32,
+	icon_size = 64,
     effects =
     {
       {
@@ -38,7 +38,7 @@ data:extend(
       "steel-processing",
     },
     icon = "__base__/graphics/icons/steam-engine.png",
-	icon_size = 32,
+	icon_size = 64,
     effects =
     {
       {
@@ -70,7 +70,7 @@ data:extend(
       "steel-processing",
     },
     icon = "__base__/graphics/icons/steam-engine.png",
-	icon_size = 32,
+	icon_size = 64,
     effects =
     {
       {

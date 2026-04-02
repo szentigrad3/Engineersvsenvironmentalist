@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "glass",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/glass.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "quartz-base",
     order = "f[glass]-1",
     stack_size = 100

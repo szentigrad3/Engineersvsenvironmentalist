@@ -19,7 +19,7 @@ data:extend(
       {
         {type="item", name="automation-science-pack", amount=1},
         {type="item", name="logistic-science-pack", amount=1},
-		{ "computing-pack-1",1},
+		{type="item", name="computing-pack-1", amount=1},
       },
       time = 30
     },

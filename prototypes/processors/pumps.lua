@@ -87,24 +87,16 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01 / 2.5
+      emissions_per_minute = { pollution = 0.240000 },
     },
     energy_usage = "30kW",
     pumping_speed = 200,
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
 
     animations =
     {
       north =
       {
-        filename = "__base__/graphics/entity/pump/pump-north.png",
-        width = 53,
-        height = 79,
-        line_length =8,
-        frame_count =32,
-        animation_speed = 0.5,
-        shift = util.by_pixel(8.000, 7.500),
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-north.png",
           width = 103,
           height = 164,
@@ -114,17 +106,8 @@ data:extend(
           animation_speed = 0.5,
           shift = util.by_pixel(8, 3.5) -- {0.515625, 0.21875}
         },
-      },
       east =
       {
-        filename = "__base__/graphics/entity/pump/pump-east.png",
-        width = 66,
-        height = 60,
-        line_length =8,
-        frame_count =32,
-        animation_speed = 0.5,
-        shift = util.by_pixel(0, 4),
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-east.png",
           width = 130,
           height = 109,
@@ -134,18 +117,9 @@ data:extend(
           animation_speed = 0.5,
           shift = util.by_pixel(-0.5, 1.75) --{-0.03125, 0.109375}
         },
-      },
 
       south =
       {
-        filename = "__base__/graphics/entity/pump/pump-south.png",
-        width = 62,
-        height = 87,
-        line_length =8,
-        frame_count =32,
-        animation_speed = 0.5,
-        shift = util.by_pixel(13.5, 0.5),
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-south.png",
           width = 114,
           height = 160,
@@ -155,17 +129,8 @@ data:extend(
           animation_speed = 0.5,
           shift = util.by_pixel(12.5, -8) -- {0.75, -0.5}
         },
-      },
       west =
       {
-        filename = "__base__/graphics/entity/pump/pump-west.png",
-        width = 69,
-        height = 51,
-        line_length =8,
-        frame_count =32,
-        animation_speed = 0.5,
-        shift = util.by_pixel(0.5, -0.5),
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-west.png",
           width = 131,
           height = 111,
@@ -175,7 +140,6 @@ data:extend(
           animation_speed = 0.5,
           shift = util.by_pixel(-0.25, 1.25) -- {-0.015625, 0.078125}
         },
-      },
     },
 
     fluid_wagon_connector_frame_count = 35,
@@ -186,14 +150,6 @@ data:extend(
     {
       north =
       {
-        filename = "__base__/graphics/entity/pump/pump-north-liquid.png",
-        apply_runtime_tint = true,
-        width = 20,
-        height = 13,
-        line_length =8,
-        frame_count =32,
-        shift = util.by_pixel(-0.500, -14.500),
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-north-liquid.png",
           apply_runtime_tint = true,
           width = 38,
@@ -202,18 +158,10 @@ data:extend(
           line_length =8,
           frame_count =32,
           shift = util.by_pixel(-0.250, -16.750)
-        }
-      },
+        },
 
       east =
       {
-        filename = "__base__/graphics/entity/pump/pump-east-liquid.png",
-        width = 18,
-        height = 24,
-        line_length =8,
-        frame_count =32,
-        shift = util.by_pixel(6.000, -8.000),
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-east-liquid.png",
           width = 35,
           height = 46,
@@ -222,17 +170,9 @@ data:extend(
           frame_count =32,
           shift = util.by_pixel(6.250, -8.500)
         },
-      },
 
       south =
       {
-        filename = "__base__/graphics/entity/pump/pump-south-liquid.png",
-        width = 26,
-        height = 55,
-        line_length =8,
-        frame_count =32,
-        shift = util.by_pixel(3.500, 6.500),
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-south-liquid.png",
           width = 38,
           height = 45,
@@ -241,16 +181,8 @@ data:extend(
           frame_count =32,
           shift = util.by_pixel(0.500, -9.250)
         },
-      },
       west =
       {
-        filename = "__base__/graphics/entity/pump/pump-west-liquid.png",
-        width = 18,
-        height = 24,
-        line_length =8,
-        frame_count =32,
-        shift = util.by_pixel(-6.000, -9.000),
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-west-liquid.png",
           width = 35,
           height = 47,
@@ -258,59 +190,36 @@ data:extend(
           line_length =8,
           frame_count =32,
           shift = util.by_pixel(-6.500, -9.500)
-        },
-      }
+        }
     },
 
     glass_pictures =
     {
       north = {
-        filename = "__base__/graphics/entity/pump/pump-north-glass.png",
-        width = 32,
-        height = 64,
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-north-glass.png",
           width = 64,
           height = 128,
           scale = 0.5,
         },
-      },
       east = {
-        filename = "__base__/graphics/entity/pump/pump-east-glass.png",
-        width = 32,
-        height = 32,
-        shift = util.by_pixel(0.000, -16.000),
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-east-glass.png",
           width = 128,
           height = 192,
           scale = 0.5,
         },
-      },
       south = {
-        filename = "__base__/graphics/entity/pump/pump-south-glass.png",
-        width = 32,
-        height = 64,
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-south-glass.png",
           width = 64,
           height = 128,
           scale = 0.5,
         },
-      },
       west = {
-        filename = "__base__/graphics/entity/pump/pump-west-glass.png",
-        width = 32,
-        height = 96,
-        shift = util.by_pixel(0.000, 15.000),
-        hr_version = {
           filename = "__base__/graphics/entity/pump/hr-pump-west-glass.png",
           width = 192,
           height = 192,
           scale = 0.5,
           shift = util.by_pixel(-16.000, 0.000)
-        },
-      }
+        }
     },
 
     circuit_wire_max_distance = 7.5
@@ -352,7 +261,6 @@ data:extend(
     max_health = 150,
     crafting_categories = {"air-pump"},
     crafting_speed = 1,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 1,
@@ -393,47 +301,51 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009231,
+      emissions_per_minute = { pollution = 0.00055386 },
     },
     energy_usage = "13MW",
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 80,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 160,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 240,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 80,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 160,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 240,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        }
       }
-    }
+    },
+
   },
   {
     type = "item",
@@ -467,7 +379,6 @@ data:extend(
     max_health = 180,
     crafting_categories = {"air-pump"},
     crafting_speed = 2,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 2,
@@ -508,47 +419,51 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009474,
+      emissions_per_minute = { pollution = 0.0005684399999999999 },
     },
     energy_usage = "19MW",
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 80,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 160,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 240,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 80,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 160,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 240,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        }
       }
-    }
+    },
+
   },
 {
     type = "item",
@@ -583,7 +498,6 @@ data:extend(
     max_health = 230,
     crafting_categories = {"air-pump"},
     crafting_speed = 3.5,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 4,
@@ -624,47 +538,51 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009310,
+      emissions_per_minute = { pollution = 0.0005586 },
     },
     energy_usage = "29MW",
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 80,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 160,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 240,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 80,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 160,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 240,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        }
       }
-    }
+    },
+
   },
  {
     type = "item",
@@ -699,7 +617,6 @@ data:extend(
     max_health = 300,
     crafting_categories = {"air-pump"},
     crafting_speed = 5,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 6,
@@ -740,47 +657,51 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009205,
+      emissions_per_minute = { pollution = 0.0005523 },
     },
     energy_usage = "44MW",
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 80,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 160,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 240,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 80,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 160,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 240,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        }
       }
-    }
+    },
+
   },
 
 
@@ -816,7 +737,6 @@ data:extend(
     max_health = 120,
     crafting_categories = {"water-pump"},
     crafting_speed = 1,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 1,
@@ -857,47 +777,51 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009231,
+      emissions_per_minute = { pollution = 0.00055386 },
     },
     energy_usage = "13MW",
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 80,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 160,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 240,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 80,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 160,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 240,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        }
       }
-    }
+    },
+
   },
  {
     type = "item",
@@ -931,7 +855,6 @@ data:extend(
     max_health = 180,
     crafting_categories = {"water-pump"},
     crafting_speed = 2,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 2,
@@ -972,47 +895,51 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009474,
+      emissions_per_minute = { pollution = 0.0005684399999999999 },
     },
     energy_usage = "19MW",
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 80,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 160,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 240,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 80,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 160,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 240,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        }
       }
-    }
+    },
+
   },
 {
     type = "item",
@@ -1047,7 +974,6 @@ data:extend(
     max_health = 230,
     crafting_categories = {"water-pump"},
     crafting_speed = 3.5,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 4,
@@ -1088,47 +1014,51 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009310,
+      emissions_per_minute = { pollution = 0.0005586 },
     },
     energy_usage = "29MW",
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 80,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 160,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 240,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 80,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 160,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 240,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        }
       }
-    }
+    },
+
   },
 {
     type = "item",
@@ -1163,7 +1093,6 @@ data:extend(
     max_health = 300,
     crafting_categories = {"water-pump"},
     crafting_speed = 5,
-    ingredient_count = 2,
     module_specification =
     {
       module_slots = 6,
@@ -1204,47 +1133,51 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009205,
+      emissions_per_minute = { pollution = 0.0005523 },
     },
     energy_usage = "44MW",
-    animation =
+    graphics_set =
     {
-      north =
+      animation =
       {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      east =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 80,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      south =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 160,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
-      },
-      west =
-      {
-        filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
-        y = 240,
-        width = 80,
-        height = 80,
-        frame_count = 8,
-        animation_speed = 0.5
+        north =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        east =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 80,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        south =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 160,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        },
+        west =
+        {
+          filename = "__Engineersvsenvironmentalist__/graphics/entity/processors/pump.png",
+          y = 240,
+          width = 80,
+          height = 80,
+          frame_count = 8,
+          animation_speed = 0.5
+        }
       }
-    }
+    },
+
   },
   {
     type = "item",
@@ -1303,13 +1236,10 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000009231,
+      emissions_per_minute = { pollution = 0.00055386 },
     },
     energy_usage = "13MW",
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
-    repair_sound = { filename = "__base__/sound/manual-repair-simple.ogg" },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+    impact_category = "metal",
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     crafting_categories = {"void-fluid"},

@@ -6,7 +6,7 @@ data:extend({
     type = "item",
     name = "uranium-nuke",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/explosives/explosives.png",
-    flags = {"goes-to-main-inventory"},  
+    flags = {},  
     category = "chemistry",
     subgroup = "coal-base",
     stack_size = 200

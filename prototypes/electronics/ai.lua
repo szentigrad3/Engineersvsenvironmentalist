@@ -39,34 +39,35 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "ai-trainer",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-      priority="high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.25, -0.1}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+        priority="high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.25, -0.1}
+      },
     },
+
     crafting_categories = {"ai-training"},
     crafting_speed = 1,
 	energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000027273,
+      emissions_per_minute = { pollution = 0.00163638 },
     },
     energy_usage = "66MW",
-    ingredient_count = 1,
     module_specification =
     {
       module_slots = 2
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = {
@@ -126,34 +127,35 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "ai-trainer",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-      priority="high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.25, -0.1}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+        priority="high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.25, -0.1}
+      },
     },
+
     crafting_categories = {"ai-training"},
     crafting_speed = 10,
 	energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000027273,
+      emissions_per_minute = { pollution = 0.00163638 },
     },
     energy_usage = "500MW",
-    ingredient_count = 1,
     module_specification =
     {
       module_slots = 2
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = {
@@ -213,34 +215,35 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "ai-trainer",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-      priority="high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.25, -0.1}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+        priority="high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.25, -0.1}
+      },
     },
+
     crafting_categories = {"ai-training"},
     crafting_speed = 100,
 	energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000027273,
+      emissions_per_minute = { pollution = 0.00163638 },
     },
     energy_usage = "4GW",
-    ingredient_count = 1,
     module_specification =
     {
       module_slots = 2
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = {
@@ -301,34 +304,35 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "ai-trainer",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-      priority="high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.25, -0.1}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+        priority="high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.25, -0.1}
+      },
     },
+
     crafting_categories = {"ai-training"},
     crafting_speed = 1000,
 	energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000027273,
+      emissions_per_minute = { pollution = 0.00163638 },
     },
     energy_usage = "30GW",
-    ingredient_count = 1,
     module_specification =
     {
       module_slots = 2
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = {
@@ -351,7 +355,7 @@ data:extend({
     type = "item",
     name = "stupid-ai",
     icon = "__base__/graphics/icons/slowdown-capsule.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "circuits",
     order = "a-1",
     stack_size = 200
@@ -374,7 +378,7 @@ data:extend({
     type = "item",
     name = "small-ai",
     icon = "__base__/graphics/icons/distractor-capsule.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "circuits",
     order = "a-1",
     stack_size = 200
@@ -397,7 +401,7 @@ data:extend({
     type = "item",
     name = "medium-ai",
     icon = "__base__/graphics/icons/defender-capsule.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "circuits",
     order = "a-1",
     stack_size = 200
@@ -420,7 +424,7 @@ data:extend({
     type = "item",
     name = "large-ai",
     icon = "__base__/graphics/icons/destroyer-capsule.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "circuits",
     order = "a-1",
     stack_size = 200

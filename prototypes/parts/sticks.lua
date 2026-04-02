@@ -4,7 +4,7 @@
     type = "item",
     name = "iron-stick",
     icon = "__base__/graphics/icons/iron-stick.png",
-    flags = {"goes-to-main-inventory","hidden"},
+    flags = {"hidden"},
     subgroup = "gears",
     order = "a-1",
     stack_size = 100,

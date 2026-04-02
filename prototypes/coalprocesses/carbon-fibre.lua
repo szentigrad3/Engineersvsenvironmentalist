@@ -4,7 +4,7 @@ data:extend({
     type = "item",
     name = "carbon-fibrestage1",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/carbon.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
 	subgroup = "stone-base",
     order = "f[rubber1]",
 
@@ -27,7 +27,7 @@ data:extend({
     type = "item",
     name = "carbon-fibrestage2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/carbon.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
 	subgroup = "stone-base",
     order = "f[rubber2]",
     stack_size = 64000
@@ -51,7 +51,7 @@ data:extend({
     type = "item",
     name = "carbon-fibre",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/carbon.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
 	subgroup = "stone-base",
     order = "f[rubber3]",
     stack_size = 64000

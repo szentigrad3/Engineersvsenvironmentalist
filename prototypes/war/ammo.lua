@@ -5,7 +5,7 @@ data:extend(
     type = "ammo",
     name = "basic-bullet-magazine",
     icon = "__base__/graphics/icons/firearm-magazine.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     ammo_type =
     {
       category = "bullet",
@@ -61,7 +61,7 @@ data:extend(
     type = "ammo",
     name = "piercing-bullet-magazine",
     icon = "__base__/graphics/icons/piercing-rounds-magazine.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     ammo_type =
     {
       category = "bullet",
@@ -116,7 +116,7 @@ data:extend(
     type = "ammo",
     name = "shotgun-shell",
     icon = "__base__/graphics/icons/shotgun-shell.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     ammo_type =
     {
       category = "shotgun-shell",

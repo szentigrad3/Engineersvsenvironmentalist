@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "solid-fuel",
     icon = "__base__/graphics/icons/solid-fuel.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     fuel_category = "chemical", fuel_value = "5GJ",
     subgroup = "fuel-processing",
     order = "c[solid-fuel]",

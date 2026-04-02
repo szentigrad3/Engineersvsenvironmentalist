@@ -5,7 +5,7 @@ data:extend(
     name = "tin-crushed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-crushed.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "tin-processing",
     order = "a-1",
     stack_size = 200
@@ -15,7 +15,7 @@ data:extend(
     name = "tin-sifted",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-sifted.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "tin-processing",
     order = "a-2",
     stack_size = 200
@@ -25,7 +25,7 @@ data:extend(
     name = "tin-slag-1",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-slag1.png",
 	icon_size = 26,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "tin-processing",
     order = "a-3",
     stack_size = 200
@@ -35,7 +35,7 @@ data:extend(
     name = "tin-slag-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-slag2.png",
 	icon_size = 26,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "tin-processing",
     order = "a-4",
     stack_size = 200
@@ -45,7 +45,7 @@ data:extend(
     name = "tin-crude",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-crude.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "tin-processing",
     order = "a-5",
     stack_size = 200
@@ -55,7 +55,7 @@ data:extend(
     name = "tin-plate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/tin-plate.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "tin-processing",
     order = "a-6",
     stack_size = 200

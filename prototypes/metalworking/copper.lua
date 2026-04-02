@@ -4,7 +4,7 @@ data:extend({
 		type = "item",
 		name = "chalcopyrite-dust",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/chalcopyritedust.png",
-		flags = {"goes-to-main-inventory"},
+		flags = {},
 		subgroup = "copper-processing",
 		order = "g1[other]",
 		stack_size = 500
@@ -13,7 +13,7 @@ data:extend({
 		type = "item",
 		name = "chalcopyrite-nodules",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/chalcopyritenodules.png",
-		flags = {"goes-to-main-inventory"},
+		flags = {},
 		subgroup = "copper-processing",
 		order = "g1[other]",
 		stack_size = 500
@@ -22,7 +22,7 @@ data:extend({
 		type = "item",
 		name = "copper-sulfate",
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/copper-sulfate.png",
-		flags = {"goes-to-main-inventory"},
+		flags = {},
 		subgroup = "copper-processing",
 		order = "g1[other]",
 		stack_size = 200
@@ -31,7 +31,7 @@ data:extend({
     type = "item",
     name = "copper-crushed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/copper-crushed.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "copper-processing",
     order = "c[copper-plate]",
     stack_size = 100
@@ -40,7 +40,7 @@ data:extend({
     type = "item",
     name = "copper-plate",
     icon = "__base__/graphics/icons/copper-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "copper-processing",
     order = "c[copper-plate]",
     stack_size = 100

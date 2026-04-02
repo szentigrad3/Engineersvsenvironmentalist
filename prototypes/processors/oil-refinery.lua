@@ -47,7 +47,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000049091,
+      emissions_per_minute = { pollution = 0.00294546 },
       smoke =
       {
         {
@@ -61,79 +61,58 @@ data:extend(
       }
     },  
     energy_usage = "55MW",
-    ingredient_count = 4,
-    animation = make_4way_animation_from_spritesheet({ layers =
+    graphics_set =
     {
+      animation = make_4way_animation_from_spritesheet({ layers =
       {
-        filename = "__base__/graphics/entity/oil-refinery/oil-refinery.png",
-        width = 337,
-        height = 255,
-        frame_count = 1,
-        shift = {2.515625, 0.484375},
-        hr_version = {
-          filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery.png",
-          width = 386,
-          height = 430,
-          frame_count = 1,
-          shift = util.by_pixel(0, -7.5),
-          scale = 0.5
+        {
+            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery.png",
+            width = 386,
+            height = 430,
+            frame_count = 1,
+            shift = util.by_pixel(0, -7.5),
+            scale = 0.5
+          },
+        {
+            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-shadow.png",
+            width = 674,
+            height = 426,
+            frame_count = 1,
+            shift = util.by_pixel(82.5, 26.5),
+            draw_as_shadow = true,
+            scale = 0.5
+          }
+      }}),
+
+
+
+
+
+
+      working_visualisations =
+      {
+        {
+          north_position = util.by_pixel(34, -65),
+          east_position = util.by_pixel(-52, -61),
+          south_position = util.by_pixel(-59, -82),
+          west_position = util.by_pixel(57, -58),
+          animation =
+          {
+              filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
+              line_length = 10,
+              width = 40,
+              height = 81,
+              frame_count = 60,
+              animation_speed = 0.75,
+              scale = 0.5,
+              shift = util.by_pixel(0, -14.25),
+            },
+          light = {intensity = 0.4, size = 6, color = {r = 1.0, g = 1.0, b = 1.0}}
         }
       },
-      {
-        filename = "__base__/graphics/entity/oil-refinery/oil-refinery-shadow.png",
-        width = 337,
-        height = 213,
-        frame_count = 1,
-        shift = util.by_pixel(82.5, 26.5),
-        draw_as_shadow = true,
-        hr_version = {
-          filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-shadow.png",
-          width = 674,
-          height = 426,
-          frame_count = 1,
-          shift = util.by_pixel(82.5, 26.5),
-          draw_as_shadow = true,
-          scale = 0.5
-        }
-      }
-    }}),
-
-
-
-
-
-
-    working_visualisations =
-    {
-      {
-        north_position = util.by_pixel(34, -65),
-        east_position = util.by_pixel(-52, -61),
-        south_position = util.by_pixel(-59, -82),
-        west_position = util.by_pixel(57, -58),
-        animation =
-        {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-          line_length = 10,
-          width = 20,
-          height = 40,
-          frame_count = 60,
-          animation_speed = 0.75,
-          shift = util.by_pixel(0, -14),
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
-            line_length = 10,
-            width = 40,
-            height = 81,
-            frame_count = 60,
-            animation_speed = 0.75,
-            scale = 0.5,
-            shift = util.by_pixel(0, -14.25),
-          },
-        },
-        light = {intensity = 0.4, size = 6, color = {r = 1.0, g = 1.0, b = 1.0}}
-      }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+
+    impact_category = "metal",
     working_sound =
     {
       sound = { filename = "__base__/sound/oil-refinery.ogg" },
@@ -228,82 +207,61 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000019565,
+      emissions_per_minute = { pollution = 0.0011739 },
     },
     energy_usage = "184MW",
-    ingredient_count = 4,
-    animation = make_4way_animation_from_spritesheet({ layers =
+    graphics_set =
     {
+      animation = make_4way_animation_from_spritesheet({ layers =
       {
-        filename = "__base__/graphics/entity/oil-refinery/oil-refinery.png",
-        width = 337,
-        height = 255,
-        frame_count = 1,
-        shift = {2.515625, 0.484375},
-        hr_version = {
-          filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery.png",
-          width = 386,
-          height = 430,
-          frame_count = 1,
-          shift = util.by_pixel(0, -7.5),
-          scale = 0.5
+        {
+            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery.png",
+            width = 386,
+            height = 430,
+            frame_count = 1,
+            shift = util.by_pixel(0, -7.5),
+            scale = 0.5
+          },
+        {
+            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-shadow.png",
+            width = 674,
+            height = 426,
+            frame_count = 1,
+            shift = util.by_pixel(82.5, 26.5),
+            draw_as_shadow = true,
+            scale = 0.5
+          }
+      }}),
+
+
+
+
+
+
+      working_visualisations =
+      {
+        {
+          north_position = util.by_pixel(34, -65),
+          east_position = util.by_pixel(-52, -61),
+          south_position = util.by_pixel(-59, -82),
+          west_position = util.by_pixel(57, -58),
+          animation =
+          {
+              filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
+              line_length = 10,
+              width = 40,
+              height = 81,
+              frame_count = 60,
+              animation_speed = 0.75,
+              scale = 0.5,
+              shift = util.by_pixel(0, -14.25),
+            },
+          light = {intensity = 0.4, size = 6, color = {r = 1.0, g = 1.0, b = 1.0}}
         }
       },
-      {
-        filename = "__base__/graphics/entity/oil-refinery/oil-refinery-shadow.png",
-        width = 337,
-        height = 213,
-        frame_count = 1,
-        shift = util.by_pixel(82.5, 26.5),
-        draw_as_shadow = true,
-        hr_version = {
-          filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-shadow.png",
-          width = 674,
-          height = 426,
-          frame_count = 1,
-          shift = util.by_pixel(82.5, 26.5),
-          draw_as_shadow = true,
-          scale = 0.5
-        }
-      }
-    }}),
-
-
-
-
-
-
-    working_visualisations =
-    {
-      {
-        north_position = util.by_pixel(34, -65),
-        east_position = util.by_pixel(-52, -61),
-        south_position = util.by_pixel(-59, -82),
-        west_position = util.by_pixel(57, -58),
-        animation =
-        {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-          line_length = 10,
-          width = 20,
-          height = 40,
-          frame_count = 60,
-          animation_speed = 0.75,
-          shift = util.by_pixel(0, -14),
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
-            line_length = 10,
-            width = 40,
-            height = 81,
-            frame_count = 60,
-            animation_speed = 0.75,
-            scale = 0.5,
-            shift = util.by_pixel(0, -14.25),
-          },
-        },
-        light = {intensity = 0.4, size = 6, color = {r = 1.0, g = 1.0, b = 1.0}}
-      }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+
+    impact_category = "metal",
     working_sound =
     {
       sound = { filename = "__base__/sound/oil-refinery.ogg" },
@@ -399,82 +357,61 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000019636,
+      emissions_per_minute = { pollution = 0.00117816 },
     },
     energy_usage = "275MW",
-    ingredient_count = 4,
-    animation = make_4way_animation_from_spritesheet({ layers =
+    graphics_set =
     {
+      animation = make_4way_animation_from_spritesheet({ layers =
       {
-        filename = "__base__/graphics/entity/oil-refinery/oil-refinery.png",
-        width = 337,
-        height = 255,
-        frame_count = 1,
-        shift = {2.515625, 0.484375},
-        hr_version = {
-          filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery.png",
-          width = 386,
-          height = 430,
-          frame_count = 1,
-          shift = util.by_pixel(0, -7.5),
-          scale = 0.5
+        {
+            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery.png",
+            width = 386,
+            height = 430,
+            frame_count = 1,
+            shift = util.by_pixel(0, -7.5),
+            scale = 0.5
+          },
+        {
+            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-shadow.png",
+            width = 674,
+            height = 426,
+            frame_count = 1,
+            shift = util.by_pixel(82.5, 26.5),
+            draw_as_shadow = true,
+            scale = 0.5
+          }
+      }}),
+
+
+
+
+
+
+      working_visualisations =
+      {
+        {
+          north_position = util.by_pixel(34, -65),
+          east_position = util.by_pixel(-52, -61),
+          south_position = util.by_pixel(-59, -82),
+          west_position = util.by_pixel(57, -58),
+          animation =
+          {
+              filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
+              line_length = 10,
+              width = 40,
+              height = 81,
+              frame_count = 60,
+              animation_speed = 0.75,
+              scale = 0.5,
+              shift = util.by_pixel(0, -14.25),
+            },
+          light = {intensity = 0.4, size = 6, color = {r = 1.0, g = 1.0, b = 1.0}}
         }
       },
-      {
-        filename = "__base__/graphics/entity/oil-refinery/oil-refinery-shadow.png",
-        width = 337,
-        height = 213,
-        frame_count = 1,
-        shift = util.by_pixel(82.5, 26.5),
-        draw_as_shadow = true,
-        hr_version = {
-          filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-shadow.png",
-          width = 674,
-          height = 426,
-          frame_count = 1,
-          shift = util.by_pixel(82.5, 26.5),
-          draw_as_shadow = true,
-          scale = 0.5
-        }
-      }
-    }}),
-
-
-
-
-
-
-    working_visualisations =
-    {
-      {
-        north_position = util.by_pixel(34, -65),
-        east_position = util.by_pixel(-52, -61),
-        south_position = util.by_pixel(-59, -82),
-        west_position = util.by_pixel(57, -58),
-        animation =
-        {
-          filename = "__base__/graphics/entity/oil-refinery/oil-refinery-fire.png",
-          line_length = 10,
-          width = 20,
-          height = 40,
-          frame_count = 60,
-          animation_speed = 0.75,
-          shift = util.by_pixel(0, -14),
-          hr_version = {
-            filename = "__base__/graphics/entity/oil-refinery/hr-oil-refinery-fire.png",
-            line_length = 10,
-            width = 40,
-            height = 81,
-            frame_count = 60,
-            animation_speed = 0.75,
-            scale = 0.5,
-            shift = util.by_pixel(0, -14.25),
-          },
-        },
-        light = {intensity = 0.4, size = 6, color = {r = 1.0, g = 1.0, b = 1.0}}
-      }
     },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+
+    impact_category = "metal",
     working_sound =
     {
       sound = { filename = "__base__/sound/oil-refinery.ogg" },

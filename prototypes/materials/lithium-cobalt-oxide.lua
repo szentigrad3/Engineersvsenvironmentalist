@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "lithium-cobalt-oxide",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/lithium-cobalt-oxide.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "lithium-base",
     order = "c-b[lithium-cobalt-oxide]",
     stack_size = 100

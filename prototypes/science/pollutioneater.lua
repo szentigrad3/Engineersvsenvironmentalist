@@ -67,7 +67,7 @@ data:extend(
       usage_priority = "secondary-input"
     },
     energy_usage = "-260W",
-	emissions = 700000,
+	emissions_per_minute = { pollution = 42000000 },
     researching_speed = 0.1,
     inputs =
     {      "science-pack-clean1", },
@@ -95,7 +95,7 @@ data:extend(
     type = "tool",
     name = "science-pack-clean",
     icon = "__base__/graphics/technology/explosives.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "clean-pots",
     order = "a-steel2",
     stack_size = 200000,

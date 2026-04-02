@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "cobalt-steel-alloy",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/cobalt-steel-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "alloy-processing",
     order = "cobalt",
     stack_size = 200

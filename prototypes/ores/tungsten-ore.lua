@@ -1,16 +1,18 @@
+local resource_autoplace = require("resource-autoplace")
 data:extend(
 {
   {
     type = "item",
     name = "tungsten-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/tungsten-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "b-d[tungsten-ore]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "tungsten-ore",
     richness = true,
     order = "b-f"
@@ -40,29 +42,13 @@ data:extend(
 		{
 			sheet = 1
 		},
-		autoplace =
-		{
-			control = "tungsten-ore",
-			sharpness = 1,
-			richness_multiplier = 11000,
-			richness_base = 200,
-			size_control_multiplier = 0.05,
-			peaks =
-			{
-			{
-        influence = 0.15,
-      },
-      {
-        influence = 0.28,
-        noise_octaves_difference = -2.4,
-        noise_persistence = 0.35,
-        starting_area_weight_optimal = 0,
-        starting_area_weight_range = 0,
-        starting_area_weight_max_range = 2,
-      },
-      
-			},
-		},
+		autoplace = resource_autoplace.resource_autoplace_settings({
+		  name = "tungsten-ore",
+		  order = "b",
+		  base_density = 4,
+		  has_starting_area_placement = true,
+		  regular_rq_factor_multiplier = 1,
+		}),
 		collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
 		selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
 		stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},

@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "salt",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/salt.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "lithium-base",
     order = "f[salt]",
     stack_size = 100

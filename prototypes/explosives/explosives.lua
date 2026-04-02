@@ -4,7 +4,7 @@
     type = "item",
     name = "explosives-gunpowder",
     icon = "__base__/graphics/icons/explosives.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "dynamite",
     order = "a-1",
     stack_size = 200

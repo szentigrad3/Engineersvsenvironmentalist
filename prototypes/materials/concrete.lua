@@ -3,7 +3,7 @@ data:extend({
     type = "item",
     name = "concrete",
     icon = "__base__/graphics/icons/concrete.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "stone-base",
     order = "b[concrete]",
     stack_size = 1000,

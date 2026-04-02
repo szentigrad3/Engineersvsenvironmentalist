@@ -41,16 +41,20 @@ data:extend(
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
-      priority="high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.25, -0.1}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-1/assembling-machine-1.png",
+        priority="high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.25, -0.1}
+      },
     },
+
     crafting_categories = {"crafting"},
     crafting_speed = 0.1,
     energy_source =
@@ -58,7 +62,7 @@ data:extend(
       type = "burner",
       effectivity = 1,
       fuel_inventory_size = 1,
-      emissions = 0.000060000,
+      emissions_per_minute = { pollution = 0.0036 },
       smoke =
       {
         {
@@ -69,10 +73,7 @@ data:extend(
       }
     },
     energy_usage = "20MW",
-    ingredient_count = 2,
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = {
@@ -152,19 +153,21 @@ data:extend(
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2.png",
-      priority = "high",
-      width = 113,
-      height = 99,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.4, -0.06}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-2/assembling-machine-2.png",
+        priority = "high",
+        width = 113,
+        height = 99,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.4, -0.06}
+      },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+
+    impact_category = "metal",
     working_sound =
     {
       sound = {
@@ -186,10 +189,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000027273,
+      emissions_per_minute = { pollution = 0.00163638 },
     },
     energy_usage = "66MW",
-    ingredient_count = 4,
     module_specification =
     {
       module_slots = 2
@@ -255,9 +257,7 @@ data:extend(
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
-    vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
+    impact_category = "metal",
     working_sound =
     {
       sound = {
@@ -276,26 +276,29 @@ data:extend(
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
-      priority = "high",
-      width = 99,
-      height = 102,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.84, -0.09}
+      animation =
+      {
+        filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3.png",
+        priority = "high",
+        width = 99,
+        height = 102,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.84, -0.09}
+      },
     },
+
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 5,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000026087,
+      emissions_per_minute = { pollution = 0.00156522 },
     },
     energy_usage = "92MW",
-    ingredient_count = 6,
     module_specification =
     {
       module_slots = 4
@@ -364,18 +367,20 @@ data:extend(
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-4.png",
-      priority = "high",
-      width = 113,
-      height = 99,
-      frame_count = 32,
-      line_length = 8,
-      shift = {0.4, -0.06}
+      animation =
+      {
+        filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-4.png",
+        priority = "high",
+        width = 113,
+        height = 99,
+        frame_count = 32,
+        line_length = 8,
+        shift = {0.4, -0.06}
+      },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+
     working_sound =
     {
       sound = {
@@ -397,10 +402,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000021739,
+      emissions_per_minute = { pollution = 0.00130434 },
     },
     energy_usage = "138MW",
-    ingredient_count = 10,
     module_specification =
     {
       module_slots = 5,
@@ -470,8 +474,6 @@ data:extend(
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -490,41 +492,44 @@ data:extend(
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.7, g = 0.2, b = 0.1},
-        },
-      }
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.7, g = 0.2, b = 0.1},
+          },
+        }
+      },
     },
+
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 125,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000017391,
+      emissions_per_minute = { pollution = 0.00104346 },
     },
     energy_usage = "207MW",
-    ingredient_count = 10,
     module_specification =
     {
       module_slots = 5,

@@ -37,8 +37,6 @@ data:extend({
         percent = 70
       }
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -57,41 +55,44 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "science-pot-producer",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
-        },
-      }
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
+        }
+      },
     },
+
     crafting_categories = {"science-pots"},
     crafting_speed = 3,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "50MW",
-    ingredient_count = 4,
     module_specification =
     {
       module_slots = 6,
@@ -141,8 +142,6 @@ data:extend({
         percent = 70
       }
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -161,41 +160,44 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "science-pot-producer",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
-        },
-      }
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
+        }
+      },
     },
+
     crafting_categories = {"science-pots"},
     crafting_speed = 300,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "5GW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -266,8 +268,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -286,41 +286,44 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "science-pot-producer",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
-        },
-      }
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
+        }
+      },
     },
+
     crafting_categories = {"coal-pots"},
     crafting_speed = 10,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "1GW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -391,8 +394,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -411,41 +412,44 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "science-pot-producer",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
         },
       },
     },
+
     crafting_categories = {"sulfuric-acid-pots"},
     crafting_speed = 10,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "10MW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -516,8 +520,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -536,41 +538,44 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "science-pot-producer",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
         },
       },
     },
+
     crafting_categories = {"steel-pots"},
     crafting_speed = 10,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "10MW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -644,8 +649,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -664,41 +667,44 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "science-pot-producer",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
         },
       },
     },
+
     crafting_categories = {"explosive-pots"},
     crafting_speed = 10,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.00025,
+      emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "10MW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -769,8 +775,6 @@ data:extend({
       },
       off_when_no_fluid_recipe = true
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -789,41 +793,44 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "science-pot-producer",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
         },
       },
     },
+
     crafting_categories = {"clean-pots"},
     crafting_speed = 1,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = -200000,
+      emissions_per_minute = { pollution = -12000000 },
     },
     energy_usage = "1MW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -873,8 +880,6 @@ data:extend({
         percent = 70
       },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -893,41 +898,44 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "science-pot-producer",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
         },
       },
     },
+
     crafting_categories = {"computing-pots"},
     crafting_speed = 10,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000025,
+      emissions_per_minute = { pollution = 0.0015 },
     },
     energy_usage = "3GW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -977,8 +985,6 @@ data:extend({
         percent = 70
       },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -997,41 +1003,44 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "science-pot-producer",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
         },
       },
     },
+
     crafting_categories = {"computing-pots"},
     crafting_speed = 150,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000025,
+      emissions_per_minute = { pollution = 0.0015 },
     },
     energy_usage = "4GW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,
@@ -1081,8 +1090,6 @@ data:extend({
         percent = 70
       },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
     working_sound =
     {
       sound = {
@@ -1101,41 +1108,44 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "science-pot-producer",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          tint = {r = 0.1, g = 0.7, b = 0.1},
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
         },
       },
     },
+
     crafting_categories = {"computing-pots"},
     crafting_speed = 2500,
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.000025,
+      emissions_per_minute = { pollution = 0.0015 },
     },
     energy_usage = "10GW",
-    ingredient_count = 8,
     module_specification =
     {
       module_slots = 6,

@@ -4,7 +4,7 @@
     type = "item",
     name = "low-density-structure",
     icon = "__base__/graphics/icons/rocket-structure.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "advanced-parts",
     order = "d-1",
     stack_size = 10
@@ -28,7 +28,7 @@
     type = "item",
     name = "rocket-control-unit",
     icon = "__base__/graphics/icons/rocket-control-unit.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "advanced-parts",
     order = "d-2",
     stack_size = 10
@@ -51,7 +51,7 @@
     type = "item",
     name = "rocket-part",
     icon = "__base__/graphics/icons/rocket-part.png",
-    flags = {"goes-to-main-inventory", "hidden"},
+    flags = {"hidden"},
     subgroup = "advanced-parts",
     order = "n[rocket-part]",
     stack_size = 5
@@ -75,7 +75,7 @@
     type = "item",
     name = "satellite",
     icon = "__base__/graphics/icons/satellite.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "advanced-parts",
     order = "d-3",
     stack_size = 1

@@ -7,7 +7,7 @@ data:extend(
     name = "crushed-zinc",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-crushed.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "zinc-processing",
     order = "a-1",
     stack_size = 200
@@ -17,7 +17,7 @@ data:extend(
     name = "zinc-sifted",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-sifted.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "zinc-processing",
     order = "a-2",
     stack_size = 200
@@ -27,7 +27,7 @@ data:extend(
     name = "zinc-oxide",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-oxide.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "zinc-processing",
     order = "a-3",
     stack_size = 200
@@ -37,7 +37,7 @@ data:extend(
     name = "zinc-plate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/zinc-plate.png",
 	icon_size = 28,
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "zinc-processing",
     order = "a-4",
     stack_size = 200

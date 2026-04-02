@@ -1,0 +1,8 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2026-04-02
+  Changes:
+    - Updated for Factorio 2.0 compatibility
+    - Removed deprecated API calls and prototype properties
+    - Updated info.json for mod portal requirements
+    - Fixed all prototype definitions for 2.0 data stage changes

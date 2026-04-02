@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "nitinol-alloy",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/alloys/nitinol-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "alloy-processing",
     order = "nitinol",
     stack_size = 200

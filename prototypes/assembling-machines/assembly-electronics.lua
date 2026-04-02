@@ -46,35 +46,37 @@ data:extend(
     collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1, -1}, {1, 1}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          scale = 0.66,
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          scale = 0.66,
-          tint = {r = 0.1, g = 0.5, b = 0.7},
-        },
-      }
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            scale = 0.66,
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            scale = 0.66,
+            tint = {r = 0.1, g = 0.5, b = 0.7},
+          },
+        }
+      },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+
     working_sound =
     {
       sound = {
@@ -96,10 +98,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01
+      emissions_per_minute = { pollution = 0.600000 },
     },
     energy_usage = "100kW",
-    ingredient_count = 3,
     module_specification =
     {
       module_slots = 2,
@@ -160,35 +161,37 @@ data:extend(
     collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1, -1}, {1, 1}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          scale = 0.66,
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          scale = 0.66,
-          tint = {r = 0.7, g = 0.2, b = 0.1},
-        },
-      }
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            scale = 0.66,
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            scale = 0.66,
+            tint = {r = 0.7, g = 0.2, b = 0.1},
+          },
+        }
+      },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+
     working_sound =
     {
       sound = {
@@ -210,10 +213,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01
+      emissions_per_minute = { pollution = 0.600000 },
     },
     energy_usage = "213.75kW",
-    ingredient_count = 4,
     module_specification =
     {
       module_slots = 4,
@@ -274,35 +276,37 @@ data:extend(
     collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1, -1}, {1, 1}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+    graphics_set =
     {
-      layers =
+      animation =
       {
+        layers =
         {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          scale = 0.66,
-        },
-        {
-          filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
-          priority = "high",
-          width = 142,
-          height = 113,
-          frame_count = 32,
-          line_length = 8,
-          shift = {0.84, -0.09},
-          scale = 0.66,
-          tint = {r = 0.1, g = 0.7, b = 0.1},
-        },
-      }
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            scale = 0.66,
+          },
+          {
+            filename = "__Engineersvsenvironmentalist__/graphics/entity/assembling-machines/assembling-machine-3-mask.png",
+            priority = "high",
+            width = 142,
+            height = 113,
+            frame_count = 32,
+            line_length = 8,
+            shift = {0.84, -0.09},
+            scale = 0.66,
+            tint = {r = 0.1, g = 0.7, b = 0.1},
+          },
+        }
+      },
     },
-    open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
-    close_sound = { filename = "__base__/sound/machine-close.ogg", volume = 0.75 },
+
     working_sound =
     {
       sound = {
@@ -324,10 +328,9 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.01
+      emissions_per_minute = { pollution = 0.600000 },
     },
     energy_usage = "360kW",
-    ingredient_count = 6,
     module_specification =
     {
       module_slots = 6,

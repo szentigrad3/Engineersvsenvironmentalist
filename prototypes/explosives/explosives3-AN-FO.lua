@@ -19,7 +19,7 @@ data:extend({
     type = "item",
     name = "AN",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/explosives/explosives.png",
-    flags = {"goes-to-main-inventory"},  
+    flags = {},  
     category = "chemistry",
     subgroup = "coal-base",
     stack_size = 200
@@ -29,7 +29,7 @@ data:extend({
     type = "item",
     name = "AN-beta-rhombic-morf",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/explosives/explosives.png",
-    flags = {"goes-to-main-inventory"},  
+    flags = {},  
     category = "chemistry",
     subgroup = "coal-base",
     stack_size = 200
@@ -39,7 +39,7 @@ data:extend({
     type = "item",
     name = "AN-FO",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/explosives/explosives.png",
-    flags = {"goes-to-main-inventory"},  
+    flags = {},  
     category = "chemistry",
     subgroup = "coal-base",
     stack_size = 200

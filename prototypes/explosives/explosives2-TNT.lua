@@ -6,7 +6,7 @@ data:extend({
     type = "item",
     name = "MNT",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/explosives/land-mine.png",
-    flags = {"goes-to-main-inventory"},  
+    flags = {},  
     category = "chemistry",
     subgroup = "TNT",
     stack_size = 200
@@ -15,7 +15,7 @@ data:extend({
     type = "item",
     name = "DNT",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/explosives/land-mine.png",
-    flags = {"goes-to-main-inventory"},  
+    flags = {},  
     category = "chemistry",
     subgroup = "TNT",
     stack_size = 200
@@ -24,7 +24,7 @@ data:extend({
     type = "item",
     name = "impure-TNT",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/explosives/land-mine.png",
-    flags = {"goes-to-main-inventory"},  
+    flags = {},  
     category = "chemistry",
     subgroup = "TNT",
     stack_size = 200
@@ -33,7 +33,7 @@ data:extend({
     type = "item",
     name = "TNT",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/explosives/land-mine.png",
-    flags = {"goes-to-main-inventory"},  
+    flags = {},  
     category = "chemistry",
     subgroup = "TNT",
     stack_size = 200

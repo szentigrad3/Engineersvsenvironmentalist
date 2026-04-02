@@ -4,7 +4,7 @@ data:extend(
     type = "item",
     name = "plastic-bar",
     icon = "__base__/graphics/icons/plastic-bar.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "plastics",
     order = "g[plastic-bar]",
     stack_size = 100

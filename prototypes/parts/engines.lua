@@ -4,7 +4,7 @@
     type = "item",
     name = "steam-unit",
     icon = "__base__/graphics/icons/engine-unit.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "advanced-parts",
     order = "b-1",
     stack_size = 50
@@ -26,7 +26,7 @@
     type = "item",
     name = "engine-unit",
     icon = "__base__/graphics/icons/engine-unit.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "advanced-parts",
     order = "b-2",
     stack_size = 50
@@ -48,7 +48,7 @@
     type = "item",
     name = "electric-engine-unit",
     icon = "__base__/graphics/icons/electric-engine-unit.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "advanced-parts",
     order = "b-3",
     stack_size = 50

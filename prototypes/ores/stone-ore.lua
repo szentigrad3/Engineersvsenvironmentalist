@@ -1,16 +1,18 @@
+local resource_autoplace = require("resource-autoplace")
 data:extend(
 {
 {
     type = "item",
     name = "stone",
     icon = "__base__/graphics/icons/stone.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "d[stone]",
     stack_size = 200
   },
 {
     type = "autoplace-control",
+    category = "resource",
     name = "stone",
     richness = true,
     order = "b-c"
@@ -29,15 +31,13 @@ data:extend(
     },
     collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
     selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
-    autoplace =
-    {
-      control = "stone",
-      sharpness = 1,
-      richness_multiplier = 11000,
-      richness_base = 250,
-      size_control_multiplier = 0.06,
-      peaks = {},
-    },
+    autoplace = resource_autoplace.resource_autoplace_settings({
+      name = "stone",
+      order = "b",
+      base_density = 4,
+      has_starting_area_placement = true,
+      regular_rq_factor_multiplier = 1,
+    }),
     stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},
     stages =
     {

@@ -1,10 +1,11 @@
+local resource_autoplace = require("resource-autoplace")
 data:extend(
 {
   {
     type = "item",
     name = "chalcopyrite-ore",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/ore/chalcopyrite-ore.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "minerals",
     order = "b-d[chalcopyrite-ore]",
     stack_size = 200
@@ -22,7 +23,7 @@ data:extend(
 		map_color = {r=0.5, g=0.4, b=0.2},
 		enabled = false,
 		icon = "__base__/graphics/icons/copper-ore.png",
-		icon_size = 32,
+		icon_size = 64,
 		stage_mult = 10,
 		items =
 		{
@@ -34,37 +35,13 @@ data:extend(
 		{
 			sheet = 4
 		},
-		autoplace =
-		{
-			control = "copper-ore",
-			sharpness = 1,
-			richness_multiplier = 90000,
-			richness_base = 5000,
-			size_control_multiplier = 0.2,
-			peaks =
-			{
-				{
-        influence = 0.16
-      },
-      {
-        influence = 0.28,
-        noise_octaves_difference = -1.9,
-        noise_persistence = 0.3,
-        starting_area_weight_optimal = 0,
-        starting_area_weight_range = 0,
-        starting_area_weight_max_range = 2,
-      },
-      {
-        influence = 0.34,
-        noise_octaves_difference = -3,
-        noise_persistence = 0.4,
-        starting_area_weight_optimal = 1,
-        starting_area_weight_range = 0,
-        starting_area_weight_max_range = 2,
-      },
-      
-			},
-		},
+		autoplace = resource_autoplace.resource_autoplace_settings({
+		  name = "copper-ore",
+		  order = "b",
+		  base_density = 4,
+		  has_starting_area_placement = true,
+		  regular_rq_factor_multiplier = 1,
+		}),
 		collision_box = {{ -0.1, -0.1}, {0.1, 0.1}},
 		selection_box = {{ -0.5, -0.5}, {0.5, 0.5}},
 		stage_counts = {1000, 600, 400, 200, 100, 50, 20, 1},

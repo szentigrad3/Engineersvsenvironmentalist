@@ -4,7 +4,7 @@ data:extend({
     type = "item",
     name = "aluminium-plate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/aluminium-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "aluminium-processing",
     order = "c-a-g[aluminium-plate]",
     stack_size = 200
@@ -13,7 +13,7 @@ data:extend({
     type = "item",
     name = "bauxite-crushed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/bauxite-crushed.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "aluminium-processing",
     order = "f[alumina]",
     stack_size = 100
@@ -22,7 +22,7 @@ data:extend({
     type = "item",
     name = "alumina",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/corundum.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "aluminium-processing",
     order = "f[alumina]",
     stack_size = 100
@@ -31,7 +31,7 @@ data:extend({
     type = "item",
     name = "cast-aluminium",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/cast-aluminum.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "aluminium-processing",
     order = "f[alumina]",
     stack_size = 100

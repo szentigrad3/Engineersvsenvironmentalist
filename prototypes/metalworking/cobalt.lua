@@ -5,7 +5,7 @@ data:extend(
     type = "item",
     name = "cobalt-plate",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/cobalt-plate.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "cobalt-processing",
     order = "c-a-j[cobalt-plate]",
     stack_size = 200
@@ -14,7 +14,7 @@ data:extend(
     type = "item",
     name = "cobalt-oxide",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/cobalt-oxide.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "cobalt-processing",
     order = "f[cobalt-oxide]",
     stack_size = 100
@@ -23,7 +23,7 @@ data:extend(
     type = "item",
     name = "cobalt-crushed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/cobalt-crushed.png",
-    flags = {"goes-to-main-inventory"},
+    flags = {},
     subgroup = "cobalt-processing",
     order = "f[cobalt-oxide]",
     stack_size = 100
