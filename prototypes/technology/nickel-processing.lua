@@ -27,15 +27,15 @@ data:extend(
 	 
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|nickel"
+        recipe = "iron-gear-wheel-nickel"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "plumbing|nickel"
+        recipe = "plumbing-nickel"
       },  
 {
         type = "unlock-recipe",
-        recipe = "copper-cable|nickel"
+        recipe = "copper-cable-nickel"
       },       
     },
     unit =

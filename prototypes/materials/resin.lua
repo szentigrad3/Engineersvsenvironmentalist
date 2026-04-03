@@ -12,7 +12,7 @@ data:extend(
 
   {
     type = "recipe",
-    name = "resin|wood",
+    name = "resin-wood",
     category = "crafting",
     subgroup = "wood-base",
     energy_required = 1,
@@ -26,7 +26,7 @@ data:extend(
   
   {
     type = "recipe",
-    name = "resin|wood2",
+    name = "resin-wood2",
     category = "chemistry",
     subgroup = "wood-base",
     energy_required = 100,
@@ -39,7 +39,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "resin|oil",
+    name = "resin-oil",
     category = "chemistry",
     subgroup = "plastics",
     energy_required = 1,

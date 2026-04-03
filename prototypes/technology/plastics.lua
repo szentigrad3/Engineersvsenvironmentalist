@@ -13,7 +13,7 @@
       },
       {
         type = "unlock-recipe",
-        recipe = "rubber|synthetic"
+        recipe = "rubber-synthetic"
       },
       {
         type = "unlock-recipe",
@@ -21,7 +21,7 @@
       },
       {
         type = "unlock-recipe",
-        recipe = "resin|oil"
+        recipe = "resin-oil"
       },
       {
         type = "unlock-recipe",
@@ -33,7 +33,7 @@
       },
       {
         type = "unlock-recipe",
-        recipe = "plumbing|plastic"
+        recipe = "plumbing-plastic"
       }, 
     },
     unit =

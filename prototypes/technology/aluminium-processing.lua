@@ -34,27 +34,27 @@ data:extend(
       },  
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|aluminium"
+        recipe = "iron-gear-wheel-aluminium"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|aluminium"
+        recipe = "advanced-machine-parts-aluminium"
       },
       {
         type = "unlock-recipe",
-        recipe = "plumbing|aluminium"
+        recipe = "plumbing-aluminium"
       },       
       {
         type = "unlock-recipe",
-        recipe = "copper-cable|aluminium"
+        recipe = "copper-cable-aluminium"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-electric-cable|aluminium"
+        recipe = "advanced-electric-cable-aluminium"
       },  
       {
         type = "unlock-recipe",
-        recipe = "circuit-electric-cable|aluminium"
+        recipe = "circuit-electric-cable-aluminium"
       }, 
     },
     unit =

@@ -24,15 +24,15 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|cobalt"
+        recipe = "iron-gear-wheel-cobalt"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "plumbing|cobalt"
+        recipe = "plumbing-cobalt"
       },    
 {
         type = "unlock-recipe",
-        recipe = "copper-cable|cobalt"
+        recipe = "copper-cable-cobalt"
       },       
     },
     unit =

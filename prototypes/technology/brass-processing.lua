@@ -13,15 +13,15 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|brass"
+        recipe = "iron-gear-wheel-brass"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "plumbing|brass"
+        recipe = "plumbing-brass"
       },    
 {
         type = "unlock-recipe",
-        recipe = "copper-cable|brass"
+        recipe = "copper-cable-brass"
       },       
     },
     unit =

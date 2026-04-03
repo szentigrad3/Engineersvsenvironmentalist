@@ -22,7 +22,7 @@ data:extend(
   --new recipes
   {
     type = "recipe",
-    name = "iron-gear-wheel|aluminium",
+    name = "iron-gear-wheel-aluminium",
     order = "aluminium",
     enabled=false,
     ingredients = {{type="item", name="aluminium-plate", amount=1}},
@@ -30,7 +30,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|ceramics",
+    name = "iron-gear-wheel-ceramics",
     order = "ceramics",
     enabled=false,
     ingredients = {{type="item", name="silicon-nitride", amount=1}},
@@ -38,7 +38,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|cobalt",
+    name = "iron-gear-wheel-cobalt",
     order = "cobalt",
     enabled=false,
     ingredients = {{type="item", name="cobalt-plate", amount=3}},
@@ -46,7 +46,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|copper",
+    name = "iron-gear-wheel-copper",
     order = "copper",
     enabled=true,
     ingredients = {{type="item", name="copper-plate", amount=5}},
@@ -54,7 +54,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|gold",
+    name = "iron-gear-wheel-gold",
     order = "gold",
     enabled=true,
     ingredients = {{type="item", name="gold-plate", amount=20}},
@@ -62,7 +62,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|iron",
+    name = "iron-gear-wheel-iron",
     enabled=true,
     order = "iron",
     ingredients = {{type="item", name="iron-plate", amount=2}},
@@ -70,7 +70,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|nickel",
+    name = "iron-gear-wheel-nickel",
     order = "nickel",
     enabled=false,
     ingredients = {{type="item", name="nickel-plate", amount=10}},
@@ -78,7 +78,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|silver",
+    name = "iron-gear-wheel-silver",
     order = "silver",
     enabled=false,
     ingredients = {{type="item", name="silver-plate", amount=20}},
@@ -86,7 +86,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|steel",
+    name = "iron-gear-wheel-steel",
     order = "steel",
     enabled=false,
     ingredients = {{type="item", name="steel-plate", amount=1}},
@@ -94,7 +94,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|tin",
+    name = "iron-gear-wheel-tin",
     order = "tin",
     enabled=false,
     ingredients = {{type="item", name="tin-plate", amount=20}},
@@ -102,7 +102,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|titanium",
+    name = "iron-gear-wheel-titanium",
     order = "titanium",
     enabled=false,
     ingredients = {{type="item", name="titanium-plate", amount=1}},
@@ -110,7 +110,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|tungsten",
+    name = "iron-gear-wheel-tungsten",
     order = "tungsten",
     enabled=false,
     ingredients = {{type="item", name="tungsten-plate", amount=1}},
@@ -118,7 +118,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|zinc",
+    name = "iron-gear-wheel-zinc",
     order = "zinc",
     enabled=false,
     ingredients = {{type="item", name="zinc-plate", amount=10}},
@@ -126,7 +126,7 @@ data:extend(
   },
     {
     type = "recipe",
-    name = "iron-gear-wheel|lead",
+    name = "iron-gear-wheel-lead",
     order = "lead",
     enabled=false,
     ingredients = {{type="item", name="lead-plate", amount=20}},
@@ -138,7 +138,7 @@ data:extend(
 {
   {
     type = "recipe",
-    name = "iron-gear-wheel|brass",
+    name = "iron-gear-wheel-brass",
     order = "brass",
     enabled=false,
     ingredients = {{type="item", name="brass-alloy", amount=4}},
@@ -146,7 +146,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|bronze",
+    name = "iron-gear-wheel-bronze",
     order = "bronze",
     enabled=false,
     ingredients = {{type="item", name="bronze-alloy", amount=3}},
@@ -154,7 +154,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|cobalt-steel",
+    name = "iron-gear-wheel-cobalt-steel",
     order = "cobalt-steel",
     enabled=false,
     ingredients = {
@@ -164,7 +164,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|invar",
+    name = "iron-gear-wheel-invar",
     order = "invar",
     enabled=false,
     ingredients = {
@@ -174,7 +174,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|nitinol",
+    name = "iron-gear-wheel-nitinol",
     order = "nitinol",
     enabled=false,
     ingredients = {
@@ -184,7 +184,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|copper-tungsten",
+    name = "iron-gear-wheel-copper-tungsten",
     order = "copper-tungsten",
     enabled=false,
     ingredients = {
@@ -194,7 +194,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "iron-gear-wheel|tungsten-carbide",
+    name = "iron-gear-wheel-tungsten-carbide",
     order = "tungsten-carbide",
     enabled=false,
     ingredients = {{type="item", name="tungsten-carbide", amount=1}},
@@ -202,7 +202,7 @@ data:extend(
   },
     {
     type = "recipe",
-    name = "iron-gear-wheel|carbon-nanotubes",
+    name = "iron-gear-wheel-carbon-nanotubes",
     order = "carbon-nanotubes",
     enabled=true,
     ingredients = {{type="item", name="carbon-nanotubes", amount=1}},
@@ -210,7 +210,7 @@ data:extend(
   },
 {
     type = "recipe",
-    name = "iron-gear-wheel|amorphicmachineparts",
+    name = "iron-gear-wheel-amorphicmachineparts",
     order = "amorphicmachineparts",
     enabled=true,
     ingredients = {{type="item", name="amorphicmachineparts", amount=1}},

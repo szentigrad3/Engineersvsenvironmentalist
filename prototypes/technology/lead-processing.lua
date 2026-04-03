@@ -36,11 +36,11 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|lead"
+        recipe = "iron-gear-wheel-lead"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "plumbing|lead"
+        recipe = "plumbing-lead"
       }, 
     },
     unit =

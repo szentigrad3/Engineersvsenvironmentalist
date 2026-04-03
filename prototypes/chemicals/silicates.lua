@@ -127,7 +127,7 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "ferrosilicon|sand",
+    name = "ferrosilicon-sand",
     category = "mixing-furnace",
     subgroup = "silicon-processing",
     order ="a-1",
@@ -143,7 +143,7 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "ferrosilicon|quartz",
+    name = "ferrosilicon-quartz",
     category = "mixing-furnace",
     subgroup = "silicon-processing",
     order ="a-2",
@@ -159,7 +159,7 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "metallurgicalsilicon|sand",
+    name = "metallurgicalsilicon-sand",
     category = "mixing-furnace",
     subgroup = "silicon-processing",
     order ="a-4",
@@ -174,7 +174,7 @@ data:extend({
   },
   {
     type = "recipe",
-    name = "metallurgicalsilicon|quartz",
+    name = "metallurgicalsilicon-quartz",
     category = "mixing-furnace",
     subgroup = "silicon-processing",
     order ="a-5",

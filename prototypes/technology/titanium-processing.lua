@@ -33,19 +33,19 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|titanium"
+        recipe = "iron-gear-wheel-titanium"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|titanium"
+        recipe = "advanced-machine-parts-titanium"
       },
       {
         type = "unlock-recipe",
-        recipe = "plumbing|titanium"
+        recipe = "plumbing-titanium"
       },
         {
         type = "unlock-recipe",
-        recipe = "copper-cable|titanium"
+        recipe = "copper-cable-titanium"
       }, 
     },
     unit =

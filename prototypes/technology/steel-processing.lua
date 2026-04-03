@@ -13,19 +13,19 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|steel"
+        recipe = "iron-gear-wheel-steel"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|steel"
+        recipe = "advanced-machine-parts-steel"
       },
       {
         type = "unlock-recipe",
-        recipe = "plumbing|steel"
+        recipe = "plumbing-steel"
       },
 {
         type = "unlock-recipe",
-        recipe = "copper-cable|steel"
+        recipe = "copper-cable-steel"
       },       
     },
     unit =

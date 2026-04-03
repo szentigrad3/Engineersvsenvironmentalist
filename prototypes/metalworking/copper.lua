@@ -81,7 +81,7 @@ data:extend({
 	
   {
 		type = "recipe",
-    name = "chalcopyrite-dust|crusher",
+    name = "chalcopyrite-dust-crusher",
     category = "crusher",
 		subgroup = "copper-processing",
     energy_required = 1,
@@ -92,7 +92,7 @@ data:extend({
 	},
 	{
 		type = "recipe",
-    name = "chalcopyrite-nodules|sifter",
+    name = "chalcopyrite-nodules-sifter",
     category = "sifter",
 		subgroup = "copper-processing",
     energy_required = 3,
@@ -103,7 +103,7 @@ data:extend({
 	},
 	{
 		type = "recipe",
-    name = "copper-ore|furnace",
+    name = "copper-ore-furnace",
     category = "smelting",
 		subgroup = "copper-processing",
     energy_required = 4,
@@ -114,7 +114,7 @@ data:extend({
 	},
 	{
 		type = "recipe",
-    name = "copper-sulfate|furnace",
+    name = "copper-sulfate-furnace",
     category = "smelting",
 		subgroup = "copper-processing",
     energy_required = 2,
@@ -126,7 +126,7 @@ data:extend({
 	},
 	{
 		type = "recipe",
-    name = "copper-plate|electrolysis",
+    name = "copper-plate-electrolysis",
     category = "electrolysis",
 		subgroup = "copper-processing",
     energy_required = 2,

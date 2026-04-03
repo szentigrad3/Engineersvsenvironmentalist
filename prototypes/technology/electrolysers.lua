@@ -26,11 +26,11 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "copper-sulfate|furnace"
+        recipe = "copper-sulfate-furnace"
       },
       {
         type = "unlock-recipe",
-        recipe = "copper-plate|electrolysis"
+        recipe = "copper-plate-electrolysis"
       },
       {
         type = "unlock-recipe",

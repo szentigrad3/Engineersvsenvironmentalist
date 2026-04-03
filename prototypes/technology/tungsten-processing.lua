@@ -29,23 +29,23 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|tungsten"
+        recipe = "iron-gear-wheel-tungsten"
       },
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|tungsten"
+        recipe = "advanced-machine-parts-tungsten"
       },
       {
         type = "unlock-recipe",
-        recipe = "plumbing|tungsten"
+        recipe = "plumbing-tungsten"
       },
       {
         type = "unlock-recipe",
-        recipe = "copper-cable|tungsten"
+        recipe = "copper-cable-tungsten"
       },
 {
         type = "unlock-recipe",
-        recipe = "advanced-electric-cable|tungsten"
+        recipe = "advanced-electric-cable-tungsten"
       },        
     },
     unit =

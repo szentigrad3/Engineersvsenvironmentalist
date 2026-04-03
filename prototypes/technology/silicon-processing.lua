@@ -13,19 +13,19 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "ferrosilicon|sand"
+        recipe = "ferrosilicon-sand"
       },
       {
         type = "unlock-recipe",
-        recipe = "ferrosilicon|quartz"
+        recipe = "ferrosilicon-quartz"
       },
       {
         type = "unlock-recipe",
-        recipe = "metallurgicalsilicon|sand"
+        recipe = "metallurgicalsilicon-sand"
       },
       {
         type = "unlock-recipe",
-        recipe = "metallurgicalsilicon|quartz"
+        recipe = "metallurgicalsilicon-quartz"
       },
       {
         type = "unlock-recipe",

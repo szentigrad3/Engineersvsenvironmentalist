@@ -21,28 +21,28 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|copper-tungsten"
+        recipe = "iron-gear-wheel-copper-tungsten"
       },
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|copper-tungsten"
+        recipe = "advanced-machine-parts-copper-tungsten"
       },  
       {
         type = "unlock-recipe",
-        recipe = "plumbing|copper-tungsten"
+        recipe = "plumbing-copper-tungsten"
       },        
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|tungsten-carbide"
+        recipe = "iron-gear-wheel-tungsten-carbide"
       },
       
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|tungsten-carbide"
+        recipe = "advanced-machine-parts-tungsten-carbide"
       },   
       {
         type = "unlock-recipe",
-        recipe = "plumbing|tungsten-carbide"
+        recipe = "plumbing-tungsten-carbide"
       },      
     },
     unit =

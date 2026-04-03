@@ -28,7 +28,7 @@ data:extend(
 
   {
     type = "recipe",
-    name = "amorphicmachineparts|aluminium",
+    name = "amorphicmachineparts-aluminium",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/glass.png",
     category = "chemistry",
     energy_required = 50,
@@ -45,7 +45,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "amorphicmachineparts|brassaluminium",
+    name = "amorphicmachineparts-brassaluminium",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/glass.png",
     category = "chemistry",
     energy_required = 50,
@@ -60,7 +60,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "amorphicmachineparts|bronzesteel",
+    name = "amorphicmachineparts-bronzesteel",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/glass.png",
     category = "chemistry",
     energy_required = 50,
@@ -76,7 +76,7 @@ data:extend(
 
   {
     type = "recipe",
-    name = "amorphicmachineparts|alucobsteel",
+    name = "amorphicmachineparts-alucobsteel",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/glass.png",
     category = "chemistry",
     energy_required = 50,
@@ -93,7 +93,7 @@ data:extend(
 
   {
     type = "recipe",
-    name = "amorphicmachineparts|mixed",
+    name = "amorphicmachineparts-mixed",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/glass.png",
     category = "chemistry",
     energy_required = 50,

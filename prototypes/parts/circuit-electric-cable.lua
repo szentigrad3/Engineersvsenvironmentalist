@@ -16,7 +16,7 @@ data:extend(
   --new recipes
   {
     type = "recipe",
-    name = "circuit-electric-cable|aluminium",
+    name = "circuit-electric-cable-aluminium",
     order = "aluminium",
     enabled=false,
     ingredients = {{type="item", name="aluminium-plate", amount=2}},
@@ -24,7 +24,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "circuit-electric-cable|copper",
+    name = "circuit-electric-cable-copper",
     order = "copper",
     enabled=true,
     ingredients = {{type="item", name="copper-plate", amount=1}},
@@ -32,7 +32,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "circuit-electric-cable|gold",
+    name = "circuit-electric-cable-gold",
     order = "gold",
     enabled=true,
     ingredients = {{type="item", name="gold-plate", amount=2}},
@@ -40,7 +40,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "circuit-electric-cable|silver",
+    name = "circuit-electric-cable-silver",
     order = "silver",
     enabled=false,
     ingredients = {{type="item", name="silver-plate", amount=1}},

@@ -14,15 +14,15 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|ceramics"
+        recipe = "iron-gear-wheel-ceramics"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|ceramics"
+        recipe = "advanced-machine-parts-ceramics"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "plumbing|ceramics"
+        recipe = "plumbing-ceramics"
       }, 
     },
     unit =
