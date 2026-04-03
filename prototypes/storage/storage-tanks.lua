@@ -37,10 +37,10 @@ data:extend(
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        { position = {-1, -2} },
-        { position = {2, 1} },
-        { position = {1, 2} },
-        { position = {-2, -1} },
+        { position = {-1, -2}, direction = defines.direction.north },
+        { position = {2, 1}, direction = defines.direction.east },
+        { position = {1, 2}, direction = defines.direction.south },
+        { position = {-2, -1}, direction = defines.direction.west },
       },
     },
     window_bounding_box = {{-0.125, 0.6875}, {0.1875, 1.1875}},
@@ -130,10 +130,10 @@ data:extend(
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        { position = {-1, -2} },
-        { position = {2, 1} },
-        { position = {1, 2} },
-        { position = {-2, -1} },
+        { position = {-1, -2}, direction = defines.direction.north },
+        { position = {2, 1}, direction = defines.direction.east },
+        { position = {1, 2}, direction = defines.direction.south },
+        { position = {-2, -1}, direction = defines.direction.west },
       },
     },
     fast_replaceable_group = "pipe",
@@ -225,10 +225,10 @@ data:extend(
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        { position = {-1, -2} },
-        { position = {2, 1} },
-        { position = {1, 2} },
-        { position = {-2, -1} },
+        { position = {-1, -2}, direction = defines.direction.north },
+        { position = {2, 1}, direction = defines.direction.east },
+        { position = {1, 2}, direction = defines.direction.south },
+        { position = {-2, -1}, direction = defines.direction.west },
       },
     },
     fast_replaceable_group = "pipe",
@@ -319,10 +319,10 @@ data:extend(
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        { position = {-1, -2} },
-        { position = {2, 1} },
-        { position = {1, 2} },
-        { position = {-2, -1} },
+        { position = {-1, -2}, direction = defines.direction.north },
+        { position = {2, 1}, direction = defines.direction.east },
+        { position = {1, 2}, direction = defines.direction.south },
+        { position = {-2, -1}, direction = defines.direction.west },
       },
     },
     fast_replaceable_group = "pipe",

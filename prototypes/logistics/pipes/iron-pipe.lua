@@ -40,10 +40,10 @@ data:extend(
       volume = 200,
       pipe_connections =
       {
-        { position = {0, -1} },
-        { position = {1, 0} },
-        { position = {0, 1} },
-        { position = {-1, 0} }
+        { position = {0, -1}, direction = defines.direction.north },
+        { position = {1, 0}, direction = defines.direction.east },
+        { position = {0, 1}, direction = defines.direction.south },
+        { position = {-1, 0}, direction = defines.direction.west }
       },
     },
 	pipepictures = function()
@@ -307,9 +307,9 @@ end
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        { position = {0, -1} },
+        { position = {0, -1}, direction = defines.direction.north },
         {
-          position = {0, 1},
+          position = {0, 1}, direction = defines.direction.south,
           max_underground_distance = 25
         }
       },

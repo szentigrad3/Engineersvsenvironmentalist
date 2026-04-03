@@ -62,7 +62,7 @@ data:extend(
       pipe_connections =
       {
         {
-          positions = { {1, -2}, {2, -1}, {-1, 2}, {-2, 1} }
+          position = {1, -2}, direction = defines.direction.north
         }
       },
     },
@@ -168,7 +168,7 @@ data:extend(
       pipe_connections =
       {
         {
-          positions = { {1, -2}, {2, -1}, {-1, 2}, {-2, 1} }
+          position = {1, -2}, direction = defines.direction.north
         }
       },
     },
@@ -273,7 +273,7 @@ data:extend(
       pipe_connections =
       {
         {
-          positions = { {1, -2}, {2, -1}, {-1, 2}, {-2, 1} }
+          position = {1, -2}, direction = defines.direction.north
         }
       },
     },
@@ -378,7 +378,7 @@ data:extend(
       pipe_connections =
       {
         {
-          positions = { {1, -2}, {2, -1}, {-1, 2}, {-2, 1} }
+          position = {1, -2}, direction = defines.direction.north
         }
       },
     },
@@ -482,7 +482,7 @@ data:extend(
       pipe_connections =
       {
         {
-          positions = { {1, -2}, {2, -1}, {-1, 2}, {-2, 1} }
+          position = {1, -2}, direction = defines.direction.north
         }
       },
     },

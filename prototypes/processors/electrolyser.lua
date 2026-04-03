@@ -144,26 +144,26 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         base_level = -1,
-        pipe_connections = {{ type="input", position = {-1, -2} }}
+        pipe_connections = {{ type="input", position = {-1, -2}, direction = defines.direction.north }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         base_level = -1,
-        pipe_connections = {{ type="input", position = {1, -2} }}
+        pipe_connections = {{ type="input", position = {1, -2}, direction = defines.direction.north }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         base_level = 1,
-        pipe_connections = {{ position = {-1, 2} }}
+        pipe_connections = {{ position = {-1, 2}, direction = defines.direction.south }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         base_level = 1,
-        pipe_connections = {{ position = {1, 2} }}
+        pipe_connections = {{ position = {1, 2}, direction = defines.direction.south }}
       },
     },
     graphics_set =
@@ -248,26 +248,26 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         base_level = -1,
-        pipe_connections = {{ type="input", position = {-1, -2} }}
+        pipe_connections = {{ type="input", position = {-1, -2}, direction = defines.direction.north }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         base_level = -1,
-        pipe_connections = {{ type="input", position = {1, -2} }}
+        pipe_connections = {{ type="input", position = {1, -2}, direction = defines.direction.north }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         base_level = 1,
-        pipe_connections = {{ position = {-1, 2} }}
+        pipe_connections = {{ position = {-1, 2}, direction = defines.direction.south }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         base_level = 1,
-        pipe_connections = {{ position = {1, 2} }}
+        pipe_connections = {{ position = {1, 2}, direction = defines.direction.south }}
       },
     },
     graphics_set =
@@ -351,26 +351,26 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         base_level = -1,
-        pipe_connections = {{ type="input", position = {-1, -2} }}
+        pipe_connections = {{ type="input", position = {-1, -2}, direction = defines.direction.north }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         base_level = -1,
-        pipe_connections = {{ type="input", position = {1, -2} }}
+        pipe_connections = {{ type="input", position = {1, -2}, direction = defines.direction.north }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         base_level = 1,
-        pipe_connections = {{ position = {-1, 2} }}
+        pipe_connections = {{ position = {-1, 2}, direction = defines.direction.south }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         base_level = 1,
-        pipe_connections = {{ position = {1, 2} }}
+        pipe_connections = {{ position = {1, 2}, direction = defines.direction.south }}
       },
     },
     graphics_set =
@@ -454,26 +454,26 @@ data:extend({
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         base_level = -1,
-        pipe_connections = {{ type="input", position = {-1, -2} }}
+        pipe_connections = {{ type="input", position = {-1, -2}, direction = defines.direction.north }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         base_level = -1,
-        pipe_connections = {{ type="input", position = {1, -2} }}
+        pipe_connections = {{ type="input", position = {1, -2}, direction = defines.direction.north }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         base_level = 1,
-        pipe_connections = {{ position = {-1, 2} }}
+        pipe_connections = {{ position = {-1, 2}, direction = defines.direction.south }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
         base_level = 1,
-        pipe_connections = {{ position = {1, 2} }}
+        pipe_connections = {{ position = {1, 2}, direction = defines.direction.south }}
       },
     },
     graphics_set =
