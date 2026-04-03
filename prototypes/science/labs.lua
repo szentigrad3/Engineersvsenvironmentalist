@@ -247,8 +247,9 @@ data:extend(
       "science-pack-coal4",
     },
     module_slots = 2,
-  }
-  )
+  },
+}
+)
   --Sulfur Lab--  
 data:extend(
 {
@@ -330,10 +331,9 @@ data:extend(
       "science-pack-sulfuric-acid4",
     },
     module_slots = 2,
-  
-  
-  }
-  )
+  },
+}
+)
     --Steel Lab--  
 data:extend(
 {
@@ -414,10 +414,9 @@ data:extend(
 	  "science-pack-steel3",
     },
     module_slots = 2,
-  
-  
-  }
-  )
+  },
+}
+)
     --Explosives lab--  
 data:extend(
 {
@@ -506,10 +505,9 @@ data:extend(
     
     },
     module_slots = 2,
-  
-  
-  }
-  )
+  },
+}
+)
 --Computing lab--  
 data:extend(
 {
@@ -591,7 +589,6 @@ data:extend(
 	"computing-pack-5",
     },
     module_slots = 2,
-  
-  
-  }
-  )
+  },
+}
+)
