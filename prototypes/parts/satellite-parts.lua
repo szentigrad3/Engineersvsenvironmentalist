@@ -51,7 +51,8 @@
     type = "item",
     name = "rocket-part",
     icon = "__base__/graphics/icons/rocket-part.png",
-    flags = {"hidden"},
+    flags = {},
+    hidden = true,
     subgroup = "advanced-parts",
     order = "n[rocket-part]",
     stack_size = 5
