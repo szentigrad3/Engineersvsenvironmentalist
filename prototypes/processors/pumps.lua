@@ -569,7 +569,7 @@ data:extend(
     },
 
   },
- {
+{
     type = "item",
     name = "air-pump-4",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/air-pump-4.png",
@@ -683,8 +683,6 @@ data:extend(
     },
 
   },
-
-
 {
     type = "item",
     name = "water-pump",
@@ -798,7 +796,7 @@ data:extend(
     },
 
   },
- {
+{
     type = "item",
     name = "water-pump-2",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/water-pump-2.png",
@@ -1139,7 +1137,7 @@ data:extend(
     },
 
   },
-  {
+{
     type = "item",
     name = "void-pump",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/processors/void-pump.png",
@@ -1192,6 +1190,8 @@ data:extend(
         pipe_connections = {{ flow_direction="input", position = {0, 0}, direction = defines.direction.south }}
       },
     },
+    source_inventory_size = 1,
+    result_inventory_size = 1,
     energy_source =
     {
       type = "electric",
