@@ -1189,7 +1189,7 @@ data:extend(
         pipe_covers = pipecoverspictures(),
         volume = 100,
         base_level = -1,
-        pipe_connections = {{ type="input", position = {0, 1}, direction = defines.direction.south }}
+        pipe_connections = {{ type="input", position = {0, 0}, direction = defines.direction.south }}
       },
     },
     energy_source =
