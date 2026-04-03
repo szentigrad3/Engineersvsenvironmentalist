@@ -132,7 +132,6 @@ data:extend(
         height = 46,
       }
     },
-
     circuit_wire_connection_point =
     {
       shadow =

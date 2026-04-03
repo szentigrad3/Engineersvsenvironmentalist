@@ -136,7 +136,6 @@ filter_count = 1,
       }
     }
   },
-
     circuit_wire_connection_point =
     {
       shadow =
