@@ -16,7 +16,7 @@ data:extend(
   --new recipes
   {
     type = "recipe",
-    name = "advanced-electric-cable|aluminium",
+    name = "advanced-electric-cable-aluminium",
     order = "aluminium",
     enabled=false,
     ingredients = {{type="item", name="aluminium-plate", amount=2}},
@@ -24,7 +24,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-electric-cable|copper",
+    name = "advanced-electric-cable-copper",
     order = "copper",
     enabled=true,
     ingredients = {{type="item", name="copper-plate", amount=1}},
@@ -32,7 +32,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-electric-cable|gold",
+    name = "advanced-electric-cable-gold",
     order = "gold",
     enabled=true,
     ingredients = {{type="item", name="gold-plate", amount=2}},
@@ -40,7 +40,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-electric-cable|silver",
+    name = "advanced-electric-cable-silver",
     order = "silver",
     enabled=false,
     ingredients = {{type="item", name="silver-plate", amount=1}},
@@ -48,7 +48,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-electric-cable|tungsten",
+    name = "advanced-electric-cable-tungsten",
     order = "tungsten",
     enabled=false,
     ingredients = {{type="item", name="tungsten-plate", amount=5}},
@@ -56,7 +56,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-electric-cable|zinc",
+    name = "advanced-electric-cable-zinc",
     order = "zinc",
     enabled=false,
     ingredients = {{type="item", name="zinc-plate", amount=5}},
@@ -64,7 +64,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-electric-cable|bronze",
+    name = "advanced-electric-cable-bronze",
     order = "bronze",
     enabled=false,
     ingredients = {{type="item", name="bronze-alloy", amount=3}},

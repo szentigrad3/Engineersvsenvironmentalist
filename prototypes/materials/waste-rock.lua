@@ -11,7 +11,7 @@ data:extend(
   },
   {
 	type = "recipe",
-    name = "waste-rock|crusher",
+    name = "waste-rock-crusher",
 	icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/waste-rock.png",
     category = "crusher",
 	subgroup = "basic-processing",

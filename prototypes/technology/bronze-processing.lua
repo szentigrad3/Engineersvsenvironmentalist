@@ -13,19 +13,19 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|bronze"
+        recipe = "iron-gear-wheel-bronze"
       },
       {
         type = "unlock-recipe",
-        recipe = "plumbing|bronze"
+        recipe = "plumbing-bronze"
       },   
 {
         type = "unlock-recipe",
-        recipe = "copper-cable|bronze"
+        recipe = "copper-cable-bronze"
       },    
 {
         type = "unlock-recipe",
-        recipe = "advanced-electric-cable|bronze"
+        recipe = "advanced-electric-cable-bronze"
       },        
     },
     unit =

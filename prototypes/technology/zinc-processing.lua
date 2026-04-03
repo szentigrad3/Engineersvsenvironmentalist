@@ -25,19 +25,19 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|zinc"
+        recipe = "iron-gear-wheel-zinc"
       },
       {
         type = "unlock-recipe",
-        recipe = "plumbing|zinc"
+        recipe = "plumbing-zinc"
       },
       {
         type = "unlock-recipe",
-        recipe = "copper-cable|zinc"
+        recipe = "copper-cable-zinc"
       },
 {
         type = "unlock-recipe",
-        recipe = "advanced-electric-cable|zinc"
+        recipe = "advanced-electric-cable-zinc"
       },          
     },
     unit =

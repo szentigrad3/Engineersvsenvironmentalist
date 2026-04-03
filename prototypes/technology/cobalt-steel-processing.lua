@@ -13,15 +13,15 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|cobalt-steel"
+        recipe = "iron-gear-wheel-cobalt-steel"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|cobalt-steel"
+        recipe = "advanced-machine-parts-cobalt-steel"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "plumbing|cobalt-steel"
+        recipe = "plumbing-cobalt-steel"
       }, 
     },
     unit =

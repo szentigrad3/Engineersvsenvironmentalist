@@ -30,7 +30,7 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "stone-brick|dirt"
+        recipe = "stone-brick-dirt"
       },
     },
   },

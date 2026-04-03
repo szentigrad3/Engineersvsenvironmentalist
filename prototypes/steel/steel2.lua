@@ -3,7 +3,7 @@ data:extend({
 
  	{
 		type = "recipe",
-    name = "pig-iron|sulfatesilicate",
+    name = "pig-iron-sulfatesilicate",
     category = "smelting",
 	subgroup = "steel-0",
 		order = "a-4",

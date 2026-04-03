@@ -28,7 +28,7 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "sulfur-dioxide|chemistry"
+        recipe = "sulfur-dioxide-chemistry"
       },
     },
   },

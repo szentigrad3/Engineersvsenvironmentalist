@@ -33,7 +33,7 @@ data:extend({
   },
   {
 		type = "recipe",
-    name = "coalpowder|bitumen",
+    name = "coalpowder-bitumen",
     category = "crusher",
 		subgroup = "coal-base",
 		enabled = true,

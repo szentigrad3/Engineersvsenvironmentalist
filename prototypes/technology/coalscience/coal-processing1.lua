@@ -24,7 +24,7 @@ data:extend(
 			  
 	  	  	      {
         type = "unlock-recipe",
-        recipe = "coalpowder|bitumen",
+        recipe = "coalpowder-bitumen",
 		      },
 	  
 	   {

@@ -12,7 +12,7 @@ data:extend(
   },
 {
     type = "recipe",
-    name = "advanced-machine-parts|aluminium",
+    name = "advanced-machine-parts-aluminium",
     order = "aluminium",
     category = "crafting-with-fluid",
     enabled=false,
@@ -21,7 +21,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-machine-parts|ceramics",
+    name = "advanced-machine-parts-ceramics",
     order = "ceramics",
     category = "crafting-with-fluid",
     enabled=false,
@@ -30,7 +30,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-machine-parts|steel",
+    name = "advanced-machine-parts-steel",
     order = "steel",
     category = "crafting-with-fluid",
     enabled=false,
@@ -39,7 +39,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-machine-parts|titanium",
+    name = "advanced-machine-parts-titanium",
     order = "titanium",
     category = "crafting-with-fluid",
     enabled=false,
@@ -48,7 +48,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-machine-parts|tungsten",
+    name = "advanced-machine-parts-tungsten",
     order = "tungsten",
     category = "crafting-with-fluid",
     enabled=false,
@@ -61,7 +61,7 @@ data:extend(
 {
   {
     type = "recipe",
-    name = "advanced-machine-parts|cobalt-steel",
+    name = "advanced-machine-parts-cobalt-steel",
     order = "cobalt-steel",
     category = "crafting-with-fluid",
     enabled=false,
@@ -72,7 +72,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-machine-parts|invar",
+    name = "advanced-machine-parts-invar",
     order = "invar",
     category = "crafting-with-fluid",
     enabled=false,
@@ -83,7 +83,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-machine-parts|nitinol",
+    name = "advanced-machine-parts-nitinol",
     order = "nitinol",
     category = "crafting-with-fluid",
     enabled=false,
@@ -94,7 +94,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-machine-parts|copper-tungsten",
+    name = "advanced-machine-parts-copper-tungsten",
     order = "copper-tungsten",
     category = "crafting-with-fluid",
     enabled=false,
@@ -105,7 +105,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "advanced-machine-parts|tungsten-carbide",
+    name = "advanced-machine-parts-tungsten-carbide",
     order = "tungsten-carbide",
     category = "crafting-with-fluid",
     enabled=false,
@@ -114,7 +114,7 @@ data:extend(
   },
     {
     type = "recipe",
-    name = "advanced-machine-parts|carbon-nanotubes",
+    name = "advanced-machine-parts-carbon-nanotubes",
     order = "carbon-nanotubes",
     category = "crafting-with-fluid",
     enabled=false,
@@ -123,7 +123,7 @@ data:extend(
   },
 {
     type = "recipe",
-    name = "advanced-machine-parts|amorphicmachineparts",
+    name = "advanced-machine-parts-amorphicmachineparts",
     order = "amorphicmachineparts",
     category = "crafting-with-fluid",
     enabled=true,
@@ -133,7 +133,7 @@ data:extend(
 
   {
     type = "recipe",
-    name = "advanced-machine-parts|amorphicmachineparts",
+    name = "advanced-machine-parts-amorphicmachineparts",
     order = "amorphicmachineparts1",
     category = "crafting",
     enabled=true,

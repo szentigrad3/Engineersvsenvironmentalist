@@ -33,11 +33,11 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|tin"
+        recipe = "iron-gear-wheel-tin"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "plumbing|tin"
+        recipe = "plumbing-tin"
       }, 
     },
     unit =

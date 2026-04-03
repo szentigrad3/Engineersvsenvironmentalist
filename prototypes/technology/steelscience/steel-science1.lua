@@ -10,7 +10,7 @@ data:extend(
 
 	      {
         type = "unlock-recipe",
-        recipe = "pig-iron|sulfatesilicate",
+        recipe = "pig-iron-sulfatesilicate",
       },  
 	  
       {

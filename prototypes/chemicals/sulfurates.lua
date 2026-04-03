@@ -45,7 +45,7 @@ data:extend({
 data:extend({
 	{
 	type = "recipe",
-  name = "sulfur-dioxide|chemistry",
+  name = "sulfur-dioxide-chemistry",
   icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/sulfur-dioxide.png",
   category = "chemistry",
 	subgroup = "sulfurates",

@@ -28,7 +28,7 @@ data:extend(
   },
     {
     type = "recipe",
-    name = "stone-brick|stone",
+    name = "stone-brick-stone",
     icon = "__base__/graphics/icons/stone-brick.png",
     subgroup = "stone-base",
     order ="stone-brick-1",
@@ -40,7 +40,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "stone-brick|dirt",
+    name = "stone-brick-dirt",
     category = "chemical-furnace",
     subgroup = "stone-base",
     order ="stone-brick-2",

@@ -13,15 +13,15 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|invar"
+        recipe = "iron-gear-wheel-invar"
       },
       {
         type = "unlock-recipe",
-        recipe = "advanced-machine-parts|invar"
+        recipe = "advanced-machine-parts-invar"
       },
 {
         type = "unlock-recipe",
-        recipe = "plumbing|invar"
+        recipe = "plumbing-invar"
       },       
     },
     unit =

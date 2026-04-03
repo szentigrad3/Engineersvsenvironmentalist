@@ -29,23 +29,23 @@ data:extend(
       },
       {
         type = "unlock-recipe",
-        recipe = "iron-gear-wheel|silver"
+        recipe = "iron-gear-wheel-silver"
       },
         {
         type = "unlock-recipe",
-        recipe = "plumbing|silver"
+        recipe = "plumbing-silver"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "copper-cable|silver"
+        recipe = "copper-cable-silver"
       }, 
       {
         type = "unlock-recipe",
-        recipe = "advanced-electric-cable|silver"
+        recipe = "advanced-electric-cable-silver"
       },  
       {
         type = "unlock-recipe",
-        recipe = "circuit-electric-cable|silver"
+        recipe = "circuit-electric-cable-silver"
       }, 
     },
     unit =

@@ -83,7 +83,7 @@ data:extend({
 
 {
     type = "recipe",
-    name = "iron-oxide|crushing",
+    name = "iron-oxide-crushing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/iron-oxide-crushed.png",
     category = "crusher",
     subgroup = "steel-1",
@@ -100,7 +100,7 @@ data:extend({
 
   	{
 		type = "recipe",
-    name = "iron-plate|pig-iron",
+    name = "iron-plate-pig-iron",
     icon = "__base__/graphics/icons/iron-plate.png",
     category = "smelting",
 		subgroup = "steel-1",
@@ -117,7 +117,7 @@ data:extend({
 	--iron sulfate--
 		{
     type = "recipe",
-    name = "iron-sulfate|crushing",
+    name = "iron-sulfate-crushing",
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/iron-sulfate-crushed.png",
     category = "crusher",
     subgroup = "steel-0",
@@ -132,7 +132,7 @@ data:extend({
   },
   {
 		type = "recipe",
-    name = "pig-iron|sulfate",
+    name = "pig-iron-sulfate",
     category = "smelting",
 		subgroup = "steel-0",
 		order = "a-3",
@@ -147,7 +147,7 @@ data:extend({
 	},
 	{
 		type = "recipe",
-    name = "pig-iron|sulfatesilicate",
+    name = "pig-iron-sulfatesilicate",
     category = "smelting",
 		subgroup = "steel-0",
 		order = "a-4",

@@ -24,7 +24,7 @@ data:extend(
   },
     {
     type = "recipe",
-    name = "rubber|synthetic",
+    name = "rubber-synthetic",
     category = "chemistry",
     subgroup = "plastics",
     energy_required = 3.5,

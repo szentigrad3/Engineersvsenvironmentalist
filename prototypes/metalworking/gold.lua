@@ -124,7 +124,7 @@ data:extend(
   },
   {
     type = "recipe",
-    name = "gold-plate|grains",
+    name = "gold-plate-grains",
         icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/gold-plate.png",
     category = "crafting",
     subgroup = "gold-processing",
