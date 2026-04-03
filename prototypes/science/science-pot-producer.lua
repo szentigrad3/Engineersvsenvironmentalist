@@ -50,7 +50,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -93,12 +93,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "50MW",
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
   }
@@ -155,7 +150,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -198,12 +193,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "5GW",
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
   
@@ -254,7 +244,7 @@ data:extend({
         production_type = "input",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0, -2} }}
       },
@@ -262,7 +252,7 @@ data:extend({
         production_type = "output",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0, 2} }}
       },
@@ -281,7 +271,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -324,12 +314,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "1GW",
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
   
@@ -380,7 +365,7 @@ data:extend({
         production_type = "input",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0, -2} }}
       },
@@ -388,7 +373,7 @@ data:extend({
         production_type = "output",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0, 2} }}
       },
@@ -407,7 +392,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -450,12 +435,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "10MW",
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
   
@@ -506,7 +486,7 @@ data:extend({
         production_type = "input",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0, -2} }}
       },
@@ -514,7 +494,7 @@ data:extend({
         production_type = "output",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0, 2} }}
       },
@@ -533,7 +513,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -576,12 +556,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "10MW",
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
   
@@ -635,7 +610,7 @@ data:extend({
         production_type = "input",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0, -2} }}
       },
@@ -643,7 +618,7 @@ data:extend({
         production_type = "output",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0, 2} }}
       },
@@ -662,7 +637,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -705,12 +680,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.015 },
     },
     energy_usage = "10MW",
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
   
@@ -761,7 +731,7 @@ data:extend({
         production_type = "input",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0, -2} }}
       },
@@ -769,7 +739,7 @@ data:extend({
         production_type = "output",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0, 2} }}
       },
@@ -788,7 +758,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -831,12 +801,7 @@ data:extend({
       emissions_per_minute = { pollution = -12000000 },
     },
     energy_usage = "1MW",
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   }, 
   }
@@ -893,7 +858,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -936,12 +901,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.0015 },
     },
     energy_usage = "3GW",
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },  
 })
@@ -998,7 +958,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -1041,12 +1001,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.0015 },
     },
     energy_usage = "4GW",
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },  
 })
@@ -1103,7 +1058,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -1146,12 +1101,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.0015 },
     },
     energy_usage = "10GW",
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },  
 })

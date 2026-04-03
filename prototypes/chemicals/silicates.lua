@@ -73,8 +73,7 @@ data:extend({
     max_temperature = 100,
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/silane.png",
 --    pressure_to_speed_ratio = 0.6,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
+
     order = "a[fluid]-g[silane]"
   },
   {
@@ -87,8 +86,7 @@ data:extend({
     max_temperature = 100,
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/trichlorosilane.png",
 --    pressure_to_speed_ratio = 0.6,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
+
     order = "a[fluid]-g[trichlorosilane]"
   },
   {
@@ -101,8 +99,7 @@ data:extend({
     max_temperature = 100,
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/tetrachlorosilane.png",
 --    pressure_to_speed_ratio = 0.6,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
+
     order = "a[fluid]-g[tetrachlorosilane]"
   },
 })

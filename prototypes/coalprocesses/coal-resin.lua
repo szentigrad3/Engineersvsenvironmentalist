@@ -19,7 +19,7 @@ data:extend(
 	  enabled = true,
     ingredients =
     {
-      { "coal", 100},
+      {type="item", name="coal", amount=100},
     },
     results = {{type="item", name="resin", amount=1}}
   },

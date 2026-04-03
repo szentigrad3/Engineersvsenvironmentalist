@@ -46,8 +46,8 @@ data:extend(
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
     pickup_position = {0, -1},
     insert_position = {0, 1.2},
-    energy_per_movement = 5000,
-    energy_per_rotation = 5000,
+    energy_per_move = 5000,
+    energy_per_rotate = 5000,
     energy_source =
     {
       type = "electric",

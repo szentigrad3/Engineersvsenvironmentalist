@@ -56,7 +56,7 @@ data:extend(
     },
     fluid_box =
     {
-      base_area = 1,
+      volume = 100,
       base_level = 1,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
@@ -68,13 +68,10 @@ data:extend(
     },
     energy_usage = "39MW",
     mining_speed = 0.1,
-    mining_power = 2,
+
     resource_searching_radius = 0.49,
     vector_to_place_result = {0, 0},
-    module_specification =
-    {
-      module_slots = 2
-    },
+    module_slots = 2,
     radius_visualisation_picture =
     {
       filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
@@ -110,7 +107,7 @@ data:extend(
     working_sound =
     {
       sound = { filename = "__base__/sound/pumpjack.ogg" },
-      apparent_volume = 1.5,
+
     },
     fast_replaceable_group = "pumpjack"
   },
@@ -165,7 +162,7 @@ data:extend(
     },
     fluid_box =
     {
-      base_area = 2,
+      volume = 200,
       base_level = 1,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
@@ -177,15 +174,10 @@ data:extend(
     },
     energy_usage = "59MW",
     mining_speed = 2,
-    mining_power = 2,
+
     resource_searching_radius = 0.49,
     vector_to_place_result = {0, 0},
-    module_specification =
-    {
-      module_slots = 3,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 3,
     radius_visualisation_picture =
     {
       filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
@@ -220,7 +212,7 @@ data:extend(
     working_sound =
     {
       sound = { filename = "__base__/sound/pumpjack.ogg" },
-      apparent_volume = 1.5,
+
     },
   },
   }
@@ -275,7 +267,7 @@ data:extend(
     },
     fluid_box =
     {
-      base_area = 2,
+      volume = 200,
       base_level = 1,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
@@ -287,15 +279,10 @@ data:extend(
     },
     energy_usage = "88MW",
     mining_speed = 3,
-    mining_power = 2,
+
     resource_searching_radius = 0.49,
     vector_to_place_result = {0, 0},
-    module_specification =
-    {
-      module_slots = 4,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 4,
     radius_visualisation_picture =
     {
       filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
@@ -330,7 +317,7 @@ data:extend(
     working_sound =
     {
       sound = { filename = "__base__/sound/pumpjack.ogg" },
-      apparent_volume = 1.5,
+
     },
   },
   }
@@ -385,7 +372,7 @@ data:extend(
     },
     fluid_box =
     {
-      base_area = 2.5,
+      volume = 250,
       base_level = 1,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
@@ -397,15 +384,10 @@ data:extend(
     },
     energy_usage = "132MW",
     mining_speed = 4,
-    mining_power = 2,
+
     resource_searching_radius = 0.49,
     vector_to_place_result = {0, 0},
-    module_specification =
-    {
-      module_slots = 5,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 5,
     radius_visualisation_picture =
     {
       filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
@@ -440,7 +422,7 @@ data:extend(
     working_sound =
     {
       sound = { filename = "__base__/sound/pumpjack.ogg" },
-      apparent_volume = 1.5,
+
     },
   },
   }
@@ -494,7 +476,7 @@ data:extend(
     },
     fluid_box =
     {
-      base_area = 3,
+      volume = 300,
       base_level = 1,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
@@ -506,15 +488,10 @@ data:extend(
     },
     energy_usage = "199MW",
     mining_speed = 5,
-    mining_power = 2,
+
     resource_searching_radius = 0.49,
     vector_to_place_result = {0, 0},
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     radius_visualisation_picture =
     {
       filename = "__base__/graphics/entity/pumpjack/pumpjack-radius-visualization.png",
@@ -549,7 +526,7 @@ data:extend(
     working_sound =
     {
       sound = { filename = "__base__/sound/pumpjack.ogg" },
-      apparent_volume = 1.5,
+
     },
   },
 }

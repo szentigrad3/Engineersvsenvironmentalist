@@ -69,8 +69,8 @@
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
     pickup_position = {0, -1},
     insert_position = {0, 1.2},
-    energy_per_movement = 7000,
-    energy_per_rotation = 7000,
+    energy_per_move = 7000,
+    energy_per_rotate = 7000,
     energy_source =
     {
       type = "electric",
@@ -133,8 +133,6 @@
         height = 46
       }
     },
-    programmable = true,
-
     circuit_wire_connection_point =
     {
       shadow =

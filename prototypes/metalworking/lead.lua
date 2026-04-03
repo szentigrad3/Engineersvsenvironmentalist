@@ -64,8 +64,7 @@ data:extend(
     icon = "__Engineersvsenvironmentalist__/graphics/icons/metalworking/lead-molten.png",
 	icon_size = 28,
     order = "a[fluid]-a[water]",
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
+
   },
    {
     type = "item",

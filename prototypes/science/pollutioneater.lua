@@ -59,7 +59,7 @@ data:extend(
         filename = "__base__/sound/lab.ogg",
         volume = 0.7
       },
-      apparent_volume = 1
+
     },
     energy_source =
     {
@@ -76,14 +76,7 @@ data:extend(
 	{      "science-pack-clean4", },
 	{      "science-pack-clean5", },
 	{      "science-pack-clean5", },
-    module_specification =
-    {
-      module_slots = 2,
-      max_entity_info_module_icons_per_row = 3,
-      max_entity_info_module_icon_rows = 1,
-      module_info_icon_shift = {0, 0.9}
-    }
-  },
+    module_slots = 2,
   
   
   }

@@ -43,10 +43,10 @@
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     crafting_categories = {"dismantler"},
-    result_inventory_size = 4,
+
     energy_usage = "1MW",
     crafting_speed = 0.1,
-    source_inventory_size = 1,
+
     energy_source =
     {
       type = "burner",

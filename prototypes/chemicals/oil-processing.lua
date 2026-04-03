@@ -9,8 +9,7 @@ data:extend(
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
     icon = "__base__/graphics/icons/fluid/crude-oil.png",
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
+
     order = "a[fluid]-b[crude-oil]"
   },
 
@@ -24,8 +23,7 @@ data:extend(
     max_temperature = 100,
     icon = "__base__/graphics/icons/fluid/heavy-oil.png",
 	icon_size = 64,
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
+
     order = "a[fluid]-c[heavy-oil]"
   },
 
@@ -38,8 +36,7 @@ data:extend(
     flow_color = {r=0.9, g=0.9, b=0.9},
     max_temperature = 100,
     icon = "__base__/graphics/icons/fluid/light-oil.png",
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
+
     order = "a[fluid]-d[light-oil]"
   },
 
@@ -52,8 +49,7 @@ data:extend(
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
     icon = "__base__/graphics/icons/fluid/petroleum-gas.png",
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
+
     order = "a[fluid]-e[petroleum-gas]"
   },
   }

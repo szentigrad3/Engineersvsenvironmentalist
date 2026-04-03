@@ -53,7 +53,7 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0.5, -1.5} }}
       },
@@ -203,7 +203,7 @@ data:extend(
         production_type = "input",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0, -2} }}
       },
@@ -212,12 +212,7 @@ data:extend(
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 
-    module_specification =
-    {
-      module_slots = 3,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 3,
     crafting_speed = 5,
     crafting_categories = {"smelting", "chemical-furnace"},
     energy_usage = "79MW",
@@ -234,7 +229,7 @@ data:extend(
         filename = "__base__/sound/electric-furnace.ogg",
         volume = 0.7
       },
-      apparent_volume = 1.5
+
     },
     graphics_set =
     {

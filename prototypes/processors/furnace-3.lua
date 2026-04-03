@@ -37,17 +37,13 @@ data:extend(
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    module_specification =
-    {
-      module_slots = 2,
-      module_info_icon_shift = {0, 0.8}
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"smelting"},
-    result_inventory_size = 4,
+
     energy_usage = "79MW",
     crafting_speed = 5,
-    source_inventory_size = 4,
+
     energy_source =
     {
       type = "electric",
@@ -63,7 +59,7 @@ data:extend(
         filename = "__base__/sound/electric-furnace.ogg",
         volume = 0.7
       },
-      apparent_volume = 1.5
+
     },
     graphics_set =
     {

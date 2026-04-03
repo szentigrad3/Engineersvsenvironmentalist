@@ -22,7 +22,7 @@ data:extend({
 		name = "dirt-marker",
 		needs_correction = false,
 		minable = {mining_time = 0.1, result = "dirt"},
-		collision_mask = {"ground-tile"},
+		collision_mask = {layers = {ground_tile = true}},
 		walking_speed_modifier = dirt_walking_speed_modifier,
 		layer = 59,
 		decorative_removal_probability = 0.6,

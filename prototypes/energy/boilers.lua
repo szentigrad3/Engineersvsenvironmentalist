@@ -55,7 +55,7 @@
     target_temperature = 165,
     fluid_box =
     {
-      base_area = 1,
+      volume = 100,
       height = 2,
       base_level = -1,
       pipe_covers = pipecoverspictures(),
@@ -68,7 +68,7 @@
     },
     output_fluid_box =
     {
-      base_area = 1,
+      volume = 100,
       height = 2,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
@@ -379,7 +379,7 @@
     target_temperature = 165,
     fluid_box =
     {
-      base_area = 1,
+      volume = 100,
       height = 2,
       base_level = -1,
       pipe_covers = pipecoverspictures(),
@@ -392,7 +392,7 @@
     },
     output_fluid_box =
     {
-      base_area = 1,
+      volume = 100,
       height = 2,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
@@ -703,7 +703,7 @@
     target_temperature = 165,
     fluid_box =
     {
-      base_area = 1,
+      volume = 100,
       height = 2,
       base_level = -1,
       pipe_covers = pipecoverspictures(),
@@ -716,7 +716,7 @@
     },
     output_fluid_box =
     {
-      base_area = 1,
+      volume = 100,
       height = 2,
       pipe_covers = pipecoverspictures(),
       pipe_connections =

@@ -63,7 +63,7 @@ data:extend(
         filename = "__base__/sound/lab.ogg",
         volume = 0.7
       },
-      apparent_volume = 1
+
     },
     energy_source =
     {
@@ -81,14 +81,7 @@ data:extend(
 	"computing-pack-3",
 
     },
-    module_specification =
-    {
-      module_slots = 2,
-      max_entity_info_module_icons_per_row = 3,
-      max_entity_info_module_icon_rows = 1,
-      module_info_icon_shift = {0, 0.9}
-    }
-  },
+    module_slots = 2,
   }
   )
   --lab2--
@@ -167,12 +160,7 @@ data:extend(
 	"computing-pack-5",
     },
     researching_speed = 5,
-    module_specification =
-    {
-      module_slots = 4,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 4,
     fast_replaceable_group = "lab",
   },
   }
@@ -241,7 +229,7 @@ data:extend(
         filename = "__base__/sound/lab.ogg",
         volume = 0.7
       },
-      apparent_volume = 1
+
     },
     energy_source =
     {
@@ -257,14 +245,7 @@ data:extend(
       "science-pack-coal3",
       "science-pack-coal4",
     },
-    module_specification =
-    {
-      module_slots = 2,
-      max_entity_info_module_icons_per_row = 3,
-      max_entity_info_module_icon_rows = 1,
-      module_info_icon_shift = {0, 0.9}
-    }
-  },
+    module_slots = 2,
   }
   )
   --Sulfur Lab--  
@@ -331,7 +312,7 @@ data:extend(
         filename = "__base__/sound/lab.ogg",
         volume = 0.7
       },
-      apparent_volume = 1
+
     },
     energy_source =
     {
@@ -347,14 +328,7 @@ data:extend(
       "science-pack-sulfuric-acid3",
       "science-pack-sulfuric-acid4",
     },
-    module_specification =
-    {
-      module_slots = 2,
-      max_entity_info_module_icons_per_row = 3,
-      max_entity_info_module_icon_rows = 1,
-      module_info_icon_shift = {0, 0.9}
-    }
-  },
+    module_slots = 2,
   
   
   }
@@ -423,7 +397,7 @@ data:extend(
         filename = "__base__/sound/lab.ogg",
         volume = 0.7
       },
-      apparent_volume = 1
+
     },
     energy_source =
     {
@@ -438,14 +412,7 @@ data:extend(
 	  "science-pack-steel2",
 	  "science-pack-steel3",
     },
-    module_specification =
-    {
-      module_slots = 2,
-      max_entity_info_module_icons_per_row = 3,
-      max_entity_info_module_icon_rows = 1,
-      module_info_icon_shift = {0, 0.9}
-    }
-  },
+    module_slots = 2,
   
   
   }
@@ -514,7 +481,7 @@ data:extend(
         filename = "__base__/sound/lab.ogg",
         volume = 0.7
       },
-      apparent_volume = 1
+
     },
     energy_source =
     {
@@ -537,14 +504,7 @@ data:extend(
 	"computing-pack-5",
     
     },
-    module_specification =
-    {
-      module_slots = 2,
-      max_entity_info_module_icons_per_row = 3,
-      max_entity_info_module_icon_rows = 1,
-      module_info_icon_shift = {0, 0.9}
-    }
-  },
+    module_slots = 2,
   
   
   }
@@ -612,7 +572,7 @@ data:extend(
         filename = "__base__/sound/lab.ogg",
         volume = 0.7
       },
-      apparent_volume = 1
+
     },
     energy_source =
     {
@@ -629,14 +589,7 @@ data:extend(
 	"computing-pack-4",
 	"computing-pack-5",
     },
-    module_specification =
-    {
-      module_slots = 2,
-      max_entity_info_module_icons_per_row = 3,
-      max_entity_info_module_icon_rows = 1,
-      module_info_icon_shift = {0, 0.9}
-    }
-  },
+    module_slots = 2,
   
   
   }

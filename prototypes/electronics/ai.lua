@@ -62,10 +62,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.00163638 },
     },
     energy_usage = "66MW",
-    module_specification =
-    {
-      module_slots = 2
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     impact_category = "metal",
     working_sound =
@@ -81,7 +78,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
   },
 })
@@ -150,10 +147,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.00163638 },
     },
     energy_usage = "500MW",
-    module_specification =
-    {
-      module_slots = 2
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     impact_category = "metal",
     working_sound =
@@ -169,7 +163,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
   },
 })
@@ -238,10 +232,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.00163638 },
     },
     energy_usage = "4GW",
-    module_specification =
-    {
-      module_slots = 2
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     impact_category = "metal",
     working_sound =
@@ -257,7 +248,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
   },
 })
@@ -327,10 +318,7 @@ data:extend({
       emissions_per_minute = { pollution = 0.00163638 },
     },
     energy_usage = "30GW",
-    module_specification =
-    {
-      module_slots = 2
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     impact_category = "metal",
     working_sound =
@@ -346,7 +334,7 @@ data:extend({
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
   },
 })
