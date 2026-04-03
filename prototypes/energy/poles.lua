@@ -257,7 +257,7 @@ data:extend(
   {
     type = "recipe",
     name = "medium-electric-pole-2",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=2},
@@ -408,7 +408,7 @@ data:extend(
   {
     type = "recipe",
     name = "medium-electric-pole-3",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=2},
@@ -560,7 +560,7 @@ data:extend(
     {
     type = "recipe",
     name = "medium-electric-pole-4",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=2},
@@ -833,7 +833,7 @@ data:extend(
     {
     type = "recipe",
     name = "big-electric-pole-2",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=5},
@@ -982,7 +982,7 @@ data:extend(
     {
     type = "recipe",
     name = "big-electric-pole-3",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=5},
@@ -1131,7 +1131,7 @@ data:extend(
     {
     type = "recipe",
     name = "big-electric-pole-4",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=5},
@@ -1410,7 +1410,7 @@ data:extend(
     {
     type = "recipe",
     name = "substation-2",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=15},
@@ -1565,7 +1565,7 @@ data:extend(
     {
     type = "recipe",
     name = "substation-3",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=20},
@@ -1720,7 +1720,7 @@ data:extend(
     {
     type = "recipe",
     name = "substation-4",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=25},

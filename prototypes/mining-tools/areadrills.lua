@@ -15,7 +15,7 @@ data:extend(
   {
     type = "recipe",
     name = "area-mining-drill-2",
-    enabled = "false",
+    enabled = false,
     energy_required = 2,
     ingredients =
     {
@@ -519,7 +519,7 @@ data:extend(
    {
     type = "recipe",
     name = "area-mining-drill-3",
-    enabled = "false",
+    enabled = false,
     energy_required = 2,
     ingredients =
     {
@@ -1020,7 +1020,7 @@ data:extend(
   {
     type = "recipe",
     name = "area-mining-drill-4",
-    enabled = "false",
+    enabled = false,
     energy_required = 2,
     ingredients =
     {
@@ -1520,7 +1520,7 @@ data:extend(
   },  {
     type = "recipe",
     name = "area-mining-drill-5",
-    enabled = "false",
+    enabled = false,
     energy_required = 2,
     ingredients =
     {

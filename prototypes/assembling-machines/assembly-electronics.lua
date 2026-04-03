@@ -18,7 +18,7 @@ data:extend(
   {
     type = "recipe",
     name = "electronics-machine-1",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="electronic-circuit", amount=5},
@@ -120,7 +120,7 @@ data:extend(
 {
     type = "recipe",
     name = "electronics-machine-2",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="electronics-machine-1", amount=1},
@@ -235,7 +235,7 @@ data:extend(
   {
     type = "recipe",
     name = "electronics-machine-3",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="electronics-machine-2", amount=1},

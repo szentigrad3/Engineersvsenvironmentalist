@@ -107,7 +107,7 @@ data:extend(
     type = "recipe",
     name = "large-accumulator",
     energy_required = 10,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=3},
@@ -198,7 +198,7 @@ data:extend(
     type = "recipe",
     name = "fast-accumulator",
     energy_required = 10,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=2},
@@ -290,7 +290,7 @@ data:extend(
     type = "recipe",
     name = "slow-accumulator",
     energy_required = 10,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=2},
@@ -382,7 +382,7 @@ data:extend(
     type = "recipe",
     name = "large-accumulator-2",
     energy_required = 10,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=6},
@@ -474,7 +474,7 @@ data:extend(
     type = "recipe",
     name = "fast-accumulator-2",
     energy_required = 10,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=4},
@@ -566,7 +566,7 @@ data:extend(
     type = "recipe",
     name = "slow-accumulator-2",
     energy_required = 10,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=2},
@@ -659,7 +659,7 @@ data:extend(
     type = "recipe",
     name = "large-accumulator-3",
     energy_required = 10,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=6},
@@ -752,7 +752,7 @@ data:extend(
     type = "recipe",
     name = "fast-accumulator-3",
     energy_required = 10,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=2},
@@ -845,7 +845,7 @@ data:extend(
     type = "recipe",
     name = "slow-accumulator-3",
     energy_required = 10,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=4},

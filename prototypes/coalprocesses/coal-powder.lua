@@ -36,7 +36,7 @@ data:extend({
     name = "coalpowder|bitumen",
     category = "crusher",
 		subgroup = "coal-base",
-		enabled = "true",
+		enabled = true,
     energy_required = 0.1,
     ingredients = {{type="item", name="coal", amount=1}},
 		icon = "__Engineersvsenvironmentalist__/graphics/icons/materials/coalpowder.png",

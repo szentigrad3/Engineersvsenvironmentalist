@@ -170,7 +170,7 @@ data:extend(
   {
     type = "recipe",
     name = "steam-engine-2",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=200},
@@ -324,7 +324,7 @@ data:extend(
     {
     type = "recipe",
     name = "steam-engine-3",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=4000},
@@ -478,7 +478,7 @@ data:extend(
     {
     type = "recipe",
     name = "steam-engine-4",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="advanced-machine-parts", amount=3000},

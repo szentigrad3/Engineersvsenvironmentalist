@@ -319,7 +319,7 @@ data:extend(
   {
     type = "recipe",
     name = "assembling-machine-4",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="wall", amount=3200},
@@ -427,7 +427,7 @@ data:extend(
   {
     type = "recipe",
     name = "assembling-machine-5",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="wall", amount=32000},

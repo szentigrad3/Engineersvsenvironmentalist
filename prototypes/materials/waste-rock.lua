@@ -16,7 +16,7 @@ data:extend(
     category = "crusher",
 	subgroup = "basic-processing",
   order = "a-1",
-	enabled = "true",
+	enabled = true,
     energy_required = 0.2,
     ingredients = {{type="item", name="waste-rock", amount=1}},
 		

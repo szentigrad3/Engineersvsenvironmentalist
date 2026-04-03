@@ -15,7 +15,7 @@ data:extend(
     type = "recipe",
     name = "solar-panel-small",
     energy_required = 4.5,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=4},
@@ -63,7 +63,7 @@ data:extend(
     type = "recipe",
     name = "solar-panel-small-2",
     energy_required = 4.5,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=4},
@@ -112,7 +112,7 @@ data:extend(
     type = "recipe",
     name = "solar-panel-small-3",
     energy_required = 4.5,
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="iron-gear-wheel", amount=4},

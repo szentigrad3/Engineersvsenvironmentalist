@@ -13,7 +13,7 @@ data:extend(
     {
     type = "recipe",
     name = "fast-inserter",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="inserter", amount=1},

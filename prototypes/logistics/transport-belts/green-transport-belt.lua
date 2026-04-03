@@ -89,7 +89,7 @@ data:extend(
     type = "recipe",
     name = "green-transport-belt",
 	category = "crafting-with-fluid",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="electric-engine-unit", amount=1},
@@ -166,7 +166,7 @@ data:extend(
   {
     type = "recipe",
     name = "green-transport-belt-to-ground",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="green-transport-belt", amount=20},
@@ -253,7 +253,7 @@ data:extend(
   {
     type = "recipe",
     name = "green-splitter",
-    enabled = "false",
+    enabled = false,
     energy_required = 2,
     ingredients =
     {
