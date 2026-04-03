@@ -83,20 +83,23 @@ data:extend(
           weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045,  }
         }
       },
-      inner_corner =
+      transition =
       {
-        picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-inner-corner.png",
-        count = 8
-      },
-      outer_corner =
-      {
-        picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-outer-corner.png",
-        count = 8
-      },
-      side =
-      {
-        picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-side.png",
-        count = 8
+        inner_corner =
+        {
+          picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-inner-corner.png",
+          count = 8
+        },
+        outer_corner =
+        {
+          picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-outer-corner.png",
+          count = 8
+        },
+        side =
+        {
+          picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-side.png",
+          count = 8
+        }
       }
     },
     walking_sound =
