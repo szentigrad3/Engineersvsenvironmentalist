@@ -60,3 +60,21 @@ data:extend(
   },
   }
   )
+
+-- Ensure base furnace entities have graphics_set for Space Age DLC compatibility.
+-- Space Age's base-frozen-graphics.lua expects furnace entities to have graphics_set.
+local base_furnaces = {"stone-furnace", "steel-furnace", "electric-furnace"}
+for _, name in pairs(base_furnaces) do
+  local furnace = data.raw["furnace"][name]
+  if furnace and not furnace.graphics_set then
+    furnace.graphics_set = {}
+    if furnace.animation then
+      furnace.graphics_set.animation = furnace.animation
+      furnace.animation = nil
+    end
+    if furnace.working_visualisations then
+      furnace.graphics_set.working_visualisations = furnace.working_visualisations
+      furnace.working_visualisations = nil
+    end
+  end
+end
