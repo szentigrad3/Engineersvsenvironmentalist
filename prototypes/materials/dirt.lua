@@ -12,9 +12,9 @@ data:extend({
     stack_size = 50,
     place_as_tile =
     {
-      results = {{type="item", name="dirt-marker", amount=1}},
+      result = "dirt-marker",
       condition_size = 3,
-      condition = { "water-tile" }
+      condition = { layers = {} }
     }
   },
 	{

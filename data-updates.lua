@@ -11,7 +11,8 @@ data:extend(
     name = "iron-ore",
     icon = "__base__/graphics/icons/iron-ore.png",
     icon_size = 64,
-    flags = {"hidden"},
+    flags = {},
+    hidden = true,
     subgroup = "minerals",
     order = "e[iron-ore]",
     stack_size = 200

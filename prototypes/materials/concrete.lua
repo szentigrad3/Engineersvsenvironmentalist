@@ -9,9 +9,9 @@ data:extend({
     stack_size = 1000,
     place_as_tile =
     {
-      results = {{type="item", name="concrete", amount=1}},
+      result = "concrete",
       condition_size = 4,
-      condition = { "water-tile" }
+      condition = { layers = {} }
     }
   },
   {

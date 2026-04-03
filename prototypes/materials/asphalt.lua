@@ -23,9 +23,9 @@ data:extend(
     stack_size = 1000,
     place_as_tile =
     {
-      results = {{type="item", name="asphalt-marker", amount=1}},
+      result = "asphalt-marker",
       condition_size = 3,
-      condition = { "water-tile" }
+      condition = { layers = {} }
     }
   },
   {
