@@ -4,7 +4,7 @@ data:extend(
     type = "fluid",
     name = "hydrogen",
     default_temperature = 25,
-    heat_capacity = "1KJ",
+    heat_capacity = "1kJ",
     base_color = {r=0.7, g=0.7, b=0.7},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,

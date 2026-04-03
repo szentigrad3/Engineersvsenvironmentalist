@@ -4,7 +4,7 @@ data:extend(
     type = "fluid",
     name = "lubricant",
     default_temperature = 25,
-    heat_capacity = "1KJ",
+    heat_capacity = "1kJ",
     base_color = {r=0.4, g=0.6, b=0.4},
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,

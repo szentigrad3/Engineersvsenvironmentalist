@@ -5,7 +5,7 @@ data:extend(
     name = "water",
     default_temperature = 15,
     max_temperature = 1000,
-    heat_capacity = "4KJ",
+    heat_capacity = "4kJ",
     gas_temperature = 100,
     base_color = {r=0, g=0.34, b=0.6},
     flow_color = {r=0.7, g=0.7, b=0.7},
