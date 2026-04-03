@@ -12,8 +12,6 @@ data:extend(
     stack_size = 50,
     default_request_amount = 10,
     effect = { productivity = {bonus = 0.04}, consumption = {bonus = 0.4}, pollution = {bonus = 0.3}, speed = {bonus = -0.15}},
-    limitation = productivitymodulelimitation(),
-    limitation_message_key = "production-module-usable-only-on-intermediates"
   },
   {
     type = "recipe",
@@ -39,8 +37,6 @@ data:extend(
     stack_size = 50,
     default_request_amount = 10,
     effect = { productivity = {bonus = 0.06}, consumption = {bonus = 0.6}, pollution = {bonus = 0.4}, speed = {bonus = -0.15}},
-    limitation = productivitymodulelimitation(),
-    limitation_message_key = "production-module-usable-only-on-intermediates"
   },
    {
     type = "recipe",
@@ -67,8 +63,6 @@ data:extend(
     stack_size = 50,
     default_request_amount = 10,
     effect = { productivity = {bonus = 0.1}, consumption = {bonus = 0.8}, pollution = {bonus = 0.5}, speed = {bonus = -0.15}},
-    limitation = productivitymodulelimitation(),
-    limitation_message_key = "production-module-usable-only-on-intermediates"
   },
   {
     type = "recipe",
