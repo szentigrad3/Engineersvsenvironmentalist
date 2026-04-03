@@ -1014,7 +1014,7 @@ data:extend(
     energy_required = 2,
     ingredients =
     {
-      {"large-ai" , 1},
+      {type="item", name="large-ai", amount=1},
       {type="item", name="iron-gear-wheel", amount=120},
 	{type="item", name="explosives-analogue", amount=10000},
     },

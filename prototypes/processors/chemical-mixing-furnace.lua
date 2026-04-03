@@ -20,7 +20,7 @@ data:extend(
       {type="item", name="wall", amount=3600},
       {type="item", name="iron-gear-wheel", amount=2000},
       {type="item", name="plumbing", amount=2000},
-	   {"small-ai" ,5},
+	   {type="item", name="small-ai", amount=5},
 	  
     },
     results = {{type="item", name="electric-chemical-mixing-furnace", amount=1}}

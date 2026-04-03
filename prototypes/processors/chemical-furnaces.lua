@@ -178,7 +178,7 @@ data:extend(
       {type="item", name="wall", amount=2000},
       {type="item", name="plumbing", amount=1250},
       {type="item", name="iron-gear-wheel", amount=750},
-	    {"small-ai" ,5},
+	    {type="item", name="small-ai", amount=5},
     },
     results = {{type="item", name="chemical-furnace", amount=1}}
   },
