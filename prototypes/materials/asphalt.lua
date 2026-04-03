@@ -85,17 +85,26 @@ data:extend(
       },
       transition =
       {
-        inner_corner =
+        overlay_layout =
         {
-          overlay = { picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-inner-corner.png", count = 8 }
-        },
-        outer_corner =
-        {
-          overlay = { picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-outer-corner.png", count = 8 }
-        },
-        side =
-        {
-          overlay = { picture = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-side.png", count = 8 }
+          inner_corner =
+          {
+            spritesheet = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-inner-corner.png",
+            count = 8,
+            scale = 0.5
+          },
+          outer_corner =
+          {
+            spritesheet = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-outer-corner.png",
+            count = 8,
+            scale = 0.5
+          },
+          side =
+          {
+            spritesheet = "__Engineersvsenvironmentalist__/graphics/terrain/asphalt/asphalt-side.png",
+            count = 8,
+            scale = 0.5
+          }
         }
       }
     },
