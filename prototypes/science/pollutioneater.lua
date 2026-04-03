@@ -70,17 +70,17 @@ data:extend(
 	emissions_per_minute = { pollution = 42000000 },
     researching_speed = 0.1,
     inputs =
-    {      "science-pack-clean1", },
-	{      "science-pack-clean2", },
-	{      "science-pack-clean3", },
-	{      "science-pack-clean4", },
-	{      "science-pack-clean5", },
-	{      "science-pack-clean5", },
+    {
+      "science-pack-clean1",
+      "science-pack-clean2",
+      "science-pack-clean3",
+      "science-pack-clean4",
+      "science-pack-clean5",
+    },
     module_slots = 2,
-  
-  
-  }
-  )
+  },
+}
+)
   
   data:extend(
 {
