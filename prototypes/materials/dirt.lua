@@ -56,18 +56,15 @@ data:extend({
       {
         inner_corner =
         {
-          picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-inner-corner.png",
-          count = 8
+          overlay = { picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-inner-corner.png", count = 8 }
         },
         outer_corner =
         {
-          picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-outer-corner.png",
-          count = 8
+          overlay = { picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-outer-corner.png", count = 8 }
         },
         side =
         {
-          picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-side.png",
-          count = 8
+          overlay = { picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-side.png", count = 8 }
         }
       }
     },
