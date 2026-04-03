@@ -1,6 +1,7 @@
 local dirt_vehicle_speed_modifier = 100
 local dirt_walking_speed_modifier = 0.9
-		 
+
+
 data:extend({
 	{
     type = "item",
@@ -41,7 +42,7 @@ data:extend({
           count = 16,
           size = 2,
           probability = 1,
-          weights = {0.070, 0.070, 0.025, 0.070, 0.070, 0.070, 0.007, 0.025, 0.070, 0.050, 0.015, 0.026, 0.030, 0.005, 0.070, 0.027,  }
+          weights = {0.070, 0.070, 0.025, 0.070, 0.070, 0.070, 0.007, 0.025, 0.070, 0.050, 0.015, 0.026, 0.030, 0.005, 0.070, 0.027, }
         },
         {
           picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt4.png",
@@ -54,17 +55,26 @@ data:extend({
       },
       transition =
       {
-        inner_corner =
+        overlay_layout =
         {
-          overlay = { picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-inner-corner.png", count = 8 }
-        },
-        outer_corner =
-        {
-          overlay = { picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-outer-corner.png", count = 8 }
-        },
-        side =
-        {
-          overlay = { picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-side.png", count = 8 }
+          inner_corner =
+          {
+            spritesheet = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-inner-corner.png",
+            count = 8,
+            scale = 0.5
+          },
+          outer_corner =
+          {
+            spritesheet = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-outer-corner.png",
+            count = 8,
+            scale = 0.5
+          },
+          side =
+          {
+            spritesheet = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-side.png",
+            count = 8,
+            scale = 0.5
+          }
         }
       }
     },
@@ -87,9 +97,5 @@ data:extend({
 		ageing=0,
 		vehicle_friction_modifier = dirt_vehicle_speed_modifier
 	}
-	
+
 })
-	
-	
-	
-	 
