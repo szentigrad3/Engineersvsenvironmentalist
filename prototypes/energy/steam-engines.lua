@@ -59,8 +59,8 @@ data:extend(
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        { type = "input-output", position = {0, 3} },
-        { type = "input-output", position = {0, -3} },
+        { type = "input-output", position = {0, 3}, direction = defines.direction.south },
+        { type = "input-output", position = {0, -3}, direction = defines.direction.north },
       },
       production_type = "input-output"
     },
@@ -214,8 +214,8 @@ data:extend(
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        { type = "input-output", position = {0, 3} },
-        { type = "input-output", position = {0, -3} },
+        { type = "input-output", position = {0, 3}, direction = defines.direction.south },
+        { type = "input-output", position = {0, -3}, direction = defines.direction.north },
       },
       production_type = "input-output"
     },
@@ -368,8 +368,8 @@ data:extend(
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        { type = "input-output", position = {0, 3} },
-        { type = "input-output", position = {0, -3} },
+        { type = "input-output", position = {0, 3}, direction = defines.direction.south },
+        { type = "input-output", position = {0, -3}, direction = defines.direction.north },
       },
       production_type = "input-output"
     },
@@ -524,8 +524,8 @@ data:extend(
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        { type = "input-output", position = {0, 3} },
-        { type = "input-output", position = {0, -3} },
+        { type = "input-output", position = {0, 3}, direction = defines.direction.south },
+        { type = "input-output", position = {0, -3}, direction = defines.direction.north },
       },
       production_type = "input-output"
     },

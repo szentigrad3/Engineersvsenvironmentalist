@@ -58,9 +58,9 @@ data:extend(
       base_level = -1,
       pipe_connections =
       {
-        { position = {-2, 0} },
-        { position = {2, 0} },
-        { position = {0, 2} },
+        { position = {-2, 0}, direction = defines.direction.west },
+        { position = {2, 0}, direction = defines.direction.east },
+        { position = {0, 2}, direction = defines.direction.south },
       }
     },
 	
@@ -555,9 +555,9 @@ data:extend(
       base_level = -1,
       pipe_connections =
       {
-        { position = {-2, 0} },
-        { position = {2, 0} },
-        { position = {0, 2} },
+        { position = {-2, 0}, direction = defines.direction.west },
+        { position = {2, 0}, direction = defines.direction.east },
+        { position = {0, 2}, direction = defines.direction.south },
       }
     },
 	
@@ -1051,9 +1051,9 @@ data:extend(
       base_level = -1,
       pipe_connections =
       {
-        { position = {-2, 0} },
-        { position = {2, 0} },
-        { position = {0, 2} },
+        { position = {-2, 0}, direction = defines.direction.west },
+        { position = {2, 0}, direction = defines.direction.east },
+        { position = {0, 2}, direction = defines.direction.south },
       }
     },
 	
@@ -1546,9 +1546,9 @@ data:extend(
       base_level = -1,
       pipe_connections =
       {
-        { position = {-2, 0} },
-        { position = {2, 0} },
-        { position = {0, 2} },
+        { position = {-2, 0}, direction = defines.direction.west },
+        { position = {2, 0}, direction = defines.direction.east },
+        { position = {0, 2}, direction = defines.direction.south },
       }
     },
 	

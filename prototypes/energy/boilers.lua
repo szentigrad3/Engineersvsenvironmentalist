@@ -61,8 +61,8 @@
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        {type = "input-output", position = {-2, 0.5}},
-        {type = "input-output", position = {2, 0.5}}
+        {type = "input-output", position = {-2, 0.5}, direction = defines.direction.west},
+        {type = "input-output", position = {2, 0.5}, direction = defines.direction.east}
       },
       production_type = "input-output"
     },
@@ -73,7 +73,7 @@
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        {type = "output", position = {0, -1.5}}
+        {type = "output", position = {0, -1.5}, direction = defines.direction.north}
       },
       production_type = "output"
     },
@@ -385,8 +385,8 @@
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        {type = "input-output", position = {-2, 0.5}},
-        {type = "input-output", position = {2, 0.5}}
+        {type = "input-output", position = {-2, 0.5}, direction = defines.direction.west},
+        {type = "input-output", position = {2, 0.5}, direction = defines.direction.east}
       },
       production_type = "input-output"
     },
@@ -397,7 +397,7 @@
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        {type = "output", position = {0, -1.5}}
+        {type = "output", position = {0, -1.5}, direction = defines.direction.north}
       },
       production_type = "output"
     },
@@ -709,8 +709,8 @@
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        {type = "input-output", position = {-2, 0.5}},
-        {type = "input-output", position = {2, 0.5}}
+        {type = "input-output", position = {-2, 0.5}, direction = defines.direction.west},
+        {type = "input-output", position = {2, 0.5}, direction = defines.direction.east}
       },
       production_type = "input-output"
     },
@@ -721,7 +721,7 @@
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
-        {type = "output", position = {0, -1.5}}
+        {type = "output", position = {0, -1.5}, direction = defines.direction.north}
       },
       production_type = "output"
     },
