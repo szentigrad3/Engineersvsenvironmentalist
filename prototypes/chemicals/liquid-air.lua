@@ -5,7 +5,7 @@ data:extend(
     name = "liquid-air",
     default_temperature = 100,
     max_temperature = 100,
-    heat_capacity = "1KJ",
+    heat_capacity = "1kJ",
     base_color = {r=0, g=0, b=0},
     flow_color = {r=0.5, g=1.0, b=1.0},
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/liquid-air.png",
