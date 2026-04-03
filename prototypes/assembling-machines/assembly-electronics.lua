@@ -151,7 +151,7 @@ data:extend(
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         base_level = -1,
-        pipe_connections = {{ type="input", position = {0.5, -1.5}, direction = defines.direction.north }}
+        pipe_connections = {{ flow_direction="input", position = {0.5, -1.5}, direction = defines.direction.north }}
       },
       off_when_no_fluid_recipe = true
     },
@@ -263,7 +263,7 @@ data:extend(
         pipe_covers = pipecoverspictures(),
         volume = 1000,
         base_level = -1,
-        pipe_connections = {{ type="input", position = {0.5, -1.5}, direction = defines.direction.north }}
+        pipe_connections = {{ flow_direction="input", position = {0.5, -1.5}, direction = defines.direction.north }}
       },
       off_when_no_fluid_recipe = true
     },
