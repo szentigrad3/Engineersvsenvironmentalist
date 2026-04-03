@@ -82,7 +82,8 @@ data:extend(
 
     },
     module_slots = 2,
-  }
+  },
+}
   )
   --lab2--
 data:extend(
