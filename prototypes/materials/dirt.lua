@@ -52,20 +52,23 @@ data:extend({
           weights = {0.070, 0.070, 0.070, 0.070, 0.070, 0.070, 0.015, 0.070, 0.070, 0.070, 0.015, 0.050, 0.070, 0.070, 0.065, 0.070, }
         }
       },
-      inner_corner =
+      transition =
       {
-        picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-inner-corner.png",
-        count = 8
-      },
-      outer_corner =
-      {
-        picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-outer-corner.png",
-        count = 8
-      },
-      side =
-      {
-        picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-side.png",
-        count = 8
+        inner_corner =
+        {
+          picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-inner-corner.png",
+          count = 8
+        },
+        outer_corner =
+        {
+          picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-outer-corner.png",
+          count = 8
+        },
+        side =
+        {
+          picture = "__Engineersvsenvironmentalist__/graphics/terrain/dirt/dirt-side.png",
+          count = 8
+        }
       }
     },
     walking_sound =
