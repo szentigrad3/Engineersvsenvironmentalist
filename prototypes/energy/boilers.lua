@@ -15,7 +15,7 @@
   {
     type = "recipe",
     name = "boiler",
-    enabled = "true",
+    enabled = true,
     ingredients =
     {
       {type="item", name="wall", amount=1},
@@ -340,7 +340,7 @@
   {
     type = "recipe",
     name = "boiler-1",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="wall", amount=2},
@@ -664,7 +664,7 @@
   {
     type = "recipe",
     name = "boiler-2",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="wall", amount=200},

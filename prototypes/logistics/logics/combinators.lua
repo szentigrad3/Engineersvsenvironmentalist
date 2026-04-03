@@ -13,7 +13,7 @@ data:extend(
   {
     type = "recipe",
     name = "arithmetic-combinator",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="copper-cable", amount=5},
@@ -34,7 +34,7 @@ data:extend(
   {
     type = "recipe",
     name = "decider-combinator",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="copper-cable", amount=5},
@@ -55,7 +55,7 @@ data:extend(
   {
     type = "recipe",
     name = "constant-combinator",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="copper-cable", amount=5},

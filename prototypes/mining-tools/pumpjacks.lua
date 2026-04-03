@@ -141,7 +141,7 @@ data:extend(
       {type="item", name="pipe", amount=500},
     },
     results = {{type="item", name="pumpjack-2", amount=1}},
-    enabled = "false"
+    enabled = false
   },
   {
     type = "mining-drill",
@@ -251,7 +251,7 @@ data:extend(
       {type="item", name="pipe", amount=40},
     },
     results = {{type="item", name="pumpjack-3", amount=1}},
-    enabled = "false"
+    enabled = false
   },
   {
     type = "mining-drill",
@@ -361,7 +361,7 @@ data:extend(
       {type="item", name="pipe", amount=80},
     },
     results = {{type="item", name="pumpjack-4", amount=1}},
-    enabled = "false"
+    enabled = false
   },
   {
     type = "mining-drill",
@@ -470,7 +470,7 @@ data:extend(
       {type="item", name="pipe", amount=160},
     },
     results = {{type="item", name="pumpjack-5", amount=1}},
-    enabled = "false"
+    enabled = false
   },
   {
     type = "mining-drill",

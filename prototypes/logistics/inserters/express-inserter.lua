@@ -14,7 +14,7 @@ data:extend(
   {
     type = "recipe",
     name = "express-inserter",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="fast-inserter", amount=1},

@@ -14,8 +14,8 @@ data:extend(
     type = "recipe",
     name = "void-oxygen",
     category = "void-fluid",
-    enabled = "false",
-    hidden = "true",
+    enabled = false,
+    hidden = true,
     energy_required = 1,
     ingredients =
     {
@@ -34,8 +34,8 @@ data:extend(
     type = "recipe",
     name = "void-hydrogen",
     category = "void-fluid",
-    enabled = "false",
-    hidden = "true",
+    enabled = false,
+    hidden = true,
     energy_required = 1,
     ingredients =
     {
@@ -54,8 +54,8 @@ data:extend(
     type = "recipe",
     name = "void-nitrogen",
     category = "void-fluid",
-    enabled = "false",
-    hidden = "true",
+    enabled = false,
+    hidden = true,
     energy_required = 1,
     ingredients =
     {
@@ -74,8 +74,8 @@ data:extend(
     type = "recipe",
     name = "void-chlorine",
     category = "void-fluid",
-    enabled = "false",
-    hidden = "true",
+    enabled = false,
+    hidden = true,
     energy_required = 1,
     ingredients =
     {

@@ -90,7 +90,7 @@ data:extend(
     type = "recipe",
     name = "purple-transport-belt",
 	category = "crafting-with-fluid",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="electric-engine-unit", amount=10},
@@ -168,7 +168,7 @@ data:extend(
   {
     type = "recipe",
     name = "purple-transport-belt-to-ground",
-    enabled = "false",
+    enabled = false,
     ingredients =
     {
       {type="item", name="purple-transport-belt", amount=25},
@@ -255,7 +255,7 @@ data:extend(
   {
     type = "recipe",
     name = "purple-splitter",
-    enabled = "false",
+    enabled = false,
     energy_required = 2,
     ingredients =
     {
