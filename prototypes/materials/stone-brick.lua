@@ -10,9 +10,9 @@ data:extend(
     stack_size = 400,
     place_as_tile =
     {
-      results = {{type="item", name="stone-path", amount=1}},
+      result = "stone-path",
       condition_size = 4,
-      condition = { "water-tile" }
+      condition = { layers = {} }
     }
   },
   {
