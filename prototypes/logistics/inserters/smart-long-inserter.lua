@@ -68,8 +68,8 @@ data:extend(
     },
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
-    energy_per_movement = 7000,
-    energy_per_rotation = 7000,
+    energy_per_move = 7000,
+    energy_per_rotate = 7000,
     hand_size = 1.5,
     energy_source =
     {
@@ -82,7 +82,7 @@ data:extend(
     pickup_position = {0, -2},
     insert_position = {0, 2.2},
     filter_count = 5,
-    programmable = true,
+
     uses_arm_movement = "inserter",
     fast_replaceable_group = "long-handed-inserter",
     circuit_wire_max_distance = 7.5,

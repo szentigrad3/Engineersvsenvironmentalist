@@ -57,7 +57,7 @@ data:extend(
       }
     },
     energy_usage = "131MW",
-    mining_power = 2.5,
+
     animations =
     {
       north =
@@ -165,7 +165,7 @@ data:extend(
         filename = "__base__/sound/electric-mining-drill.ogg",
         volume = 0.75
       },
-      apparent_volume = 1.5,
+
     },
 	
 	input_fluid_box =
@@ -173,7 +173,7 @@ data:extend(
       production_type = "input-output",
       pipe_picture = assembler2pipepictures(),
       pipe_covers = pipecoverspictures(),
-      base_area = 1,
+      volume = 100,
       height = 2,
       base_level = -1,
       pipe_connections =
@@ -601,13 +601,10 @@ data:extend(
       usage_priority = "secondary-input"
     },
     energy_usage = "39MW",
-    mining_power = 5,
+
     resource_searching_radius = 2.49,
     vector_to_place_result = {0, -1.85},
-    module_specification =
-    {
-      module_slots = 3
-    },
+    module_slots = 3,
 	storage_slots = 8,
 	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
@@ -666,14 +663,14 @@ data:extend(
         filename = "__base__/sound/electric-mining-drill.ogg",
         volume = 0.75
       },
-      apparent_volume = 1.5,
+
     },
     input_fluid_box =
     {
       production_type = "input-output",
       pipe_picture = assembler2pipepictures(),
       pipe_covers = pipecoverspictures(),
-      base_area = 1,
+      volume = 100,
       height = 2,
       base_level = -1,
       pipe_connections =
@@ -1101,15 +1098,10 @@ data:extend(
     },
     energy_usage = "59MW",
     mining_speed = 2,
-    mining_power = 5,
+
     resource_searching_radius = 2.49,
     vector_to_place_result = {0, -1.85},
-    module_specification =
-    {
-      module_slots = 4,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 4,
     storage_slots = 8,
 	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
@@ -1168,14 +1160,14 @@ data:extend(
         filename = "__base__/sound/electric-mining-drill.ogg",
         volume = 0.75
       },
-      apparent_volume = 1.5,
+
     },
     input_fluid_box =
     {
       production_type = "input-output",
       pipe_picture = assembler2pipepictures(),
       pipe_covers = pipecoverspictures(),
-      base_area = 1,
+      volume = 100,
       height = 2,
       base_level = -1,
       pipe_connections =
@@ -1603,15 +1595,10 @@ data:extend(
     },
     energy_usage = "88MW",
     mining_speed = 8,
-    mining_power = 6,
+
     resource_searching_radius = 2.49,
     vector_to_place_result = {0, -1.85},
-    module_specification =
-    {
-      module_slots = 5,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 5,
     storage_slots = 8,
 	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
@@ -1670,14 +1657,14 @@ data:extend(
         filename = "__base__/sound/electric-mining-drill.ogg",
         volume = 0.75
       },
-      apparent_volume = 1.5,
+
     },
     input_fluid_box =
     {
       production_type = "input-output",
       pipe_picture = assembler2pipepictures(),
       pipe_covers = pipecoverspictures(),
-      base_area = 1,
+      volume = 100,
       height = 2,
       base_level = -1,
       pipe_connections =
@@ -2105,15 +2092,10 @@ data:extend(
     },
     energy_usage = "132MW",
     mining_speed = 15,
-    mining_power = 8,
+
     resource_searching_radius = 2.49,
     vector_to_place_result = {0, -1.85},
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     storage_slots = 8,
 	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
@@ -2172,14 +2154,14 @@ data:extend(
         filename = "__base__/sound/electric-mining-drill.ogg",
         volume = 0.75
       },
-      apparent_volume = 1.5,
+
     },
    input_fluid_box =
     {
       production_type = "input-output",
       pipe_picture = assembler2pipepictures(),
       pipe_covers = pipecoverspictures(),
-      base_area = 1,
+      volume = 100,
       height = 2,
       base_level = -1,
       pipe_connections =
@@ -2607,15 +2589,10 @@ data:extend(
     },
     energy_usage = "199MW",
     mining_speed = 75,
-    mining_power = 10,
+
     resource_searching_radius = 2.49,
     vector_to_place_result = {0, -1.85},
-    module_specification =
-    {
-      module_slots = 8,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 8,
     storage_slots = 8,
 	fast_replaceable_group = "mining-drill",
     radius_visualisation_picture =
@@ -2692,7 +2669,7 @@ data:extend(
       }
     },
     energy_usage = "1W",
-    mining_power = 200,
+
     animations =
     {
       north =

@@ -369,6 +369,3 @@ require("prototypes.warehousemod.warehouseitem")
 for i, drill in pairs(data.raw["mining-drill"]) do
   if not drill.storage_slots then drill.storage_slots = 8 end
 end
-for i, drill in pairs(data.raw["furnace"]) do
-  if not drill.result_inventory_size then drill.result_inventory_size = 3 end
-end

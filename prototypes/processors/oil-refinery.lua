@@ -35,10 +35,7 @@ data:extend(
     dying_explosion = "medium-explosion",
     collision_box = {{-2.4, -2.4}, {2.4, 2.4}},
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
-    module_specification =
-    {
-      module_slots = 2
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"oil-processing"},
     crafting_speed = 0.1,
@@ -117,21 +114,21 @@ data:extend(
     {
       sound = { filename = "__base__/sound/oil-refinery.ogg" },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 2.5,
+
     },
     fluid_boxes =
     {
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {-1, 3} }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {1, 3} }}
       },
@@ -196,10 +193,7 @@ data:extend(
     dying_explosion = "medium-explosion",
     collision_box = {{-2.4, -2.4}, {2.4, 2.4}},
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
-    module_specification =
-    {
-      module_slots = 2
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"oil-processing"},
     crafting_speed = 2,
@@ -266,21 +260,21 @@ data:extend(
     {
       sound = { filename = "__base__/sound/oil-refinery.ogg" },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 2.5,
+
     },
     fluid_boxes =
     {
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {-1, 3} }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {1, 3} }}
       },
@@ -345,10 +339,7 @@ data:extend(
     dying_explosion = "medium-explosion",
     collision_box = {{-2.4, -2.4}, {2.4, 2.4}},
     selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
-    module_specification =
-    {
-      module_slots = 5
-    },
+    module_slots = 5,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
     crafting_categories = {"oil-processing"},
     crafting_speed = 125,
@@ -416,21 +407,21 @@ data:extend(
     {
       sound = { filename = "__base__/sound/oil-refinery.ogg" },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 2.5,
+
     },
     fluid_boxes =
     {
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {-1, 3} }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {1, 3} }}
       },

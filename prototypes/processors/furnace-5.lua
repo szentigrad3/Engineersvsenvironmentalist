@@ -41,10 +41,10 @@ data:extend(
     collision_box = {{-1.7, -1.7}, {1.7, 1.7}},
     selection_box = {{-2, -2}, {2, 2}},
     crafting_categories = {"smelting"},
-    result_inventory_size = 4,
+
     energy_usage = "160MW",
     crafting_speed = 5,
-    source_inventory_size = 5,
+
     energy_source =
     {
       type = "burner",

@@ -53,7 +53,7 @@ data:extend(
 		name = "asphalt-marker",
 		needs_correction = false,
 		minable = {mining_time = 0.5, result = "asphalt"},
-		collision_mask = {"ground-tile"},
+		collision_mask = {layers = {ground_tile = true}},
 		walking_speed_modifier = asphalt_walking_speed_modifier,
 		layer = 59,
 		decorative_removal_probability = 0.6,

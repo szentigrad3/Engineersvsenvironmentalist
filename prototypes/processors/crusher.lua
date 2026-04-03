@@ -37,13 +37,8 @@ data:extend({
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    module_specification =
-    {
-      module_slots = 1,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
-		result_inventory_size = 5,
+    module_slots = 1,
+
     crafting_speed = 0.1,
     crafting_categories = {"crusher"},
     energy_usage = "131MW",
@@ -69,7 +64,7 @@ data:extend({
         filename = "__base__/sound/electric-furnace.ogg",
         volume = 0.7
       },
-      apparent_volume = 1.5
+
     },
 		graphics_set =
 		{
@@ -139,13 +134,8 @@ data:extend({
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    module_specification =
-    {
-      module_slots = 1,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
-		result_inventory_size = 5,
+    module_slots = 1,
+
     crafting_speed = 1,
     crafting_categories = {"crusher"},
     energy_usage = "375MW",
@@ -171,7 +161,7 @@ data:extend({
         filename = "__base__/sound/electric-furnace.ogg",
         volume = 0.7
       },
-      apparent_volume = 1.5
+
     },
 		graphics_set =
 		{
@@ -242,13 +232,8 @@ data:extend({
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    module_specification =
-    {
-      module_slots = 3,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
-		result_inventory_size = 5,
+    module_slots = 3,
+
     crafting_speed = 5,
     crafting_categories = {"crusher"},
     energy_usage = "3750MW",
@@ -265,7 +250,7 @@ data:extend({
         filename = "__base__/sound/electric-furnace.ogg",
         volume = 0.7
       },
-      apparent_volume = 1.5
+
     },
 		graphics_set =
 		{
@@ -338,13 +323,8 @@ data:extend({
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-    module_specification =
-    {
-      module_slots = 1,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
-		result_inventory_size = 5,
+    module_slots = 1,
+
     crafting_speed = 25,
     crafting_categories = {"crusher"},
     energy_usage = "9990MW",
@@ -361,7 +341,7 @@ data:extend({
         filename = "__base__/sound/electric-furnace.ogg",
         volume = 0.7
       },
-      apparent_volume = 1.5
+
     },
 		graphics_set =
 		{

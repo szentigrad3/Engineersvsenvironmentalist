@@ -127,10 +127,7 @@ data:extend({
     max_health = 150,
     crafting_categories = {"electrolysis"},
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    module_specification =
-    {
-      module_slots = 1,
-    },
+    module_slots = 1,
     crafting_speed = 0.1,
     energy_usage = "30MW",
     energy_source =
@@ -145,14 +142,14 @@ data:extend({
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {-1, -2} }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {1, -2} }}
       },
@@ -218,7 +215,7 @@ data:extend({
         }
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
   },
 
@@ -235,10 +232,7 @@ data:extend({
     max_health = 275,
     crafting_categories = {"electrolysis"},
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    module_specification =
-    {
-      module_slots = 3,
-    },
+    module_slots = 3,
     crafting_speed = 1,
     energy_usage = "2500MW",
     energy_source =
@@ -252,14 +246,14 @@ data:extend({
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {-1, -2} }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {1, -2} }}
       },
@@ -324,7 +318,7 @@ data:extend({
         }
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
   },
 
@@ -341,10 +335,7 @@ data:extend({
     max_health = 375,
     crafting_categories = {"electrolysis"},
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    module_specification =
-    {
-      module_slots = 5,
-    },
+    module_slots = 5,
     crafting_speed = 25,
     energy_usage = "40GW",
     energy_source =
@@ -358,14 +349,14 @@ data:extend({
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {-1, -2} }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {1, -2} }}
       },
@@ -430,7 +421,7 @@ data:extend({
         }
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
   },
 
@@ -447,10 +438,7 @@ data:extend({
     max_health = 500,
     crafting_categories = {"electrolysis"},
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    module_specification =
-    {
-      module_slots = 6,
-    },
+    module_slots = 6,
     crafting_speed = 125,
     energy_usage = "180GW",
     energy_source =
@@ -464,14 +452,14 @@ data:extend({
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {-1, -2} }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {1, -2} }}
       },
@@ -536,7 +524,7 @@ data:extend({
         }
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
   },
 })

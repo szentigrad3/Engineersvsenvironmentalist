@@ -74,7 +74,7 @@ data:extend(
     },
     fluid_box =
     {
-      base_area = 1,
+      volume = 100,
       height = 2,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
@@ -261,12 +261,7 @@ data:extend(
     max_health = 150,
     crafting_categories = {"air-pump"},
     crafting_speed = 1,
-    module_specification =
-    {
-      module_slots = 1,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 1,
     allowed_effects = {"consumption", "speed", "pollution"},
     fast_replaceable_group = "air-pump",
     corpse = "small-remnants",
@@ -282,14 +277,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0.5, 1.5} }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0.5, -1.5} }}
       },
@@ -379,12 +374,7 @@ data:extend(
     max_health = 180,
     crafting_categories = {"air-pump"},
     crafting_speed = 2,
-    module_specification =
-    {
-      module_slots = 2,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "pollution"},
     fast_replaceable_group = "air-pump",
     corpse = "small-remnants",
@@ -400,14 +390,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0.5, 1.5} }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0.5, -1.5} }}
       },
@@ -498,12 +488,7 @@ data:extend(
     max_health = 230,
     crafting_categories = {"air-pump"},
     crafting_speed = 3.5,
-    module_specification =
-    {
-      module_slots = 4,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 4,
     allowed_effects = {"consumption", "speed", "pollution"},
     fast_replaceable_group = "air-pump",
     corpse = "small-remnants",
@@ -519,14 +504,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0.5, 1.5} }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0.5, -1.5} }}
       },
@@ -617,12 +602,7 @@ data:extend(
     max_health = 300,
     crafting_categories = {"air-pump"},
     crafting_speed = 5,
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "pollution"},
     fast_replaceable_group = "air-pump",
     corpse = "small-remnants",
@@ -638,14 +618,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0.5, 1.5} }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0.5, -1.5} }}
       },
@@ -737,12 +717,7 @@ data:extend(
     max_health = 120,
     crafting_categories = {"water-pump"},
     crafting_speed = 1,
-    module_specification =
-    {
-      module_slots = 1,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 1,
     allowed_effects = {"consumption", "speed", "pollution"},
     fast_replaceable_group = "water-pump",
     corpse = "small-remnants",
@@ -758,14 +733,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0.5, 1.5} }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0.5, -1.5} }}
       },
@@ -855,12 +830,7 @@ data:extend(
     max_health = 180,
     crafting_categories = {"water-pump"},
     crafting_speed = 2,
-    module_specification =
-    {
-      module_slots = 2,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "pollution"},
     fast_replaceable_group = "water-pump",
     corpse = "small-remnants",
@@ -876,14 +846,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0.5, 1.5} }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0.5, -1.5} }}
       },
@@ -974,12 +944,7 @@ data:extend(
     max_health = 230,
     crafting_categories = {"water-pump"},
     crafting_speed = 3.5,
-    module_specification =
-    {
-      module_slots = 4,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 4,
     allowed_effects = {"consumption", "speed", "pollution"},
     fast_replaceable_group = "water-pump",
     corpse = "small-remnants",
@@ -995,14 +960,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0.5, 1.5} }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0.5, -1.5} }}
       },
@@ -1093,12 +1058,7 @@ data:extend(
     max_health = 300,
     crafting_categories = {"water-pump"},
     crafting_speed = 5,
-    module_specification =
-    {
-      module_slots = 6,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "pollution"},
     fast_replaceable_group = "water-pump",
     corpse = "small-remnants",
@@ -1114,14 +1074,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0.5, 1.5} }}
       },
       {
         production_type = "output",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0.5, -1.5} }}
       },
@@ -1227,7 +1187,7 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 1,
+        volume = 100,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0, 1} }}
       },
@@ -1243,9 +1203,9 @@ data:extend(
     collision_box = {{-0.29, -0.29}, {0.29, 0.29}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     crafting_categories = {"void-fluid"},
-    result_inventory_size = 1,
+
     crafting_speed = 5,
-    source_inventory_size = 1,
+
     animation =
     {
       north =

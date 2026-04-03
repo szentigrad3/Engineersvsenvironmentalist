@@ -38,8 +38,8 @@ data:extend(
     },
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
-    energy_per_movement = 5000,
-    energy_per_rotation = 5000,
+    energy_per_move = 5000,
+    energy_per_rotate = 5000,
     energy_source =
     {
       type = "electric",
@@ -132,7 +132,6 @@ data:extend(
         height = 46,
       }
     },
-  programmable = true,
 
     circuit_wire_connection_point =
     {

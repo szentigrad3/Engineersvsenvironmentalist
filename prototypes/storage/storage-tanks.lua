@@ -33,7 +33,7 @@ data:extend(
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fluid_box =
     {
-      base_area = 250,
+      volume = 25000,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
@@ -88,7 +88,7 @@ data:extend(
           filename = "__base__/sound/storage-tank.ogg",
           volume = 0.8
       },
-      apparent_volume = 1.5,
+
       max_sounds_per_type = 3
     },
     circuit_wire_max_distance = 7.5
@@ -126,7 +126,7 @@ data:extend(
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fluid_box =
     {
-      base_area = 500,
+      volume = 50000,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
@@ -182,7 +182,7 @@ data:extend(
           filename = "__base__/sound/storage-tank.ogg",
           volume = 0.8
       },
-      apparent_volume = 1.5,
+
       max_sounds_per_type = 3
     },
     circuit_wire_max_distance = 7.5
@@ -221,7 +221,7 @@ data:extend(
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fluid_box =
     {
-      base_area = 2000,
+      volume = 200000,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
@@ -277,7 +277,7 @@ data:extend(
           filename = "__base__/sound/storage-tank.ogg",
           volume = 0.8
       },
-      apparent_volume = 1.5,
+
       max_sounds_per_type = 3
     },
     circuit_wire_max_distance = 7.5
@@ -315,7 +315,7 @@ data:extend(
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fluid_box =
     {
-      base_area = 7000,
+      volume = 700000,
       pipe_covers = pipecoverspictures(),
       pipe_connections =
       {
@@ -371,7 +371,7 @@ data:extend(
           filename = "__base__/sound/storage-tank.ogg",
           volume = 0.8
       },
-      apparent_volume = 1.5,
+
       max_sounds_per_type = 3
     },
     circuit_wire_max_distance = 7.5

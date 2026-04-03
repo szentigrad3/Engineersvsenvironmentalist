@@ -19,7 +19,7 @@ data:extend(
 	  enabled = true,
     ingredients =
     {
-      { "raw-wood", 1},
+      {type="item", name="raw-wood", amount=1},
     },
     results = {{type="item", name="resin", amount=1}}
   },
@@ -33,7 +33,7 @@ data:extend(
 	  enabled = true,
     ingredients =
     {
-      { "coal", 100},
+      {type="item", name="coal", amount=100},
     },
     results = {{type="item", name="resin", amount=1}}
   },

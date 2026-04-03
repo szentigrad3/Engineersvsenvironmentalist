@@ -46,8 +46,7 @@ data:extend({
     max_temperature = 100,
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/red-mud.png",
 --    pressure_to_speed_ratio = 0.6,
-    pressure_to_speed_ratio = 0.6,
-    flow_to_energy_ratio = 0.59,
+
     order = "a[fluid]-g[red-mud]"
   },
 })

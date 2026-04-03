@@ -9,8 +9,7 @@ data:extend(
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/ferric-chloride-solution.png",
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
+
     order = "a[fluid]-1"
   },
     {
@@ -22,8 +21,7 @@ data:extend(
     flow_color = {r=0.5, g=0.5, b=0.5},
     max_temperature = 100,
     icon = "__Engineersvsenvironmentalist__/graphics/icons/chemicals/ferrous-chloride.png",
-    pressure_to_speed_ratio = 0.4,
-    flow_to_energy_ratio = 0.59,
+
     order = "a[fluid]-1"
   },
   }

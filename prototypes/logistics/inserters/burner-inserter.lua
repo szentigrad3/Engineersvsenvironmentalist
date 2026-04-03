@@ -37,8 +37,8 @@ data:extend(
     },
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
-    energy_per_movement = 100000,
-    energy_per_rotation = 100000,
+    energy_per_move = 100000,
+    energy_per_rotate = 100000,
     energy_source =
     {
       type = "burner",

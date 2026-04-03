@@ -18,7 +18,7 @@ data:extend(
     energy_required = 3.5,
     ingredients =
     {
-      { "resin", 1},
+      {type="item", name="resin", amount=1},
     },
     results = {{type="item", name="rubber", amount=1}}
   },

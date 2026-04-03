@@ -1321,7 +1321,7 @@ data:extend(
     working_sound =
     {
       sound = { filename = "__base__/sound/substation.ogg" },
-      apparent_volume = 1.5,
+
       audible_distance_modifier = 0.5,
       probability = 1 / (3 * 60) -- average pause between the sound is 3 seconds
     },
@@ -1450,7 +1450,7 @@ data:extend(
     working_sound =
     {
       sound = { filename = "__base__/sound/substation.ogg" },
-      apparent_volume = 1.5,
+
     },
     connection_points =
     {
@@ -1605,7 +1605,7 @@ data:extend(
     working_sound =
     {
       sound = { filename = "__base__/sound/substation.ogg" },
-      apparent_volume = 1.5,
+
     },
     connection_points =
     {
@@ -1760,7 +1760,7 @@ data:extend(
     working_sound =
     {
       sound = { filename = "__base__/sound/substation.ogg" },
-      apparent_volume = 1.5,
+
     },
     connection_points =
     {

@@ -74,7 +74,7 @@ data:extend({
     subgroup = "copper-processing",
     order = "a-2",
     energy_required = 6,
-    ingredients = {{ "copper-crushed", 3}},
+    ingredients = {{type="item", name="copper-crushed", amount=3}},
     results = {{type="item", name="copper-plate", amount=1}}
   },
  --New versions--

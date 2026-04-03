@@ -87,7 +87,7 @@ data:extend(
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     }
   },
 --Assembling Machine 2--
@@ -136,7 +136,7 @@ data:extend(
         production_type = "input",
         pipe_picture = assembler2pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0, -2} }}
       },
@@ -144,7 +144,7 @@ data:extend(
         production_type = "output",
         pipe_picture = assembler2pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0, 2} }}
       },
@@ -181,7 +181,7 @@ data:extend(
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 1,
@@ -192,10 +192,7 @@ data:extend(
       emissions_per_minute = { pollution = 0.00163638 },
     },
     energy_usage = "66MW",
-    module_specification =
-    {
-      module_slots = 2
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
 --Assembling Machine 3--
@@ -243,7 +240,7 @@ data:extend(
         production_type = "input",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0, -2} }}
       },
@@ -251,7 +248,7 @@ data:extend(
         production_type = "output",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0, 2} }}
       },
@@ -271,7 +268,7 @@ data:extend(
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -299,10 +296,7 @@ data:extend(
       emissions_per_minute = { pollution = 0.00156522 },
     },
     energy_usage = "92MW",
-    module_specification =
-    {
-      module_slots = 4
-    },
+    module_slots = 4,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
 --Assembling Machine 4--
@@ -350,7 +344,7 @@ data:extend(
         production_type = "input",
         pipe_picture = assembler2pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0, -2} }}
       },
@@ -358,7 +352,7 @@ data:extend(
         production_type = "output",
         pipe_picture = assembler2pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0, 2} }}
       },
@@ -394,7 +388,7 @@ data:extend(
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
     crafting_speed = 25,
@@ -405,12 +399,7 @@ data:extend(
       emissions_per_minute = { pollution = 0.00130434 },
     },
     energy_usage = "138MW",
-    module_specification =
-    {
-      module_slots = 5,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 5,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
 --Assembling Machine 5--
@@ -460,7 +449,7 @@ data:extend(
         production_type = "input",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0, -2} }}
       },
@@ -468,7 +457,7 @@ data:extend(
         production_type = "output",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = 1,
         pipe_connections = {{ type="output", position = {0, 2} }}
       },
@@ -487,7 +476,7 @@ data:extend(
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
@@ -530,12 +519,7 @@ data:extend(
       emissions_per_minute = { pollution = 0.00104346 },
     },
     energy_usage = "207MW",
-    module_specification =
-    {
-      module_slots = 5,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 5,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
   }

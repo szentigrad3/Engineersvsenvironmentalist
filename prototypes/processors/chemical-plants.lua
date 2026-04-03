@@ -57,10 +57,7 @@ data:extend(
     },
     energy_usage = "30MW",
     crafting_categories = {"chemistry"},
-    module_specification =
-    {
-      module_slots = 2
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 	fast_replaceable_group = "chemical-plant",
 	
@@ -174,7 +171,7 @@ data:extend(
         }
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     
     fluid_boxes =
@@ -182,14 +179,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {-1, -2} }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {1, -2} }}
       },
@@ -244,10 +241,7 @@ data:extend(
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    module_specification =
-    {
-      module_slots = 4,
-    },
+    module_slots = 4,
     crafting_speed = 4,
     energy_usage = "92MW",
     energy_source =
@@ -368,7 +362,7 @@ data:extend(
         }
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     
     fluid_boxes =
@@ -376,14 +370,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {-1, -2} }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {1, -2} }}
       },
@@ -439,10 +433,7 @@ data:extend(
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    module_specification =
-    {
-      module_slots = 5,
-    },
+    module_slots = 5,
     crafting_speed = 25,
     energy_usage = "137MW",
     energy_source =
@@ -563,7 +554,7 @@ data:extend(
         }
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     
     fluid_boxes =
@@ -571,14 +562,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {-1, -2} }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {1, -2} }}
       },
@@ -633,10 +624,7 @@ data:extend(
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     allowed_effects = {"consumption", "speed", "productivity", "pollution"},
-    module_specification =
-    {
-      module_slots = 6,
-    },
+    module_slots = 6,
     crafting_speed = 125,
     energy_usage = "206MW",
     energy_source =
@@ -757,7 +745,7 @@ data:extend(
         }
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     
     fluid_boxes =
@@ -765,14 +753,14 @@ data:extend(
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {-1, -2} }}
       },
       {
         production_type = "input",
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {1, -2} }}
       },

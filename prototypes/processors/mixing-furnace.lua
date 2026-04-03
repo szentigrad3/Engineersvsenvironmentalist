@@ -148,12 +148,7 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 
-    module_specification =
-    {
-      module_slots = 3,
-      module_info_icon_shift = {0, 0.5},
-      module_info_multi_row_initial_height_modifier = -0.3
-    },
+    module_slots = 3,
     crafting_speed = 5,
     crafting_categories = {"smelting", "mixing-furnace"},
     energy_usage = "79MW",
@@ -171,7 +166,7 @@ data:extend({
         filename = "__base__/sound/electric-furnace.ogg",
         volume = 0.7
       },
-      apparent_volume = 1.5
+
     },
 
     graphics_set =

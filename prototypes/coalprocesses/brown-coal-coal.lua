@@ -10,7 +10,7 @@ data:extend(
     subgroup = "coal-base",
     ingredients =
     {
-      { "browncoal", 10},
+      {type="item", name="browncoal", amount=10},
     },
 	
     results = {{type="item", name="coal", amount=7}}

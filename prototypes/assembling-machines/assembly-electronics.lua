@@ -90,7 +90,7 @@ data:extend(
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     crafting_categories = {"electronics"},
     crafting_speed = 1,
@@ -101,10 +101,7 @@ data:extend(
       emissions_per_minute = { pollution = 0.600000 },
     },
     energy_usage = "100kW",
-    module_specification =
-    {
-      module_slots = 2,
-    },
+    module_slots = 2,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
 {
@@ -152,7 +149,7 @@ data:extend(
         production_type = "input",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0.5, -1.5} }}
       },
@@ -205,7 +202,7 @@ data:extend(
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     crafting_categories = {"electronics"},
     crafting_speed = 2.25,
@@ -216,10 +213,7 @@ data:extend(
       emissions_per_minute = { pollution = 0.600000 },
     },
     energy_usage = "213.75kW",
-    module_specification =
-    {
-      module_slots = 4,
-    },
+    module_slots = 4,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
 {
@@ -267,7 +261,7 @@ data:extend(
         production_type = "input",
         pipe_picture = assembler3pipepictures(),
         pipe_covers = pipecoverspictures(),
-        base_area = 10,
+        volume = 1000,
         base_level = -1,
         pipe_connections = {{ type="input", position = {0.5, -1.5} }}
       },
@@ -320,7 +314,7 @@ data:extend(
         },
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
-      apparent_volume = 1.5,
+
     },
     crafting_categories = {"electronics"},
     crafting_speed = 4,
@@ -331,10 +325,7 @@ data:extend(
       emissions_per_minute = { pollution = 0.600000 },
     },
     energy_usage = "360kW",
-    module_specification =
-    {
-      module_slots = 6,
-    },
+    module_slots = 6,
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
   }
